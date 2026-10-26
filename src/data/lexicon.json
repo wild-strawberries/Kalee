@@ -1,0 +1,4804 @@
+[
+{
+"key": "nouns",
+"title": "Nouns",
+"hi": "संज्ञाएँ",
+"sections": [
+{
+"name": "People & family",
+"items": [
+{
+"id": "nouns:boy",
+"en": "boy",
+"ro": "ladka",
+"dv": "लड़का",
+"top": false,
+"tag": "m",
+"pl": [
+"ladke",
+"लड़के"
+]
+},
+{
+"id": "nouns:brother",
+"en": "brother",
+"ro": "bhaai",
+"dv": "भाई",
+"top": true,
+"tag": "m",
+"pl": [
+"bhaai",
+"भाई"
+]
+},
+{
+"id": "nouns:child",
+"en": "child",
+"ro": "bachcha",
+"dv": "बच्चा",
+"top": true,
+"tag": "m",
+"pl": [
+"bachche",
+"बच्चे"
+]
+},
+{
+"id": "nouns:daughter",
+"en": "daughter",
+"ro": "beti",
+"dv": "बेटी",
+"top": false,
+"tag": "f",
+"pl": [
+"betiyaan",
+"बेटियाँ"
+]
+},
+{
+"id": "nouns:doctor",
+"en": "doctor",
+"ro": "doctor",
+"dv": "डॉक्टर",
+"top": false,
+"tag": "m",
+"pl": [
+"doctor",
+"डॉक्टर"
+]
+},
+{
+"id": "nouns:family",
+"en": "family",
+"ro": "parivaar",
+"dv": "परिवार",
+"top": true,
+"tag": "m",
+"pl": [
+"parivaar",
+"परिवार"
+]
+},
+{
+"id": "nouns:father",
+"en": "father",
+"ro": "pita",
+"dv": "पिता",
+"top": true,
+"tag": "m",
+"pl": [
+"pita",
+"पिता"
+]
+},
+{
+"id": "nouns:friend",
+"en": "friend",
+"ro": "dost",
+"dv": "दोस्त",
+"top": true,
+"tag": "m",
+"pl": [
+"dost",
+"दोस्त"
+]
+},
+{
+"id": "nouns:girl",
+"en": "girl",
+"ro": "ladki",
+"dv": "लड़की",
+"top": false,
+"tag": "f",
+"pl": [
+"ladkiyaan",
+"लड़कियाँ"
+]
+},
+{
+"id": "nouns:husband",
+"en": "husband",
+"ro": "pati",
+"dv": "पति",
+"top": false,
+"tag": "m",
+"pl": [
+"pati",
+"पति"
+]
+},
+{
+"id": "nouns:man",
+"en": "man",
+"ro": "aadmi",
+"dv": "आदमी",
+"top": true,
+"tag": "m",
+"pl": [
+"aadmi",
+"आदमी"
+]
+},
+{
+"id": "nouns:mother",
+"en": "mother",
+"ro": "maa",
+"dv": "माँ",
+"top": true,
+"tag": "f",
+"pl": [
+"maaen",
+"माँएँ"
+]
+},
+{
+"id": "nouns:name",
+"en": "name",
+"ro": "naam",
+"dv": "नाम",
+"top": true,
+"tag": "m",
+"pl": [
+"naam",
+"नाम"
+]
+},
+{
+"id": "nouns:people",
+"en": "people",
+"ro": "log",
+"dv": "लोग",
+"top": true,
+"tag": "m",
+"pl": [
+"log",
+"लोग"
+]
+},
+{
+"id": "nouns:sister",
+"en": "sister",
+"ro": "behen",
+"dv": "बहन",
+"top": true,
+"tag": "f",
+"pl": [
+"behnein",
+"बहनें"
+]
+},
+{
+"id": "nouns:son",
+"en": "son",
+"ro": "beta",
+"dv": "बेटा",
+"top": false,
+"tag": "m",
+"pl": [
+"bete",
+"बेटे"
+]
+},
+{
+"id": "nouns:student",
+"en": "student",
+"ro": "chhaatr",
+"dv": "छात्र",
+"top": false,
+"tag": "m",
+"pl": [
+"chhaatr",
+"छात्र"
+]
+},
+{
+"id": "nouns:teacher",
+"en": "teacher",
+"ro": "adhyaapak",
+"dv": "अध्यापक",
+"top": false,
+"tag": "m",
+"pl": [
+"adhyaapak",
+"अध्यापक"
+]
+},
+{
+"id": "nouns:wife",
+"en": "wife",
+"ro": "patni",
+"dv": "पत्नी",
+"top": false,
+"tag": "f",
+"pl": [
+"patniyaan",
+"पत्नियाँ"
+]
+},
+{
+"id": "nouns:woman",
+"en": "woman",
+"ro": "aurat",
+"dv": "औरत",
+"top": true,
+"tag": "f",
+"pl": [
+"auratein",
+"औरतें"
+]
+}
+]
+},
+{
+"name": "Body",
+"items": [
+{
+"id": "nouns:body",
+"en": "body",
+"ro": "shareer",
+"dv": "शरीर",
+"top": false,
+"tag": "m",
+"pl": [
+"shareer",
+"शरीर"
+]
+},
+{
+"id": "nouns:ear",
+"en": "ear",
+"ro": "kaan",
+"dv": "कान",
+"top": false,
+"tag": "m",
+"pl": [
+"kaan",
+"कान"
+]
+},
+{
+"id": "nouns:eye",
+"en": "eye",
+"ro": "aankh",
+"dv": "आँख",
+"top": true,
+"tag": "f",
+"pl": [
+"aankhein",
+"आँखें"
+]
+},
+{
+"id": "nouns:foot, leg",
+"en": "foot, leg",
+"ro": "pair",
+"dv": "पैर",
+"top": false,
+"tag": "m",
+"pl": [
+"pair",
+"पैर"
+]
+},
+{
+"id": "nouns:hand",
+"en": "hand",
+"ro": "haath",
+"dv": "हाथ",
+"top": true,
+"tag": "m",
+"pl": [
+"haath",
+"हाथ"
+]
+},
+{
+"id": "nouns:head",
+"en": "head",
+"ro": "sir",
+"dv": "सिर",
+"top": false,
+"tag": "m",
+"pl": [
+"sir",
+"सिर"
+]
+},
+{
+"id": "nouns:heart",
+"en": "heart",
+"ro": "dil",
+"dv": "दिल",
+"top": false,
+"tag": "m",
+"pl": [
+"dil",
+"दिल"
+]
+},
+{
+"id": "nouns:mouth",
+"en": "mouth",
+"ro": "munh",
+"dv": "मुँह",
+"top": false,
+"tag": "m",
+"pl": [
+"munh",
+"मुँह"
+]
+}
+]
+},
+{
+"name": "Home & everyday things",
+"items": [
+{
+"id": "nouns:bed",
+"en": "bed",
+"ro": "bistar",
+"dv": "बिस्तर",
+"top": false,
+"tag": "m",
+"pl": [
+"bistar",
+"बिस्तर"
+]
+},
+{
+"id": "nouns:book",
+"en": "book",
+"ro": "kitaab",
+"dv": "किताब",
+"top": true,
+"tag": "f",
+"pl": [
+"kitaabein",
+"किताबें"
+]
+},
+{
+"id": "nouns:chair",
+"en": "chair",
+"ro": "kursi",
+"dv": "कुर्सी",
+"top": false,
+"tag": "f",
+"pl": [
+"kursiyaan",
+"कुर्सियाँ"
+]
+},
+{
+"id": "nouns:cloth, garment",
+"en": "cloth, garment",
+"ro": "kapda",
+"dv": "कपड़ा",
+"top": false,
+"tag": "m",
+"pl": [
+"kapde",
+"कपड़े"
+]
+},
+{
+"id": "nouns:door",
+"en": "door",
+"ro": "darvaaza",
+"dv": "दरवाज़ा",
+"top": false,
+"tag": "m",
+"pl": [
+"darvaaze",
+"दरवाज़े"
+]
+},
+{
+"id": "nouns:house, home",
+"en": "house, home",
+"ro": "ghar",
+"dv": "घर",
+"top": true,
+"tag": "m",
+"pl": [
+"ghar",
+"घर"
+]
+},
+{
+"id": "nouns:key",
+"en": "key",
+"ro": "chaabi",
+"dv": "चाबी",
+"top": false,
+"tag": "f",
+"pl": [
+"chaabiyaan",
+"चाबियाँ"
+]
+},
+{
+"id": "nouns:letter",
+"en": "letter",
+"ro": "chitthi",
+"dv": "चिट्ठी",
+"top": false,
+"tag": "f",
+"pl": [
+"chitthiyaan",
+"चिट्ठियाँ"
+]
+},
+{
+"id": "nouns:pen",
+"en": "pen",
+"ro": "kalam",
+"dv": "कलम",
+"top": false,
+"tag": "f",
+"pl": [
+"kalamein",
+"कलमें"
+]
+},
+{
+"id": "nouns:phone",
+"en": "phone",
+"ro": "phone",
+"dv": "फ़ोन",
+"top": true,
+"tag": "m",
+"pl": [
+"phone",
+"फ़ोन"
+]
+},
+{
+"id": "nouns:room",
+"en": "room",
+"ro": "kamra",
+"dv": "कमरा",
+"top": true,
+"tag": "m",
+"pl": [
+"kamre",
+"कमरे"
+]
+},
+{
+"id": "nouns:table",
+"en": "table",
+"ro": "mez",
+"dv": "मेज़",
+"top": false,
+"tag": "f",
+"pl": [
+"mezein",
+"मेज़ें"
+]
+},
+{
+"id": "nouns:window",
+"en": "window",
+"ro": "khidki",
+"dv": "खिड़की",
+"top": false,
+"tag": "f",
+"pl": [
+"khidkiyaan",
+"खिड़कियाँ"
+]
+}
+]
+},
+{
+"name": "Food & drink",
+"items": [
+{
+"id": "nouns:flatbread",
+"en": "flatbread",
+"ro": "roti",
+"dv": "रोटी",
+"top": false,
+"tag": "f",
+"pl": [
+"rotiyaan",
+"रोटियाँ"
+]
+},
+{
+"id": "nouns:food",
+"en": "food",
+"ro": "khaana",
+"dv": "खाना",
+"top": true,
+"tag": "m"
+},
+{
+"id": "nouns:fruit",
+"en": "fruit",
+"ro": "phal",
+"dv": "फल",
+"top": false,
+"tag": "m",
+"pl": [
+"phal",
+"फल"
+]
+},
+{
+"id": "nouns:milk",
+"en": "milk",
+"ro": "doodh",
+"dv": "दूध",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:rice",
+"en": "rice",
+"ro": "chaaval",
+"dv": "चावल",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:tea",
+"en": "tea",
+"ro": "chaay",
+"dv": "चाय",
+"top": true,
+"tag": "f"
+},
+{
+"id": "nouns:vegetable",
+"en": "vegetable",
+"ro": "sabzi",
+"dv": "सब्ज़ी",
+"top": false,
+"tag": "f",
+"pl": [
+"sabziyaan",
+"सब्ज़ियाँ"
+]
+},
+{
+"id": "nouns:water",
+"en": "water",
+"ro": "paani",
+"dv": "पानी",
+"top": true,
+"tag": "m"
+}
+]
+},
+{
+"name": "Places & getting around",
+"items": [
+{
+"id": "nouns:car",
+"en": "car",
+"ro": "gaadi",
+"dv": "गाड़ी",
+"top": true,
+"tag": "f",
+"pl": [
+"gaadiyaan",
+"गाड़ियाँ"
+]
+},
+{
+"id": "nouns:city",
+"en": "city",
+"ro": "shahar",
+"dv": "शहर",
+"top": true,
+"tag": "m",
+"pl": [
+"shahar",
+"शहर"
+]
+},
+{
+"id": "nouns:country",
+"en": "country",
+"ro": "desh",
+"dv": "देश",
+"top": true,
+"tag": "m",
+"pl": [
+"desh",
+"देश"
+]
+},
+{
+"id": "nouns:hospital",
+"en": "hospital",
+"ro": "aspataal",
+"dv": "अस्पताल",
+"top": false,
+"tag": "m",
+"pl": [
+"aspataal",
+"अस्पताल"
+]
+},
+{
+"id": "nouns:market",
+"en": "market",
+"ro": "baazaar",
+"dv": "बाज़ार",
+"top": false,
+"tag": "m",
+"pl": [
+"baazaar",
+"बाज़ार"
+]
+},
+{
+"id": "nouns:office",
+"en": "office",
+"ro": "daftar",
+"dv": "दफ़्तर",
+"top": false,
+"tag": "m",
+"pl": [
+"daftar",
+"दफ़्तर"
+]
+},
+{
+"id": "nouns:road",
+"en": "road",
+"ro": "sadak",
+"dv": "सड़क",
+"top": false,
+"tag": "f",
+"pl": [
+"sadkein",
+"सड़कें"
+]
+},
+{
+"id": "nouns:school",
+"en": "school",
+"ro": "school",
+"dv": "स्कूल",
+"top": false,
+"tag": "m",
+"pl": [
+"school",
+"स्कूल"
+]
+},
+{
+"id": "nouns:shop",
+"en": "shop",
+"ro": "dukaan",
+"dv": "दुकान",
+"top": false,
+"tag": "f",
+"pl": [
+"dukaanein",
+"दुकानें"
+]
+},
+{
+"id": "nouns:village",
+"en": "village",
+"ro": "gaanv",
+"dv": "गाँव",
+"top": false,
+"tag": "m",
+"pl": [
+"gaanv",
+"गाँव"
+]
+},
+{
+"id": "nouns:world",
+"en": "world",
+"ro": "duniya",
+"dv": "दुनिया",
+"top": false,
+"tag": "f"
+}
+]
+},
+{
+"name": "Time",
+"items": [
+{
+"id": "nouns:day",
+"en": "day",
+"ro": "din",
+"dv": "दिन",
+"top": true,
+"tag": "m",
+"pl": [
+"din",
+"दिन"
+]
+},
+{
+"id": "nouns:evening",
+"en": "evening",
+"ro": "shaam",
+"dv": "शाम",
+"top": false,
+"tag": "f",
+"pl": [
+"shaamein",
+"शामें"
+]
+},
+{
+"id": "nouns:festival",
+"en": "festival",
+"ro": "tyohaar",
+"dv": "त्योहार",
+"top": false,
+"tag": "m",
+"pl": [
+"tyohaar",
+"त्योहार"
+]
+},
+{
+"id": "nouns:holiday, leave",
+"en": "holiday, leave",
+"ro": "chhutti",
+"dv": "छुट्टी",
+"top": false,
+"tag": "f",
+"pl": [
+"chhuttiyaan",
+"छुट्टियाँ"
+]
+},
+{
+"id": "nouns:hour",
+"en": "hour",
+"ro": "ghanta",
+"dv": "घंटा",
+"top": false,
+"tag": "m",
+"pl": [
+"ghante",
+"घंटे"
+]
+},
+{
+"id": "nouns:month",
+"en": "month",
+"ro": "mahina",
+"dv": "महीना",
+"top": false,
+"tag": "m",
+"pl": [
+"mahine",
+"महीने"
+]
+},
+{
+"id": "nouns:morning",
+"en": "morning",
+"ro": "subah",
+"dv": "सुबह",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:night",
+"en": "night",
+"ro": "raat",
+"dv": "रात",
+"top": true,
+"tag": "f",
+"pl": [
+"raatein",
+"रातें"
+]
+},
+{
+"id": "nouns:time",
+"en": "time",
+"ro": "samay",
+"dv": "समय",
+"top": true,
+"tag": "m"
+},
+{
+"id": "nouns:week",
+"en": "week",
+"ro": "hafta",
+"dv": "हफ़्ता",
+"top": false,
+"tag": "m",
+"pl": [
+"hafte",
+"हफ़्ते"
+]
+},
+{
+"id": "nouns:year",
+"en": "year",
+"ro": "saal",
+"dv": "साल",
+"top": true,
+"tag": "m",
+"pl": [
+"saal",
+"साल"
+]
+}
+]
+},
+{
+"name": "Nature & animals",
+"items": [
+{
+"id": "nouns:animal",
+"en": "animal",
+"ro": "jaanvar",
+"dv": "जानवर",
+"top": false,
+"tag": "m",
+"pl": [
+"jaanvar",
+"जानवर"
+]
+},
+{
+"id": "nouns:bird",
+"en": "bird",
+"ro": "chidiya",
+"dv": "चिड़िया",
+"top": false,
+"tag": "f",
+"pl": [
+"chidiyaan",
+"चिड़ियाँ"
+]
+},
+{
+"id": "nouns:cat",
+"en": "cat",
+"ro": "billi",
+"dv": "बिल्ली",
+"top": false,
+"tag": "f",
+"pl": [
+"billiyaan",
+"बिल्लियाँ"
+]
+},
+{
+"id": "nouns:dog",
+"en": "dog",
+"ro": "kutta",
+"dv": "कुत्ता",
+"top": false,
+"tag": "m",
+"pl": [
+"kutte",
+"कुत्ते"
+]
+},
+{
+"id": "nouns:flower",
+"en": "flower",
+"ro": "phool",
+"dv": "फूल",
+"top": false,
+"tag": "m",
+"pl": [
+"phool",
+"फूल"
+]
+},
+{
+"id": "nouns:moon",
+"en": "moon",
+"ro": "chaand",
+"dv": "चाँद",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:mountain",
+"en": "mountain",
+"ro": "pahaad",
+"dv": "पहाड़",
+"top": false,
+"tag": "m",
+"pl": [
+"pahaad",
+"पहाड़"
+]
+},
+{
+"id": "nouns:rain",
+"en": "rain",
+"ro": "baarish",
+"dv": "बारिश",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:river",
+"en": "river",
+"ro": "nadi",
+"dv": "नदी",
+"top": false,
+"tag": "f",
+"pl": [
+"nadiyaan",
+"नदियाँ"
+]
+},
+{
+"id": "nouns:sky",
+"en": "sky",
+"ro": "aasmaan",
+"dv": "आसमान",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:sun",
+"en": "sun",
+"ro": "sooraj",
+"dv": "सूरज",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:tree",
+"en": "tree",
+"ro": "ped",
+"dv": "पेड़",
+"top": false,
+"tag": "m",
+"pl": [
+"ped",
+"पेड़"
+]
+}
+]
+},
+{
+"name": "Ideas, feelings & daily life",
+"items": [
+{
+"id": "nouns:answer",
+"en": "answer",
+"ro": "javaab",
+"dv": "जवाब",
+"top": true,
+"tag": "m",
+"pl": [
+"javaab",
+"जवाब"
+]
+},
+{
+"id": "nouns:game",
+"en": "game",
+"ro": "khel",
+"dv": "खेल",
+"top": false,
+"tag": "m",
+"pl": [
+"khel",
+"खेल"
+]
+},
+{
+"id": "nouns:happiness",
+"en": "happiness",
+"ro": "khushi",
+"dv": "ख़ुशी",
+"top": false,
+"tag": "f",
+"pl": [
+"khushiyaan",
+"ख़ुशियाँ"
+]
+},
+{
+"id": "nouns:language",
+"en": "language",
+"ro": "bhaasha",
+"dv": "भाषा",
+"top": true,
+"tag": "f",
+"pl": [
+"bhaashaaen",
+"भाषाएँ"
+]
+},
+{
+"id": "nouns:life",
+"en": "life",
+"ro": "zindagi",
+"dv": "ज़िंदगी",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:love",
+"en": "love",
+"ro": "pyaar",
+"dv": "प्यार",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:mistake",
+"en": "mistake",
+"ro": "galti",
+"dv": "ग़लती",
+"top": false,
+"tag": "f",
+"pl": [
+"galtiyaan",
+"ग़लतियाँ"
+]
+},
+{
+"id": "nouns:money",
+"en": "money",
+"ro": "paisa",
+"dv": "पैसा",
+"top": true,
+"tag": "m",
+"pl": [
+"paise",
+"पैसे"
+]
+},
+{
+"id": "nouns:news",
+"en": "news",
+"ro": "khabar",
+"dv": "ख़बर",
+"top": false,
+"tag": "f",
+"pl": [
+"khabrein",
+"ख़बरें"
+]
+},
+{
+"id": "nouns:place",
+"en": "place",
+"ro": "jagah",
+"dv": "जगह",
+"top": true,
+"tag": "f",
+"pl": [
+"jagahein",
+"जगहें"
+]
+},
+{
+"id": "nouns:problem",
+"en": "problem",
+"ro": "samasya",
+"dv": "समस्या",
+"top": false,
+"tag": "f",
+"pl": [
+"samasyaaen",
+"समस्याएँ"
+]
+},
+{
+"id": "nouns:question",
+"en": "question",
+"ro": "savaal",
+"dv": "सवाल",
+"top": true,
+"tag": "m",
+"pl": [
+"savaal",
+"सवाल"
+]
+},
+{
+"id": "nouns:song",
+"en": "song",
+"ro": "gaana",
+"dv": "गाना",
+"top": false,
+"tag": "m",
+"pl": [
+"gaane",
+"गाने"
+]
+},
+{
+"id": "nouns:story",
+"en": "story",
+"ro": "kahaani",
+"dv": "कहानी",
+"top": false,
+"tag": "f",
+"pl": [
+"kahaaniyaan",
+"कहानियाँ"
+]
+},
+{
+"id": "nouns:thing",
+"en": "thing",
+"ro": "cheez",
+"dv": "चीज़",
+"top": true,
+"tag": "f",
+"pl": [
+"cheezein",
+"चीज़ें"
+]
+},
+{
+"id": "nouns:word",
+"en": "word",
+"ro": "shabd",
+"dv": "शब्द",
+"top": false,
+"tag": "m",
+"pl": [
+"shabd",
+"शब्द"
+]
+},
+{
+"id": "nouns:work, job",
+"en": "work, job",
+"ro": "kaam",
+"dv": "काम",
+"top": true,
+"tag": "m"
+}
+]
+}
+],
+"count": 100
+},
+{
+"key": "adverbs",
+"title": "Adverbs",
+"hi": "क्रिया-विशेषण",
+"sections": [
+{
+"name": "Time",
+"items": [
+{
+"id": "adverbs:all day",
+"en": "all day",
+"ro": "din bhar",
+"dv": "दिन भर",
+"top": false
+},
+{
+"id": "adverbs:at night",
+"en": "at night",
+"ro": "raat ko",
+"dv": "रात को",
+"top": false
+},
+{
+"id": "adverbs:at once, right away",
+"en": "at once, right away",
+"ro": "fauran",
+"dv": "फ़ौरन",
+"top": false
+},
+{
+"id": "adverbs:before, first",
+"en": "before, first",
+"ro": "pehle",
+"dv": "पहले",
+"top": true
+},
+{
+"id": "adverbs:day after tomorrow, day before yesterday",
+"en": "day after tomorrow, day before yesterday",
+"ro": "parson",
+"dv": "परसों",
+"top": false,
+"note": "The tense of the verb tells you which one."
+},
+{
+"id": "adverbs:early, quickly, soon",
+"en": "early, quickly, soon",
+"ro": "jaldi",
+"dv": "जल्दी",
+"top": true
+},
+{
+"id": "adverbs:finally",
+"en": "finally",
+"ro": "aakhirkaar",
+"dv": "आख़िरकार",
+"top": false
+},
+{
+"id": "adverbs:first of all",
+"en": "first of all",
+"ro": "sabse pehle",
+"dv": "सबसे पहले",
+"top": false
+},
+{
+"id": "adverbs:immediately",
+"en": "immediately",
+"ro": "turant",
+"dv": "तुरंत",
+"top": false
+},
+{
+"id": "adverbs:in the evening",
+"en": "in the evening",
+"ro": "shaam ko",
+"dv": "शाम को",
+"top": false
+},
+{
+"id": "adverbs:in the morning",
+"en": "in the morning",
+"ro": "subah",
+"dv": "सुबह",
+"top": false
+},
+{
+"id": "adverbs:late",
+"en": "late",
+"ro": "der se",
+"dv": "देर से",
+"top": false
+},
+{
+"id": "adverbs:later, afterwards",
+"en": "later, afterwards",
+"ro": "baad mein",
+"dv": "बाद में",
+"top": true
+},
+{
+"id": "adverbs:now",
+"en": "now",
+"ro": "abhi",
+"dv": "अभी",
+"top": true
+},
+{
+"id": "adverbs:nowadays",
+"en": "nowadays",
+"ro": "aajkal",
+"dv": "आजकल",
+"top": false
+},
+{
+"id": "adverbs:on time",
+"en": "on time",
+"ro": "samay par",
+"dv": "समय पर",
+"top": false
+},
+{
+"id": "adverbs:recently",
+"en": "recently",
+"ro": "haal hi mein",
+"dv": "हाल ही में",
+"top": false
+},
+{
+"id": "adverbs:still",
+"en": "still",
+"ro": "ab bhi",
+"dv": "अब भी",
+"top": false
+},
+{
+"id": "adverbs:suddenly",
+"en": "suddenly",
+"ro": "achaanak",
+"dv": "अचानक",
+"top": false
+},
+{
+"id": "adverbs:then (at that time)",
+"en": "then (at that time)",
+"ro": "tab",
+"dv": "तब",
+"top": false
+},
+{
+"id": "adverbs:then, again",
+"en": "then, again",
+"ro": "phir",
+"dv": "फिर",
+"top": true
+},
+{
+"id": "adverbs:today",
+"en": "today",
+"ro": "aaj",
+"dv": "आज",
+"top": true
+},
+{
+"id": "adverbs:until now",
+"en": "until now",
+"ro": "ab tak",
+"dv": "अब तक",
+"top": false
+},
+{
+"id": "adverbs:yesterday, tomorrow",
+"en": "yesterday, tomorrow",
+"ro": "kal",
+"dv": "कल",
+"top": true,
+"note": "The tense of the verb tells you which one."
+},
+{
+"id": "adverbs:yet, so far",
+"en": "yet, so far",
+"ro": "abhi tak",
+"dv": "अभी तक",
+"top": false
+}
+]
+},
+{
+"name": "How often",
+"items": [
+{
+"id": "adverbs:again",
+"en": "again",
+"ro": "phir se",
+"dv": "फिर से",
+"top": true
+},
+{
+"id": "adverbs:always",
+"en": "always",
+"ro": "hamesha",
+"dv": "हमेशा",
+"top": true
+},
+{
+"id": "adverbs:daily",
+"en": "daily",
+"ro": "roz",
+"dv": "रोज़",
+"top": false
+},
+{
+"id": "adverbs:every day",
+"en": "every day",
+"ro": "har din",
+"dv": "हर दिन",
+"top": false
+},
+{
+"id": "adverbs:never",
+"en": "never",
+"ro": "kabhi nahin",
+"dv": "कभी नहीं",
+"top": true
+},
+{
+"id": "adverbs:often",
+"en": "often",
+"ro": "aksar",
+"dv": "अक्सर",
+"top": false
+},
+{
+"id": "adverbs:once",
+"en": "once",
+"ro": "ek baar",
+"dv": "एक बार",
+"top": false
+},
+{
+"id": "adverbs:sometimes",
+"en": "sometimes",
+"ro": "kabhi-kabhi",
+"dv": "कभी-कभी",
+"top": true
+},
+{
+"id": "adverbs:twice",
+"en": "twice",
+"ro": "do baar",
+"dv": "दो बार",
+"top": false
+},
+{
+"id": "adverbs:usually",
+"en": "usually",
+"ro": "aam taur par",
+"dv": "आम तौर पर",
+"top": false
+}
+]
+},
+{
+"name": "Place & direction",
+"items": [
+{
+"id": "adverbs:across, on the other side",
+"en": "across, on the other side",
+"ro": "us paar",
+"dv": "उस पार",
+"top": false
+},
+{
+"id": "adverbs:around, nearby",
+"en": "around, nearby",
+"ro": "aas-paas",
+"dv": "आस-पास",
+"top": false
+},
+{
+"id": "adverbs:at home",
+"en": "at home",
+"ro": "ghar par",
+"dv": "घर पर",
+"top": false
+},
+{
+"id": "adverbs:behind",
+"en": "behind",
+"ro": "peechhe",
+"dv": "पीछे",
+"top": false
+},
+{
+"id": "adverbs:down, below",
+"en": "down, below",
+"ro": "neeche",
+"dv": "नीचे",
+"top": false
+},
+{
+"id": "adverbs:everywhere",
+"en": "everywhere",
+"ro": "har jagah",
+"dv": "हर जगह",
+"top": false
+},
+{
+"id": "adverbs:far",
+"en": "far",
+"ro": "door",
+"dv": "दूर",
+"top": true
+},
+{
+"id": "adverbs:here",
+"en": "here",
+"ro": "yahaan",
+"dv": "यहाँ",
+"top": true
+},
+{
+"id": "adverbs:in front, ahead",
+"en": "in front, ahead",
+"ro": "aage",
+"dv": "आगे",
+"top": false
+},
+{
+"id": "adverbs:inside",
+"en": "inside",
+"ro": "andar",
+"dv": "अंदर",
+"top": true
+},
+{
+"id": "adverbs:near",
+"en": "near",
+"ro": "paas",
+"dv": "पास",
+"top": true
+},
+{
+"id": "adverbs:nowhere",
+"en": "nowhere",
+"ro": "kahin nahin",
+"dv": "कहीं नहीं",
+"top": false
+},
+{
+"id": "adverbs:outside",
+"en": "outside",
+"ro": "baahar",
+"dv": "बाहर",
+"top": true
+},
+{
+"id": "adverbs:over here, this way",
+"en": "over here, this way",
+"ro": "idhar",
+"dv": "इधर",
+"top": false
+},
+{
+"id": "adverbs:over there, that way",
+"en": "over there, that way",
+"ro": "udhar",
+"dv": "उधर",
+"top": false
+},
+{
+"id": "adverbs:somewhere",
+"en": "somewhere",
+"ro": "kahin",
+"dv": "कहीं",
+"top": false
+},
+{
+"id": "adverbs:straight ahead",
+"en": "straight ahead",
+"ro": "seedhe",
+"dv": "सीधे",
+"top": false
+},
+{
+"id": "adverbs:there",
+"en": "there",
+"ro": "vahaan",
+"dv": "वहाँ",
+"top": true
+},
+{
+"id": "adverbs:to the left",
+"en": "to the left",
+"ro": "baayen",
+"dv": "बाएँ",
+"top": false
+},
+{
+"id": "adverbs:to the right",
+"en": "to the right",
+"ro": "daayen",
+"dv": "दाएँ",
+"top": false
+},
+{
+"id": "adverbs:up, above",
+"en": "up, above",
+"ro": "oopar",
+"dv": "ऊपर",
+"top": false
+}
+]
+},
+{
+"name": "Manner",
+"items": [
+{
+"id": "adverbs:alone, by oneself",
+"en": "alone, by oneself",
+"ro": "akele",
+"dv": "अकेले",
+"top": false
+},
+{
+"id": "adverbs:by heart",
+"en": "by heart",
+"ro": "zubaani",
+"dv": "ज़ुबानी",
+"top": false
+},
+{
+"id": "adverbs:by mistake",
+"en": "by mistake",
+"ro": "galti se",
+"dv": "ग़लती से",
+"top": false
+},
+{
+"id": "adverbs:carefully",
+"en": "carefully",
+"ro": "dhyaan se",
+"dv": "ध्यान से",
+"top": false
+},
+{
+"id": "adverbs:easily",
+"en": "easily",
+"ro": "aasaani se",
+"dv": "आसानी से",
+"top": false
+},
+{
+"id": "adverbs:gradually, little by little",
+"en": "gradually, little by little",
+"ro": "dheere-dheere",
+"dv": "धीरे-धीरे",
+"top": false
+},
+{
+"id": "adverbs:happily, gladly",
+"en": "happily, gladly",
+"ro": "khushi se",
+"dv": "ख़ुशी से",
+"top": false
+},
+{
+"id": "adverbs:like that",
+"en": "like that",
+"ro": "vaise",
+"dv": "वैसे",
+"top": false
+},
+{
+"id": "adverbs:like this",
+"en": "like this",
+"ro": "aise",
+"dv": "ऐसे",
+"top": false
+},
+{
+"id": "adverbs:loudly",
+"en": "loudly",
+"ro": "zor se",
+"dv": "ज़ोर से",
+"top": false
+},
+{
+"id": "adverbs:on foot",
+"en": "on foot",
+"ro": "paidal",
+"dv": "पैदल",
+"top": false
+},
+{
+"id": "adverbs:on purpose",
+"en": "on purpose",
+"ro": "jaan-boojhkar",
+"dv": "जान-बूझकर",
+"top": false
+},
+{
+"id": "adverbs:properly",
+"en": "properly",
+"ro": "theek se",
+"dv": "ठीक से",
+"top": false
+},
+{
+"id": "adverbs:quickly",
+"en": "quickly",
+"ro": "jaldi se",
+"dv": "जल्दी से",
+"top": true
+},
+{
+"id": "adverbs:quietly, silently",
+"en": "quietly, silently",
+"ro": "chupchaap",
+"dv": "चुपचाप",
+"top": false
+},
+{
+"id": "adverbs:slowly",
+"en": "slowly",
+"ro": "dheere",
+"dv": "धीरे",
+"top": true
+},
+{
+"id": "adverbs:softly, gently",
+"en": "softly, gently",
+"ro": "dheere se",
+"dv": "धीरे से",
+"top": false
+},
+{
+"id": "adverbs:together",
+"en": "together",
+"ro": "saath mein",
+"dv": "साथ में",
+"top": false
+},
+{
+"id": "adverbs:well, nicely",
+"en": "well, nicely",
+"ro": "achchhe se",
+"dv": "अच्छे से",
+"top": false
+}
+]
+},
+{
+"name": "Degree & amount",
+"items": [
+{
+"id": "adverbs:a little",
+"en": "a little",
+"ro": "thoda sa",
+"dv": "थोड़ा सा",
+"top": true
+},
+{
+"id": "adverbs:almost, about",
+"en": "almost, about",
+"ro": "lagbhag",
+"dv": "लगभग",
+"top": false
+},
+{
+"id": "adverbs:also, too",
+"en": "also, too",
+"ro": "bhi",
+"dv": "भी",
+"top": true
+},
+{
+"id": "adverbs:completely",
+"en": "completely",
+"ro": "poori tarah",
+"dv": "पूरी तरह",
+"top": false
+},
+{
+"id": "adverbs:enough, quite",
+"en": "enough, quite",
+"ro": "kaafi",
+"dv": "काफ़ी",
+"top": false
+},
+{
+"id": "adverbs:especially",
+"en": "especially",
+"ro": "khaas taur par",
+"dv": "ख़ास तौर पर",
+"top": false
+},
+{
+"id": "adverbs:just, that's all",
+"en": "just, that's all",
+"ro": "bas",
+"dv": "बस",
+"top": false
+},
+{
+"id": "adverbs:less",
+"en": "less",
+"ro": "kam",
+"dv": "कम",
+"top": false
+},
+{
+"id": "adverbs:more",
+"en": "more",
+"ro": "zyaada",
+"dv": "ज़्यादा",
+"top": false
+},
+{
+"id": "adverbs:only",
+"en": "only",
+"ro": "sirf",
+"dv": "सिर्फ़",
+"top": true
+},
+{
+"id": "adverbs:so, this much",
+"en": "so, this much",
+"ro": "itna",
+"dv": "इतना",
+"top": false
+},
+{
+"id": "adverbs:too much",
+"en": "too much",
+"ro": "bahut zyaada",
+"dv": "बहुत ज़्यादा",
+"top": false
+},
+{
+"id": "adverbs:very",
+"en": "very",
+"ro": "bahut",
+"dv": "बहुत",
+"top": true
+}
+]
+},
+{
+"name": "Question words",
+"items": [
+{
+"id": "adverbs:how",
+"en": "how",
+"ro": "kaise",
+"dv": "कैसे",
+"top": true
+},
+{
+"id": "adverbs:how much, how many",
+"en": "how much, how many",
+"ro": "kitna",
+"dv": "कितना",
+"top": true
+},
+{
+"id": "adverbs:when",
+"en": "when",
+"ro": "kab",
+"dv": "कब",
+"top": true
+},
+{
+"id": "adverbs:where",
+"en": "where",
+"ro": "kahaan",
+"dv": "कहाँ",
+"top": true
+},
+{
+"id": "adverbs:why",
+"en": "why",
+"ro": "kyon",
+"dv": "क्यों",
+"top": true
+}
+]
+},
+{
+"name": "Yes, no & attitude",
+"items": [
+{
+"id": "adverbs:absolutely, exactly",
+"en": "absolutely, exactly",
+"ro": "bilkul",
+"dv": "बिलकुल",
+"top": false
+},
+{
+"id": "adverbs:maybe, perhaps",
+"en": "maybe, perhaps",
+"ro": "shaayad",
+"dv": "शायद",
+"top": true
+},
+{
+"id": "adverbs:no, not",
+"en": "no, not",
+"ro": "nahin",
+"dv": "नहीं",
+"top": true
+},
+{
+"id": "adverbs:please",
+"en": "please",
+"ro": "kripaya",
+"dv": "कृपया",
+"top": true
+},
+{
+"id": "adverbs:really, truly",
+"en": "really, truly",
+"ro": "sach mein",
+"dv": "सच में",
+"top": false
+},
+{
+"id": "adverbs:surely, definitely",
+"en": "surely, definitely",
+"ro": "zaroor",
+"dv": "ज़रूर",
+"top": false
+},
+{
+"id": "adverbs:yes",
+"en": "yes",
+"ro": "haan",
+"dv": "हाँ",
+"top": true
+}
+]
+}
+],
+"count": 100
+},
+{
+"key": "adjectives",
+"title": "Adjectives",
+"hi": "विशेषण",
+"sections": [
+{
+"name": "Size & shape",
+"items": [
+{
+"id": "adjectives:big",
+"en": "big",
+"ro": "bada",
+"dv": "बड़ा",
+"top": true
+},
+{
+"id": "adjectives:deep",
+"en": "deep",
+"ro": "gehra",
+"dv": "गहरा",
+"top": false
+},
+{
+"id": "adjectives:fat",
+"en": "fat",
+"ro": "mota",
+"dv": "मोटा",
+"top": false
+},
+{
+"id": "adjectives:half",
+"en": "half",
+"ro": "aadha",
+"dv": "आधा",
+"top": false
+},
+{
+"id": "adjectives:high",
+"en": "high",
+"ro": "ooncha",
+"dv": "ऊँचा",
+"top": false
+},
+{
+"id": "adjectives:long, tall",
+"en": "long, tall",
+"ro": "lamba",
+"dv": "लंबा",
+"top": false
+},
+{
+"id": "adjectives:low",
+"en": "low",
+"ro": "neecha",
+"dv": "नीचा",
+"top": false
+},
+{
+"id": "adjectives:round",
+"en": "round",
+"ro": "gol",
+"dv": "गोल",
+"top": false
+},
+{
+"id": "adjectives:short (height)",
+"en": "short (height)",
+"ro": "naata",
+"dv": "नाटा",
+"top": false
+},
+{
+"id": "adjectives:small",
+"en": "small",
+"ro": "chhota",
+"dv": "छोटा",
+"top": true
+},
+{
+"id": "adjectives:straight",
+"en": "straight",
+"ro": "seedha",
+"dv": "सीधा",
+"top": false
+},
+{
+"id": "adjectives:thin",
+"en": "thin",
+"ro": "patla",
+"dv": "पतला",
+"top": false
+},
+{
+"id": "adjectives:whole, complete",
+"en": "whole, complete",
+"ro": "poora",
+"dv": "पूरा",
+"top": false
+}
+]
+},
+{
+"name": "Colours",
+"items": [
+{
+"id": "adjectives:black",
+"en": "black",
+"ro": "kaala",
+"dv": "काला",
+"top": false
+},
+{
+"id": "adjectives:blue",
+"en": "blue",
+"ro": "neela",
+"dv": "नीला",
+"top": false
+},
+{
+"id": "adjectives:green",
+"en": "green",
+"ro": "hara",
+"dv": "हरा",
+"top": false
+},
+{
+"id": "adjectives:pink",
+"en": "pink",
+"ro": "gulaabi",
+"dv": "गुलाबी",
+"top": false
+},
+{
+"id": "adjectives:red",
+"en": "red",
+"ro": "laal",
+"dv": "लाल",
+"top": false
+},
+{
+"id": "adjectives:white",
+"en": "white",
+"ro": "safed",
+"dv": "सफ़ेद",
+"top": false
+},
+{
+"id": "adjectives:yellow",
+"en": "yellow",
+"ro": "peela",
+"dv": "पीला",
+"top": false
+}
+]
+},
+{
+"name": "Taste & food",
+"items": [
+{
+"id": "adjectives:bitter",
+"en": "bitter",
+"ro": "kadva",
+"dv": "कड़वा",
+"top": false
+},
+{
+"id": "adjectives:fresh",
+"en": "fresh",
+"ro": "taaza",
+"dv": "ताज़ा",
+"top": false
+},
+{
+"id": "adjectives:raw, unripe",
+"en": "raw, unripe",
+"ro": "kachcha",
+"dv": "कच्चा",
+"top": false
+},
+{
+"id": "adjectives:ripe",
+"en": "ripe",
+"ro": "pakka",
+"dv": "पक्का",
+"top": false
+},
+{
+"id": "adjectives:salty",
+"en": "salty",
+"ro": "namkeen",
+"dv": "नमकीन",
+"top": false
+},
+{
+"id": "adjectives:sour",
+"en": "sour",
+"ro": "khatta",
+"dv": "खट्टा",
+"top": false
+},
+{
+"id": "adjectives:spicy",
+"en": "spicy",
+"ro": "teekha",
+"dv": "तीखा",
+"top": false
+},
+{
+"id": "adjectives:sweet",
+"en": "sweet",
+"ro": "meetha",
+"dv": "मीठा",
+"top": false
+},
+{
+"id": "adjectives:tasty",
+"en": "tasty",
+"ro": "svaadisht",
+"dv": "स्वादिष्ट",
+"top": true
+}
+]
+},
+{
+"name": "Feelings & how you are",
+"items": [
+{
+"id": "adjectives:alone",
+"en": "alone",
+"ro": "akela",
+"dv": "अकेला",
+"top": false
+},
+{
+"id": "adjectives:busy",
+"en": "busy",
+"ro": "vyast",
+"dv": "व्यस्त",
+"top": true
+},
+{
+"id": "adjectives:happy",
+"en": "happy",
+"ro": "khush",
+"dv": "ख़ुश",
+"top": true
+},
+{
+"id": "adjectives:healthy",
+"en": "healthy",
+"ro": "svasth",
+"dv": "स्वस्थ",
+"top": false
+},
+{
+"id": "adjectives:hungry",
+"en": "hungry",
+"ro": "bhookha",
+"dv": "भूखा",
+"top": true
+},
+{
+"id": "adjectives:quiet",
+"en": "quiet",
+"ro": "chup",
+"dv": "चुप",
+"top": false
+},
+{
+"id": "adjectives:ready",
+"en": "ready",
+"ro": "taiyaar",
+"dv": "तैयार",
+"top": true
+},
+{
+"id": "adjectives:sad",
+"en": "sad",
+"ro": "udaas",
+"dv": "उदास",
+"top": true
+},
+{
+"id": "adjectives:shy",
+"en": "shy",
+"ro": "sharmeela",
+"dv": "शर्मीला",
+"top": false
+},
+{
+"id": "adjectives:sick",
+"en": "sick",
+"ro": "beemaar",
+"dv": "बीमार",
+"top": false
+},
+{
+"id": "adjectives:thirsty",
+"en": "thirsty",
+"ro": "pyaasa",
+"dv": "प्यासा",
+"top": false
+},
+{
+"id": "adjectives:tired",
+"en": "tired",
+"ro": "thaka hua",
+"dv": "थका हुआ",
+"top": true
+},
+{
+"id": "adjectives:upset, angry",
+"en": "upset, angry",
+"ro": "naaraaz",
+"dv": "नाराज़",
+"top": false
+}
+]
+},
+{
+"name": "Character",
+"items": [
+{
+"id": "adjectives:brave",
+"en": "brave",
+"ro": "bahaadur",
+"dv": "बहादुर",
+"top": false
+},
+{
+"id": "adjectives:clever",
+"en": "clever",
+"ro": "hoshiyaar",
+"dv": "होशियार",
+"top": false
+},
+{
+"id": "adjectives:famous",
+"en": "famous",
+"ro": "mashhoor",
+"dv": "मशहूर",
+"top": false
+},
+{
+"id": "adjectives:hardworking",
+"en": "hardworking",
+"ro": "mehnati",
+"dv": "मेहनती",
+"top": false
+},
+{
+"id": "adjectives:honest",
+"en": "honest",
+"ro": "imaandaar",
+"dv": "ईमानदार",
+"top": false
+},
+{
+"id": "adjectives:kind",
+"en": "kind",
+"ro": "dayaalu",
+"dv": "दयालु",
+"top": false
+},
+{
+"id": "adjectives:lazy",
+"en": "lazy",
+"ro": "aalsi",
+"dv": "आलसी",
+"top": false
+},
+{
+"id": "adjectives:lovely, dear",
+"en": "lovely, dear",
+"ro": "pyaara",
+"dv": "प्यारा",
+"top": false
+},
+{
+"id": "adjectives:silly, foolish",
+"en": "silly, foolish",
+"ro": "bevakoof",
+"dv": "बेवक़ूफ़",
+"top": false
+}
+]
+},
+{
+"name": "Quality & judgement",
+"items": [
+{
+"id": "adjectives:bad",
+"en": "bad",
+"ro": "bura",
+"dv": "बुरा",
+"top": true
+},
+{
+"id": "adjectives:beautiful",
+"en": "beautiful",
+"ro": "sundar",
+"dv": "सुंदर",
+"top": true
+},
+{
+"id": "adjectives:different",
+"en": "different",
+"ro": "alag",
+"dv": "अलग",
+"top": false
+},
+{
+"id": "adjectives:difficult",
+"en": "difficult",
+"ro": "mushkil",
+"dv": "मुश्किल",
+"top": true
+},
+{
+"id": "adjectives:easy",
+"en": "easy",
+"ro": "aasaan",
+"dv": "आसान",
+"top": true
+},
+{
+"id": "adjectives:false",
+"en": "false",
+"ro": "jhootha",
+"dv": "झूठा",
+"top": false
+},
+{
+"id": "adjectives:good",
+"en": "good",
+"ro": "achchha",
+"dv": "अच्छा",
+"top": true
+},
+{
+"id": "adjectives:important",
+"en": "important",
+"ro": "mahatvapoorn",
+"dv": "महत्वपूर्ण",
+"top": true
+},
+{
+"id": "adjectives:necessary",
+"en": "necessary",
+"ro": "zaroori",
+"dv": "ज़रूरी",
+"top": false
+},
+{
+"id": "adjectives:new",
+"en": "new",
+"ro": "naya",
+"dv": "नया",
+"top": true
+},
+{
+"id": "adjectives:old (people)",
+"en": "old (people)",
+"ro": "boodha",
+"dv": "बूढ़ा",
+"top": false
+},
+{
+"id": "adjectives:old (things)",
+"en": "old (things)",
+"ro": "puraana",
+"dv": "पुराना",
+"top": true
+},
+{
+"id": "adjectives:right, correct",
+"en": "right, correct",
+"ro": "sahi",
+"dv": "सही",
+"top": true
+},
+{
+"id": "adjectives:special",
+"en": "special",
+"ro": "khaas",
+"dv": "ख़ास",
+"top": false
+},
+{
+"id": "adjectives:true",
+"en": "true",
+"ro": "sach",
+"dv": "सच",
+"top": false
+},
+{
+"id": "adjectives:ugly",
+"en": "ugly",
+"ro": "badsoorat",
+"dv": "बदसूरत",
+"top": false
+},
+{
+"id": "adjectives:wrong",
+"en": "wrong",
+"ro": "galat",
+"dv": "ग़लत",
+"top": true
+},
+{
+"id": "adjectives:young",
+"en": "young",
+"ro": "javaan",
+"dv": "जवान",
+"top": false
+}
+]
+},
+{
+"name": "Things & conditions",
+"items": [
+{
+"id": "adjectives:cheap",
+"en": "cheap",
+"ro": "sasta",
+"dv": "सस्ता",
+"top": true
+},
+{
+"id": "adjectives:clean",
+"en": "clean",
+"ro": "saaf",
+"dv": "साफ़",
+"top": true
+},
+{
+"id": "adjectives:cold",
+"en": "cold",
+"ro": "thanda",
+"dv": "ठंडा",
+"top": true
+},
+{
+"id": "adjectives:dirty",
+"en": "dirty",
+"ro": "ganda",
+"dv": "गंदा",
+"top": false
+},
+{
+"id": "adjectives:dry",
+"en": "dry",
+"ro": "sookha",
+"dv": "सूखा",
+"top": false
+},
+{
+"id": "adjectives:empty",
+"en": "empty",
+"ro": "khaali",
+"dv": "ख़ाली",
+"top": false
+},
+{
+"id": "adjectives:expensive",
+"en": "expensive",
+"ro": "mehenga",
+"dv": "महँगा",
+"top": true
+},
+{
+"id": "adjectives:fast",
+"en": "fast",
+"ro": "tez",
+"dv": "तेज़",
+"top": false
+},
+{
+"id": "adjectives:full",
+"en": "full",
+"ro": "bhara",
+"dv": "भरा",
+"top": false
+},
+{
+"id": "adjectives:hard, strict",
+"en": "hard, strict",
+"ro": "sakht",
+"dv": "सख़्त",
+"top": false
+},
+{
+"id": "adjectives:heavy",
+"en": "heavy",
+"ro": "bhaari",
+"dv": "भारी",
+"top": false
+},
+{
+"id": "adjectives:hot",
+"en": "hot",
+"ro": "garam",
+"dv": "गरम",
+"top": true
+},
+{
+"id": "adjectives:light (weight)",
+"en": "light (weight)",
+"ro": "halka",
+"dv": "हल्का",
+"top": false
+},
+{
+"id": "adjectives:open",
+"en": "open",
+"ro": "khula",
+"dv": "खुला",
+"top": false
+},
+{
+"id": "adjectives:poor",
+"en": "poor",
+"ro": "gareeb",
+"dv": "ग़रीब",
+"top": false
+},
+{
+"id": "adjectives:rich",
+"en": "rich",
+"ro": "ameer",
+"dv": "अमीर",
+"top": false
+},
+{
+"id": "adjectives:slow",
+"en": "slow",
+"ro": "dheema",
+"dv": "धीमा",
+"top": false
+},
+{
+"id": "adjectives:soft",
+"en": "soft",
+"ro": "naram",
+"dv": "नरम",
+"top": false
+},
+{
+"id": "adjectives:strong",
+"en": "strong",
+"ro": "mazboot",
+"dv": "मज़बूत",
+"top": false
+},
+{
+"id": "adjectives:weak",
+"en": "weak",
+"ro": "kamzor",
+"dv": "कमज़ोर",
+"top": false
+},
+{
+"id": "adjectives:wet",
+"en": "wet",
+"ro": "geela",
+"dv": "गीला",
+"top": false
+}
+]
+},
+{
+"name": "Quantity & order",
+"items": [
+{
+"id": "adjectives:a little, some",
+"en": "a little, some",
+"ro": "thoda",
+"dv": "थोड़ा",
+"top": true
+},
+{
+"id": "adjectives:all",
+"en": "all",
+"ro": "sab",
+"dv": "सब",
+"top": true
+},
+{
+"id": "adjectives:every",
+"en": "every",
+"ro": "har",
+"dv": "हर",
+"top": true
+},
+{
+"id": "adjectives:first",
+"en": "first",
+"ro": "pehla",
+"dv": "पहला",
+"top": true
+},
+{
+"id": "adjectives:last",
+"en": "last",
+"ro": "aakhri",
+"dv": "आख़िरी",
+"top": true
+},
+{
+"id": "adjectives:less",
+"en": "less",
+"ro": "kam",
+"dv": "कम",
+"top": false
+},
+{
+"id": "adjectives:many, several",
+"en": "many, several",
+"ro": "kai",
+"dv": "कई",
+"top": false
+},
+{
+"id": "adjectives:more, a lot",
+"en": "more, a lot",
+"ro": "zyaada",
+"dv": "ज़्यादा",
+"top": true
+},
+{
+"id": "adjectives:next",
+"en": "next",
+"ro": "agla",
+"dv": "अगला",
+"top": true
+},
+{
+"id": "adjectives:previous",
+"en": "previous",
+"ro": "pichhla",
+"dv": "पिछला",
+"top": false
+}
+]
+}
+],
+"count": 100
+},
+{
+"key": "verbs",
+"title": "Verbs",
+"hi": "क्रियाएँ",
+"sections": [
+{
+"name": "Top 10",
+"open": true,
+"items": [
+{
+"id": "verbs:be",
+"en": "be",
+"ro": "hona",
+"dv": "होना",
+"top": true
+},
+{
+"id": "verbs:come",
+"en": "come",
+"ro": "aana",
+"dv": "आना",
+"top": true
+},
+{
+"id": "verbs:do",
+"en": "do",
+"ro": "karna",
+"dv": "करना",
+"top": true
+},
+{
+"id": "verbs:eat",
+"en": "eat",
+"ro": "khaana",
+"dv": "खाना",
+"top": true
+},
+{
+"id": "verbs:give",
+"en": "give",
+"ro": "dena",
+"dv": "देना",
+"top": true
+},
+{
+"id": "verbs:go",
+"en": "go",
+"ro": "jaana",
+"dv": "जाना",
+"top": true
+},
+{
+"id": "verbs:say",
+"en": "say",
+"ro": "kehna",
+"dv": "कहना",
+"top": true
+},
+{
+"id": "verbs:see",
+"en": "see",
+"ro": "dekhna",
+"dv": "देखना",
+"top": true
+},
+{
+"id": "verbs:speak",
+"en": "speak",
+"ro": "bolna",
+"dv": "बोलना",
+"top": true
+},
+{
+"id": "verbs:take",
+"en": "take",
+"ro": "lena",
+"dv": "लेना",
+"top": true
+}
+]
+},
+{
+"name": "Top 50",
+"sub": "(the next 40)",
+"items": [
+{
+"id": "verbs:ask",
+"en": "ask",
+"ro": "poochhna",
+"dv": "पूछना",
+"top": true
+},
+{
+"id": "verbs:buy",
+"en": "buy",
+"ro": "khareedna",
+"dv": "ख़रीदना",
+"top": true
+},
+{
+"id": "verbs:call",
+"en": "call",
+"ro": "bulaana",
+"dv": "बुलाना",
+"top": true
+},
+{
+"id": "verbs:close",
+"en": "close",
+"ro": "band karna",
+"dv": "बंद करना",
+"top": true
+},
+{
+"id": "verbs:come back",
+"en": "come back",
+"ro": "vaapas aana",
+"dv": "वापस आना",
+"top": true
+},
+{
+"id": "verbs:do work",
+"en": "do work",
+"ro": "kaam karna",
+"dv": "काम करना",
+"top": true
+},
+{
+"id": "verbs:drink",
+"en": "drink",
+"ro": "peena",
+"dv": "पीना",
+"top": true
+},
+{
+"id": "verbs:feel",
+"en": "feel",
+"ro": "mehsoos karna",
+"dv": "महसूस करना",
+"top": true
+},
+{
+"id": "verbs:forget",
+"en": "forget",
+"ro": "bhoolna",
+"dv": "भूलना",
+"top": true
+},
+{
+"id": "verbs:get",
+"en": "get",
+"ro": "milna",
+"dv": "मिलना",
+"top": true
+},
+{
+"id": "verbs:get up",
+"en": "get up",
+"ro": "uthna",
+"dv": "उठना",
+"top": true
+},
+{
+"id": "verbs:hear",
+"en": "hear",
+"ro": "sunna",
+"dv": "सुनना",
+"top": true
+},
+{
+"id": "verbs:help",
+"en": "help",
+"ro": "madad karna",
+"dv": "मदद करना",
+"top": true
+},
+{
+"id": "verbs:keep",
+"en": "keep",
+"ro": "rakhna",
+"dv": "रखना",
+"top": true
+},
+{
+"id": "verbs:know",
+"en": "know",
+"ro": "jaanna",
+"dv": "जानना",
+"top": true
+},
+{
+"id": "verbs:learn",
+"en": "learn",
+"ro": "seekhna",
+"dv": "सीखना",
+"top": true
+},
+{
+"id": "verbs:leave (a place)",
+"en": "leave (a place)",
+"ro": "nikalna",
+"dv": "निकलना",
+"top": true
+},
+{
+"id": "verbs:like",
+"en": "like",
+"ro": "pasand karna",
+"dv": "पसंद करना",
+"top": true
+},
+{
+"id": "verbs:listen",
+"en": "listen",
+"ro": "sunna",
+"dv": "सुनना",
+"top": true
+},
+{
+"id": "verbs:live",
+"en": "live",
+"ro": "jeena",
+"dv": "जीना",
+"top": true
+},
+{
+"id": "verbs:look",
+"en": "look",
+"ro": "dekhna",
+"dv": "देखना",
+"top": true
+},
+{
+"id": "verbs:make",
+"en": "make",
+"ro": "banaana",
+"dv": "बनाना",
+"top": true
+},
+{
+"id": "verbs:meet",
+"en": "meet",
+"ro": "milna",
+"dv": "मिलना",
+"top": true
+},
+{
+"id": "verbs:open",
+"en": "open",
+"ro": "kholna",
+"dv": "खोलना",
+"top": true
+},
+{
+"id": "verbs:play",
+"en": "play",
+"ro": "khelna",
+"dv": "खेलना",
+"top": true
+},
+{
+"id": "verbs:read",
+"en": "read",
+"ro": "padhna",
+"dv": "पढ़ना",
+"top": true
+},
+{
+"id": "verbs:remember",
+"en": "remember",
+"ro": "yaad karna",
+"dv": "याद करना",
+"top": true
+},
+{
+"id": "verbs:sit",
+"en": "sit",
+"ro": "baithna",
+"dv": "बैठना",
+"top": true
+},
+{
+"id": "verbs:sleep",
+"en": "sleep",
+"ro": "sona",
+"dv": "सोना",
+"top": true
+},
+{
+"id": "verbs:stop",
+"en": "stop",
+"ro": "rukna",
+"dv": "रुकना",
+"top": true
+},
+{
+"id": "verbs:talk",
+"en": "talk",
+"ro": "baat karna",
+"dv": "बात करना",
+"top": true
+},
+{
+"id": "verbs:tell",
+"en": "tell",
+"ro": "bataana",
+"dv": "बताना",
+"top": true
+},
+{
+"id": "verbs:think",
+"en": "think",
+"ro": "sochna",
+"dv": "सोचना",
+"top": true
+},
+{
+"id": "verbs:understand",
+"en": "understand",
+"ro": "samajhna",
+"dv": "समझना",
+"top": true
+},
+{
+"id": "verbs:wait",
+"en": "wait",
+"ro": "intezaar karna",
+"dv": "इंतज़ार करना",
+"top": true
+},
+{
+"id": "verbs:wake up",
+"en": "wake up",
+"ro": "uthna",
+"dv": "उठना",
+"top": true
+},
+{
+"id": "verbs:walk",
+"en": "walk",
+"ro": "chalna",
+"dv": "चलना",
+"top": true
+},
+{
+"id": "verbs:want",
+"en": "want",
+"ro": "chaahna",
+"dv": "चाहना",
+"top": true
+},
+{
+"id": "verbs:watch",
+"en": "watch",
+"ro": "dekhna",
+"dv": "देखना",
+"top": true
+},
+{
+"id": "verbs:write",
+"en": "write",
+"ro": "likhna",
+"dv": "लिखना",
+"top": true
+}
+]
+},
+{
+"name": "More verbs",
+"items": [
+{
+"id": "verbs:add",
+"en": "add",
+"ro": "jodna",
+"dv": "जोड़ना",
+"top": false
+},
+{
+"id": "verbs:admit",
+"en": "admit",
+"ro": "maanna",
+"dv": "मानना",
+"top": false
+},
+{
+"id": "verbs:adopt",
+"en": "adopt",
+"ro": "god lena",
+"dv": "गोद लेना",
+"top": false
+},
+{
+"id": "verbs:advise",
+"en": "advise",
+"ro": "salaah dena",
+"dv": "सलाह देना",
+"top": false
+},
+{
+"id": "verbs:affect (someone)",
+"en": "affect (someone)",
+"ro": "asar karna",
+"dv": "असर करना",
+"top": false
+},
+{
+"id": "verbs:agree",
+"en": "agree",
+"ro": "maanna",
+"dv": "मानना",
+"top": false
+},
+{
+"id": "verbs:annoy",
+"en": "annoy",
+"ro": "tang karna",
+"dv": "तंग करना",
+"top": false
+},
+{
+"id": "verbs:apologize",
+"en": "apologize",
+"ro": "maafi maangna",
+"dv": "माफ़ी माँगना",
+"top": false
+},
+{
+"id": "verbs:apply",
+"en": "apply",
+"ro": "lagaana",
+"dv": "लगाना",
+"top": false
+},
+{
+"id": "verbs:appreciate",
+"en": "appreciate",
+"ro": "taareef karna",
+"dv": "तारीफ़ करना",
+"top": false
+},
+{
+"id": "verbs:arrive",
+"en": "arrive",
+"ro": "aana",
+"dv": "आना",
+"top": false
+},
+{
+"id": "verbs:ask for something",
+"en": "ask for something",
+"ro": "maangna",
+"dv": "माँगना",
+"top": false
+},
+{
+"id": "verbs:ask someone to cut",
+"en": "ask someone to cut",
+"ro": "katvaana",
+"dv": "कटवाना",
+"top": false
+},
+{
+"id": "verbs:ask someone to dance",
+"en": "ask someone to dance",
+"ro": "nachaana",
+"dv": "नचाना",
+"top": false
+},
+{
+"id": "verbs:ask someone to hit someone",
+"en": "ask someone to hit someone",
+"ro": "marvaana",
+"dv": "मरवाना",
+"top": false
+},
+{
+"id": "verbs:ask someone to sing",
+"en": "ask someone to sing",
+"ro": "gavaana",
+"dv": "गवाना",
+"top": false
+},
+{
+"id": "verbs:ask someone to steal",
+"en": "ask someone to steal",
+"ro": "chori karvaana",
+"dv": "चोरी करवाना",
+"top": false
+},
+{
+"id": "verbs:ask someone to wash",
+"en": "ask someone to wash",
+"ro": "dhulvaana",
+"dv": "धुलवाना",
+"top": false
+},
+{
+"id": "verbs:ask someone to write",
+"en": "ask someone to write",
+"ro": "likhvaana",
+"dv": "लिखवाना",
+"top": false
+},
+{
+"id": "verbs:assume",
+"en": "assume",
+"ro": "maanna",
+"dv": "मानना",
+"top": false
+},
+{
+"id": "verbs:attend",
+"en": "attend",
+"ro": "jaana",
+"dv": "जाना",
+"top": false
+},
+{
+"id": "verbs:bathe",
+"en": "bathe",
+"ro": "nahaana",
+"dv": "नहाना",
+"top": false
+},
+{
+"id": "verbs:be stolen",
+"en": "be stolen",
+"ro": "chori hona",
+"dv": "चोरी होना",
+"top": false
+},
+{
+"id": "verbs:beat",
+"en": "beat",
+"ro": "maarna",
+"dv": "मारना",
+"top": false
+},
+{
+"id": "verbs:become",
+"en": "become",
+"ro": "hona",
+"dv": "होना",
+"top": false
+},
+{
+"id": "verbs:beg",
+"en": "beg",
+"ro": "maangna",
+"dv": "माँगना",
+"top": false
+},
+{
+"id": "verbs:bet",
+"en": "bet",
+"ro": "shart lagaana",
+"dv": "शर्त लगाना",
+"top": false
+},
+{
+"id": "verbs:betray",
+"en": "betray",
+"ro": "dhokha dena",
+"dv": "धोखा देना",
+"top": false
+},
+{
+"id": "verbs:bloom",
+"en": "bloom",
+"ro": "khilna",
+"dv": "खिलना",
+"top": false
+},
+{
+"id": "verbs:boil",
+"en": "boil",
+"ro": "ubalna",
+"dv": "उबलना",
+"top": false
+},
+{
+"id": "verbs:boil something",
+"en": "boil something",
+"ro": "ubaalna",
+"dv": "उबालना",
+"top": false
+},
+{
+"id": "verbs:break",
+"en": "break",
+"ro": "todna",
+"dv": "तोड़ना",
+"top": false
+},
+{
+"id": "verbs:brush",
+"en": "brush",
+"ro": "brush karna",
+"dv": "ब्रश करना",
+"top": false
+},
+{
+"id": "verbs:build",
+"en": "build",
+"ro": "banaana",
+"dv": "बनाना",
+"top": false
+},
+{
+"id": "verbs:burp",
+"en": "burp",
+"ro": "dakaar maarna",
+"dv": "डकार मारना",
+"top": false
+},
+{
+"id": "verbs:bury",
+"en": "bury",
+"ro": "jalaana",
+"dv": "जलाना",
+"top": false,
+"note": "As in your teacher's list. Jalaana literally means to burn (cremate); to bury is dafnaana (दफ़नाना)."
+},
+{
+"id": "verbs:carry",
+"en": "carry",
+"ro": "uthaana",
+"dv": "उठाना",
+"top": false
+},
+{
+"id": "verbs:celebrate",
+"en": "celebrate",
+"ro": "manaana",
+"dv": "मनाना",
+"top": false
+},
+{
+"id": "verbs:challenge",
+"en": "challenge",
+"ro": "chunauti dena",
+"dv": "चुनौती देना",
+"top": false
+},
+{
+"id": "verbs:change",
+"en": "change",
+"ro": "badalna",
+"dv": "बदलना",
+"top": false
+},
+{
+"id": "verbs:chew",
+"en": "chew",
+"ro": "chabaana",
+"dv": "चबाना",
+"top": false
+},
+{
+"id": "verbs:choose",
+"en": "choose",
+"ro": "chunna",
+"dv": "चुनना",
+"top": false
+},
+{
+"id": "verbs:chop",
+"en": "chop",
+"ro": "kaatna",
+"dv": "काटना",
+"top": false
+},
+{
+"id": "verbs:clean",
+"en": "clean",
+"ro": "saaf karna",
+"dv": "साफ़ करना",
+"top": false
+},
+{
+"id": "verbs:climb",
+"en": "climb",
+"ro": "chadhna",
+"dv": "चढ़ना",
+"top": false
+},
+{
+"id": "verbs:compliment",
+"en": "compliment",
+"ro": "taareef karna",
+"dv": "तारीफ़ करना",
+"top": false
+},
+{
+"id": "verbs:confirm",
+"en": "confirm",
+"ro": "pakka karna",
+"dv": "पक्का करना",
+"top": false
+},
+{
+"id": "verbs:consider",
+"en": "consider",
+"ro": "maanna",
+"dv": "मानना",
+"top": false
+},
+{
+"id": "verbs:continue",
+"en": "continue",
+"ro": "karte rehna",
+"dv": "करते रहना",
+"top": false
+},
+{
+"id": "verbs:convince",
+"en": "convince",
+"ro": "manvaana",
+"dv": "मनवाना",
+"top": false
+},
+{
+"id": "verbs:cook",
+"en": "cook",
+"ro": "banaana",
+"dv": "बनाना",
+"top": false
+},
+{
+"id": "verbs:count",
+"en": "count",
+"ro": "ginna",
+"dv": "गिनना",
+"top": false
+},
+{
+"id": "verbs:cover",
+"en": "cover",
+"ro": "dhakna",
+"dv": "ढकना",
+"top": false
+},
+{
+"id": "verbs:crawl",
+"en": "crawl",
+"ro": "rengna",
+"dv": "रेंगना",
+"top": false
+},
+{
+"id": "verbs:create",
+"en": "create",
+"ro": "banaana",
+"dv": "बनाना",
+"top": false
+},
+{
+"id": "verbs:cry",
+"en": "cry",
+"ro": "rona",
+"dv": "रोना",
+"top": false
+},
+{
+"id": "verbs:cut",
+"en": "cut",
+"ro": "kaatna",
+"dv": "काटना",
+"top": false
+},
+{
+"id": "verbs:dance",
+"en": "dance",
+"ro": "naachna",
+"dv": "नाचना",
+"top": false
+},
+{
+"id": "verbs:decide",
+"en": "decide",
+"ro": "faisla lena",
+"dv": "फ़ैसला लेना",
+"top": false
+},
+{
+"id": "verbs:defeat (something)",
+"en": "defeat (something)",
+"ro": "haraana",
+"dv": "हराना",
+"top": false
+},
+{
+"id": "verbs:depend",
+"en": "depend",
+"ro": "nirbhar karna",
+"dv": "निर्भर करना",
+"top": false
+},
+{
+"id": "verbs:deserve",
+"en": "deserve",
+"ro": "kaabil hona",
+"dv": "क़ाबिल होना",
+"top": false
+},
+{
+"id": "verbs:destroy",
+"en": "destroy",
+"ro": "kharaab karna",
+"dv": "ख़राब करना",
+"top": false
+},
+{
+"id": "verbs:die",
+"en": "die",
+"ro": "marna",
+"dv": "मरना",
+"top": false
+},
+{
+"id": "verbs:digest",
+"en": "digest",
+"ro": "pachaana",
+"dv": "पचाना",
+"top": false
+},
+{
+"id": "verbs:disappear",
+"en": "disappear",
+"ro": "gaayab hona",
+"dv": "ग़ायब होना",
+"top": false
+},
+{
+"id": "verbs:distribute",
+"en": "distribute",
+"ro": "baantna",
+"dv": "बाँटना",
+"top": false
+},
+{
+"id": "verbs:do wrong",
+"en": "do wrong",
+"ro": "galat karna",
+"dv": "ग़लत करना",
+"top": false
+},
+{
+"id": "verbs:doubt",
+"en": "doubt",
+"ro": "shak karna",
+"dv": "शक करना",
+"top": false
+},
+{
+"id": "verbs:draw",
+"en": "draw",
+"ro": "banaana",
+"dv": "बनाना",
+"top": false
+},
+{
+"id": "verbs:drive",
+"en": "drive",
+"ro": "chalaana",
+"dv": "चलाना",
+"top": false
+},
+{
+"id": "verbs:dry something",
+"en": "dry something",
+"ro": "sukhaana",
+"dv": "सुखाना",
+"top": false
+},
+{
+"id": "verbs:earn",
+"en": "earn",
+"ro": "kamaana",
+"dv": "कमाना",
+"top": false
+},
+{
+"id": "verbs:encourage",
+"en": "encourage",
+"ro": "badhaava dena",
+"dv": "बढ़ावा देना",
+"top": false
+},
+{
+"id": "verbs:exercise",
+"en": "exercise",
+"ro": "kasrat karna",
+"dv": "कसरत करना",
+"top": false
+},
+{
+"id": "verbs:expand",
+"en": "expand",
+"ro": "kheenchna",
+"dv": "खींचना",
+"top": false
+},
+{
+"id": "verbs:expect",
+"en": "expect",
+"ro": "apeksha rakhna",
+"dv": "अपेक्षा रखना",
+"top": false
+},
+{
+"id": "verbs:experience",
+"en": "experience",
+"ro": "anubhav karna",
+"dv": "अनुभव करना",
+"top": false
+},
+{
+"id": "verbs:experiment",
+"en": "experiment",
+"ro": "aazmaana",
+"dv": "आज़माना",
+"top": false
+},
+{
+"id": "verbs:explain",
+"en": "explain",
+"ro": "samjhaana",
+"dv": "समझाना",
+"top": false
+},
+{
+"id": "verbs:fail",
+"en": "fail",
+"ro": "fail hona",
+"dv": "फ़ेल होना",
+"top": false
+},
+{
+"id": "verbs:fail someone",
+"en": "fail someone",
+"ro": "fail karna",
+"dv": "फ़ेल करना",
+"top": false
+},
+{
+"id": "verbs:fall",
+"en": "fall",
+"ro": "girna",
+"dv": "गिरना",
+"top": false
+},
+{
+"id": "verbs:fear",
+"en": "fear",
+"ro": "darna",
+"dv": "डरना",
+"top": false
+},
+{
+"id": "verbs:feed",
+"en": "feed",
+"ro": "khilaana",
+"dv": "खिलाना",
+"top": false
+},
+{
+"id": "verbs:feel shy",
+"en": "feel shy",
+"ro": "sharmaana",
+"dv": "शरमाना",
+"top": false
+},
+{
+"id": "verbs:fight",
+"en": "fight",
+"ro": "ladna",
+"dv": "लड़ना",
+"top": false
+},
+{
+"id": "verbs:find",
+"en": "find",
+"ro": "milna",
+"dv": "मिलना",
+"top": false
+},
+{
+"id": "verbs:fly",
+"en": "fly",
+"ro": "udna",
+"dv": "उड़ना",
+"top": false
+},
+{
+"id": "verbs:fly something",
+"en": "fly something",
+"ro": "udaana",
+"dv": "उड़ाना",
+"top": false
+},
+{
+"id": "verbs:follow",
+"en": "follow",
+"ro": "apnaana",
+"dv": "अपनाना",
+"top": false
+},
+{
+"id": "verbs:form",
+"en": "form",
+"ro": "banaana",
+"dv": "बनाना",
+"top": false
+},
+{
+"id": "verbs:freeze",
+"en": "freeze",
+"ro": "jamna",
+"dv": "जमना",
+"top": false
+},
+{
+"id": "verbs:freeze something",
+"en": "freeze something",
+"ro": "jamaana",
+"dv": "जमाना",
+"top": false
+},
+{
+"id": "verbs:get affected",
+"en": "get affected",
+"ro": "asar hona",
+"dv": "असर होना",
+"top": false
+},
+{
+"id": "verbs:get angry",
+"en": "get angry",
+"ro": "gussa hona",
+"dv": "ग़ुस्सा होना",
+"top": false
+},
+{
+"id": "verbs:get dry",
+"en": "get dry",
+"ro": "sookhna",
+"dv": "सूखना",
+"top": false
+},
+{
+"id": "verbs:get ready",
+"en": "get ready",
+"ro": "taiyaar hona",
+"dv": "तैयार होना",
+"top": false
+},
+{
+"id": "verbs:get someone out of a place",
+"en": "get someone out of a place",
+"ro": "nikaalna",
+"dv": "निकालना",
+"top": false
+},
+{
+"id": "verbs:get something stuck",
+"en": "get something stuck",
+"ro": "phansaana",
+"dv": "फँसाना",
+"top": false
+},
+{
+"id": "verbs:get stuck",
+"en": "get stuck",
+"ro": "phansna",
+"dv": "फँसना",
+"top": false
+},
+{
+"id": "verbs:get wet",
+"en": "get wet",
+"ro": "bheegna",
+"dv": "भीगना",
+"top": false
+},
+{
+"id": "verbs:give birth",
+"en": "give birth",
+"ro": "janam dena",
+"dv": "जन्म देना",
+"top": false
+},
+{
+"id": "verbs:go back",
+"en": "go back",
+"ro": "vaapas jaana",
+"dv": "वापस जाना",
+"top": false
+},
+{
+"id": "verbs:go for a walk (morning/evening)",
+"en": "go for a walk (morning/evening)",
+"ro": "sair karna",
+"dv": "सैर करना",
+"top": false
+},
+{
+"id": "verbs:grow (plants)",
+"en": "grow (plants)",
+"ro": "lagaana",
+"dv": "लगाना",
+"top": false
+},
+{
+"id": "verbs:handle",
+"en": "handle",
+"ro": "sambhaalna",
+"dv": "सँभालना",
+"top": false
+},
+{
+"id": "verbs:happen",
+"en": "happen",
+"ro": "hona",
+"dv": "होना",
+"top": false
+},
+{
+"id": "verbs:hate",
+"en": "hate",
+"ro": "nafrat karna",
+"dv": "नफ़रत करना",
+"top": false
+},
+{
+"id": "verbs:hide",
+"en": "hide",
+"ro": "chhipna",
+"dv": "छिपना",
+"top": false
+},
+{
+"id": "verbs:hide something",
+"en": "hide something",
+"ro": "chhipaana",
+"dv": "छिपाना",
+"top": false
+},
+{
+"id": "verbs:hit",
+"en": "hit",
+"ro": "maarna",
+"dv": "मारना",
+"top": false
+},
+{
+"id": "verbs:hold",
+"en": "hold",
+"ro": "pakadna",
+"dv": "पकड़ना",
+"top": false
+},
+{
+"id": "verbs:hope",
+"en": "hope",
+"ro": "ummeed rakhna",
+"dv": "उम्मीद रखना",
+"top": false
+},
+{
+"id": "verbs:hurry up",
+"en": "hurry up",
+"ro": "jaldi karna",
+"dv": "जल्दी करना",
+"top": false
+},
+{
+"id": "verbs:improve",
+"en": "improve",
+"ro": "sudhaarna",
+"dv": "सुधारना",
+"top": false
+},
+{
+"id": "verbs:invest",
+"en": "invest",
+"ro": "paise lagaana",
+"dv": "पैसे लगाना",
+"top": false
+},
+{
+"id": "verbs:invite",
+"en": "invite",
+"ro": "bulaana",
+"dv": "बुलाना",
+"top": false
+},
+{
+"id": "verbs:jump",
+"en": "jump",
+"ro": "koodna",
+"dv": "कूदना",
+"top": false
+},
+{
+"id": "verbs:kill",
+"en": "kill",
+"ro": "maarna",
+"dv": "मारना",
+"top": false
+},
+{
+"id": "verbs:laugh",
+"en": "laugh",
+"ro": "hansna",
+"dv": "हँसना",
+"top": false
+},
+{
+"id": "verbs:leave (permanently)",
+"en": "leave (permanently)",
+"ro": "chhodna",
+"dv": "छोड़ना",
+"top": false
+},
+{
+"id": "verbs:lend",
+"en": "lend",
+"ro": "udhaar dena",
+"dv": "उधार देना",
+"top": false
+},
+{
+"id": "verbs:lie (tell an untruth)",
+"en": "lie (tell an untruth)",
+"ro": "jhooth bolna",
+"dv": "झूठ बोलना",
+"top": false
+},
+{
+"id": "verbs:lift (something/someone)",
+"en": "lift (something/someone)",
+"ro": "uthaana",
+"dv": "उठाना",
+"top": false
+},
+{
+"id": "verbs:look (seem)",
+"en": "look (seem)",
+"ro": "lagna",
+"dv": "लगना",
+"top": false
+},
+{
+"id": "verbs:lose",
+"en": "lose",
+"ro": "haarna",
+"dv": "हारना",
+"top": false
+},
+{
+"id": "verbs:love someone",
+"en": "love someone",
+"ro": "pyaar karna",
+"dv": "प्यार करना",
+"top": false
+},
+{
+"id": "verbs:make a mistake",
+"en": "make a mistake",
+"ro": "galti karna",
+"dv": "ग़लती करना",
+"top": false
+},
+{
+"id": "verbs:make a plan",
+"en": "make a plan",
+"ro": "yojana banaana",
+"dv": "योजना बनाना",
+"top": false
+},
+{
+"id": "verbs:make someone drink",
+"en": "make someone drink",
+"ro": "pilaana",
+"dv": "पिलाना",
+"top": false
+},
+{
+"id": "verbs:make someone fall",
+"en": "make someone fall",
+"ro": "giraana",
+"dv": "गिराना",
+"top": false
+},
+{
+"id": "verbs:make someone hear",
+"en": "make someone hear",
+"ro": "sunaana",
+"dv": "सुनाना",
+"top": false
+},
+{
+"id": "verbs:make someone ready",
+"en": "make someone ready",
+"ro": "taiyaar karna",
+"dv": "तैयार करना",
+"top": false
+},
+{
+"id": "verbs:make someone run",
+"en": "make someone run",
+"ro": "bhagaana; daudaana",
+"dv": "भगाना; दौड़ाना",
+"top": false
+},
+{
+"id": "verbs:make someone taste something",
+"en": "make someone taste something",
+"ro": "chakhaana",
+"dv": "चखाना",
+"top": false
+},
+{
+"id": "verbs:make someone win",
+"en": "make someone win",
+"ro": "jitaana",
+"dv": "जिताना",
+"top": false
+},
+{
+"id": "verbs:make something move",
+"en": "make something move",
+"ro": "hilaana",
+"dv": "हिलाना",
+"top": false
+},
+{
+"id": "verbs:manage",
+"en": "manage",
+"ro": "sambhaalna",
+"dv": "सँभालना",
+"top": false
+},
+{
+"id": "verbs:marry",
+"en": "marry",
+"ro": "shaadi karna",
+"dv": "शादी करना",
+"top": false
+},
+{
+"id": "verbs:match",
+"en": "match",
+"ro": "milaana",
+"dv": "मिलाना",
+"top": false
+},
+{
+"id": "verbs:measure",
+"en": "measure",
+"ro": "naapna",
+"dv": "नापना",
+"top": false
+},
+{
+"id": "verbs:melt",
+"en": "melt",
+"ro": "pighalna",
+"dv": "पिघलना",
+"top": false
+},
+{
+"id": "verbs:melt something",
+"en": "melt something",
+"ro": "pighlaana",
+"dv": "पिघलाना",
+"top": false
+},
+{
+"id": "verbs:memorize",
+"en": "memorize",
+"ro": "yaad karna",
+"dv": "याद करना",
+"top": false
+},
+{
+"id": "verbs:miss someone",
+"en": "miss someone",
+"ro": "yaad karna",
+"dv": "याद करना",
+"top": false
+},
+{
+"id": "verbs:mold",
+"en": "mold",
+"ro": "modna",
+"dv": "मोड़ना",
+"top": false
+},
+{
+"id": "verbs:move",
+"en": "move",
+"ro": "hilna",
+"dv": "हिलना",
+"top": false
+},
+{
+"id": "verbs:operate machinery",
+"en": "operate machinery",
+"ro": "chalaana",
+"dv": "चलाना",
+"top": false
+},
+{
+"id": "verbs:organize an event",
+"en": "organize an event",
+"ro": "aayojan karna",
+"dv": "आयोजन करना",
+"top": false
+},
+{
+"id": "verbs:park (a car)",
+"en": "park (a car)",
+"ro": "(gaadi) lagaana",
+"dv": "(गाड़ी) लगाना",
+"top": false
+},
+{
+"id": "verbs:pass",
+"en": "pass",
+"ro": "paas karna; paas hona",
+"dv": "पास करना; पास होना",
+"top": false
+},
+{
+"id": "verbs:paste",
+"en": "paste",
+"ro": "chipkaana",
+"dv": "चिपकाना",
+"top": false
+},
+{
+"id": "verbs:peel (off)",
+"en": "peel (off)",
+"ro": "chheelna",
+"dv": "छीलना",
+"top": false
+},
+{
+"id": "verbs:pick (up)",
+"en": "pick (up)",
+"ro": "uthaana",
+"dv": "उठाना",
+"top": false
+},
+{
+"id": "verbs:plant",
+"en": "plant",
+"ro": "lagaana",
+"dv": "लगाना",
+"top": false
+},
+{
+"id": "verbs:pluck",
+"en": "pluck",
+"ro": "todna",
+"dv": "तोड़ना",
+"top": false
+},
+{
+"id": "verbs:pour",
+"en": "pour",
+"ro": "daalna",
+"dv": "डालना",
+"top": false
+},
+{
+"id": "verbs:practice",
+"en": "practice",
+"ro": "abhyaas karna",
+"dv": "अभ्यास करना",
+"top": false
+},
+{
+"id": "verbs:pray",
+"en": "pray",
+"ro": "praarthana karna",
+"dv": "प्रार्थना करना",
+"top": false
+},
+{
+"id": "verbs:prefer",
+"en": "prefer",
+"ro": "pehal dena",
+"dv": "पहल देना",
+"top": false
+},
+{
+"id": "verbs:prepare",
+"en": "prepare",
+"ro": "taiyaari karna",
+"dv": "तैयारी करना",
+"top": false,
+"note": "Literally “to do preparation” (taiyaari = preparation)."
+},
+{
+"id": "verbs:press",
+"en": "press",
+"ro": "dabaana",
+"dv": "दबाना",
+"top": false
+},
+{
+"id": "verbs:pretend",
+"en": "pretend",
+"ro": "naatak karna",
+"dv": "नाटक करना",
+"top": false
+},
+{
+"id": "verbs:produce",
+"en": "produce",
+"ro": "banaana",
+"dv": "बनाना",
+"top": false
+},
+{
+"id": "verbs:protect",
+"en": "protect",
+"ro": "bachaana",
+"dv": "बचाना",
+"top": false
+},
+{
+"id": "verbs:pull",
+"en": "pull",
+"ro": "kheenchna",
+"dv": "खींचना",
+"top": false
+},
+{
+"id": "verbs:punch",
+"en": "punch",
+"ro": "mukka maarna",
+"dv": "मुक्का मारना",
+"top": false
+},
+{
+"id": "verbs:punish",
+"en": "punish",
+"ro": "saza dena",
+"dv": "सज़ा देना",
+"top": false
+},
+{
+"id": "verbs:push",
+"en": "push",
+"ro": "dhakka lagaana",
+"dv": "धक्का लगाना",
+"top": false
+},
+{
+"id": "verbs:put",
+"en": "put",
+"ro": "rakhna",
+"dv": "रखना",
+"top": false
+},
+{
+"id": "verbs:put on",
+"en": "put on",
+"ro": "pehenna",
+"dv": "पहनना",
+"top": false
+},
+{
+"id": "verbs:quit",
+"en": "quit",
+"ro": "chhodna",
+"dv": "छोड़ना",
+"top": false
+},
+{
+"id": "verbs:rain",
+"en": "rain",
+"ro": "baarish hona",
+"dv": "बारिश होना",
+"top": false
+},
+{
+"id": "verbs:receive",
+"en": "receive",
+"ro": "milna",
+"dv": "मिलना",
+"top": false
+},
+{
+"id": "verbs:recognize",
+"en": "recognize",
+"ro": "pehchaanna",
+"dv": "पहचानना",
+"top": false
+},
+{
+"id": "verbs:relax",
+"en": "relax",
+"ro": "aaraam karna",
+"dv": "आराम करना",
+"top": false
+},
+{
+"id": "verbs:reply",
+"en": "reply",
+"ro": "jawaab dena",
+"dv": "जवाब देना",
+"top": false
+},
+{
+"id": "verbs:return (something)",
+"en": "return (something)",
+"ro": "vaapas karna",
+"dv": "वापस करना",
+"top": false
+},
+{
+"id": "verbs:rub",
+"en": "rub",
+"ro": "malna",
+"dv": "मलना",
+"top": false
+},
+{
+"id": "verbs:run",
+"en": "run",
+"ro": "bhaagna; daudna",
+"dv": "भागना; दौड़ना",
+"top": false
+},
+{
+"id": "verbs:save",
+"en": "save",
+"ro": "bachaana",
+"dv": "बचाना",
+"top": false
+},
+{
+"id": "verbs:scare (get scared)",
+"en": "scare (get scared)",
+"ro": "darna",
+"dv": "डरना",
+"top": false
+},
+{
+"id": "verbs:scare someone",
+"en": "scare someone",
+"ro": "daraana",
+"dv": "डराना",
+"top": false
+},
+{
+"id": "verbs:search",
+"en": "search",
+"ro": "dhoondhna",
+"dv": "ढूँढना",
+"top": false
+},
+{
+"id": "verbs:seem",
+"en": "seem",
+"ro": "lagna",
+"dv": "लगना",
+"top": false
+},
+{
+"id": "verbs:send",
+"en": "send",
+"ro": "bhejna",
+"dv": "भेजना",
+"top": false
+},
+{
+"id": "verbs:set an alarm",
+"en": "set an alarm",
+"ro": "alarm lagaana",
+"dv": "अलार्म लगाना",
+"top": false
+},
+{
+"id": "verbs:share",
+"en": "share",
+"ro": "saanjha karna",
+"dv": "साझा करना",
+"top": false
+},
+{
+"id": "verbs:shout",
+"en": "shout",
+"ro": "chillaana",
+"dv": "चिल्लाना",
+"top": false
+},
+{
+"id": "verbs:show",
+"en": "show",
+"ro": "dikhaana",
+"dv": "दिखाना",
+"top": false
+},
+{
+"id": "verbs:sing",
+"en": "sing",
+"ro": "gaana",
+"dv": "गाना",
+"top": false
+},
+{
+"id": "verbs:smell",
+"en": "smell",
+"ro": "soonghna",
+"dv": "सूँघना",
+"top": false
+},
+{
+"id": "verbs:sneeze",
+"en": "sneeze",
+"ro": "chheenkna",
+"dv": "छींकना",
+"top": false
+},
+{
+"id": "verbs:snore",
+"en": "snore",
+"ro": "kharraate maarna",
+"dv": "खर्राटे मारना",
+"top": false
+},
+{
+"id": "verbs:snow",
+"en": "snow",
+"ro": "barf padna",
+"dv": "बर्फ़ पड़ना",
+"top": false
+},
+{
+"id": "verbs:solve",
+"en": "solve",
+"ro": "suljhaana",
+"dv": "सुलझाना",
+"top": false
+},
+{
+"id": "verbs:speak the truth",
+"en": "speak the truth",
+"ro": "sach bolna",
+"dv": "सच बोलना",
+"top": false
+},
+{
+"id": "verbs:spend money",
+"en": "spend money",
+"ro": "paise kharchna",
+"dv": "पैसे ख़र्चना",
+"top": false
+},
+{
+"id": "verbs:spend time",
+"en": "spend time",
+"ro": "samay / vakt bitaana",
+"dv": "समय / वक़्त बिताना",
+"top": false
+},
+{
+"id": "verbs:spin",
+"en": "spin",
+"ro": "ghumaana",
+"dv": "घुमाना",
+"top": false
+},
+{
+"id": "verbs:spit",
+"en": "spit",
+"ro": "thookna",
+"dv": "थूकना",
+"top": false
+},
+{
+"id": "verbs:spread",
+"en": "spread",
+"ro": "phailaana",
+"dv": "फैलाना",
+"top": false
+},
+{
+"id": "verbs:stand",
+"en": "stand",
+"ro": "khade hona",
+"dv": "खड़े होना",
+"top": false
+},
+{
+"id": "verbs:steal something",
+"en": "steal something",
+"ro": "chori karna",
+"dv": "चोरी करना",
+"top": false
+},
+{
+"id": "verbs:stick",
+"en": "stick",
+"ro": "chipkaana",
+"dv": "चिपकाना",
+"top": false
+},
+{
+"id": "verbs:stop doing something",
+"en": "stop doing something",
+"ro": "band karna",
+"dv": "बंद करना",
+"top": false
+},
+{
+"id": "verbs:study",
+"en": "study",
+"ro": "padhna",
+"dv": "पढ़ना",
+"top": false
+},
+{
+"id": "verbs:submit",
+"en": "submit",
+"ro": "jama karna",
+"dv": "जमा करना",
+"top": false
+},
+{
+"id": "verbs:subtract",
+"en": "subtract",
+"ro": "nikaalna",
+"dv": "निकालना",
+"top": false
+},
+{
+"id": "verbs:succeed",
+"en": "succeed",
+"ro": "safal hona",
+"dv": "सफल होना",
+"top": false
+},
+{
+"id": "verbs:suffer",
+"en": "suffer",
+"ro": "sehan karna",
+"dv": "सहन करना",
+"top": false
+},
+{
+"id": "verbs:suggest",
+"en": "suggest",
+"ro": "salaah dena",
+"dv": "सलाह देना",
+"top": false
+},
+{
+"id": "verbs:supply",
+"en": "supply",
+"ro": "pahunchaana",
+"dv": "पहुँचाना",
+"top": false
+},
+{
+"id": "verbs:survive",
+"en": "survive",
+"ro": "jeena",
+"dv": "जीना",
+"top": false
+},
+{
+"id": "verbs:swallow",
+"en": "swallow",
+"ro": "nigalna",
+"dv": "निगलना",
+"top": false
+},
+{
+"id": "verbs:swear (an oath)",
+"en": "swear (an oath)",
+"ro": "kasam khaana",
+"dv": "क़सम खाना",
+"top": false
+},
+{
+"id": "verbs:swim",
+"en": "swim",
+"ro": "tairna",
+"dv": "तैरना",
+"top": false
+},
+{
+"id": "verbs:swing",
+"en": "swing",
+"ro": "jhoolna",
+"dv": "झूलना",
+"top": false
+},
+{
+"id": "verbs:switch off",
+"en": "switch off",
+"ro": "band karna",
+"dv": "बंद करना",
+"top": false
+},
+{
+"id": "verbs:switch on",
+"en": "switch on",
+"ro": "chalaana",
+"dv": "चलाना",
+"top": false
+},
+{
+"id": "verbs:taste",
+"en": "taste",
+"ro": "chakhna",
+"dv": "चखना",
+"top": false
+},
+{
+"id": "verbs:teach",
+"en": "teach",
+"ro": "padhaana; sikhaana",
+"dv": "पढ़ाना; सिखाना",
+"top": false
+},
+{
+"id": "verbs:tear",
+"en": "tear",
+"ro": "phaadna",
+"dv": "फाड़ना",
+"top": false
+},
+{
+"id": "verbs:tease",
+"en": "tease",
+"ro": "tang karna",
+"dv": "तंग करना",
+"top": false
+},
+{
+"id": "verbs:test",
+"en": "test",
+"ro": "aazmaana",
+"dv": "आज़माना",
+"top": false
+},
+{
+"id": "verbs:think (guesswork)",
+"en": "think (guesswork)",
+"ro": "lagna",
+"dv": "लगना",
+"top": false,
+"note": "As in “mujhe lagta hai…”: I think / it seems to me."
+},
+{
+"id": "verbs:threaten",
+"en": "threaten",
+"ro": "dhamki dena",
+"dv": "धमकी देना",
+"top": false
+},
+{
+"id": "verbs:throw",
+"en": "throw",
+"ro": "phenkna",
+"dv": "फेंकना",
+"top": false
+},
+{
+"id": "verbs:tolerate",
+"en": "tolerate",
+"ro": "sehan karna",
+"dv": "सहन करना",
+"top": false
+},
+{
+"id": "verbs:translate",
+"en": "translate",
+"ro": "anuvaad karna",
+"dv": "अनुवाद करना",
+"top": false
+},
+{
+"id": "verbs:travel",
+"en": "travel",
+"ro": "jaana",
+"dv": "जाना",
+"top": false
+},
+{
+"id": "verbs:try",
+"en": "try",
+"ro": "koshish karna",
+"dv": "कोशिश करना",
+"top": false
+},
+{
+"id": "verbs:try (out)",
+"en": "try (out)",
+"ro": "aazmaana",
+"dv": "आज़माना",
+"top": false
+},
+{
+"id": "verbs:turn",
+"en": "turn",
+"ro": "modna",
+"dv": "मोड़ना",
+"top": false
+},
+{
+"id": "verbs:turn off",
+"en": "turn off",
+"ro": "band karna",
+"dv": "बंद करना",
+"top": false
+},
+{
+"id": "verbs:turn on",
+"en": "turn on",
+"ro": "chalaana",
+"dv": "चलाना",
+"top": false
+},
+{
+"id": "verbs:use",
+"en": "use",
+"ro": "istemaal karna",
+"dv": "इस्तेमाल करना",
+"top": false
+},
+{
+"id": "verbs:visit",
+"en": "visit",
+"ro": "jaana",
+"dv": "जाना",
+"top": false
+},
+{
+"id": "verbs:wake someone up",
+"en": "wake someone up",
+"ro": "uthaana",
+"dv": "उठाना",
+"top": false
+},
+{
+"id": "verbs:wash",
+"en": "wash",
+"ro": "dhona",
+"dv": "धोना",
+"top": false
+},
+{
+"id": "verbs:wear",
+"en": "wear",
+"ro": "pehenna",
+"dv": "पहनना",
+"top": false
+},
+{
+"id": "verbs:wet something",
+"en": "wet something",
+"ro": "bhigaana",
+"dv": "भिगाना",
+"top": false
+},
+{
+"id": "verbs:win",
+"en": "win",
+"ro": "jeetna",
+"dv": "जीतना",
+"top": false
+},
+{
+"id": "verbs:wonder",
+"en": "wonder",
+"ro": "chinta karna",
+"dv": "चिंता करना",
+"top": false
+},
+{
+"id": "verbs:work out",
+"en": "work out",
+"ro": "kasrat karna",
+"dv": "कसरत करना",
+"top": false
+},
+{
+"id": "verbs:worry",
+"en": "worry",
+"ro": "chinta karna",
+"dv": "चिंता करना",
+"top": false
+},
+{
+"id": "verbs:worship",
+"en": "worship",
+"ro": "pooja karna",
+"dv": "पूजा करना",
+"top": false
+},
+{
+"id": "verbs:yawn",
+"en": "yawn",
+"ro": "ubaasi maarna",
+"dv": "उबासी मारना",
+"top": false
+}
+]
+}
+],
+"count": 299
+}
+]

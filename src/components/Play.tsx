@@ -1,0 +1,95 @@
+import { useMemo, useState } from 'react'
+import { BANK, ORN, TABS } from '../data'
+import type { TabKey } from '../types'
+import { difficulty, loadStats } from '../stats'
+import type { GameSetup, Mode, Source } from './WordsGame'
+import { buildQueue } from './WordsGame'
+import PageTitle from './PageTitle'
+import Svg from './Svg'
+
+const PREFS = 'kalee-words-setup'
+type Prefs = { mode: Mode; source: Source; cats: TabKey[]; count: number }
+const DEFAULTS: Prefs = { mode: 'en-hi', source: 'all', cats: ['nouns', 'adverbs', 'adjectives', 'verbs'], count: 10 }
+const loadPrefs = (): Prefs => { try { return { ...DEFAULTS, ...JSON.parse(localStorage.getItem(PREFS) || '{}') } } catch { return DEFAULTS } }
+
+function Pills<T extends string>({ value, options, onChange, multi }: {
+  value: T | T[]; options: { v: T; label: string; disabled?: boolean; hint?: string }[]; onChange: (v: T) => void; multi?: boolean
+}) {
+  return (
+    <div className="pills" role={multi ? 'group' : 'radiogroup'}>
+      {options.map(o => {
+        const on = Array.isArray(value) ? value.includes(o.v) : value === o.v
+        return (
+          <button key={o.v} type="button" className="pill" disabled={o.disabled} role={multi ? 'checkbox' : 'radio'} aria-checked={on} onClick={() => onChange(o.v)}>
+            {o.label}{o.hint && <span className="pill-hint">{o.hint}</span>}
+          </button>
+        )
+      })}
+    </div>
+  )
+}
+
+function Setup({ onCancel, onStart }: { onCancel: () => void; onStart: (s: GameSetup) => void }) {
+  const [p, setP] = useState<Prefs>(loadPrefs)
+  const stats = useMemo(loadStats, [])
+  const missedCount = useMemo(() => BANK.filter(w => p.cats.includes(w.cat) && difficulty(stats[w.id]) > 0).length, [p.cats, stats])
+  const source: Source = p.source === 'difficult' && missedCount === 0 ? 'all' : p.source
+  const pool = useMemo(() => buildQueue({ ...p, source, key: 0 }, stats, 9999).length, [p, source, stats])
+  const count = Math.min(p.count, Math.max(pool, 1))
+  const set = (patch: Partial<Prefs>) => setP(prev => ({ ...prev, ...patch }))
+
+  return (
+    <div className="modal" role="dialog" aria-modal="true" aria-labelledby="setup-t" onClick={e => { if (e.target === e.currentTarget) onCancel() }}>
+      <div className="sheet setup">
+        <button className="x" type="button" onClick={onCancel}>Close</button>
+        <h2 id="setup-t">Words</h2>
+        <p className="setup-sub">Type the translation of each word.</p>
+
+        <h4>Direction</h4>
+        <Pills value={p.mode} onChange={v => set({ mode: v })} options={[
+          { v: 'en-hi', label: 'English → Hindi' }, { v: 'hi-en', label: 'Hindi → English' }, { v: 'mixed', label: 'Mixed' }]} />
+
+        <h4>Words</h4>
+        <Pills value={source} onChange={v => set({ source: v })} options={[
+          { v: 'all', label: 'All words' }, { v: 'common', label: 'Most common' },
+          { v: 'difficult', label: 'Most difficult', disabled: missedCount === 0, hint: missedCount ? `${missedCount}` : undefined }]} />
+        {missedCount === 0 && <p className="setup-note">“Most difficult” unlocks once you’ve missed a few words.</p>}
+
+        <h4>Word types</h4>
+        <Pills multi value={p.cats} onChange={v => {
+          const has = p.cats.includes(v)
+          if (has && p.cats.length === 1) return
+          set({ cats: has ? p.cats.filter(c => c !== v) : [...p.cats, v] })
+        }} options={TABS.map(t => ({ v: t.key, label: t.title }))} />
+
+        <h4>Words per round <span className="cnt">{count}</span></h4>
+        <input className="range" type="range" min={1} max={50} value={Math.min(p.count, 50)} onChange={e => set({ count: Number(e.target.value) })} aria-label="Words per round" />
+        <div className="range-ends"><span>1</span><span>{pool < 50 ? `${pool} available` : '50'}</span></div>
+
+        <button className="start" type="button" disabled={pool === 0} onClick={() => {
+          try { localStorage.setItem(PREFS, JSON.stringify({ ...p, source })) } catch { /* */ }
+          onStart({ mode: p.mode, source, cats: p.cats, count, key: Date.now() })
+        }}>Start</button>
+      </div>
+    </div>
+  )
+}
+
+export default function Play({ onHome, onStart }: { onHome: () => void; onStart: (s: GameSetup) => void }) {
+  const [setup, setSetup] = useState(false)
+  return (
+    <div className="wrap play" data-tab="nouns">
+      <div className="topnav"><button className="homebtn" type="button" onClick={onHome}>‹ Home</button></div>
+      <PageTitle tab="nouns" title="Play" hi="खेल" />
+      <div className="games">
+        <button className="game-card" type="button" onClick={() => setSetup(true)} style={{ ['--k' as string]: '#be4a64' }}>
+          <Svg html={ORN.bullet.verbs} />
+          <span className="gc-text"><span className="gc-t">Words</span><span className="gc-d">Translate single words, English ⇄ Hindi</span></span>
+          <span className="chev" aria-hidden="true" />
+        </button>
+        <p className="soon">More games coming soon.</p>
+      </div>
+      {setup && <Setup onCancel={() => setSetup(false)} onStart={s => { setSetup(false); onStart(s) }} />}
+    </div>
+  )
+}

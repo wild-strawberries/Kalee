@@ -1,0 +1,198 @@
+{
+ "example": [
+  {
+   "ro": "Ravi",
+   "dv": "रवि",
+   "part": 0
+  },
+  {
+   "ro": "kal",
+   "dv": "कल",
+   "part": 1
+  },
+  {
+   "ro": "nayi",
+   "dv": "नई",
+   "part": 2
+  },
+  {
+   "ro": "gaadi",
+   "dv": "गाड़ी",
+   "part": 3
+  },
+  {
+   "ro": "mein",
+   "dv": "में",
+   "part": 4
+  },
+  {
+   "ro": "aaya",
+   "dv": "आया",
+   "part": 5
+  },
+  {
+   "ro": "tha",
+   "dv": "था",
+   "part": 6
+  }
+ ],
+ "exampleEn": "Ravi came in the new car yesterday.",
+ "colors": [
+  "#8e4585",
+  "#3f7d5c",
+  "#c35f3f",
+  "#a8577f",
+  "#d07a5a",
+  "#be4a64",
+  "#6d55a3"
+ ],
+ "parts": [
+  {
+   "name": "Subject",
+   "hindi": "kartaa · कर्ता",
+   "examples": [
+    {
+     "ro": "main",
+     "dv": "मैं",
+     "en": "I"
+    },
+    {
+     "ro": "tum",
+     "dv": "तुम",
+     "en": "you"
+    },
+    {
+     "ro": "vah",
+     "dv": "वह",
+     "en": "he / she"
+    }
+   ]
+  },
+  {
+   "name": "Time / Place",
+   "hindi": "samay / sthaan · समय / स्थान",
+   "examples": [
+    {
+     "ro": "aaj",
+     "dv": "आज",
+     "en": "today"
+    },
+    {
+     "ro": "kal",
+     "dv": "कल",
+     "en": "yesterday / tomorrow"
+    },
+    {
+     "ro": "ghar par",
+     "dv": "घर पर",
+     "en": "at home"
+    }
+   ]
+  },
+  {
+   "name": "Adjective",
+   "hindi": "visheshan · विशेषण",
+   "examples": [
+    {
+     "ro": "achchha",
+     "dv": "अच्छा",
+     "en": "good"
+    },
+    {
+     "ro": "naya",
+     "dv": "नया",
+     "en": "new"
+    },
+    {
+     "ro": "bada",
+     "dv": "बड़ा",
+     "en": "big"
+    }
+   ]
+  },
+  {
+   "name": "Object",
+   "hindi": "karm · कर्म",
+   "examples": [
+    {
+     "ro": "kitaab",
+     "dv": "किताब",
+     "en": "book"
+    },
+    {
+     "ro": "chaay",
+     "dv": "चाय",
+     "en": "tea"
+    },
+    {
+     "ro": "gaadi",
+     "dv": "गाड़ी",
+     "en": "car"
+    }
+   ]
+  },
+  {
+   "name": "Postposition",
+   "hindi": "parsarg · परसर्ग",
+   "examples": [
+    {
+     "ro": "mein",
+     "dv": "में",
+     "en": "in"
+    },
+    {
+     "ro": "par",
+     "dv": "पर",
+     "en": "on"
+    },
+    {
+     "ro": "se",
+     "dv": "से",
+     "en": "from, with"
+    }
+   ]
+  },
+  {
+   "name": "Verb",
+   "hindi": "kriya · क्रिया",
+   "examples": [
+    {
+     "ro": "padhta",
+     "dv": "पढ़ता",
+     "en": "read(s)"
+    },
+    {
+     "ro": "peeti",
+     "dv": "पीती",
+     "en": "drink(s)"
+    },
+    {
+     "ro": "aaya",
+     "dv": "आया",
+     "en": "came"
+    }
+   ]
+  },
+  {
+   "name": "Helping verb",
+   "hindi": "sahaayak kriya · सहायक क्रिया",
+   "examples": [
+    {
+     "ro": "hoon",
+     "dv": "हूँ",
+     "en": "am"
+    },
+    {
+     "ro": "hai",
+     "dv": "है",
+     "en": "is"
+    },
+    {
+     "ro": "tha",
+     "dv": "था",
+     "en": "was"
+    }
+   ]
+  }
+ ]
+}
