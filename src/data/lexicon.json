@@ -8,6 +8,30 @@
 "name": "People & family",
 "items": [
 {
+"id": "nouns:aunt (chaacha's wife)",
+"en": "aunt (chaacha's wife)",
+"ro": "chaachi",
+"dv": "चाची",
+"top": false,
+"tag": "f",
+"pl": [
+"chaachiyaan",
+"चाचियाँ"
+]
+},
+{
+"id": "nouns:aunt (mother's sister)",
+"en": "aunt (mother's sister)",
+"ro": "mausi",
+"dv": "मौसी",
+"top": false,
+"tag": "f",
+"pl": [
+"mausiyaan",
+"मौसियाँ"
+]
+},
+{
 "id": "nouns:boy",
 "en": "boy",
 "ro": "ladka",
@@ -17,6 +41,18 @@
 "pl": [
 "ladke",
 "लड़के"
+]
+},
+{
+"id": "nouns:bride",
+"en": "bride",
+"ro": "dulhan",
+"dv": "दुल्हन",
+"top": false,
+"tag": "f",
+"pl": [
+"dulhanein",
+"दुल्हनें"
 ]
 },
 {
@@ -48,7 +84,7 @@
 "en": "daughter",
 "ro": "beti",
 "dv": "बेटी",
-"top": false,
+"top": true,
 "tag": "f",
 "pl": [
 "betiyaan",
@@ -60,11 +96,23 @@
 "en": "doctor",
 "ro": "doctor",
 "dv": "डॉक्टर",
-"top": false,
+"top": true,
 "tag": "m",
 "pl": [
 "doctor",
 "डॉक्टर"
+]
+},
+{
+"id": "nouns:enemy",
+"en": "enemy",
+"ro": "dushman",
+"dv": "दुश्मन",
+"top": false,
+"tag": "m",
+"pl": [
+"dushman",
+"दुश्मन"
 ]
 },
 {
@@ -77,6 +125,18 @@
 "pl": [
 "parivaar",
 "परिवार"
+]
+},
+{
+"id": "nouns:farmer",
+"en": "farmer",
+"ro": "kisaan",
+"dv": "किसान",
+"top": false,
+"tag": "m",
+"pl": [
+"kisaan",
+"किसान"
 ]
 },
 {
@@ -116,6 +176,78 @@
 ]
 },
 {
+"id": "nouns:grandfather (father's side)",
+"en": "grandfather (father's side)",
+"ro": "daada",
+"dv": "दादा",
+"top": false,
+"tag": "m",
+"pl": [
+"daada",
+"दादा"
+]
+},
+{
+"id": "nouns:grandfather (mother's side)",
+"en": "grandfather (mother's side)",
+"ro": "naana",
+"dv": "नाना",
+"top": false,
+"tag": "m",
+"pl": [
+"naana",
+"नाना"
+]
+},
+{
+"id": "nouns:grandmother (father's side)",
+"en": "grandmother (father's side)",
+"ro": "daadi",
+"dv": "दादी",
+"top": false,
+"tag": "f",
+"pl": [
+"daadiyaan",
+"दादियाँ"
+]
+},
+{
+"id": "nouns:grandmother (mother's side)",
+"en": "grandmother (mother's side)",
+"ro": "naani",
+"dv": "नानी",
+"top": false,
+"tag": "f",
+"pl": [
+"naaniyaan",
+"नानियाँ"
+]
+},
+{
+"id": "nouns:groom",
+"en": "groom",
+"ro": "dulha",
+"dv": "दूल्हा",
+"top": false,
+"tag": "m",
+"pl": [
+"dulhe",
+"दूल्हे"
+]
+},
+{
+"id": "nouns:guest",
+"en": "guest",
+"ro": "mehmaan",
+"dv": "मेहमान",
+"top": false,
+"tag": "m",
+"pl": [
+"mehmaan",
+"मेहमान"
+]
+},
+{
 "id": "nouns:husband",
 "en": "husband",
 "ro": "pati",
@@ -125,6 +257,18 @@
 "pl": [
 "pati",
 "पति"
+]
+},
+{
+"id": "nouns:king",
+"en": "king",
+"ro": "raaja",
+"dv": "राजा",
+"top": false,
+"tag": "m",
+"pl": [
+"raaja",
+"राजा"
 ]
 },
 {
@@ -164,6 +308,42 @@
 ]
 },
 {
+"id": "nouns:neighbour",
+"en": "neighbour",
+"ro": "padosi",
+"dv": "पड़ोसी",
+"top": false,
+"tag": "m",
+"pl": [
+"padosi",
+"पड़ोसी"
+]
+},
+{
+"id": "nouns:owner, boss",
+"en": "owner, boss",
+"ro": "maalik",
+"dv": "मालिक",
+"top": false,
+"tag": "m",
+"pl": [
+"maalik",
+"मालिक"
+]
+},
+{
+"id": "nouns:parents",
+"en": "parents",
+"ro": "maa-baap",
+"dv": "माँ-बाप",
+"top": false,
+"tag": "m",
+"pl": [
+"maa-baap",
+"माँ-बाप"
+]
+},
+{
 "id": "nouns:people",
 "en": "people",
 "ro": "log",
@@ -173,6 +353,30 @@
 "pl": [
 "log",
 "लोग"
+]
+},
+{
+"id": "nouns:person",
+"en": "person",
+"ro": "vyakti",
+"dv": "व्यक्ति",
+"top": false,
+"tag": "m",
+"pl": [
+"vyakti",
+"व्यक्ति"
+]
+},
+{
+"id": "nouns:queen",
+"en": "queen",
+"ro": "raani",
+"dv": "रानी",
+"top": false,
+"tag": "f",
+"pl": [
+"raaniyaan",
+"रानियाँ"
 ]
 },
 {
@@ -192,7 +396,7 @@
 "en": "son",
 "ro": "beta",
 "dv": "बेटा",
-"top": false,
+"top": true,
 "tag": "m",
 "pl": [
 "bete",
@@ -224,6 +428,30 @@
 ]
 },
 {
+"id": "nouns:uncle (father's younger brother)",
+"en": "uncle (father's younger brother)",
+"ro": "chaacha",
+"dv": "चाचा",
+"top": false,
+"tag": "m",
+"pl": [
+"chaacha",
+"चाचा"
+]
+},
+{
+"id": "nouns:uncle (mother's brother)",
+"en": "uncle (mother's brother)",
+"ro": "maama",
+"dv": "मामा",
+"top": false,
+"tag": "m",
+"pl": [
+"maama",
+"मामा"
+]
+},
+{
 "id": "nouns:wife",
 "en": "wife",
 "ro": "patni",
@@ -246,12 +474,56 @@
 "auratein",
 "औरतें"
 ]
+},
+{
+"id": "nouns:worker, labourer",
+"en": "worker, labourer",
+"ro": "mazdoor",
+"dv": "मज़दूर",
+"top": false,
+"tag": "m",
+"pl": [
+"mazdoor",
+"मज़दूर"
+]
 }
 ]
 },
 {
 "name": "Body",
 "items": [
+{
+"id": "nouns:arm",
+"en": "arm",
+"ro": "baanh",
+"dv": "बाँह",
+"top": false,
+"tag": "f",
+"pl": [
+"baanhein",
+"बाँहें"
+]
+},
+{
+"id": "nouns:back",
+"en": "back",
+"ro": "peeth",
+"dv": "पीठ",
+"top": false,
+"tag": "f",
+"pl": [
+"peethein",
+"पीठें"
+]
+},
+{
+"id": "nouns:blood",
+"en": "blood",
+"ro": "khoon",
+"dv": "ख़ून",
+"top": false,
+"tag": "m"
+},
 {
 "id": "nouns:body",
 "en": "body",
@@ -289,6 +561,30 @@
 ]
 },
 {
+"id": "nouns:face",
+"en": "face",
+"ro": "chehra",
+"dv": "चेहरा",
+"top": false,
+"tag": "m",
+"pl": [
+"chehre",
+"चेहरे"
+]
+},
+{
+"id": "nouns:finger",
+"en": "finger",
+"ro": "ungli",
+"dv": "उँगली",
+"top": false,
+"tag": "f",
+"pl": [
+"ungliyaan",
+"उँगलियाँ"
+]
+},
+{
 "id": "nouns:foot, leg",
 "en": "foot, leg",
 "ro": "pair",
@@ -298,6 +594,18 @@
 "pl": [
 "pair",
 "पैर"
+]
+},
+{
+"id": "nouns:hair",
+"en": "hair",
+"ro": "baal",
+"dv": "बाल",
+"top": false,
+"tag": "m",
+"pl": [
+"baal",
+"बाल"
 ]
 },
 {
@@ -337,6 +645,30 @@
 ]
 },
 {
+"id": "nouns:knee",
+"en": "knee",
+"ro": "ghutna",
+"dv": "घुटना",
+"top": false,
+"tag": "m",
+"pl": [
+"ghutne",
+"घुटने"
+]
+},
+{
+"id": "nouns:lip",
+"en": "lip",
+"ro": "honth",
+"dv": "होंठ",
+"top": false,
+"tag": "m",
+"pl": [
+"honth",
+"होंठ"
+]
+},
+{
 "id": "nouns:mouth",
 "en": "mouth",
 "ro": "munh",
@@ -347,12 +679,128 @@
 "munh",
 "मुँह"
 ]
+},
+{
+"id": "nouns:nail",
+"en": "nail",
+"ro": "naakhoon",
+"dv": "नाख़ून",
+"top": false,
+"tag": "m",
+"pl": [
+"naakhoon",
+"नाख़ून"
+]
+},
+{
+"id": "nouns:neck",
+"en": "neck",
+"ro": "gardan",
+"dv": "गर्दन",
+"top": false,
+"tag": "f",
+"pl": [
+"gardanein",
+"गर्दनें"
+]
+},
+{
+"id": "nouns:nose",
+"en": "nose",
+"ro": "naak",
+"dv": "नाक",
+"top": false,
+"tag": "f",
+"pl": [
+"naakein",
+"नाकें"
+]
+},
+{
+"id": "nouns:shoulder",
+"en": "shoulder",
+"ro": "kandha",
+"dv": "कंधा",
+"top": false,
+"tag": "m",
+"pl": [
+"kandhe",
+"कंधे"
+]
+},
+{
+"id": "nouns:skin",
+"en": "skin",
+"ro": "tvacha",
+"dv": "त्वचा",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:stomach",
+"en": "stomach",
+"ro": "pet",
+"dv": "पेट",
+"top": false,
+"tag": "m",
+"pl": [
+"pet",
+"पेट"
+]
+},
+{
+"id": "nouns:tongue",
+"en": "tongue",
+"ro": "jeebh",
+"dv": "जीभ",
+"top": false,
+"tag": "f",
+"pl": [
+"jeebhein",
+"जीभें"
+]
+},
+{
+"id": "nouns:tooth",
+"en": "tooth",
+"ro": "daant",
+"dv": "दाँत",
+"top": false,
+"tag": "m",
+"pl": [
+"daant",
+"दाँत"
+]
 }
 ]
 },
 {
 "name": "Home & everyday things",
 "items": [
+{
+"id": "nouns:bag",
+"en": "bag",
+"ro": "thaila",
+"dv": "थैला",
+"top": false,
+"tag": "m",
+"pl": [
+"thaile",
+"थैले"
+]
+},
+{
+"id": "nouns:bathroom",
+"en": "bathroom",
+"ro": "gusalkhaana",
+"dv": "ग़ुसलख़ाना",
+"top": false,
+"tag": "m",
+"pl": [
+"gusalkhaane",
+"ग़ुसलख़ाने"
+]
+},
 {
 "id": "nouns:bed",
 "en": "bed",
@@ -363,6 +811,18 @@
 "pl": [
 "bistar",
 "बिस्तर"
+]
+},
+{
+"id": "nouns:blanket",
+"en": "blanket",
+"ro": "kambal",
+"dv": "कंबल",
+"top": false,
+"tag": "m",
+"pl": [
+"kambal",
+"कंबल"
 ]
 },
 {
@@ -378,6 +838,30 @@
 ]
 },
 {
+"id": "nouns:bottle",
+"en": "bottle",
+"ro": "botal",
+"dv": "बोतल",
+"top": false,
+"tag": "f",
+"pl": [
+"botlein",
+"बोतलें"
+]
+},
+{
+"id": "nouns:box",
+"en": "box",
+"ro": "dibba",
+"dv": "डिब्बा",
+"top": false,
+"tag": "m",
+"pl": [
+"dibbe",
+"डिब्बे"
+]
+},
+{
 "id": "nouns:chair",
 "en": "chair",
 "ro": "kursi",
@@ -387,6 +871,18 @@
 "pl": [
 "kursiyaan",
 "कुर्सियाँ"
+]
+},
+{
+"id": "nouns:clock, watch",
+"en": "clock, watch",
+"ro": "ghadi",
+"dv": "घड़ी",
+"top": false,
+"tag": "f",
+"pl": [
+"ghadiyaan",
+"घड़ियाँ"
 ]
 },
 {
@@ -402,16 +898,84 @@
 ]
 },
 {
+"id": "nouns:computer",
+"en": "computer",
+"ro": "kampyootar",
+"dv": "कंप्यूटर",
+"top": false,
+"tag": "m",
+"pl": [
+"kampyootar",
+"कंप्यूटर"
+]
+},
+{
 "id": "nouns:door",
 "en": "door",
 "ro": "darvaaza",
 "dv": "दरवाज़ा",
-"top": false,
+"top": true,
 "tag": "m",
 "pl": [
 "darvaaze",
 "दरवाज़े"
 ]
+},
+{
+"id": "nouns:fan",
+"en": "fan",
+"ro": "pankha",
+"dv": "पंखा",
+"top": false,
+"tag": "m",
+"pl": [
+"pankhe",
+"पंखे"
+]
+},
+{
+"id": "nouns:floor",
+"en": "floor",
+"ro": "farsh",
+"dv": "फ़र्श",
+"top": false,
+"tag": "m",
+"pl": [
+"farsh",
+"फ़र्श"
+]
+},
+{
+"id": "nouns:garden",
+"en": "garden",
+"ro": "bageecha",
+"dv": "बग़ीचा",
+"top": false,
+"tag": "m",
+"pl": [
+"bageeche",
+"बग़ीचे"
+]
+},
+{
+"id": "nouns:glass (for drinking)",
+"en": "glass (for drinking)",
+"ro": "gilaas",
+"dv": "गिलास",
+"top": false,
+"tag": "m",
+"pl": [
+"gilaas",
+"गिलास"
+]
+},
+{
+"id": "nouns:gold",
+"en": "gold",
+"ro": "sona",
+"dv": "सोना",
+"top": false,
+"tag": "m"
 },
 {
 "id": "nouns:house, home",
@@ -438,6 +1002,30 @@
 ]
 },
 {
+"id": "nouns:kitchen",
+"en": "kitchen",
+"ro": "rasoi",
+"dv": "रसोई",
+"top": false,
+"tag": "f",
+"pl": [
+"rasoiyaan",
+"रसोइयाँ"
+]
+},
+{
+"id": "nouns:lamp, light",
+"en": "lamp, light",
+"ro": "batti",
+"dv": "बत्ती",
+"top": false,
+"tag": "f",
+"pl": [
+"battiyaan",
+"बत्तियाँ"
+]
+},
+{
 "id": "nouns:letter",
 "en": "letter",
 "ro": "chitthi",
@@ -447,6 +1035,30 @@
 "pl": [
 "chitthiyaan",
 "चिट्ठियाँ"
+]
+},
+{
+"id": "nouns:mirror",
+"en": "mirror",
+"ro": "sheesha",
+"dv": "शीशा",
+"top": false,
+"tag": "m",
+"pl": [
+"sheeshe",
+"शीशे"
+]
+},
+{
+"id": "nouns:paper",
+"en": "paper",
+"ro": "kaagaz",
+"dv": "काग़ज़",
+"top": false,
+"tag": "m",
+"pl": [
+"kaagaz",
+"काग़ज़"
 ]
 },
 {
@@ -474,6 +1086,66 @@
 ]
 },
 {
+"id": "nouns:picture, photo",
+"en": "picture, photo",
+"ro": "tasveer",
+"dv": "तस्वीर",
+"top": false,
+"tag": "f",
+"pl": [
+"tasveerein",
+"तस्वीरें"
+]
+},
+{
+"id": "nouns:pillow",
+"en": "pillow",
+"ro": "takiya",
+"dv": "तकिया",
+"top": false,
+"tag": "m",
+"pl": [
+"takiye",
+"तकिये"
+]
+},
+{
+"id": "nouns:plate",
+"en": "plate",
+"ro": "thaali",
+"dv": "थाली",
+"top": false,
+"tag": "f",
+"pl": [
+"thaaliyaan",
+"थालियाँ"
+]
+},
+{
+"id": "nouns:ring",
+"en": "ring",
+"ro": "angoothi",
+"dv": "अंगूठी",
+"top": false,
+"tag": "f",
+"pl": [
+"angoothiyaan",
+"अंगूठियाँ"
+]
+},
+{
+"id": "nouns:roof",
+"en": "roof",
+"ro": "chhat",
+"dv": "छत",
+"top": false,
+"tag": "f",
+"pl": [
+"chhatein",
+"छतें"
+]
+},
+{
 "id": "nouns:room",
 "en": "room",
 "ro": "kamra",
@@ -486,6 +1158,58 @@
 ]
 },
 {
+"id": "nouns:sari",
+"en": "sari",
+"ro": "saadi",
+"dv": "साड़ी",
+"top": false,
+"tag": "f",
+"pl": [
+"saadiyaan",
+"साड़ियाँ"
+]
+},
+{
+"id": "nouns:shirt",
+"en": "shirt",
+"ro": "kameez",
+"dv": "क़मीज़",
+"top": false,
+"tag": "f",
+"pl": [
+"kameezein",
+"क़मीज़ें"
+]
+},
+{
+"id": "nouns:shoe",
+"en": "shoe",
+"ro": "joota",
+"dv": "जूता",
+"top": false,
+"tag": "m",
+"pl": [
+"joote",
+"जूते"
+]
+},
+{
+"id": "nouns:silver",
+"en": "silver",
+"ro": "chaandi",
+"dv": "चाँदी",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:soap",
+"en": "soap",
+"ro": "saabun",
+"dv": "साबुन",
+"top": false,
+"tag": "m"
+},
+{
 "id": "nouns:table",
 "en": "table",
 "ro": "mez",
@@ -495,6 +1219,54 @@
 "pl": [
 "mezein",
 "मेज़ें"
+]
+},
+{
+"id": "nouns:television",
+"en": "television",
+"ro": "teevee",
+"dv": "टीवी",
+"top": false,
+"tag": "m",
+"pl": [
+"teevee",
+"टीवी"
+]
+},
+{
+"id": "nouns:towel",
+"en": "towel",
+"ro": "tauliya",
+"dv": "तौलिया",
+"top": false,
+"tag": "m",
+"pl": [
+"tauliye",
+"तौलिये"
+]
+},
+{
+"id": "nouns:umbrella",
+"en": "umbrella",
+"ro": "chhaata",
+"dv": "छाता",
+"top": false,
+"tag": "m",
+"pl": [
+"chhaate",
+"छाते"
+]
+},
+{
+"id": "nouns:wall",
+"en": "wall",
+"ro": "deevaar",
+"dv": "दीवार",
+"top": false,
+"tag": "f",
+"pl": [
+"deevaarein",
+"दीवारें"
 ]
 },
 {
@@ -515,6 +1287,90 @@
 "name": "Food & drink",
 "items": [
 {
+"id": "nouns:apple",
+"en": "apple",
+"ro": "seb",
+"dv": "सेब",
+"top": false,
+"tag": "m",
+"pl": [
+"seb",
+"सेब"
+]
+},
+{
+"id": "nouns:banana",
+"en": "banana",
+"ro": "kela",
+"dv": "केला",
+"top": false,
+"tag": "m",
+"pl": [
+"kele",
+"केले"
+]
+},
+{
+"id": "nouns:breakfast",
+"en": "breakfast",
+"ro": "naashta",
+"dv": "नाश्ता",
+"top": false,
+"tag": "m",
+"pl": [
+"naashte",
+"नाश्ते"
+]
+},
+{
+"id": "nouns:butter",
+"en": "butter",
+"ro": "makkhan",
+"dv": "मक्खन",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:coffee",
+"en": "coffee",
+"ro": "kaufi",
+"dv": "कॉफ़ी",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:dinner",
+"en": "dinner",
+"ro": "raat ka khaana",
+"dv": "रात का खाना",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:egg",
+"en": "egg",
+"ro": "anda",
+"dv": "अंडा",
+"top": false,
+"tag": "m",
+"pl": [
+"ande",
+"अंडे"
+]
+},
+{
+"id": "nouns:fish",
+"en": "fish",
+"ro": "machhli",
+"dv": "मछली",
+"top": false,
+"tag": "f",
+"pl": [
+"machhliyaan",
+"मछलियाँ"
+]
+},
+{
 "id": "nouns:flatbread",
 "en": "flatbread",
 "ro": "roti",
@@ -525,6 +1381,14 @@
 "rotiyaan",
 "रोटियाँ"
 ]
+},
+{
+"id": "nouns:flour",
+"en": "flour",
+"ro": "aata",
+"dv": "आटा",
+"top": false,
+"tag": "m"
 },
 {
 "id": "nouns:food",
@@ -547,12 +1411,100 @@
 ]
 },
 {
+"id": "nouns:honey",
+"en": "honey",
+"ro": "shahad",
+"dv": "शहद",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:juice",
+"en": "juice",
+"ro": "ras",
+"dv": "रस",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:lentils",
+"en": "lentils",
+"ro": "daal",
+"dv": "दाल",
+"top": false,
+"tag": "f",
+"pl": [
+"daalein",
+"दालें"
+]
+},
+{
+"id": "nouns:lunch",
+"en": "lunch",
+"ro": "dopahar ka khaana",
+"dv": "दोपहर का खाना",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:mango",
+"en": "mango",
+"ro": "aam",
+"dv": "आम",
+"top": false,
+"tag": "m",
+"pl": [
+"aam",
+"आम"
+]
+},
+{
+"id": "nouns:meat",
+"en": "meat",
+"ro": "maans",
+"dv": "मांस",
+"top": false,
+"tag": "m"
+},
+{
 "id": "nouns:milk",
 "en": "milk",
 "ro": "doodh",
 "dv": "दूध",
 "top": false,
 "tag": "m"
+},
+{
+"id": "nouns:oil",
+"en": "oil",
+"ro": "tel",
+"dv": "तेल",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:orange (fruit)",
+"en": "orange (fruit)",
+"ro": "santra",
+"dv": "संतरा",
+"top": false,
+"tag": "m",
+"pl": [
+"santre",
+"संतरे"
+]
+},
+{
+"id": "nouns:potato",
+"en": "potato",
+"ro": "aaloo",
+"dv": "आलू",
+"top": false,
+"tag": "m",
+"pl": [
+"aaloo",
+"आलू"
+]
 },
 {
 "id": "nouns:rice",
@@ -563,12 +1515,64 @@
 "tag": "m"
 },
 {
+"id": "nouns:salt",
+"en": "salt",
+"ro": "namak",
+"dv": "नमक",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:spice",
+"en": "spice",
+"ro": "masaala",
+"dv": "मसाला",
+"top": false,
+"tag": "m",
+"pl": [
+"masaale",
+"मसाले"
+]
+},
+{
+"id": "nouns:sugar",
+"en": "sugar",
+"ro": "cheeni",
+"dv": "चीनी",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:sweets",
+"en": "sweets",
+"ro": "mithaai",
+"dv": "मिठाई",
+"top": false,
+"tag": "f",
+"pl": [
+"mithaaiyaan",
+"मिठाइयाँ"
+]
+},
+{
 "id": "nouns:tea",
 "en": "tea",
 "ro": "chaay",
 "dv": "चाय",
 "top": true,
 "tag": "f"
+},
+{
+"id": "nouns:tomato",
+"en": "tomato",
+"ro": "tamaatar",
+"dv": "टमाटर",
+"top": false,
+"tag": "m",
+"pl": [
+"tamaatar",
+"टमाटर"
+]
 },
 {
 "id": "nouns:vegetable",
@@ -589,12 +1593,92 @@
 "dv": "पानी",
 "top": true,
 "tag": "m"
+},
+{
+"id": "nouns:yogurt",
+"en": "yogurt",
+"ro": "dahi",
+"dv": "दही",
+"top": false,
+"tag": "m"
 }
 ]
 },
 {
 "name": "Places & getting around",
 "items": [
+{
+"id": "nouns:address",
+"en": "address",
+"ro": "pata",
+"dv": "पता",
+"top": false,
+"tag": "m",
+"pl": [
+"pate",
+"पते"
+]
+},
+{
+"id": "nouns:airport",
+"en": "airport",
+"ro": "havaai adda",
+"dv": "हवाई अड्डा",
+"top": false,
+"tag": "m",
+"pl": [
+"havaai adde",
+"हवाई अड्डे"
+]
+},
+{
+"id": "nouns:bank",
+"en": "bank",
+"ro": "baink",
+"dv": "बैंक",
+"top": false,
+"tag": "m",
+"pl": [
+"baink",
+"बैंक"
+]
+},
+{
+"id": "nouns:bicycle",
+"en": "bicycle",
+"ro": "saaikil",
+"dv": "साइकिल",
+"top": false,
+"tag": "f",
+"pl": [
+"saaikilein",
+"साइकिलें"
+]
+},
+{
+"id": "nouns:bridge",
+"en": "bridge",
+"ro": "pul",
+"dv": "पुल",
+"top": false,
+"tag": "m",
+"pl": [
+"pul",
+"पुल"
+]
+},
+{
+"id": "nouns:bus",
+"en": "bus",
+"ro": "bas",
+"dv": "बस",
+"top": true,
+"tag": "f",
+"pl": [
+"basein",
+"बसें"
+]
+},
 {
 "id": "nouns:car",
 "en": "car",
@@ -608,6 +1692,26 @@
 ]
 },
 {
+"id": "nouns:church",
+"en": "church",
+"ro": "girjaghar",
+"dv": "गिरजाघर",
+"top": false,
+"tag": "m",
+"pl": [
+"girjaghar",
+"गिरजाघर"
+]
+},
+{
+"id": "nouns:cinema",
+"en": "cinema",
+"ro": "sinema",
+"dv": "सिनेमा",
+"top": false,
+"tag": "m"
+},
+{
 "id": "nouns:city",
 "en": "city",
 "ro": "shahar",
@@ -617,6 +1721,18 @@
 "pl": [
 "shahar",
 "शहर"
+]
+},
+{
+"id": "nouns:college",
+"en": "college",
+"ro": "kaulej",
+"dv": "कॉलेज",
+"top": false,
+"tag": "m",
+"pl": [
+"kaulej",
+"कॉलेज"
 ]
 },
 {
@@ -644,11 +1760,67 @@
 ]
 },
 {
+"id": "nouns:hotel",
+"en": "hotel",
+"ro": "hotal",
+"dv": "होटल",
+"top": false,
+"tag": "m",
+"pl": [
+"hotal",
+"होटल"
+]
+},
+{
+"id": "nouns:journey",
+"en": "journey",
+"ro": "safar",
+"dv": "सफ़र",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:lane, alley",
+"en": "lane, alley",
+"ro": "gali",
+"dv": "गली",
+"top": false,
+"tag": "f",
+"pl": [
+"galiyaan",
+"गलियाँ"
+]
+},
+{
+"id": "nouns:library",
+"en": "library",
+"ro": "pustakaalay",
+"dv": "पुस्तकालय",
+"top": false,
+"tag": "m",
+"pl": [
+"pustakaalay",
+"पुस्तकालय"
+]
+},
+{
+"id": "nouns:map",
+"en": "map",
+"ro": "naksha",
+"dv": "नक़्शा",
+"top": false,
+"tag": "m",
+"pl": [
+"nakshe",
+"नक़्शे"
+]
+},
+{
 "id": "nouns:market",
 "en": "market",
 "ro": "baazaar",
 "dv": "बाज़ार",
-"top": false,
+"top": true,
 "tag": "m",
 "pl": [
 "baazaar",
@@ -656,11 +1828,23 @@
 ]
 },
 {
+"id": "nouns:mosque",
+"en": "mosque",
+"ro": "masjid",
+"dv": "मस्जिद",
+"top": false,
+"tag": "f",
+"pl": [
+"masjidein",
+"मस्जिदें"
+]
+},
+{
 "id": "nouns:office",
 "en": "office",
 "ro": "daftar",
 "dv": "दफ़्तर",
-"top": false,
+"top": true,
 "tag": "m",
 "pl": [
 "daftar",
@@ -668,11 +1852,35 @@
 ]
 },
 {
+"id": "nouns:park",
+"en": "park",
+"ro": "baag",
+"dv": "बाग़",
+"top": false,
+"tag": "m",
+"pl": [
+"baag",
+"बाग़"
+]
+},
+{
+"id": "nouns:plane",
+"en": "plane",
+"ro": "havaai jahaaz",
+"dv": "हवाई जहाज़",
+"top": false,
+"tag": "m",
+"pl": [
+"havaai jahaaz",
+"हवाई जहाज़"
+]
+},
+{
 "id": "nouns:road",
 "en": "road",
 "ro": "sadak",
 "dv": "सड़क",
-"top": false,
+"top": true,
 "tag": "f",
 "pl": [
 "sadkein",
@@ -680,11 +1888,23 @@
 ]
 },
 {
+"id": "nouns:roadside restaurant",
+"en": "roadside restaurant",
+"ro": "dhaaba",
+"dv": "ढाबा",
+"top": false,
+"tag": "m",
+"pl": [
+"dhaabe",
+"ढाबे"
+]
+},
+{
 "id": "nouns:school",
 "en": "school",
 "ro": "school",
 "dv": "स्कूल",
-"top": false,
+"top": true,
 "tag": "m",
 "pl": [
 "school",
@@ -692,15 +1912,87 @@
 ]
 },
 {
+"id": "nouns:ship",
+"en": "ship",
+"ro": "jahaaz",
+"dv": "जहाज़",
+"top": false,
+"tag": "m",
+"pl": [
+"jahaaz",
+"जहाज़"
+]
+},
+{
 "id": "nouns:shop",
 "en": "shop",
 "ro": "dukaan",
 "dv": "दुकान",
-"top": false,
+"top": true,
 "tag": "f",
 "pl": [
 "dukaanein",
 "दुकानें"
+]
+},
+{
+"id": "nouns:station",
+"en": "station",
+"ro": "steshan",
+"dv": "स्टेशन",
+"top": false,
+"tag": "m",
+"pl": [
+"steshan",
+"स्टेशन"
+]
+},
+{
+"id": "nouns:temple",
+"en": "temple",
+"ro": "mandir",
+"dv": "मंदिर",
+"top": false,
+"tag": "m",
+"pl": [
+"mandir",
+"मंदिर"
+]
+},
+{
+"id": "nouns:ticket",
+"en": "ticket",
+"ro": "tikat",
+"dv": "टिकट",
+"top": false,
+"tag": "m",
+"pl": [
+"tikat",
+"टिकट"
+]
+},
+{
+"id": "nouns:train",
+"en": "train",
+"ro": "rel gaadi",
+"dv": "रेलगाड़ी",
+"top": true,
+"tag": "f",
+"pl": [
+"rel gaadiyaan",
+"रेलगाड़ियाँ"
+]
+},
+{
+"id": "nouns:university",
+"en": "university",
+"ro": "vishvavidyaalay",
+"dv": "विश्वविद्यालय",
+"top": false,
+"tag": "m",
+"pl": [
+"vishvavidyaalay",
+"विश्वविद्यालय"
 ]
 },
 {
@@ -729,6 +2021,46 @@
 "name": "Time",
 "items": [
 {
+"id": "nouns:afternoon",
+"en": "afternoon",
+"ro": "dopahar",
+"dv": "दोपहर",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:age",
+"en": "age",
+"ro": "umr",
+"dv": "उम्र",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:birthday",
+"en": "birthday",
+"ro": "janmdin",
+"dv": "जन्मदिन",
+"top": false,
+"tag": "m",
+"pl": [
+"janmdin",
+"जन्मदिन"
+]
+},
+{
+"id": "nouns:century",
+"en": "century",
+"ro": "sadi",
+"dv": "सदी",
+"top": false,
+"tag": "f",
+"pl": [
+"sadiyaan",
+"सदियाँ"
+]
+},
+{
 "id": "nouns:day",
 "en": "day",
 "ro": "din",
@@ -745,7 +2077,7 @@
 "en": "evening",
 "ro": "shaam",
 "dv": "शाम",
-"top": false,
+"top": true,
 "tag": "f",
 "pl": [
 "shaamein",
@@ -789,11 +2121,23 @@
 ]
 },
 {
+"id": "nouns:minute",
+"en": "minute",
+"ro": "minat",
+"dv": "मिनट",
+"top": false,
+"tag": "m",
+"pl": [
+"minat",
+"मिनट"
+]
+},
+{
 "id": "nouns:month",
 "en": "month",
 "ro": "mahina",
 "dv": "महीना",
-"top": false,
+"top": true,
 "tag": "m",
 "pl": [
 "mahine",
@@ -805,7 +2149,7 @@
 "en": "morning",
 "ro": "subah",
 "dv": "सुबह",
-"top": false,
+"top": true,
 "tag": "f"
 },
 {
@@ -821,6 +2165,30 @@
 ]
 },
 {
+"id": "nouns:party, feast",
+"en": "party, feast",
+"ro": "daavat",
+"dv": "दावत",
+"top": false,
+"tag": "f",
+"pl": [
+"daavatein",
+"दावतें"
+]
+},
+{
+"id": "nouns:second",
+"en": "second",
+"ro": "sekand",
+"dv": "सेकंड",
+"top": false,
+"tag": "m",
+"pl": [
+"sekand",
+"सेकंड"
+]
+},
+{
 "id": "nouns:time",
 "en": "time",
 "ro": "samay",
@@ -829,11 +2197,23 @@
 "tag": "m"
 },
 {
+"id": "nouns:wedding",
+"en": "wedding",
+"ro": "shaadi",
+"dv": "शादी",
+"top": false,
+"tag": "f",
+"pl": [
+"shaadiyaan",
+"शादियाँ"
+]
+},
+{
 "id": "nouns:week",
 "en": "week",
 "ro": "hafta",
 "dv": "हफ़्ता",
-"top": false,
+"top": true,
 "tag": "m",
 "pl": [
 "hafte",
@@ -857,6 +2237,18 @@
 {
 "name": "Nature & animals",
 "items": [
+{
+"id": "nouns:air, wind",
+"en": "air, wind",
+"ro": "hawa",
+"dv": "हवा",
+"top": false,
+"tag": "f",
+"pl": [
+"hawaaen",
+"हवाएँ"
+]
+},
 {
 "id": "nouns:animal",
 "en": "animal",
@@ -882,6 +2274,18 @@
 ]
 },
 {
+"id": "nouns:butterfly",
+"en": "butterfly",
+"ro": "titli",
+"dv": "तितली",
+"top": false,
+"tag": "f",
+"pl": [
+"titliyaan",
+"तितलियाँ"
+]
+},
+{
 "id": "nouns:cat",
 "en": "cat",
 "ro": "billi",
@@ -891,6 +2295,30 @@
 "pl": [
 "billiyaan",
 "बिल्लियाँ"
+]
+},
+{
+"id": "nouns:cloud",
+"en": "cloud",
+"ro": "baadal",
+"dv": "बादल",
+"top": false,
+"tag": "m",
+"pl": [
+"baadal",
+"बादल"
+]
+},
+{
+"id": "nouns:cow",
+"en": "cow",
+"ro": "gaay",
+"dv": "गाय",
+"top": false,
+"tag": "f",
+"pl": [
+"gaayein",
+"गायें"
 ]
 },
 {
@@ -906,6 +2334,34 @@
 ]
 },
 {
+"id": "nouns:earth, land",
+"en": "earth, land",
+"ro": "zameen",
+"dv": "ज़मीन",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:elephant",
+"en": "elephant",
+"ro": "haathi",
+"dv": "हाथी",
+"top": false,
+"tag": "m",
+"pl": [
+"haathi",
+"हाथी"
+]
+},
+{
+"id": "nouns:fire",
+"en": "fire",
+"ro": "aag",
+"dv": "आग",
+"top": false,
+"tag": "f"
+},
+{
 "id": "nouns:flower",
 "en": "flower",
 "ro": "phool",
@@ -915,6 +2371,86 @@
 "pl": [
 "phool",
 "फूल"
+]
+},
+{
+"id": "nouns:forest",
+"en": "forest",
+"ro": "jangal",
+"dv": "जंगल",
+"top": false,
+"tag": "m",
+"pl": [
+"jangal",
+"जंगल"
+]
+},
+{
+"id": "nouns:grass",
+"en": "grass",
+"ro": "ghaas",
+"dv": "घास",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:horse",
+"en": "horse",
+"ro": "ghoda",
+"dv": "घोड़ा",
+"top": false,
+"tag": "m",
+"pl": [
+"ghode",
+"घोड़े"
+]
+},
+{
+"id": "nouns:insect",
+"en": "insect",
+"ro": "keeda",
+"dv": "कीड़ा",
+"top": false,
+"tag": "m",
+"pl": [
+"keede",
+"कीड़े"
+]
+},
+{
+"id": "nouns:leaf",
+"en": "leaf",
+"ro": "patta",
+"dv": "पत्ता",
+"top": false,
+"tag": "m",
+"pl": [
+"patte",
+"पत्ते"
+]
+},
+{
+"id": "nouns:lion",
+"en": "lion",
+"ro": "sher",
+"dv": "शेर",
+"top": false,
+"tag": "m",
+"pl": [
+"sher",
+"शेर"
+]
+},
+{
+"id": "nouns:monkey",
+"en": "monkey",
+"ro": "bandar",
+"dv": "बंदर",
+"top": false,
+"tag": "m",
+"pl": [
+"bandar",
+"बंदर"
 ]
 },
 {
@@ -958,12 +2494,76 @@
 ]
 },
 {
+"id": "nouns:sand",
+"en": "sand",
+"ro": "ret",
+"dv": "रेत",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:sea",
+"en": "sea",
+"ro": "samundar",
+"dv": "समुंदर",
+"top": false,
+"tag": "m",
+"pl": [
+"samundar",
+"समुंदर"
+]
+},
+{
 "id": "nouns:sky",
 "en": "sky",
 "ro": "aasmaan",
 "dv": "आसमान",
 "top": false,
 "tag": "m"
+},
+{
+"id": "nouns:snake",
+"en": "snake",
+"ro": "saanp",
+"dv": "साँप",
+"top": false,
+"tag": "m",
+"pl": [
+"saanp",
+"साँप"
+]
+},
+{
+"id": "nouns:snow",
+"en": "snow",
+"ro": "barf",
+"dv": "बर्फ़",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:star",
+"en": "star",
+"ro": "taara",
+"dv": "तारा",
+"top": false,
+"tag": "m",
+"pl": [
+"taare",
+"तारे"
+]
+},
+{
+"id": "nouns:stone",
+"en": "stone",
+"ro": "patthar",
+"dv": "पत्थर",
+"top": false,
+"tag": "m",
+"pl": [
+"patthar",
+"पत्थर"
+]
 },
 {
 "id": "nouns:sun",
@@ -988,8 +2588,387 @@
 ]
 },
 {
+"name": "Days, months & seasons",
+"items": [
+{
+"id": "nouns:Monday",
+"en": "Monday",
+"ro": "somvaar",
+"dv": "सोमवार",
+"top": false,
+"tag": "m",
+"pl": [
+"somvaar",
+"सोमवार"
+]
+},
+{
+"id": "nouns:Tuesday",
+"en": "Tuesday",
+"ro": "mangalvaar",
+"dv": "मंगलवार",
+"top": false,
+"tag": "m",
+"pl": [
+"mangalvaar",
+"मंगलवार"
+]
+},
+{
+"id": "nouns:Wednesday",
+"en": "Wednesday",
+"ro": "budhvaar",
+"dv": "बुधवार",
+"top": false,
+"tag": "m",
+"pl": [
+"budhvaar",
+"बुधवार"
+]
+},
+{
+"id": "nouns:Thursday",
+"en": "Thursday",
+"ro": "guruvaar",
+"dv": "गुरुवार",
+"top": false,
+"tag": "m",
+"pl": [
+"guruvaar",
+"गुरुवार"
+]
+},
+{
+"id": "nouns:Friday",
+"en": "Friday",
+"ro": "shukravaar",
+"dv": "शुक्रवार",
+"top": false,
+"tag": "m",
+"pl": [
+"shukravaar",
+"शुक्रवार"
+]
+},
+{
+"id": "nouns:Saturday",
+"en": "Saturday",
+"ro": "shanivaar",
+"dv": "शनिवार",
+"top": false,
+"tag": "m",
+"pl": [
+"shanivaar",
+"शनिवार"
+]
+},
+{
+"id": "nouns:Sunday",
+"en": "Sunday",
+"ro": "ravivaar; itvaar",
+"dv": "रविवार; इतवार",
+"top": false,
+"tag": "m",
+"pl": [
+"ravivaar",
+"रविवार"
+]
+},
+{
+"id": "nouns:January",
+"en": "January",
+"ro": "janvari",
+"dv": "जनवरी",
+"top": false
+},
+{
+"id": "nouns:February",
+"en": "February",
+"ro": "farvari",
+"dv": "फ़रवरी",
+"top": false
+},
+{
+"id": "nouns:March",
+"en": "March",
+"ro": "maarch",
+"dv": "मार्च",
+"top": false
+},
+{
+"id": "nouns:April",
+"en": "April",
+"ro": "aprail",
+"dv": "अप्रैल",
+"top": false
+},
+{
+"id": "nouns:May",
+"en": "May",
+"ro": "mai",
+"dv": "मई",
+"top": false
+},
+{
+"id": "nouns:June",
+"en": "June",
+"ro": "joon",
+"dv": "जून",
+"top": false
+},
+{
+"id": "nouns:July",
+"en": "July",
+"ro": "julaai",
+"dv": "जुलाई",
+"top": false
+},
+{
+"id": "nouns:August",
+"en": "August",
+"ro": "agast",
+"dv": "अगस्त",
+"top": false
+},
+{
+"id": "nouns:September",
+"en": "September",
+"ro": "sitambar",
+"dv": "सितंबर",
+"top": false
+},
+{
+"id": "nouns:October",
+"en": "October",
+"ro": "aktoobar",
+"dv": "अक्तूबर",
+"top": false
+},
+{
+"id": "nouns:November",
+"en": "November",
+"ro": "navambar",
+"dv": "नवंबर",
+"top": false
+},
+{
+"id": "nouns:December",
+"en": "December",
+"ro": "disambar",
+"dv": "दिसंबर",
+"top": false
+},
+{
+"id": "nouns:season, weather",
+"en": "season, weather",
+"ro": "mausam",
+"dv": "मौसम",
+"top": false,
+"tag": "m",
+"pl": [
+"mausam",
+"मौसम"
+]
+},
+{
+"id": "nouns:spring",
+"en": "spring",
+"ro": "basant",
+"dv": "बसंत",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:summer",
+"en": "summer",
+"ro": "garmi",
+"dv": "गर्मी",
+"top": false,
+"tag": "f",
+"pl": [
+"garmiyaan",
+"गर्मियाँ"
+]
+},
+{
+"id": "nouns:rainy season, monsoon",
+"en": "rainy season, monsoon",
+"ro": "barsaat",
+"dv": "बरसात",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:autumn",
+"en": "autumn",
+"ro": "patjhad",
+"dv": "पतझड़",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:winter",
+"en": "winter",
+"ro": "sardi",
+"dv": "सर्दी",
+"top": false,
+"tag": "f",
+"pl": [
+"sardiyaan",
+"सर्दियाँ"
+]
+}
+]
+},
+{
+"name": "Numbers",
+"items": [
+{
+"id": "nouns:one (1)",
+"en": "one (1)",
+"ro": "ek",
+"dv": "एक",
+"top": false
+},
+{
+"id": "nouns:two (2)",
+"en": "two (2)",
+"ro": "do",
+"dv": "दो",
+"top": false
+},
+{
+"id": "nouns:three (3)",
+"en": "three (3)",
+"ro": "teen",
+"dv": "तीन",
+"top": false
+},
+{
+"id": "nouns:four (4)",
+"en": "four (4)",
+"ro": "chaar",
+"dv": "चार",
+"top": false
+},
+{
+"id": "nouns:five (5)",
+"en": "five (5)",
+"ro": "paanch",
+"dv": "पाँच",
+"top": false
+},
+{
+"id": "nouns:six (6)",
+"en": "six (6)",
+"ro": "chhah",
+"dv": "छह",
+"top": false
+},
+{
+"id": "nouns:seven (7)",
+"en": "seven (7)",
+"ro": "saat",
+"dv": "सात",
+"top": false
+},
+{
+"id": "nouns:eight (8)",
+"en": "eight (8)",
+"ro": "aath",
+"dv": "आठ",
+"top": false
+},
+{
+"id": "nouns:nine (9)",
+"en": "nine (9)",
+"ro": "nau",
+"dv": "नौ",
+"top": false
+},
+{
+"id": "nouns:ten (10)",
+"en": "ten (10)",
+"ro": "das",
+"dv": "दस",
+"top": false
+},
+{
+"id": "nouns:twenty (20)",
+"en": "twenty (20)",
+"ro": "bees",
+"dv": "बीस",
+"top": false
+},
+{
+"id": "nouns:thirty (30)",
+"en": "thirty (30)",
+"ro": "tees",
+"dv": "तीस",
+"top": false
+},
+{
+"id": "nouns:forty (40)",
+"en": "forty (40)",
+"ro": "chaalees",
+"dv": "चालीस",
+"top": false
+},
+{
+"id": "nouns:fifty (50)",
+"en": "fifty (50)",
+"ro": "pachaas",
+"dv": "पचास",
+"top": false
+},
+{
+"id": "nouns:sixty (60)",
+"en": "sixty (60)",
+"ro": "saath",
+"dv": "साठ",
+"top": false
+},
+{
+"id": "nouns:seventy (70)",
+"en": "seventy (70)",
+"ro": "sattar",
+"dv": "सत्तर",
+"top": false
+},
+{
+"id": "nouns:eighty (80)",
+"en": "eighty (80)",
+"ro": "assi",
+"dv": "अस्सी",
+"top": false
+},
+{
+"id": "nouns:ninety (90)",
+"en": "ninety (90)",
+"ro": "nabbe",
+"dv": "नब्बे",
+"top": false
+},
+{
+"id": "nouns:hundred (100)",
+"en": "hundred (100)",
+"ro": "sau",
+"dv": "सौ",
+"top": false
+}
+]
+},
+{
 "name": "Ideas, feelings & daily life",
 "items": [
+{
+"id": "nouns:anger",
+"en": "anger",
+"ro": "gussa",
+"dv": "ग़ुस्सा",
+"top": false,
+"tag": "m"
+},
 {
 "id": "nouns:answer",
 "en": "answer",
@@ -1003,6 +2982,90 @@
 ]
 },
 {
+"id": "nouns:class (lesson, grade)",
+"en": "class (lesson, grade)",
+"ro": "kaksha",
+"dv": "कक्षा",
+"top": false,
+"tag": "f",
+"pl": [
+"kakshaaen",
+"कक्षाएँ"
+]
+},
+{
+"id": "nouns:colour",
+"en": "colour",
+"ro": "rang",
+"dv": "रंग",
+"top": false,
+"tag": "m",
+"pl": [
+"rang",
+"रंग"
+]
+},
+{
+"id": "nouns:culture",
+"en": "culture",
+"ro": "sanskriti",
+"dv": "संस्कृति",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:dream",
+"en": "dream",
+"ro": "sapna",
+"dv": "सपना",
+"top": false,
+"tag": "m",
+"pl": [
+"sapne",
+"सपने"
+]
+},
+{
+"id": "nouns:exam",
+"en": "exam",
+"ro": "pareeksha",
+"dv": "परीक्षा",
+"top": false,
+"tag": "f",
+"pl": [
+"pareekshaaen",
+"परीक्षाएँ"
+]
+},
+{
+"id": "nouns:fear",
+"en": "fear",
+"ro": "dar",
+"dv": "डर",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:film",
+"en": "film",
+"ro": "film",
+"dv": "फ़िल्म",
+"top": false,
+"tag": "f",
+"pl": [
+"filmein",
+"फ़िल्में"
+]
+},
+{
+"id": "nouns:freedom",
+"en": "freedom",
+"ro": "aazaadi",
+"dv": "आज़ादी",
+"top": false,
+"tag": "f"
+},
+{
 "id": "nouns:game",
 "en": "game",
 "ro": "khel",
@@ -1012,6 +3075,50 @@
 "pl": [
 "khel",
 "खेल"
+]
+},
+{
+"id": "nouns:gift",
+"en": "gift",
+"ro": "tohfa",
+"dv": "तोहफ़ा",
+"top": false,
+"tag": "m",
+"pl": [
+"tohfe",
+"तोहफ़े"
+]
+},
+{
+"id": "nouns:God",
+"en": "God",
+"ro": "bhagvaan",
+"dv": "भगवान",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:government",
+"en": "government",
+"ro": "sarkaar",
+"dv": "सरकार",
+"top": false,
+"tag": "f",
+"pl": [
+"sarkaarein",
+"सरकारें"
+]
+},
+{
+"id": "nouns:habit",
+"en": "habit",
+"ro": "aadat",
+"dv": "आदत",
+"top": false,
+"tag": "f",
+"pl": [
+"aadatein",
+"आदतें"
 ]
 },
 {
@@ -1027,6 +3134,62 @@
 ]
 },
 {
+"id": "nouns:health",
+"en": "health",
+"ro": "sehat",
+"dv": "सेहत",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:help",
+"en": "help",
+"ro": "madad",
+"dv": "मदद",
+"top": false,
+"tag": "f"
+},
+{
+"id": "nouns:history",
+"en": "history",
+"ro": "itihaas",
+"dv": "इतिहास",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:hope",
+"en": "hope",
+"ro": "ummeed",
+"dv": "उम्मीद",
+"top": false,
+"tag": "f",
+"pl": [
+"ummeedein",
+"उम्मीदें"
+]
+},
+{
+"id": "nouns:illness",
+"en": "illness",
+"ro": "beemaari",
+"dv": "बीमारी",
+"top": false,
+"tag": "f",
+"pl": [
+"beemaariyaan",
+"बीमारियाँ"
+]
+},
+{
+"id": "nouns:information",
+"en": "information",
+"ro": "jaankaari",
+"dv": "जानकारी",
+"top": false,
+"tag": "f"
+},
+{
 "id": "nouns:language",
 "en": "language",
 "ro": "bhaasha",
@@ -1037,6 +3200,38 @@
 "bhaashaaen",
 "भाषाएँ"
 ]
+},
+{
+"id": "nouns:law",
+"en": "law",
+"ro": "kaanoon",
+"dv": "क़ानून",
+"top": false,
+"tag": "m",
+"pl": [
+"kaanoon",
+"क़ानून"
+]
+},
+{
+"id": "nouns:lesson",
+"en": "lesson",
+"ro": "paath",
+"dv": "पाठ",
+"top": false,
+"tag": "m",
+"pl": [
+"paath",
+"पाठ"
+]
+},
+{
+"id": "nouns:lie",
+"en": "lie",
+"ro": "jhooth",
+"dv": "झूठ",
+"top": false,
+"tag": "m"
 },
 {
 "id": "nouns:life",
@@ -1053,6 +3248,42 @@
 "dv": "प्यार",
 "top": false,
 "tag": "m"
+},
+{
+"id": "nouns:matter, talk",
+"en": "matter, talk",
+"ro": "baat",
+"dv": "बात",
+"top": false,
+"tag": "f",
+"pl": [
+"baatein",
+"बातें"
+]
+},
+{
+"id": "nouns:medicine",
+"en": "medicine",
+"ro": "davaai",
+"dv": "दवाई",
+"top": false,
+"tag": "f",
+"pl": [
+"davaaiyaan",
+"दवाइयाँ"
+]
+},
+{
+"id": "nouns:memory",
+"en": "memory",
+"ro": "yaad",
+"dv": "याद",
+"top": false,
+"tag": "f",
+"pl": [
+"yaadein",
+"यादें"
+]
 },
 {
 "id": "nouns:mistake",
@@ -1079,6 +3310,14 @@
 ]
 },
 {
+"id": "nouns:music",
+"en": "music",
+"ro": "sangeet",
+"dv": "संगीत",
+"top": false,
+"tag": "m"
+},
+{
 "id": "nouns:news",
 "en": "news",
 "ro": "khabar",
@@ -1091,6 +3330,26 @@
 ]
 },
 {
+"id": "nouns:newspaper",
+"en": "newspaper",
+"ro": "akhbaar",
+"dv": "अख़बार",
+"top": false,
+"tag": "m",
+"pl": [
+"akhbaar",
+"अख़बार"
+]
+},
+{
+"id": "nouns:peace",
+"en": "peace",
+"ro": "shaanti",
+"dv": "शांति",
+"top": false,
+"tag": "f"
+},
+{
 "id": "nouns:place",
 "en": "place",
 "ro": "jagah",
@@ -1100,6 +3359,18 @@
 "pl": [
 "jagahein",
 "जगहें"
+]
+},
+{
+"id": "nouns:price",
+"en": "price",
+"ro": "daam",
+"dv": "दाम",
+"top": false,
+"tag": "m",
+"pl": [
+"daam",
+"दाम"
 ]
 },
 {
@@ -1125,6 +3396,38 @@
 "savaal",
 "सवाल"
 ]
+},
+{
+"id": "nouns:reason",
+"en": "reason",
+"ro": "vajah",
+"dv": "वजह",
+"top": false,
+"tag": "f",
+"pl": [
+"vajahein",
+"वजहें"
+]
+},
+{
+"id": "nouns:religion",
+"en": "religion",
+"ro": "dharm",
+"dv": "धर्म",
+"top": false,
+"tag": "m",
+"pl": [
+"dharm",
+"धर्म"
+]
+},
+{
+"id": "nouns:salary",
+"en": "salary",
+"ro": "tankhwaah",
+"dv": "तनख़्वाह",
+"top": false,
+"tag": "f"
 },
 {
 "id": "nouns:song",
@@ -1163,11 +3466,55 @@
 ]
 },
 {
+"id": "nouns:truth",
+"en": "truth",
+"ro": "sach",
+"dv": "सच",
+"top": false,
+"tag": "m"
+},
+{
+"id": "nouns:voice, sound",
+"en": "voice, sound",
+"ro": "aavaaz",
+"dv": "आवाज़",
+"top": false,
+"tag": "f",
+"pl": [
+"aavaazein",
+"आवाज़ें"
+]
+},
+{
+"id": "nouns:war",
+"en": "war",
+"ro": "yuddh",
+"dv": "युद्ध",
+"top": false,
+"tag": "m",
+"pl": [
+"yuddh",
+"युद्ध"
+]
+},
+{
+"id": "nouns:way, method",
+"en": "way, method",
+"ro": "tareeka",
+"dv": "तरीक़ा",
+"top": false,
+"tag": "m",
+"pl": [
+"tareeke",
+"तरीक़े"
+]
+},
+{
 "id": "nouns:word",
 "en": "word",
 "ro": "shabd",
 "dv": "शब्द",
-"top": false,
+"top": true,
 "tag": "m",
 "pl": [
 "shabd",
@@ -1185,7 +3532,7 @@
 ]
 }
 ],
-"count": 100
+"count": 322
 },
 {
 "key": "adverbs",
@@ -1196,11 +3543,25 @@
 "name": "Time",
 "items": [
 {
+"id": "adverbs:after that",
+"en": "after that",
+"ro": "uske baad",
+"dv": "उसके बाद",
+"top": false
+},
+{
 "id": "adverbs:all day",
 "en": "all day",
 "ro": "din bhar",
 "dv": "दिन भर",
 "top": false
+},
+{
+"id": "adverbs:already",
+"en": "already",
+"ro": "pehle hi",
+"dv": "पहले ही",
+"top": true
 },
 {
 "id": "adverbs:at night",
@@ -1210,10 +3571,31 @@
 "top": false
 },
 {
+"id": "adverbs:at noon",
+"en": "at noon",
+"ro": "dopahar ko",
+"dv": "दोपहर को",
+"top": false
+},
+{
 "id": "adverbs:at once, right away",
 "en": "at once, right away",
 "ro": "fauran",
 "dv": "फ़ौरन",
+"top": false
+},
+{
+"id": "adverbs:at that time",
+"en": "at that time",
+"ro": "us samay",
+"dv": "उस समय",
+"top": false
+},
+{
+"id": "adverbs:at this time, right now",
+"en": "at this time, right now",
+"ro": "is samay",
+"dv": "इस समय",
 "top": false
 },
 {
@@ -1230,6 +3612,13 @@
 "dv": "परसों",
 "top": false,
 "note": "The tense of the verb tells you which one."
+},
+{
+"id": "adverbs:early in the morning",
+"en": "early in the morning",
+"ro": "subah-subah",
+"dv": "सुबह-सुबह",
+"top": false
 },
 {
 "id": "adverbs:early, quickly, soon",
@@ -1253,10 +3642,45 @@
 "top": false
 },
 {
+"id": "adverbs:for a long time",
+"en": "for a long time",
+"ro": "der tak",
+"dv": "देर तक",
+"top": false
+},
+{
+"id": "adverbs:for a while",
+"en": "for a while",
+"ro": "thodi der",
+"dv": "थोड़ी देर",
+"top": false
+},
+{
+"id": "adverbs:from now on",
+"en": "from now on",
+"ro": "ab se",
+"dv": "अब से",
+"top": false
+},
+{
 "id": "adverbs:immediately",
 "en": "immediately",
 "ro": "turant",
 "dv": "तुरंत",
+"top": false
+},
+{
+"id": "adverbs:in the beginning",
+"en": "in the beginning",
+"ro": "shuru mein",
+"dv": "शुरू में",
+"top": false
+},
+{
+"id": "adverbs:in the end",
+"en": "in the end",
+"ro": "ant mein",
+"dv": "अंत में",
 "top": false
 },
 {
@@ -1274,10 +3698,45 @@
 "top": false
 },
 {
+"id": "adverbs:just now",
+"en": "just now",
+"ro": "abhi-abhi",
+"dv": "अभी-अभी",
+"top": true
+},
+{
+"id": "adverbs:last night",
+"en": "last night",
+"ro": "kal raat",
+"dv": "कल रात",
+"top": false
+},
+{
+"id": "adverbs:last week",
+"en": "last week",
+"ro": "pichhle hafte",
+"dv": "पिछले हफ़्ते",
+"top": false
+},
+{
+"id": "adverbs:last year",
+"en": "last year",
+"ro": "pichhle saal",
+"dv": "पिछले साल",
+"top": false
+},
+{
 "id": "adverbs:late",
 "en": "late",
 "ro": "der se",
 "dv": "देर से",
+"top": false
+},
+{
+"id": "adverbs:late at night",
+"en": "late at night",
+"ro": "der raat",
+"dv": "देर रात",
 "top": false
 },
 {
@@ -1286,6 +3745,20 @@
 "ro": "baad mein",
 "dv": "बाद में",
 "top": true
+},
+{
+"id": "adverbs:next week",
+"en": "next week",
+"ro": "agle hafte",
+"dv": "अगले हफ़्ते",
+"top": false
+},
+{
+"id": "adverbs:next year",
+"en": "next year",
+"ro": "agle saal",
+"dv": "अगले साल",
+"top": false
 },
 {
 "id": "adverbs:now",
@@ -1313,6 +3786,13 @@
 "en": "recently",
 "ro": "haal hi mein",
 "dv": "हाल ही में",
+"top": false
+},
+{
+"id": "adverbs:soon, shortly",
+"en": "soon, shortly",
+"ro": "jald hi",
+"dv": "जल्द ही",
 "top": false
 },
 {
@@ -1344,6 +3824,20 @@
 "top": true
 },
 {
+"id": "adverbs:this morning",
+"en": "this morning",
+"ro": "aaj subah",
+"dv": "आज सुबह",
+"top": true
+},
+{
+"id": "adverbs:this week",
+"en": "this week",
+"ro": "is hafte",
+"dv": "इस हफ़्ते",
+"top": false
+},
+{
 "id": "adverbs:today",
 "en": "today",
 "ro": "aaj",
@@ -1351,10 +3845,24 @@
 "top": true
 },
 {
+"id": "adverbs:tonight",
+"en": "tonight",
+"ro": "aaj raat",
+"dv": "आज रात",
+"top": true
+},
+{
 "id": "adverbs:until now",
 "en": "until now",
 "ro": "ab tak",
 "dv": "अब तक",
+"top": false
+},
+{
+"id": "adverbs:until then",
+"en": "until then",
+"ro": "tab tak",
+"dv": "तब तक",
 "top": false
 },
 {
@@ -1392,6 +3900,13 @@
 "top": true
 },
 {
+"id": "adverbs:constantly, continuously",
+"en": "constantly, continuously",
+"ro": "lagaataar",
+"dv": "लगातार",
+"top": false
+},
+{
 "id": "adverbs:daily",
 "en": "daily",
 "ro": "roz",
@@ -1403,6 +3918,41 @@
 "en": "every day",
 "ro": "har din",
 "dv": "हर दिन",
+"top": true
+},
+{
+"id": "adverbs:every morning",
+"en": "every morning",
+"ro": "har subah",
+"dv": "हर सुबह",
+"top": false
+},
+{
+"id": "adverbs:every time",
+"en": "every time",
+"ro": "har baar",
+"dv": "हर बार",
+"top": false
+},
+{
+"id": "adverbs:every week",
+"en": "every week",
+"ro": "har hafte",
+"dv": "हर हफ़्ते",
+"top": false
+},
+{
+"id": "adverbs:every year",
+"en": "every year",
+"ro": "har saal",
+"dv": "हर साल",
+"top": false
+},
+{
+"id": "adverbs:many times",
+"en": "many times",
+"ro": "kai baar",
+"dv": "कई बार",
 "top": false
 },
 {
@@ -1417,7 +3967,7 @@
 "en": "often",
 "ro": "aksar",
 "dv": "अक्सर",
-"top": false
+"top": true
 },
 {
 "id": "adverbs:once",
@@ -1427,11 +3977,32 @@
 "top": false
 },
 {
+"id": "adverbs:once again",
+"en": "once again",
+"ro": "ek baar phir",
+"dv": "एक बार फिर",
+"top": false
+},
+{
+"id": "adverbs:rarely",
+"en": "rarely",
+"ro": "shaayad hi kabhi",
+"dv": "शायद ही कभी",
+"top": false
+},
+{
 "id": "adverbs:sometimes",
 "en": "sometimes",
 "ro": "kabhi-kabhi",
 "dv": "कभी-कभी",
 "top": true
+},
+{
+"id": "adverbs:three times",
+"en": "three times",
+"ro": "teen baar",
+"dv": "तीन बार",
+"top": false
 },
 {
 "id": "adverbs:twice",
@@ -1453,10 +4024,31 @@
 "name": "Place & direction",
 "items": [
 {
+"id": "adverbs:abroad",
+"en": "abroad",
+"ro": "videsh mein",
+"dv": "विदेश में",
+"top": false
+},
+{
 "id": "adverbs:across, on the other side",
 "en": "across, on the other side",
 "ro": "us paar",
 "dv": "उस पार",
+"top": false
+},
+{
+"id": "adverbs:all around",
+"en": "all around",
+"ro": "chaaron or",
+"dv": "चारों ओर",
+"top": false
+},
+{
+"id": "adverbs:anywhere",
+"en": "anywhere",
+"ro": "kahin bhi",
+"dv": "कहीं भी",
 "top": false
 },
 {
@@ -1474,6 +4066,13 @@
 "top": false
 },
 {
+"id": "adverbs:back (returning)",
+"en": "back (returning)",
+"ro": "vaapas",
+"dv": "वापस",
+"top": false
+},
+{
 "id": "adverbs:behind",
 "en": "behind",
 "ro": "peechhe",
@@ -1481,11 +4080,18 @@
 "top": false
 },
 {
+"id": "adverbs:beside, next to",
+"en": "beside, next to",
+"ro": "bagal mein",
+"dv": "बग़ल में",
+"top": false
+},
+{
 "id": "adverbs:down, below",
 "en": "down, below",
 "ro": "neeche",
 "dv": "नीचे",
-"top": false
+"top": true
 },
 {
 "id": "adverbs:everywhere",
@@ -1502,6 +4108,20 @@
 "top": true
 },
 {
+"id": "adverbs:from here",
+"en": "from here",
+"ro": "yahaan se",
+"dv": "यहाँ से",
+"top": false
+},
+{
+"id": "adverbs:from there",
+"en": "from there",
+"ro": "vahaan se",
+"dv": "वहाँ से",
+"top": false
+},
+{
 "id": "adverbs:here",
 "en": "here",
 "ro": "yahaan",
@@ -1513,6 +4133,13 @@
 "en": "in front, ahead",
 "ro": "aage",
 "dv": "आगे",
+"top": false
+},
+{
+"id": "adverbs:in the middle",
+"en": "in the middle",
+"ro": "beech mein",
+"dv": "बीच में",
 "top": false
 },
 {
@@ -1530,10 +4157,24 @@
 "top": true
 },
 {
+"id": "adverbs:nearby, close by",
+"en": "nearby, close by",
+"ro": "paas mein",
+"dv": "पास में",
+"top": false
+},
+{
 "id": "adverbs:nowhere",
 "en": "nowhere",
 "ro": "kahin nahin",
 "dv": "कहीं नहीं",
+"top": false
+},
+{
+"id": "adverbs:opposite, facing",
+"en": "opposite, facing",
+"ro": "saamne",
+"dv": "सामने",
 "top": false
 },
 {
@@ -1558,10 +4199,31 @@
 "top": false
 },
 {
+"id": "adverbs:right here",
+"en": "right here",
+"ro": "yaheen",
+"dv": "यहीं",
+"top": false
+},
+{
+"id": "adverbs:right there",
+"en": "right there",
+"ro": "vaheen",
+"dv": "वहीं",
+"top": false
+},
+{
 "id": "adverbs:somewhere",
 "en": "somewhere",
 "ro": "kahin",
 "dv": "कहीं",
+"top": false
+},
+{
+"id": "adverbs:somewhere else",
+"en": "somewhere else",
+"ro": "kahin aur",
+"dv": "कहीं और",
 "top": false
 },
 {
@@ -1572,11 +4234,25 @@
 "top": false
 },
 {
+"id": "adverbs:that side",
+"en": "that side",
+"ro": "us taraf",
+"dv": "उस तरफ़",
+"top": false
+},
+{
 "id": "adverbs:there",
 "en": "there",
 "ro": "vahaan",
 "dv": "वहाँ",
 "top": true
+},
+{
+"id": "adverbs:this side",
+"en": "this side",
+"ro": "is taraf",
+"dv": "इस तरफ़",
+"top": false
 },
 {
 "id": "adverbs:to the left",
@@ -1593,10 +4269,24 @@
 "top": false
 },
 {
+"id": "adverbs:up to here",
+"en": "up to here",
+"ro": "yahaan tak",
+"dv": "यहाँ तक",
+"top": false
+},
+{
 "id": "adverbs:up, above",
 "en": "up, above",
 "ro": "oopar",
 "dv": "ऊपर",
+"top": true
+},
+{
+"id": "adverbs:very far",
+"en": "very far",
+"ro": "bahut door",
+"dv": "बहुत दूर",
 "top": false
 }
 ]
@@ -1609,6 +4299,41 @@
 "en": "alone, by oneself",
 "ro": "akele",
 "dv": "अकेले",
+"top": false
+},
+{
+"id": "adverbs:angrily",
+"en": "angrily",
+"ro": "gusse se",
+"dv": "ग़ुस्से से",
+"top": false
+},
+{
+"id": "adverbs:by bus",
+"en": "by bus",
+"ro": "bas se",
+"dv": "बस से",
+"top": false
+},
+{
+"id": "adverbs:by car",
+"en": "by car",
+"ro": "gaadi se",
+"dv": "गाड़ी से",
+"top": false
+},
+{
+"id": "adverbs:by chance",
+"en": "by chance",
+"ro": "sanyog se",
+"dv": "संयोग से",
+"top": false
+},
+{
+"id": "adverbs:by hand",
+"en": "by hand",
+"ro": "haath se",
+"dv": "हाथ से",
 "top": false
 },
 {
@@ -1630,6 +4355,27 @@
 "en": "carefully",
 "ro": "dhyaan se",
 "dv": "ध्यान से",
+"top": true
+},
+{
+"id": "adverbs:clearly",
+"en": "clearly",
+"ro": "saaf-saaf",
+"dv": "साफ़-साफ़",
+"top": false
+},
+{
+"id": "adverbs:comfortably, at ease",
+"en": "comfortably, at ease",
+"ro": "aaraam se",
+"dv": "आराम से",
+"top": false
+},
+{
+"id": "adverbs:correctly",
+"en": "correctly",
+"ro": "sahi se",
+"dv": "सही से",
 "top": false
 },
 {
@@ -1637,6 +4383,13 @@
 "en": "easily",
 "ro": "aasaani se",
 "dv": "आसानी से",
+"top": false
+},
+{
+"id": "adverbs:fast, rapidly",
+"en": "fast, rapidly",
+"ro": "tezi se",
+"dv": "तेज़ी से",
 "top": false
 },
 {
@@ -1651,6 +4404,34 @@
 "en": "happily, gladly",
 "ro": "khushi se",
 "dv": "ख़ुशी से",
+"top": false
+},
+{
+"id": "adverbs:honestly",
+"en": "honestly",
+"ro": "imaandaari se",
+"dv": "ईमानदारी से",
+"top": false
+},
+{
+"id": "adverbs:in a hurry",
+"en": "in a hurry",
+"ro": "jaldbaazi mein",
+"dv": "जल्दबाज़ी में",
+"top": false
+},
+{
+"id": "adverbs:in English",
+"en": "in English",
+"ro": "angrezi mein",
+"dv": "अंग्रेज़ी में",
+"top": false
+},
+{
+"id": "adverbs:in Hindi",
+"en": "in Hindi",
+"ro": "hindi mein",
+"dv": "हिंदी में",
 "top": false
 },
 {
@@ -1675,6 +4456,13 @@
 "top": false
 },
 {
+"id": "adverbs:lovingly",
+"en": "lovingly",
+"ro": "pyaar se",
+"dv": "प्यार से",
+"top": false
+},
+{
 "id": "adverbs:on foot",
 "en": "on foot",
 "ro": "paidal",
@@ -1686,6 +4474,20 @@
 "en": "on purpose",
 "ro": "jaan-boojhkar",
 "dv": "जान-बूझकर",
+"top": false
+},
+{
+"id": "adverbs:one by one",
+"en": "one by one",
+"ro": "ek-ek karke",
+"dv": "एक-एक करके",
+"top": false
+},
+{
+"id": "adverbs:peacefully",
+"en": "peacefully",
+"ro": "shaanti se",
+"dv": "शांति से",
 "top": false
 },
 {
@@ -1710,6 +4512,13 @@
 "top": false
 },
 {
+"id": "adverbs:separately",
+"en": "separately",
+"ro": "alag-alag",
+"dv": "अलग-अलग",
+"top": false
+},
+{
 "id": "adverbs:slowly",
 "en": "slowly",
 "ro": "dheere",
@@ -1724,6 +4533,13 @@
 "top": false
 },
 {
+"id": "adverbs:somehow",
+"en": "somehow",
+"ro": "kisi tarah",
+"dv": "किसी तरह",
+"top": false
+},
+{
 "id": "adverbs:together",
 "en": "together",
 "ro": "saath mein",
@@ -1731,10 +4547,31 @@
 "top": false
 },
 {
+"id": "adverbs:together, jointly",
+"en": "together, jointly",
+"ro": "milkar",
+"dv": "मिलकर",
+"top": false
+},
+{
 "id": "adverbs:well, nicely",
 "en": "well, nicely",
 "ro": "achchhe se",
 "dv": "अच्छे से",
+"top": true
+},
+{
+"id": "adverbs:with difficulty, barely",
+"en": "with difficulty, barely",
+"ro": "mushkil se",
+"dv": "मुश्किल से",
+"top": false
+},
+{
+"id": "adverbs:wrongly",
+"en": "wrongly",
+"ro": "galat tareeke se",
+"dv": "ग़लत तरीक़े से",
 "top": false
 }
 ]
@@ -1748,6 +4585,13 @@
 "ro": "thoda sa",
 "dv": "थोड़ा सा",
 "top": true
+},
+{
+"id": "adverbs:a lot, plenty",
+"en": "a lot, plenty",
+"ro": "khoob",
+"dv": "ख़ूब",
+"top": false
 },
 {
 "id": "adverbs:almost, about",
@@ -1764,6 +4608,27 @@
 "top": true
 },
 {
+"id": "adverbs:as much",
+"en": "as much",
+"ro": "jitna",
+"dv": "जितना",
+"top": false
+},
+{
+"id": "adverbs:at least",
+"en": "at least",
+"ro": "kam se kam",
+"dv": "कम से कम",
+"top": false
+},
+{
+"id": "adverbs:at most",
+"en": "at most",
+"ro": "zyaada se zyaada",
+"dv": "ज़्यादा से ज़्यादा",
+"top": false
+},
+{
 "id": "adverbs:completely",
 "en": "completely",
 "ro": "poori tarah",
@@ -1778,10 +4643,32 @@
 "top": false
 },
 {
+"id": "adverbs:equally",
+"en": "equally",
+"ro": "baraabar",
+"dv": "बराबर",
+"top": false
+},
+{
 "id": "adverbs:especially",
 "en": "especially",
 "ro": "khaas taur par",
 "dv": "ख़ास तौर पर",
+"top": false
+},
+{
+"id": "adverbs:even (so much as)",
+"en": "even (so much as)",
+"ro": "tak",
+"dv": "तक",
+"top": false,
+"note": "As in “usne paani tak nahin piya” (he didn’t even drink water)."
+},
+{
+"id": "adverbs:extremely",
+"en": "extremely",
+"ro": "behad",
+"dv": "बेहद",
 "top": false
 },
 {
@@ -1806,6 +4693,20 @@
 "top": false
 },
 {
+"id": "adverbs:mostly",
+"en": "mostly",
+"ro": "zyaadaatar",
+"dv": "ज़्यादातर",
+"top": false
+},
+{
+"id": "adverbs:not at all",
+"en": "not at all",
+"ro": "bilkul nahin",
+"dv": "बिलकुल नहीं",
+"top": false
+},
+{
 "id": "adverbs:only",
 "en": "only",
 "ro": "sirf",
@@ -1820,11 +4721,18 @@
 "top": false
 },
 {
+"id": "adverbs:that much",
+"en": "that much",
+"ro": "utna",
+"dv": "उतना",
+"top": false
+},
+{
 "id": "adverbs:too much",
 "en": "too much",
 "ro": "bahut zyaada",
 "dv": "बहुत ज़्यादा",
-"top": false
+"top": true
 },
 {
 "id": "adverbs:very",
@@ -1839,6 +4747,13 @@
 "name": "Question words",
 "items": [
 {
+"id": "adverbs:from where",
+"en": "from where",
+"ro": "kahaan se",
+"dv": "कहाँ से",
+"top": false
+},
+{
 "id": "adverbs:how",
 "en": "how",
 "ro": "kaise",
@@ -1846,10 +4761,45 @@
 "top": true
 },
 {
+"id": "adverbs:how long",
+"en": "how long",
+"ro": "kitni der",
+"dv": "कितनी देर",
+"top": false
+},
+{
+"id": "adverbs:how many times",
+"en": "how many times",
+"ro": "kitni baar",
+"dv": "कितनी बार",
+"top": false
+},
+{
 "id": "adverbs:how much, how many",
 "en": "how much, how many",
 "ro": "kitna",
 "dv": "कितना",
+"top": true
+},
+{
+"id": "adverbs:since when",
+"en": "since when",
+"ro": "kab se",
+"dv": "कब से",
+"top": false
+},
+{
+"id": "adverbs:until when",
+"en": "until when",
+"ro": "kab tak",
+"dv": "कब तक",
+"top": false
+},
+{
+"id": "adverbs:what",
+"en": "what",
+"ro": "kya",
+"dv": "क्या",
 "top": true
 },
 {
@@ -1864,6 +4814,20 @@
 "en": "where",
 "ro": "kahaan",
 "dv": "कहाँ",
+"top": true
+},
+{
+"id": "adverbs:which",
+"en": "which",
+"ro": "kaun sa",
+"dv": "कौन सा",
+"top": true
+},
+{
+"id": "adverbs:who",
+"en": "who",
+"ro": "kaun",
+"dv": "कौन",
 "top": true
 },
 {
@@ -1886,11 +4850,60 @@
 "top": false
 },
 {
+"id": "adverbs:actually",
+"en": "actually",
+"ro": "asal mein",
+"dv": "असल में",
+"top": true
+},
+{
+"id": "adverbs:anyway",
+"en": "anyway",
+"ro": "khair",
+"dv": "ख़ैर",
+"top": false
+},
+{
+"id": "adverbs:for example, like",
+"en": "for example, like",
+"ro": "jaise",
+"dv": "जैसे",
+"top": false
+},
+{
+"id": "adverbs:fortunately",
+"en": "fortunately",
+"ro": "kismat se",
+"dv": "क़िस्मत से",
+"top": false
+},
+{
+"id": "adverbs:in fact",
+"en": "in fact",
+"ro": "darasal",
+"dv": "दरअसल",
+"top": false
+},
+{
+"id": "adverbs:instead",
+"en": "instead",
+"ro": "ke bajaay",
+"dv": "के बजाय",
+"top": false
+},
+{
 "id": "adverbs:maybe, perhaps",
 "en": "maybe, perhaps",
 "ro": "shaayad",
 "dv": "शायद",
 "top": true
+},
+{
+"id": "adverbs:no problem, never mind",
+"en": "no problem, never mind",
+"ro": "koi baat nahin",
+"dv": "कोई बात नहीं",
+"top": false
 },
 {
 "id": "adverbs:no, not",
@@ -1900,6 +4913,20 @@
 "top": true
 },
 {
+"id": "adverbs:okay, all right",
+"en": "okay, all right",
+"ro": "theek hai",
+"dv": "ठीक है",
+"top": true
+},
+{
+"id": "adverbs:otherwise",
+"en": "otherwise",
+"ro": "varna",
+"dv": "वरना",
+"top": false
+},
+{
 "id": "adverbs:please",
 "en": "please",
 "ro": "kripaya",
@@ -1907,17 +4934,38 @@
 "top": true
 },
 {
+"id": "adverbs:probably",
+"en": "probably",
+"ro": "sambhavtah",
+"dv": "संभवतः",
+"top": false
+},
+{
 "id": "adverbs:really, truly",
 "en": "really, truly",
 "ro": "sach mein",
 "dv": "सच में",
-"top": false
+"top": true
 },
 {
 "id": "adverbs:surely, definitely",
 "en": "surely, definitely",
 "ro": "zaroor",
 "dv": "ज़रूर",
+"top": true
+},
+{
+"id": "adverbs:therefore, that's why",
+"en": "therefore, that's why",
+"ro": "isliye",
+"dv": "इसलिए",
+"top": false
+},
+{
+"id": "adverbs:unfortunately",
+"en": "unfortunately",
+"ro": "badkismati se",
+"dv": "बदक़िस्मती से",
 "top": false
 },
 {
@@ -1930,7 +4978,7 @@
 ]
 }
 ],
-"count": 100
+"count": 200
 },
 {
 "key": "adjectives",
@@ -1948,6 +4996,13 @@
 "top": true
 },
 {
+"id": "adjectives:crooked, bent",
+"en": "crooked, bent",
+"ro": "tedha",
+"dv": "टेढ़ा",
+"top": false
+},
+{
 "id": "adjectives:deep",
 "en": "deep",
 "ro": "gehra",
@@ -1959,6 +5014,13 @@
 "en": "fat",
 "ro": "mota",
 "dv": "मोटा",
+"top": false
+},
+{
+"id": "adjectives:flat",
+"en": "flat",
+"ro": "chapta",
+"dv": "चपटा",
 "top": false
 },
 {
@@ -1976,17 +5038,38 @@
 "top": false
 },
 {
+"id": "adjectives:huge",
+"en": "huge",
+"ro": "vishaal",
+"dv": "विशाल",
+"top": false
+},
+{
 "id": "adjectives:long, tall",
 "en": "long, tall",
 "ro": "lamba",
 "dv": "लंबा",
-"top": false
+"top": true
 },
 {
 "id": "adjectives:low",
 "en": "low",
 "ro": "neecha",
 "dv": "नीचा",
+"top": false
+},
+{
+"id": "adjectives:narrow",
+"en": "narrow",
+"ro": "sankara",
+"dv": "सँकरा",
+"top": false
+},
+{
+"id": "adjectives:pointed, sharp",
+"en": "pointed, sharp",
+"ro": "nukeela",
+"dv": "नुकीला",
 "top": false
 },
 {
@@ -2011,6 +5094,13 @@
 "top": true
 },
 {
+"id": "adjectives:square",
+"en": "square",
+"ro": "chaukor",
+"dv": "चौकोर",
+"top": false
+},
+{
 "id": "adjectives:straight",
 "en": "straight",
 "ro": "seedha",
@@ -2025,10 +5115,24 @@
 "top": false
 },
 {
+"id": "adjectives:tiny",
+"en": "tiny",
+"ro": "nanha",
+"dv": "नन्हा",
+"top": false
+},
+{
 "id": "adjectives:whole, complete",
 "en": "whole, complete",
 "ro": "poora",
 "dv": "पूरा",
+"top": false
+},
+{
+"id": "adjectives:wide",
+"en": "wide",
+"ro": "chauda",
+"dv": "चौड़ा",
 "top": false
 }
 ]
@@ -2051,10 +5155,59 @@
 "top": false
 },
 {
+"id": "adjectives:brown",
+"en": "brown",
+"ro": "bhoora",
+"dv": "भूरा",
+"top": false
+},
+{
+"id": "adjectives:colourful",
+"en": "colourful",
+"ro": "rangeen",
+"dv": "रंगीन",
+"top": false
+},
+{
+"id": "adjectives:dark (colour)",
+"en": "dark (colour)",
+"ro": "gehra",
+"dv": "गहरा",
+"top": false
+},
+{
+"id": "adjectives:golden",
+"en": "golden",
+"ro": "sunehra",
+"dv": "सुनहरा",
+"top": false
+},
+{
 "id": "adjectives:green",
 "en": "green",
 "ro": "hara",
 "dv": "हरा",
+"top": false
+},
+{
+"id": "adjectives:grey",
+"en": "grey",
+"ro": "saleti",
+"dv": "सलेटी",
+"top": false
+},
+{
+"id": "adjectives:light (colour)",
+"en": "light (colour)",
+"ro": "halka",
+"dv": "हल्का",
+"top": false
+},
+{
+"id": "adjectives:orange (colour)",
+"en": "orange (colour)",
+"ro": "naarangi",
+"dv": "नारंगी",
 "top": false
 },
 {
@@ -2065,10 +5218,24 @@
 "top": false
 },
 {
+"id": "adjectives:purple",
+"en": "purple",
+"ro": "baingani",
+"dv": "बैंगनी",
+"top": false
+},
+{
 "id": "adjectives:red",
 "en": "red",
 "ro": "laal",
 "dv": "लाल",
+"top": false
+},
+{
+"id": "adjectives:sky-blue",
+"en": "sky-blue",
+"ro": "aasmaani",
+"dv": "आसमानी",
 "top": false
 },
 {
@@ -2098,11 +5265,25 @@
 "top": false
 },
 {
+"id": "adjectives:bland",
+"en": "bland",
+"ro": "pheeka",
+"dv": "फीका",
+"top": false
+},
+{
+"id": "adjectives:delicious",
+"en": "delicious",
+"ro": "lazeez",
+"dv": "लज़ीज़",
+"top": false
+},
+{
 "id": "adjectives:fresh",
 "en": "fresh",
 "ro": "taaza",
 "dv": "ताज़ा",
-"top": false
+"top": true
 },
 {
 "id": "adjectives:raw, unripe",
@@ -2116,6 +5297,13 @@
 "en": "ripe",
 "ro": "pakka",
 "dv": "पक्का",
+"top": false
+},
+{
+"id": "adjectives:rotten",
+"en": "rotten",
+"ro": "sada hua",
+"dv": "सड़ा हुआ",
 "top": false
 },
 {
@@ -2137,6 +5325,13 @@
 "en": "spicy",
 "ro": "teekha",
 "dv": "तीखा",
+"top": true
+},
+{
+"id": "adjectives:stale",
+"en": "stale",
+"ro": "baasi",
+"dv": "बासी",
 "top": false
 },
 {
@@ -2144,6 +5339,13 @@
 "en": "sweet",
 "ro": "meetha",
 "dv": "मीठा",
+"top": true
+},
+{
+"id": "adjectives:sweet and sour",
+"en": "sweet and sour",
+"ro": "khatta-meetha",
+"dv": "खट्टा-मीठा",
 "top": false
 },
 {
@@ -2159,10 +5361,24 @@
 "name": "Feelings & how you are",
 "items": [
 {
+"id": "adjectives:alive",
+"en": "alive",
+"ro": "zinda",
+"dv": "ज़िंदा",
+"top": false
+},
+{
 "id": "adjectives:alone",
 "en": "alone",
 "ro": "akela",
 "dv": "अकेला",
+"top": false
+},
+{
+"id": "adjectives:awake",
+"en": "awake",
+"ro": "jaaga hua",
+"dv": "जागा हुआ",
 "top": false
 },
 {
@@ -2171,6 +5387,41 @@
 "ro": "vyast",
 "dv": "व्यस्त",
 "top": true
+},
+{
+"id": "adjectives:calm",
+"en": "calm",
+"ro": "shaant",
+"dv": "शांत",
+"top": false
+},
+{
+"id": "adjectives:dead",
+"en": "dead",
+"ro": "mara hua",
+"dv": "मरा हुआ",
+"top": false
+},
+{
+"id": "adjectives:embarrassed",
+"en": "embarrassed",
+"ro": "sharminda",
+"dv": "शर्मिंदा",
+"top": false
+},
+{
+"id": "adjectives:excited",
+"en": "excited",
+"ro": "utsaahit",
+"dv": "उत्साहित",
+"top": false
+},
+{
+"id": "adjectives:grateful",
+"en": "grateful",
+"ro": "aabhaari",
+"dv": "आभारी",
+"top": false
 },
 {
 "id": "adjectives:happy",
@@ -2194,6 +5445,20 @@
 "top": true
 },
 {
+"id": "adjectives:lucky",
+"en": "lucky",
+"ro": "kismatvaala",
+"dv": "क़िस्मतवाला",
+"top": false
+},
+{
+"id": "adjectives:nervous",
+"en": "nervous",
+"ro": "ghabraaya hua",
+"dv": "घबराया हुआ",
+"top": false
+},
+{
 "id": "adjectives:quiet",
 "en": "quiet",
 "ro": "chup",
@@ -2215,6 +5480,20 @@
 "top": true
 },
 {
+"id": "adjectives:satisfied",
+"en": "satisfied",
+"ro": "santusht",
+"dv": "संतुष्ट",
+"top": false
+},
+{
+"id": "adjectives:scared",
+"en": "scared",
+"ro": "dara hua",
+"dv": "डरा हुआ",
+"top": false
+},
+{
 "id": "adjectives:shy",
 "en": "shy",
 "ro": "sharmeela",
@@ -2226,6 +5505,13 @@
 "en": "sick",
 "ro": "beemaar",
 "dv": "बीमार",
+"top": true
+},
+{
+"id": "adjectives:surprised",
+"en": "surprised",
+"ro": "hairaan",
+"dv": "हैरान",
 "top": false
 },
 {
@@ -2233,7 +5519,7 @@
 "en": "thirsty",
 "ro": "pyaasa",
 "dv": "प्यासा",
-"top": false
+"top": true
 },
 {
 "id": "adjectives:tired",
@@ -2248,6 +5534,13 @@
 "ro": "naaraaz",
 "dv": "नाराज़",
 "top": false
+},
+{
+"id": "adjectives:worried",
+"en": "worried",
+"ro": "pareshaan",
+"dv": "परेशान",
+"top": true
 }
 ]
 },
@@ -2255,10 +5548,31 @@
 "name": "Character",
 "items": [
 {
+"id": "adjectives:arrogant, proud",
+"en": "arrogant, proud",
+"ro": "ghamandi",
+"dv": "घमंडी",
+"top": false
+},
+{
 "id": "adjectives:brave",
 "en": "brave",
 "ro": "bahaadur",
 "dv": "बहादुर",
+"top": false
+},
+{
+"id": "adjectives:careful",
+"en": "careful",
+"ro": "saavdhaan",
+"dv": "सावधान",
+"top": false
+},
+{
+"id": "adjectives:cheerful",
+"en": "cheerful",
+"ro": "hansmukh",
+"dv": "हँसमुख",
 "top": false
 },
 {
@@ -2269,10 +5583,31 @@
 "top": false
 },
 {
+"id": "adjectives:educated",
+"en": "educated",
+"ro": "padha-likha",
+"dv": "पढ़ा-लिखा",
+"top": false
+},
+{
 "id": "adjectives:famous",
 "en": "famous",
 "ro": "mashhoor",
 "dv": "मशहूर",
+"top": false
+},
+{
+"id": "adjectives:funny",
+"en": "funny",
+"ro": "mazaakiya",
+"dv": "मज़ाकिया",
+"top": false
+},
+{
+"id": "adjectives:generous",
+"en": "generous",
+"ro": "udaar",
+"dv": "उदार",
 "top": false
 },
 {
@@ -2287,6 +5622,13 @@
 "en": "honest",
 "ro": "imaandaar",
 "dv": "ईमानदार",
+"top": false
+},
+{
+"id": "adjectives:intelligent",
+"en": "intelligent",
+"ro": "buddhimaan",
+"dv": "बुद्धिमान",
 "top": false
 },
 {
@@ -2311,10 +5653,73 @@
 "top": false
 },
 {
+"id": "adjectives:naughty",
+"en": "naughty",
+"ro": "shaitaan",
+"dv": "शैतान",
+"top": false
+},
+{
+"id": "adjectives:polite",
+"en": "polite",
+"ro": "vinamr",
+"dv": "विनम्र",
+"top": false
+},
+{
+"id": "adjectives:religious",
+"en": "religious",
+"ro": "dhaarmik",
+"dv": "धार्मिक",
+"top": false
+},
+{
+"id": "adjectives:rude",
+"en": "rude",
+"ro": "badtameez",
+"dv": "बदतमीज़",
+"top": false
+},
+{
+"id": "adjectives:serious",
+"en": "serious",
+"ro": "gambheer",
+"dv": "गंभीर",
+"top": false
+},
+{
 "id": "adjectives:silly, foolish",
 "en": "silly, foolish",
 "ro": "bevakoof",
 "dv": "बेवक़ूफ़",
+"top": false
+},
+{
+"id": "adjectives:simple, unpretentious",
+"en": "simple, unpretentious",
+"ro": "seedha-saadha",
+"dv": "सीधा-सादा",
+"top": false
+},
+{
+"id": "adjectives:stingy",
+"en": "stingy",
+"ro": "kanjoos",
+"dv": "कंजूस",
+"top": false
+},
+{
+"id": "adjectives:talkative",
+"en": "talkative",
+"ro": "baatooni",
+"dv": "बातूनी",
+"top": false
+},
+{
+"id": "adjectives:wise, sensible",
+"en": "wise, sensible",
+"ro": "samajhdaar",
+"dv": "समझदार",
 "top": false
 }
 ]
@@ -2322,6 +5727,20 @@
 {
 "name": "Quality & judgement",
 "items": [
+{
+"id": "adjectives:amazing",
+"en": "amazing",
+"ro": "kamaal ka",
+"dv": "कमाल का",
+"top": false
+},
+{
+"id": "adjectives:ancient",
+"en": "ancient",
+"ro": "praacheen",
+"dv": "प्राचीन",
+"top": false
+},
 {
 "id": "adjectives:bad",
 "en": "bad",
@@ -2335,6 +5754,34 @@
 "ro": "sundar",
 "dv": "सुंदर",
 "top": true
+},
+{
+"id": "adjectives:boring",
+"en": "boring",
+"ro": "ubaau",
+"dv": "उबाऊ",
+"top": false
+},
+{
+"id": "adjectives:clear (obvious)",
+"en": "clear (obvious)",
+"ro": "spasht",
+"dv": "स्पष्ट",
+"top": false
+},
+{
+"id": "adjectives:complicated",
+"en": "complicated",
+"ro": "jatil",
+"dv": "जटिल",
+"top": false
+},
+{
+"id": "adjectives:dangerous",
+"en": "dangerous",
+"ro": "khatarnaak",
+"dv": "ख़तरनाक",
+"top": false
 },
 {
 "id": "adjectives:different",
@@ -2358,6 +5805,20 @@
 "top": true
 },
 {
+"id": "adjectives:excellent, splendid",
+"en": "excellent, splendid",
+"ro": "shaandaar",
+"dv": "शानदार",
+"top": false
+},
+{
+"id": "adjectives:fake",
+"en": "fake",
+"ro": "nakli",
+"dv": "नक़ली",
+"top": false
+},
+{
 "id": "adjectives:false",
 "en": "false",
 "ro": "jhootha",
@@ -2379,11 +5840,32 @@
 "top": true
 },
 {
+"id": "adjectives:impossible",
+"en": "impossible",
+"ro": "asambhav",
+"dv": "असंभव",
+"top": false
+},
+{
+"id": "adjectives:interesting",
+"en": "interesting",
+"ro": "dilchasp",
+"dv": "दिलचस्प",
+"top": true
+},
+{
+"id": "adjectives:modern",
+"en": "modern",
+"ro": "aadhunik",
+"dv": "आधुनिक",
+"top": false
+},
+{
 "id": "adjectives:necessary",
 "en": "necessary",
 "ro": "zaroori",
 "dv": "ज़रूरी",
-"top": false
+"top": true
 },
 {
 "id": "adjectives:new",
@@ -2391,6 +5873,20 @@
 "ro": "naya",
 "dv": "नया",
 "top": true
+},
+{
+"id": "adjectives:nice, great",
+"en": "nice, great",
+"ro": "badhiya",
+"dv": "बढ़िया",
+"top": true
+},
+{
+"id": "adjectives:normal",
+"en": "normal",
+"ro": "saamaanya",
+"dv": "सामान्य",
+"top": false
 },
 {
 "id": "adjectives:old (people)",
@@ -2407,6 +5903,20 @@
 "top": true
 },
 {
+"id": "adjectives:possible",
+"en": "possible",
+"ro": "sambhav",
+"dv": "संभव",
+"top": false
+},
+{
+"id": "adjectives:real, genuine",
+"en": "real, genuine",
+"ro": "asli",
+"dv": "असली",
+"top": false
+},
+{
 "id": "adjectives:right, correct",
 "en": "right, correct",
 "ro": "sahi",
@@ -2414,11 +5924,32 @@
 "top": true
 },
 {
+"id": "adjectives:safe",
+"en": "safe",
+"ro": "surakshit",
+"dv": "सुरक्षित",
+"top": false
+},
+{
+"id": "adjectives:simple (easy to understand)",
+"en": "simple (easy to understand)",
+"ro": "saral",
+"dv": "सरल",
+"top": false
+},
+{
 "id": "adjectives:special",
 "en": "special",
 "ro": "khaas",
 "dv": "ख़ास",
 "top": false
+},
+{
+"id": "adjectives:strange",
+"en": "strange",
+"ro": "ajeeb",
+"dv": "अजीब",
+"top": true
 },
 {
 "id": "adjectives:true",
@@ -2435,6 +5966,20 @@
 "top": false
 },
 {
+"id": "adjectives:useful",
+"en": "useful",
+"ro": "upyogi",
+"dv": "उपयोगी",
+"top": false
+},
+{
+"id": "adjectives:useless",
+"en": "useless",
+"ro": "bekaar",
+"dv": "बेकार",
+"top": false
+},
+{
 "id": "adjectives:wrong",
 "en": "wrong",
 "ro": "galat",
@@ -2446,13 +5991,27 @@
 "en": "young",
 "ro": "javaan",
 "dv": "जवान",
-"top": false
+"top": true
 }
 ]
 },
 {
 "name": "Things & conditions",
 "items": [
+{
+"id": "adjectives:boiled",
+"en": "boiled",
+"ro": "ubla hua",
+"dv": "उबला हुआ",
+"top": false
+},
+{
+"id": "adjectives:broken",
+"en": "broken",
+"ro": "toota",
+"dv": "टूटा",
+"top": false
+},
 {
 "id": "adjectives:cheap",
 "en": "cheap",
@@ -2468,6 +6027,13 @@
 "top": true
 },
 {
+"id": "adjectives:closed",
+"en": "closed",
+"ro": "band",
+"dv": "बंद",
+"top": false
+},
+{
 "id": "adjectives:cold",
 "en": "cold",
 "ro": "thanda",
@@ -2479,7 +6045,7 @@
 "en": "dirty",
 "ro": "ganda",
 "dv": "गंदा",
-"top": false
+"top": true
 },
 {
 "id": "adjectives:dry",
@@ -2507,6 +6073,20 @@
 "en": "fast",
 "ro": "tez",
 "dv": "तेज़",
+"top": true
+},
+{
+"id": "adjectives:free (no cost)",
+"en": "free (no cost)",
+"ro": "muft",
+"dv": "मुफ़्त",
+"top": false
+},
+{
+"id": "adjectives:frozen",
+"en": "frozen",
+"ro": "jama hua",
+"dv": "जमा हुआ",
 "top": false
 },
 {
@@ -2545,6 +6125,20 @@
 "top": false
 },
 {
+"id": "adjectives:loose",
+"en": "loose",
+"ro": "dheela",
+"dv": "ढीला",
+"top": false
+},
+{
+"id": "adjectives:lukewarm",
+"en": "lukewarm",
+"ro": "gungunaa",
+"dv": "गुनगुना",
+"top": false
+},
+{
 "id": "adjectives:open",
 "en": "open",
 "ro": "khula",
@@ -2566,10 +6160,31 @@
 "top": false
 },
 {
+"id": "adjectives:rough",
+"en": "rough",
+"ro": "khurdura",
+"dv": "खुरदुरा",
+"top": false
+},
+{
+"id": "adjectives:shiny, bright",
+"en": "shiny, bright",
+"ro": "chamakdaar",
+"dv": "चमकदार",
+"top": false
+},
+{
 "id": "adjectives:slow",
 "en": "slow",
 "ro": "dheema",
 "dv": "धीमा",
+"top": true
+},
+{
+"id": "adjectives:smooth",
+"en": "smooth",
+"ro": "chikna",
+"dv": "चिकना",
 "top": false
 },
 {
@@ -2580,10 +6195,24 @@
 "top": false
 },
 {
+"id": "adjectives:sticky",
+"en": "sticky",
+"ro": "chipchipa",
+"dv": "चिपचिपा",
+"top": false
+},
+{
 "id": "adjectives:strong",
 "en": "strong",
 "ro": "mazboot",
 "dv": "मज़बूत",
+"top": false
+},
+{
+"id": "adjectives:tight",
+"en": "tight",
+"ro": "tang",
+"dv": "तंग",
 "top": false
 },
 {
@@ -2603,11 +6232,51 @@
 ]
 },
 {
+"name": "Origin & status",
+"items": [
+{
+"id": "adjectives:foreign",
+"en": "foreign",
+"ro": "videshi",
+"dv": "विदेशी",
+"top": false
+},
+{
+"id": "adjectives:Indian",
+"en": "Indian",
+"ro": "bhaarateey",
+"dv": "भारतीय",
+"top": false
+},
+{
+"id": "adjectives:local",
+"en": "local",
+"ro": "sthaaniya",
+"dv": "स्थानीय",
+"top": false
+},
+{
+"id": "adjectives:married",
+"en": "married",
+"ro": "shaadi-shuda",
+"dv": "शादीशुदा",
+"top": false
+},
+{
+"id": "adjectives:unmarried",
+"en": "unmarried",
+"ro": "kunvaara",
+"dv": "कुँवारा",
+"top": false
+}
+]
+},
+{
 "name": "Quantity & order",
 "items": [
 {
-"id": "adjectives:a little, some",
-"en": "a little, some",
+"id": "adjectives:a little",
+"en": "a little",
 "ro": "thoda",
 "dv": "थोड़ा",
 "top": true
@@ -2620,6 +6289,27 @@
 "top": true
 },
 {
+"id": "adjectives:double",
+"en": "double",
+"ro": "dugna",
+"dv": "दुगना",
+"top": false
+},
+{
+"id": "adjectives:enough",
+"en": "enough",
+"ro": "kaafi",
+"dv": "काफ़ी",
+"top": false
+},
+{
+"id": "adjectives:equal",
+"en": "equal",
+"ro": "baraabar",
+"dv": "बराबर",
+"top": false
+},
+{
 "id": "adjectives:every",
 "en": "every",
 "ro": "har",
@@ -2627,11 +6317,25 @@
 "top": true
 },
 {
+"id": "adjectives:extra",
+"en": "extra",
+"ro": "atirikt",
+"dv": "अतिरिक्त",
+"top": false
+},
+{
 "id": "adjectives:first",
 "en": "first",
 "ro": "pehla",
 "dv": "पहला",
 "top": true
+},
+{
+"id": "adjectives:fourth",
+"en": "fourth",
+"ro": "chautha",
+"dv": "चौथा",
+"top": false
 },
 {
 "id": "adjectives:last",
@@ -2648,10 +6352,24 @@
 "top": false
 },
 {
+"id": "adjectives:main",
+"en": "main",
+"ro": "mukhya",
+"dv": "मुख्य",
+"top": false
+},
+{
 "id": "adjectives:many, several",
 "en": "many, several",
 "ro": "kai",
 "dv": "कई",
+"top": false
+},
+{
+"id": "adjectives:middle",
+"en": "middle",
+"ro": "beech ka",
+"dv": "बीच का",
 "top": false
 },
 {
@@ -2669,16 +6387,58 @@
 "top": true
 },
 {
+"id": "adjectives:other",
+"en": "other",
+"ro": "anya",
+"dv": "अन्य",
+"top": true
+},
+{
 "id": "adjectives:previous",
 "en": "previous",
 "ro": "pichhla",
 "dv": "पिछला",
 "top": false
+},
+{
+"id": "adjectives:same, alike",
+"en": "same, alike",
+"ro": "ek jaisa",
+"dv": "एक जैसा",
+"top": true
+},
+{
+"id": "adjectives:second",
+"en": "second",
+"ro": "doosra",
+"dv": "दूसरा",
+"top": true
+},
+{
+"id": "adjectives:some, a few",
+"en": "some, a few",
+"ro": "kuchh",
+"dv": "कुछ",
+"top": true
+},
+{
+"id": "adjectives:third",
+"en": "third",
+"ro": "teesra",
+"dv": "तीसरा",
+"top": false
+},
+{
+"id": "adjectives:total",
+"en": "total",
+"ro": "kul",
+"dv": "कुल",
+"top": false
 }
 ]
 }
 ],
-"count": 100
+"count": 201
 },
 {
 "key": "verbs",
