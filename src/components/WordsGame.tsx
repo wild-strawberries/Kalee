@@ -5,9 +5,9 @@ import { difficulty, loadStats, record, type WordStat } from '../stats'
 import type { TabKey } from '../types'
 import { English, Romanized, devanagari } from './WordRow'
 
-export type Mode = 'en-hi' | 'hi-en' | 'mixed'
+export type Mode = 'en-hi' | 'hi-en'
 export type Source = 'all' | 'common' | 'difficult'
-export interface GameSetup { mode: Mode; source: Source; cats: TabKey[]; count: number; key: number; replay?: { w: BankWord; dir: Direction }[] }
+export interface GameSetup { mode: Mode; source: Source; cats: TabKey[]; count: number; cards?: boolean; key: number; replay?: { w: BankWord; dir: Direction }[] }
 
 const shuffle = <T,>(a: T[]) => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]] } return b }
 
@@ -43,12 +43,60 @@ function Answer({ it }: { it: Item }) {
   return <span className="ans"><b>{englishAnswers(w).map((e, i) => <span key={e}>{i ? ' · ' : ''}{w.cat === 'verbs' ? 'to ' : ''}<English text={e} /></span>)}</b></span>
 }
 
+/** Shuffle so that, when possible, the order differs from the order the words will be asked in. */
+function differentOrder<T>(a: T[]): T[] {
+  if (a.length < 2) return [...a]
+  for (let k = 0; k < 10; k++) { const b = shuffle(a); if (b.some((x, i) => x !== a[i])) return b }
+  return [...a.slice(1), a[0]]
+}
+
+function Face({ w, side }: { w: BankWord; side: 'en' | 'hi' }) {
+  return side === 'en'
+    ? <><span className="fc-cat">{CATEGORY[w.cat]}{w.tag ? ` · ${w.tag}` : ''}</span><span className="fc-en">{w.cat === 'verbs' && <i>to </i>}<English text={w.en} /></span></>
+    : <><span className="fc-cat">{CATEGORY[w.cat]}{w.tag ? ` · ${w.tag}` : ''}</span><span className="fc-ro"><Romanized w={w} /></span><span className="fc-dv" lang="hi">{devanagari(w)}</span></>
+}
+
+function Flashcards({ items, onReady, onQuit }: { items: Item[]; onReady: () => void; onQuit: () => void }) {
+  const cards = useMemo(() => differentOrder(items), [items])
+  const [flipped, setFlipped] = useState<Set<number>>(new Set())
+  const toggle = (k: number) => setFlipped(p => { const n = new Set(p); if (n.has(k)) n.delete(k); else n.add(k); return n })
+  const front = (it: Item) => (it.dir === 'en-hi' ? 'en' : 'hi') as 'en' | 'hi'
+  return (
+    <div className="wrap game cards-screen" data-tab="nouns">
+      <div className="g-bar">
+        <button className="homebtn" type="button" onClick={onQuit} aria-label="Quit round">✕ Quit</button>
+        <span className="g-pos">Flashcards</span>
+        <span className="g-score">{cards.length} {cards.length === 1 ? 'word' : 'words'}</span>
+      </div>
+      <p className="fc-hint">Tap a card to turn it over.</p>
+      <ul className="fc-grid">
+        {cards.map((it, k) => {
+          const f = front(it), on = flipped.has(k)
+          return (
+            <li key={it.w.id}>
+              <button type="button" className={`fc${on ? ' flipped' : ''}`} aria-pressed={on} onClick={() => toggle(k)}
+                aria-label={on ? 'Showing the translation. Tap to turn back.' : 'Tap to see the translation.'}>
+                <span className="fc-in">
+                  <span className="fc-face fc-front"><Face w={it.w} side={f} /></span>
+                  <span className="fc-face fc-back"><Face w={it.w} side={f === 'en' ? 'hi' : 'en'} /></span>
+                </span>
+              </button>
+            </li>
+          )
+        })}
+      </ul>
+      <div className="fc-ready"><button className="start" type="button" onClick={onReady}>Ready</button></div>
+    </div>
+  )
+}
+
 export default function WordsGame({ setup, onClose, onRecap, onQuit }: {
   setup: GameSetup; onClose: () => void; onRecap: (s: GameSetup) => void; onQuit: () => void
 }) {
   const items: Item[] = useMemo(() => setup.replay ?? buildQueue(setup, loadStats()).map(w => ({
-    w, dir: setup.mode === 'mixed' ? (Math.random() < 0.5 ? 'en-hi' : 'hi-en') : setup.mode
+    w, dir: setup.mode
   })), [setup])
+  const [studying, setStudying] = useState(!!setup.cards)
   const [i, setI] = useState(0)
   const [input, setInput] = useState('')
   const [results, setResults] = useState<Result[]>([])
@@ -57,7 +105,7 @@ export default function WordsGame({ setup, onClose, onRecap, onQuit }: {
   const nextRef = useRef<HTMLButtonElement>(null)
   const done = results.length === items.length && !shown
 
-  useEffect(() => { inputRef.current?.focus() }, [i, shown])
+  useEffect(() => { inputRef.current?.focus() }, [i, shown, studying])
 
   const right = results.filter(r => r.correct).length
   const wrong = results.length - right
@@ -80,6 +128,8 @@ export default function WordsGame({ setup, onClose, onRecap, onQuit }: {
   if (items.length === 0) return (
     <div className="wrap game" data-tab="nouns"><p className="empty">No words to practise with these settings.</p><div className="sum-btns"><button className="start" onClick={onQuit}>Back</button></div></div>
   )
+
+  if (studying) return <Flashcards items={items} onReady={() => { setStudying(false); window.scrollTo(0, 0) }} onQuit={onQuit} />
 
   if (done) {
     const missed = results.filter(r => !r.correct)

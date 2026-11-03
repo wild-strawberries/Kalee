@@ -51,9 +51,15 @@ function SentenceSetupSheet({ onCancel, onStart }: { onCancel: () => void; onSta
 }
 
 const PREFS = 'kalee-words-setup'
-type Prefs = { mode: Mode; source: Source; cats: TabKey[]; count: number }
-const DEFAULTS: Prefs = { mode: 'en-hi', source: 'all', cats: ['nouns', 'adverbs', 'adjectives', 'verbs'], count: 10 }
-const loadPrefs = (): Prefs => { try { return { ...DEFAULTS, ...JSON.parse(localStorage.getItem(PREFS) || '{}') } } catch { return DEFAULTS } }
+type Prefs = { mode: Mode; source: Source; cats: TabKey[]; count: number; cards: boolean }
+const DEFAULTS: Prefs = { mode: 'en-hi', source: 'all', cats: ['nouns', 'adverbs', 'adjectives', 'verbs'], count: 10, cards: false }
+const loadPrefs = (): Prefs => {
+  try {
+    const p = { ...DEFAULTS, ...JSON.parse(localStorage.getItem(PREFS) || '{}') } as Prefs
+    if (p.mode !== 'en-hi' && p.mode !== 'hi-en') p.mode = 'en-hi'   // "mixed" was removed
+    return p
+  } catch { return DEFAULTS }
+}
 
 export function Pills<T extends string>({ value, options, onChange, multi }: {
   value: T | T[]; options: { v: T; label: string; disabled?: boolean; hint?: string }[]; onChange: (v: T) => void; multi?: boolean
@@ -90,7 +96,12 @@ function Setup({ onCancel, onStart }: { onCancel: () => void; onStart: (s: GameS
 
         <h4>Direction</h4>
         <Pills value={p.mode} onChange={v => set({ mode: v })} options={[
-          { v: 'en-hi', label: 'English → Hindi' }, { v: 'hi-en', label: 'Hindi → English' }, { v: 'mixed', label: 'Mixed' }]} />
+          { v: 'en-hi', label: 'English → Hindi' }, { v: 'hi-en', label: 'Hindi → English' }]} />
+
+        <h4>Flashcards first</h4>
+        <Pills value={p.cards ? 'on' : 'off'} onChange={v => set({ cards: v === 'on' })} options={[
+          { v: 'off', label: 'Off' }, { v: 'on', label: 'On' }]} />
+        <p className="setup-note">Review the round’s words as flip cards before you start.</p>
 
         <h4>Words</h4>
         <Pills value={source} onChange={v => set({ source: v })} options={[
@@ -111,7 +122,7 @@ function Setup({ onCancel, onStart }: { onCancel: () => void; onStart: (s: GameS
 
         <button className="start" type="button" disabled={pool === 0} onClick={() => {
           try { localStorage.setItem(PREFS, JSON.stringify({ ...p, source })) } catch { /* */ }
-          onStart({ mode: p.mode, source, cats: p.cats, count, key: Date.now() })
+          onStart({ mode: p.mode, source, cats: p.cats, count, cards: p.cards, key: Date.now() })
         }}>Start</button>
       </div>
     </div>
