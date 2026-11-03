@@ -21,3 +21,7 @@ npm run dev
 
 ## Publishing
 Every push to `main` builds the app and publishes it to GitHub Pages (see `.github/workflows/deploy.yml`).
+
+## Games
+- **Words**: single words from the Study lists (`src/data/lexicon.json`).
+- **Sentences**: 900 sentences in three levels — Easy (2–5 words), Medium (6–9) and Hard (10–15) — from `src/data/sentences.json`. Answers are compared word by word, tolerant of spelling; if an answer is a valid alternative translation, the player can count it as correct.

@@ -6,13 +6,56 @@ import type { GameSetup, Mode, Source } from './WordsGame'
 import { buildQueue } from './WordsGame'
 import PageTitle from './PageTitle'
 import Svg from './Svg'
+import { LEVEL_LABEL, sentencePool, type Level, type SentenceSetup, type SMode, type SSource } from './SentencesGame'
+import { loadSentStats } from '../sentStats'
+
+const SPREFS = 'kalee-sentences-setup'
+type SPrefs = { mode: SMode; level: Level; source: SSource; count: number }
+const SDEFAULTS: SPrefs = { mode: 'en-hi', level: 'easy', source: 'all', count: 10 }
+const loadSPrefs = (): SPrefs => { try { return { ...SDEFAULTS, ...JSON.parse(localStorage.getItem(SPREFS) || '{}') } } catch { return SDEFAULTS } }
+
+function SentenceSetupSheet({ onCancel, onStart }: { onCancel: () => void; onStart: (s: SentenceSetup) => void }) {
+  const [p, setP] = useState<SPrefs>(loadSPrefs)
+  const stats = useMemo(loadSentStats, [])
+  const missed = useMemo(() => sentencePool({ level: p.level, source: 'difficult' }, stats).length, [p.level, stats])
+  const source: SSource = p.source === 'difficult' && missed === 0 ? 'all' : p.source
+  const pool = useMemo(() => sentencePool({ level: p.level, source }, stats).length, [p.level, source, stats])
+  const count = Math.min(p.count, Math.max(pool, 1))
+  const set = (patch: Partial<SPrefs>) => setP(prev => ({ ...prev, ...patch }))
+  const words: Record<Level, string> = { easy: '2–5 words', medium: '6–9 words', hard: '10–15 words' }
+  return (
+    <div className="modal" role="dialog" aria-modal="true" aria-labelledby="ssetup-t" onClick={e => { if (e.target === e.currentTarget) onCancel() }}>
+      <div className="sheet setup">
+        <button className="x" type="button" onClick={onCancel}>Close</button>
+        <h2 id="ssetup-t">Sentences</h2>
+        <p className="setup-sub">Translate whole sentences.</p>
+        <h4>Direction</h4>
+        <Pills value={p.mode} onChange={v => set({ mode: v })} options={[
+          { v: 'en-hi', label: 'English → Hindi' }, { v: 'hi-en', label: 'Hindi → English' }, { v: 'mixed', label: 'Mixed' }]} />
+        <h4>Level</h4>
+        <Pills value={p.level} onChange={v => set({ level: v })} options={(['easy', 'medium', 'hard'] as Level[]).map(l => ({ v: l, label: LEVEL_LABEL[l], hint: words[l] }))} />
+        <h4>Sentences</h4>
+        <Pills value={source} onChange={v => set({ source: v })} options={[
+          { v: 'all', label: 'All sentences' }, { v: 'difficult', label: 'Most difficult', disabled: missed === 0, hint: missed ? `${missed}` : undefined }]} />
+        {missed === 0 && <p className="setup-note">“Most difficult” unlocks once you’ve missed a few sentences at this level.</p>}
+        <h4>Sentences per round <span className="cnt">{count}</span></h4>
+        <input className="range" type="range" min={1} max={50} value={Math.min(p.count, 50)} onChange={e => set({ count: Number(e.target.value) })} aria-label="Sentences per round" />
+        <div className="range-ends"><span>1</span><span>{pool < 50 ? `${pool} available` : '50'}</span></div>
+        <button className="start" type="button" disabled={pool === 0} onClick={() => {
+          try { localStorage.setItem(SPREFS, JSON.stringify({ ...p, source })) } catch { /* */ }
+          onStart({ mode: p.mode, level: p.level, source, count, key: Date.now() })
+        }}>Start</button>
+      </div>
+    </div>
+  )
+}
 
 const PREFS = 'kalee-words-setup'
 type Prefs = { mode: Mode; source: Source; cats: TabKey[]; count: number }
 const DEFAULTS: Prefs = { mode: 'en-hi', source: 'all', cats: ['nouns', 'adverbs', 'adjectives', 'verbs'], count: 10 }
 const loadPrefs = (): Prefs => { try { return { ...DEFAULTS, ...JSON.parse(localStorage.getItem(PREFS) || '{}') } } catch { return DEFAULTS } }
 
-function Pills<T extends string>({ value, options, onChange, multi }: {
+export function Pills<T extends string>({ value, options, onChange, multi }: {
   value: T | T[]; options: { v: T; label: string; disabled?: boolean; hint?: string }[]; onChange: (v: T) => void; multi?: boolean
 }) {
   return (
@@ -75,8 +118,9 @@ function Setup({ onCancel, onStart }: { onCancel: () => void; onStart: (s: GameS
   )
 }
 
-export default function Play({ onHome, onStart }: { onHome: () => void; onStart: (s: GameSetup) => void }) {
+export default function Play({ onHome, onStart, onStartSentences }: { onHome: () => void; onStart: (s: GameSetup) => void; onStartSentences: (s: SentenceSetup) => void }) {
   const [setup, setSetup] = useState(false)
+  const [ssetup, setSSetup] = useState(false)
   return (
     <div className="wrap play" data-tab="nouns">
       <div className="topnav"><button className="homebtn" type="button" onClick={onHome}>‹ Home</button></div>
@@ -87,9 +131,15 @@ export default function Play({ onHome, onStart }: { onHome: () => void; onStart:
           <span className="gc-text"><span className="gc-t">Words</span><span className="gc-d">Translate single words, English ⇄ Hindi</span></span>
           <span className="chev" aria-hidden="true" />
         </button>
+        <button className="game-card" type="button" onClick={() => setSSetup(true)} style={{ ['--k' as string]: '#8e4585' }}>
+          <Svg html={ORN.bullet.nouns} />
+          <span className="gc-text"><span className="gc-t">Sentences</span><span className="gc-d">Translate whole sentences · Easy, Medium, Hard</span></span>
+          <span className="chev" aria-hidden="true" />
+        </button>
         <p className="soon">More games coming soon.</p>
       </div>
       {setup && <Setup onCancel={() => setSetup(false)} onStart={s => { setSetup(false); onStart(s) }} />}
+      {ssetup && <SentenceSetupSheet onCancel={() => setSSetup(false)} onStart={s => { setSSetup(false); onStartSentences(s) }} />}
     </div>
   )
 }

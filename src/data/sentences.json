@@ -1,0 +1,6002 @@
+[
+{
+"id": 1,
+"level": "easy",
+"hi": "किताब नई है।",
+"en": "The book is new."
+},
+{
+"id": 2,
+"level": "easy",
+"hi": "घर बड़ा है।",
+"en": "The house is big."
+},
+{
+"id": 3,
+"level": "easy",
+"hi": "पानी ठंडा है।",
+"en": "The water is cold."
+},
+{
+"id": 4,
+"level": "easy",
+"hi": "चाय गरम है।",
+"en": "The tea is hot."
+},
+{
+"id": 5,
+"level": "easy",
+"hi": "खाना स्वादिष्ट है।",
+"en": "The food is tasty."
+},
+{
+"id": 6,
+"level": "easy",
+"hi": "कमरा साफ़ है।",
+"en": "The room is clean."
+},
+{
+"id": 7,
+"level": "easy",
+"hi": "दरवाज़ा खुला है।",
+"en": "The door is open."
+},
+{
+"id": 8,
+"level": "easy",
+"hi": "दुकान बंद है।",
+"en": "The shop is closed."
+},
+{
+"id": 9,
+"level": "easy",
+"hi": "गाड़ी पुरानी है।",
+"en": "The car is old."
+},
+{
+"id": 10,
+"level": "easy",
+"hi": "सड़क लंबी है।",
+"en": "The road is long."
+},
+{
+"id": 11,
+"level": "easy",
+"hi": "शहर सुंदर है।",
+"en": "The city is beautiful."
+},
+{
+"id": 12,
+"level": "easy",
+"hi": "सवाल आसान है।",
+"en": "The question is easy."
+},
+{
+"id": 13,
+"level": "easy",
+"hi": "जवाब सही है।",
+"en": "The answer is correct."
+},
+{
+"id": 14,
+"level": "easy",
+"hi": "काम मुश्किल है।",
+"en": "The work is difficult."
+},
+{
+"id": 15,
+"level": "easy",
+"hi": "समय कम है।",
+"en": "Time is short."
+},
+{
+"id": 16,
+"level": "easy",
+"hi": "दूध ताज़ा है।",
+"en": "The milk is fresh."
+},
+{
+"id": 17,
+"level": "easy",
+"hi": "फल मीठा है।",
+"en": "The fruit is sweet."
+},
+{
+"id": 18,
+"level": "easy",
+"hi": "खाना तीखा है।",
+"en": "The food is spicy."
+},
+{
+"id": 19,
+"level": "easy",
+"hi": "फ़ोन महँगा है।",
+"en": "The phone is expensive."
+},
+{
+"id": 20,
+"level": "easy",
+"hi": "किताब सस्ती है।",
+"en": "The book is cheap."
+},
+{
+"id": 21,
+"level": "easy",
+"hi": "बच्चा खुश है।",
+"en": "The child is happy."
+},
+{
+"id": 22,
+"level": "easy",
+"hi": "लड़की उदास है।",
+"en": "The girl is sad."
+},
+{
+"id": 23,
+"level": "easy",
+"hi": "लड़का बीमार है।",
+"en": "The boy is sick."
+},
+{
+"id": 24,
+"level": "easy",
+"hi": "माँ व्यस्त हैं।",
+"en": "Mother is busy."
+},
+{
+"id": 25,
+"level": "easy",
+"hi": "पिताजी घरपर हैं।",
+"en": "Father is home."
+},
+{
+"id": 26,
+"level": "easy",
+"hi": "बहन तैयार है।",
+"en": "My sister is ready."
+},
+{
+"id": 27,
+"level": "easy",
+"hi": "भाई बाहर है।",
+"en": "My brother is outside."
+},
+{
+"id": 28,
+"level": "easy",
+"hi": "डॉक्टर यहाँ हैं।",
+"en": "The doctor is here."
+},
+{
+"id": 29,
+"level": "easy",
+"hi": "स्कूल पास है।",
+"en": "The school is nearby."
+},
+{
+"id": 30,
+"level": "easy",
+"hi": "बाज़ार दूर है।",
+"en": "The market is far."
+},
+{
+"id": 31,
+"level": "easy",
+"hi": "मैं खुश हूँ।",
+"en": "I am happy."
+},
+{
+"id": 32,
+"level": "easy",
+"hi": "मैं तैयार हूँ।",
+"en": "I am ready."
+},
+{
+"id": 33,
+"level": "easy",
+"hi": "मैं भूखा हूँ।",
+"en": "I am hungry."
+},
+{
+"id": 34,
+"level": "easy",
+"hi": "मैं प्यासी हूँ।",
+"en": "I am thirsty."
+},
+{
+"id": 35,
+"level": "easy",
+"hi": "मैं थका हूँ।",
+"en": "I am tired."
+},
+{
+"id": 36,
+"level": "easy",
+"hi": "मैं परेशान हूँ।",
+"en": "I am worried."
+},
+{
+"id": 37,
+"level": "easy",
+"hi": "मुझे पानी चाहिए।",
+"en": "I need water."
+},
+{
+"id": 38,
+"level": "easy",
+"hi": "मुझे मदद चाहिए।",
+"en": "I need help."
+},
+{
+"id": 39,
+"level": "easy",
+"hi": "मुझे चाय पसंद है।",
+"en": "I like tea."
+},
+{
+"id": 40,
+"level": "easy",
+"hi": "मुझे हिंदी आती है।",
+"en": "I know Hindi."
+},
+{
+"id": 41,
+"level": "easy",
+"hi": "हम दोस्त हैं।",
+"en": "We are friends."
+},
+{
+"id": 42,
+"level": "easy",
+"hi": "तुम सही हो।",
+"en": "You are right."
+},
+{
+"id": 43,
+"level": "easy",
+"hi": "वह पढ़ रही है।",
+"en": "She is reading."
+},
+{
+"id": 44,
+"level": "easy",
+"hi": "वह लिख रहा है।",
+"en": "He is writing."
+},
+{
+"id": 45,
+"level": "easy",
+"hi": "बच्चा सो रहा है।",
+"en": "The child is sleeping."
+},
+{
+"id": 46,
+"level": "easy",
+"hi": "आपका नाम क्या है?",
+"en": "What is your name?"
+},
+{
+"id": 47,
+"level": "easy",
+"hi": "आप कैसे हैं?",
+"en": "How are you?"
+},
+{
+"id": 48,
+"level": "easy",
+"hi": "तुम कहाँ हो?",
+"en": "Where are you?"
+},
+{
+"id": 49,
+"level": "easy",
+"hi": "यह क्या है?",
+"en": "What is this?"
+},
+{
+"id": 50,
+"level": "easy",
+"hi": "वह कौन है?",
+"en": "Who is that?"
+},
+{
+"id": 51,
+"level": "easy",
+"hi": "किताब कहाँ है?",
+"en": "Where is the book?"
+},
+{
+"id": 52,
+"level": "easy",
+"hi": "माँ कहाँ हैं?",
+"en": "Where is Mother?"
+},
+{
+"id": 53,
+"level": "easy",
+"hi": "पानी चाहिए?",
+"en": "Want some water?"
+},
+{
+"id": 54,
+"level": "easy",
+"hi": "चाय पियोगे?",
+"en": "Will you drink tea?"
+},
+{
+"id": 55,
+"level": "easy",
+"hi": "तुम तैयार हो?",
+"en": "Are you ready?"
+},
+{
+"id": 56,
+"level": "easy",
+"hi": "सब ठीक है?",
+"en": "Is everything okay?"
+},
+{
+"id": 57,
+"level": "easy",
+"hi": "कितना समय लगेगा?",
+"en": "How long is needed?"
+},
+{
+"id": 58,
+"level": "easy",
+"hi": "तुम कब आओगे?",
+"en": "When will you come?"
+},
+{
+"id": 59,
+"level": "easy",
+"hi": "तुम क्यों हँसे?",
+"en": "Why did you laugh?"
+},
+{
+"id": 60,
+"level": "easy",
+"hi": "क्या तुम समझे?",
+"en": "Did you understand?"
+},
+{
+"id": 61,
+"level": "easy",
+"hi": "क्या हुआ?",
+"en": "What happened?"
+},
+{
+"id": 62,
+"level": "easy",
+"hi": "कौन आया?",
+"en": "Who came?"
+},
+{
+"id": 63,
+"level": "easy",
+"hi": "तुम क्या चाहोगे?",
+"en": "What would you like?"
+},
+{
+"id": 64,
+"level": "easy",
+"hi": "दुकान कब खुलेगी?",
+"en": "When will it open?"
+},
+{
+"id": 65,
+"level": "easy",
+"hi": "क्या यह सही है?",
+"en": "Is this correct?"
+},
+{
+"id": 66,
+"level": "easy",
+"hi": "यहाँ आओ।",
+"en": "Come here."
+},
+{
+"id": 67,
+"level": "easy",
+"hi": "वहाँ जाओ।",
+"en": "Go there."
+},
+{
+"id": 68,
+"level": "easy",
+"hi": "अंदर आओ।",
+"en": "Come inside."
+},
+{
+"id": 69,
+"level": "easy",
+"hi": "बाहर बैठो।",
+"en": "Sit outside."
+},
+{
+"id": 70,
+"level": "easy",
+"hi": "जल्दी आओ।",
+"en": "Come quickly."
+},
+{
+"id": 71,
+"level": "easy",
+"hi": "धीरे चलो।",
+"en": "Walk slowly."
+},
+{
+"id": 72,
+"level": "easy",
+"hi": "ध्यान से सुनो।",
+"en": "Listen carefully."
+},
+{
+"id": 73,
+"level": "easy",
+"hi": "फिर से बोलो।",
+"en": "Say it again."
+},
+{
+"id": 74,
+"level": "easy",
+"hi": "दरवाज़ा खोलो।",
+"en": "Open the door."
+},
+{
+"id": 75,
+"level": "easy",
+"hi": "खिड़की बंद करो।",
+"en": "Close the window."
+},
+{
+"id": 76,
+"level": "easy",
+"hi": "पानी पियो।",
+"en": "Drink water."
+},
+{
+"id": 77,
+"level": "easy",
+"hi": "खाना खाओ।",
+"en": "Eat your food."
+},
+{
+"id": 78,
+"level": "easy",
+"hi": "हाथ धोओ।",
+"en": "Wash your hands."
+},
+{
+"id": 79,
+"level": "easy",
+"hi": "किताब पढ़ो।",
+"en": "Read the book."
+},
+{
+"id": 80,
+"level": "easy",
+"hi": "अपना नाम लिखो।",
+"en": "Write your name."
+},
+{
+"id": 81,
+"level": "easy",
+"hi": "हिंदी बोलो।",
+"en": "Speak Hindi."
+},
+{
+"id": 82,
+"level": "easy",
+"hi": "सच बताओ।",
+"en": "Tell the truth."
+},
+{
+"id": 83,
+"level": "easy",
+"hi": "सवाल पूछो।",
+"en": "Ask a question."
+},
+{
+"id": 84,
+"level": "easy",
+"hi": "जवाब दो।",
+"en": "Give an answer."
+},
+{
+"id": 85,
+"level": "easy",
+"hi": "मेरी मदद करो।",
+"en": "Help me."
+},
+{
+"id": 86,
+"level": "easy",
+"hi": "थोड़ा इंतज़ार करो।",
+"en": "Wait a little."
+},
+{
+"id": 87,
+"level": "easy",
+"hi": "अभी रुको।",
+"en": "Stop now."
+},
+{
+"id": 88,
+"level": "easy",
+"hi": "वापस आओ।",
+"en": "Come back."
+},
+{
+"id": 89,
+"level": "easy",
+"hi": "ऊपर देखो।",
+"en": "Look up."
+},
+{
+"id": 90,
+"level": "easy",
+"hi": "नीचे देखो।",
+"en": "Look down."
+},
+{
+"id": 91,
+"level": "easy",
+"hi": "मुझे बताओ।",
+"en": "Tell me."
+},
+{
+"id": 92,
+"level": "easy",
+"hi": "यह लो।",
+"en": "Take this."
+},
+{
+"id": 93,
+"level": "easy",
+"hi": "फ़ोन उठाओ।",
+"en": "Answer the phone."
+},
+{
+"id": 94,
+"level": "easy",
+"hi": "चाय बनाओ।",
+"en": "Make tea."
+},
+{
+"id": 95,
+"level": "easy",
+"hi": "कमरा साफ़ करो।",
+"en": "Clean the room."
+},
+{
+"id": 96,
+"level": "easy",
+"hi": "मुझे याद रखना।",
+"en": "Remember me."
+},
+{
+"id": 97,
+"level": "easy",
+"hi": "चिंता मत करो।",
+"en": "Do not worry."
+},
+{
+"id": 98,
+"level": "easy",
+"hi": "शोर मत करो।",
+"en": "Do not shout."
+},
+{
+"id": 99,
+"level": "easy",
+"hi": "रोज़ अभ्यास करो।",
+"en": "Practice every day."
+},
+{
+"id": 100,
+"level": "easy",
+"hi": "हमेशा खुश रहो।",
+"en": "Always stay happy."
+},
+{
+"id": 101,
+"level": "easy",
+"hi": "आसमान नीला है।",
+"en": "The sky is blue."
+},
+{
+"id": 102,
+"level": "easy",
+"hi": "सूरज चमक रहा है।",
+"en": "The sun is shining."
+},
+{
+"id": 103,
+"level": "easy",
+"hi": "चाँद निकल आया है।",
+"en": "The moon has risen."
+},
+{
+"id": 104,
+"level": "easy",
+"hi": "तारे चमक रहे हैं।",
+"en": "The stars are shining."
+},
+{
+"id": 105,
+"level": "easy",
+"hi": "बारिश हो रही है।",
+"en": "It is raining."
+},
+{
+"id": 106,
+"level": "easy",
+"hi": "हवा चल रही है।",
+"en": "The wind is blowing."
+},
+{
+"id": 107,
+"level": "easy",
+"hi": "बर्फ़ गिर रही है।",
+"en": "Snow is falling."
+},
+{
+"id": 108,
+"level": "easy",
+"hi": "मौसम अच्छा है।",
+"en": "The weather is nice."
+},
+{
+"id": 109,
+"level": "easy",
+"hi": "आज ठंड है।",
+"en": "It is cold today."
+},
+{
+"id": 110,
+"level": "easy",
+"hi": "आज गर्मी है।",
+"en": "It is hot today."
+},
+{
+"id": 111,
+"level": "easy",
+"hi": "रात अँधेरी है।",
+"en": "The night is dark."
+},
+{
+"id": 112,
+"level": "easy",
+"hi": "सुबह हो गई।",
+"en": "Morning has arrived."
+},
+{
+"id": 113,
+"level": "easy",
+"hi": "शाम हो गई।",
+"en": "Evening has arrived."
+},
+{
+"id": 114,
+"level": "easy",
+"hi": "पेड़ ऊँचा है।",
+"en": "The tree is tall."
+},
+{
+"id": 115,
+"level": "easy",
+"hi": "फूल सुंदर है।",
+"en": "The flower is beautiful."
+},
+{
+"id": 116,
+"level": "easy",
+"hi": "घास हरी है।",
+"en": "The grass is green."
+},
+{
+"id": 117,
+"level": "easy",
+"hi": "नदी गहरी है।",
+"en": "The river is deep."
+},
+{
+"id": 118,
+"level": "easy",
+"hi": "समुद्र शांत है।",
+"en": "The sea is calm."
+},
+{
+"id": 119,
+"level": "easy",
+"hi": "पहाड़ ऊँचा है।",
+"en": "The mountain is high."
+},
+{
+"id": 120,
+"level": "easy",
+"hi": "रास्ता सँकरा है।",
+"en": "The path is narrow."
+},
+{
+"id": 121,
+"level": "easy",
+"hi": "पुल मज़बूत है।",
+"en": "The bridge is strong."
+},
+{
+"id": 122,
+"level": "easy",
+"hi": "दीवार सफ़ेद है।",
+"en": "The wall is white."
+},
+{
+"id": 123,
+"level": "easy",
+"hi": "कुर्सी टूटी है।",
+"en": "The chair is broken."
+},
+{
+"id": 124,
+"level": "easy",
+"hi": "मेज़ गोल है।",
+"en": "The table is round."
+},
+{
+"id": 125,
+"level": "easy",
+"hi": "बिस्तर नरम है।",
+"en": "The bed is soft."
+},
+{
+"id": 126,
+"level": "easy",
+"hi": "तकिया छोटा है।",
+"en": "The pillow is small."
+},
+{
+"id": 127,
+"level": "easy",
+"hi": "बैग भारी है।",
+"en": "The bag is heavy."
+},
+{
+"id": 128,
+"level": "easy",
+"hi": "डिब्बा खाली है।",
+"en": "The box is empty."
+},
+{
+"id": 129,
+"level": "easy",
+"hi": "बोतल भरी है।",
+"en": "The bottle is full."
+},
+{
+"id": 130,
+"level": "easy",
+"hi": "कप गंदा है।",
+"en": "The cup is dirty."
+},
+{
+"id": 131,
+"level": "easy",
+"hi": "प्लेट साफ़ है।",
+"en": "The plate is clean."
+},
+{
+"id": 132,
+"level": "easy",
+"hi": "चाकू तेज़ है।",
+"en": "The knife is sharp."
+},
+{
+"id": 133,
+"level": "easy",
+"hi": "रस्सी लंबी है।",
+"en": "The rope is long."
+},
+{
+"id": 134,
+"level": "easy",
+"hi": "चाबी छोटी है।",
+"en": "The key is small."
+},
+{
+"id": 135,
+"level": "easy",
+"hi": "ताला नया है।",
+"en": "The lock is new."
+},
+{
+"id": 136,
+"level": "easy",
+"hi": "घड़ी बंद है।",
+"en": "The clock has stopped."
+},
+{
+"id": 137,
+"level": "easy",
+"hi": "फ़ोन बज रहा है।",
+"en": "The phone is ringing."
+},
+{
+"id": 138,
+"level": "easy",
+"hi": "बत्ती जल रही है।",
+"en": "The light is on."
+},
+{
+"id": 139,
+"level": "easy",
+"hi": "पंखा चल रहा है।",
+"en": "The fan is running."
+},
+{
+"id": 140,
+"level": "easy",
+"hi": "बस आ गई।",
+"en": "The bus has arrived."
+},
+{
+"id": 141,
+"level": "easy",
+"hi": "ट्रेन रुक गई।",
+"en": "The train has stopped."
+},
+{
+"id": 142,
+"level": "easy",
+"hi": "कुत्ता भौंक रहा है।",
+"en": "The dog is barking."
+},
+{
+"id": 143,
+"level": "easy",
+"hi": "बिल्ली सो रही है।",
+"en": "The cat is sleeping."
+},
+{
+"id": 144,
+"level": "easy",
+"hi": "चिड़िया उड़ रही है।",
+"en": "The bird is flying."
+},
+{
+"id": 145,
+"level": "easy",
+"hi": "मछली तैर रही है।",
+"en": "The fish is swimming."
+},
+{
+"id": 146,
+"level": "easy",
+"hi": "घोड़ा दौड़ रहा है।",
+"en": "The horse is running."
+},
+{
+"id": 147,
+"level": "easy",
+"hi": "बच्ची हँस रही है।",
+"en": "The girl is laughing."
+},
+{
+"id": 148,
+"level": "easy",
+"hi": "लड़का रो रहा है।",
+"en": "The boy is crying."
+},
+{
+"id": 149,
+"level": "easy",
+"hi": "शिक्षक पढ़ा रहे हैं।",
+"en": "The teacher is teaching."
+},
+{
+"id": 150,
+"level": "easy",
+"hi": "बच्चे खेल रहे हैं।",
+"en": "The children are playing."
+},
+{
+"id": 151,
+"level": "easy",
+"hi": "मुझे भूख लगी है।",
+"en": "I am hungry."
+},
+{
+"id": 152,
+"level": "easy",
+"hi": "मुझे प्यास लगी है।",
+"en": "I am thirsty."
+},
+{
+"id": 153,
+"level": "easy",
+"hi": "मुझे नींद आई।",
+"en": "I felt sleepy."
+},
+{
+"id": 154,
+"level": "easy",
+"hi": "मुझे ठंड लगी।",
+"en": "I felt cold."
+},
+{
+"id": 155,
+"level": "easy",
+"hi": "मुझे गर्मी लगी।",
+"en": "I felt hot."
+},
+{
+"id": 156,
+"level": "easy",
+"hi": "मुझे डर लगा।",
+"en": "I felt scared."
+},
+{
+"id": 157,
+"level": "easy",
+"hi": "मुझे चोट लगी।",
+"en": "I got hurt."
+},
+{
+"id": 158,
+"level": "easy",
+"hi": "मुझे बुखार है।",
+"en": "I have fever."
+},
+{
+"id": 159,
+"level": "easy",
+"hi": "मुझे खाँसी है।",
+"en": "I have a cough."
+},
+{
+"id": 160,
+"level": "easy",
+"hi": "सिर दुख रहा है।",
+"en": "My head hurts."
+},
+{
+"id": 161,
+"level": "easy",
+"hi": "पेट दुख रहा है।",
+"en": "My stomach hurts."
+},
+{
+"id": 162,
+"level": "easy",
+"hi": "मैं ठीक हूँ।",
+"en": "I am fine."
+},
+{
+"id": 163,
+"level": "easy",
+"hi": "मैं सुरक्षित हूँ।",
+"en": "I am safe."
+},
+{
+"id": 164,
+"level": "easy",
+"hi": "मैं अकेला हूँ।",
+"en": "I am alone."
+},
+{
+"id": 165,
+"level": "easy",
+"hi": "मैं व्यस्त हूँ।",
+"en": "I am busy."
+},
+{
+"id": 166,
+"level": "easy",
+"hi": "मैं उत्साहित हूँ।",
+"en": "I am excited."
+},
+{
+"id": 167,
+"level": "easy",
+"hi": "मैं नाराज़ हूँ।",
+"en": "I am upset."
+},
+{
+"id": 168,
+"level": "easy",
+"hi": "मैं हैरान हूँ।",
+"en": "I am surprised."
+},
+{
+"id": 169,
+"level": "easy",
+"hi": "मैं शर्मिंदा हूँ।",
+"en": "I am embarrassed."
+},
+{
+"id": 170,
+"level": "easy",
+"hi": "मैं आभारी हूँ।",
+"en": "I am grateful."
+},
+{
+"id": 171,
+"level": "easy",
+"hi": "हम तैयार हैं।",
+"en": "We are ready."
+},
+{
+"id": 172,
+"level": "easy",
+"hi": "हम साथ हैं।",
+"en": "We are together."
+},
+{
+"id": 173,
+"level": "easy",
+"hi": "सब खुश हैं।",
+"en": "Everyone is happy."
+},
+{
+"id": 174,
+"level": "easy",
+"hi": "कोई बाहर है।",
+"en": "Someone is outside."
+},
+{
+"id": 175,
+"level": "easy",
+"hi": "कोई आया है।",
+"en": "Someone has arrived."
+},
+{
+"id": 176,
+"level": "easy",
+"hi": "सब सो गए।",
+"en": "Everyone fell asleep."
+},
+{
+"id": 177,
+"level": "easy",
+"hi": "सब चले गए।",
+"en": "Everyone has left."
+},
+{
+"id": 178,
+"level": "easy",
+"hi": "मुझे समय चाहिए।",
+"en": "I need time."
+},
+{
+"id": 179,
+"level": "easy",
+"hi": "मुझे पैसे चाहिए।",
+"en": "I need money."
+},
+{
+"id": 180,
+"level": "easy",
+"hi": "मुझे छुट्टी चाहिए।",
+"en": "I need leave."
+},
+{
+"id": 181,
+"level": "easy",
+"hi": "मुझे आराम चाहिए।",
+"en": "I need rest."
+},
+{
+"id": 182,
+"level": "easy",
+"hi": "मुझे कॉफ़ी पसंद है।",
+"en": "I like coffee."
+},
+{
+"id": 183,
+"level": "easy",
+"hi": "मुझे संगीत पसंद है।",
+"en": "I like music."
+},
+{
+"id": 184,
+"level": "easy",
+"hi": "मुझे तैरना आता है।",
+"en": "I can swim."
+},
+{
+"id": 185,
+"level": "easy",
+"hi": "मुझे खाना बनाना आता है।",
+"en": "I can cook."
+},
+{
+"id": 186,
+"level": "easy",
+"hi": "मुझे सब पता है।",
+"en": "I know everything."
+},
+{
+"id": 187,
+"level": "easy",
+"hi": "मुझे कुछ नहीं चाहिए।",
+"en": "I need nothing."
+},
+{
+"id": 188,
+"level": "easy",
+"hi": "मुझे याद है।",
+"en": "I remember."
+},
+{
+"id": 189,
+"level": "easy",
+"hi": "मुझे विश्वास है।",
+"en": "I have faith."
+},
+{
+"id": 190,
+"level": "easy",
+"hi": "मुझे माफ़ करो।",
+"en": "Forgive me."
+},
+{
+"id": 191,
+"level": "easy",
+"hi": "कृपया बैठिए।",
+"en": "Please sit down."
+},
+{
+"id": 192,
+"level": "easy",
+"hi": "कृपया आइए।",
+"en": "Please come."
+},
+{
+"id": 193,
+"level": "easy",
+"hi": "कृपया रुकिए।",
+"en": "Please stop."
+},
+{
+"id": 194,
+"level": "easy",
+"hi": "कृपया सुनिए।",
+"en": "Please listen."
+},
+{
+"id": 195,
+"level": "easy",
+"hi": "कृपया बताइए।",
+"en": "Please tell me."
+},
+{
+"id": 196,
+"level": "easy",
+"hi": "ज़रा मुस्कुराओ।",
+"en": "Smile a little."
+},
+{
+"id": 197,
+"level": "easy",
+"hi": "सीधे बैठो।",
+"en": "Sit straight."
+},
+{
+"id": 198,
+"level": "easy",
+"hi": "खड़े हो जाओ।",
+"en": "Stand up."
+},
+{
+"id": 199,
+"level": "easy",
+"hi": "आँखें बंद करो।",
+"en": "Close your eyes."
+},
+{
+"id": 200,
+"level": "easy",
+"hi": "आँखें खोलो।",
+"en": "Open your eyes."
+},
+{
+"id": 201,
+"level": "easy",
+"hi": "मुँह खोलो।",
+"en": "Open your mouth."
+},
+{
+"id": 202,
+"level": "easy",
+"hi": "गहरी साँस लो।",
+"en": "Take a deep breath."
+},
+{
+"id": 203,
+"level": "easy",
+"hi": "थोड़ा आराम करो।",
+"en": "Rest a little."
+},
+{
+"id": 204,
+"level": "easy",
+"hi": "जल्दी सो जाओ।",
+"en": "Go to bed early."
+},
+{
+"id": 205,
+"level": "easy",
+"hi": "सुबह जल्दी उठो।",
+"en": "Wake up early."
+},
+{
+"id": 206,
+"level": "easy",
+"hi": "अपना चेहरा धोओ।",
+"en": "Wash your face."
+},
+{
+"id": 207,
+"level": "easy",
+"hi": "दाँत साफ़ करो।",
+"en": "Brush your teeth."
+},
+{
+"id": 208,
+"level": "easy",
+"hi": "बाल सँवारो।",
+"en": "Comb your hair."
+},
+{
+"id": 209,
+"level": "easy",
+"hi": "जूते पहनो।",
+"en": "Put on your shoes."
+},
+{
+"id": 210,
+"level": "easy",
+"hi": "जूते उतारो।",
+"en": "Take off your shoes."
+},
+{
+"id": 211,
+"level": "easy",
+"hi": "कपड़े बदलो।",
+"en": "Change your clothes."
+},
+{
+"id": 212,
+"level": "easy",
+"hi": "छाता ले लो।",
+"en": "Take an umbrella."
+},
+{
+"id": 213,
+"level": "easy",
+"hi": "बत्ती बुझा दो।",
+"en": "Turn off the light."
+},
+{
+"id": 214,
+"level": "easy",
+"hi": "पंखा चला दो।",
+"en": "Turn on the fan."
+},
+{
+"id": 215,
+"level": "easy",
+"hi": "खिड़की खोल दो।",
+"en": "Open the window."
+},
+{
+"id": 216,
+"level": "easy",
+"hi": "पर्दा हटा दो।",
+"en": "Move the curtain aside."
+},
+{
+"id": 217,
+"level": "easy",
+"hi": "बैग उठाओ।",
+"en": "Pick up the bag."
+},
+{
+"id": 218,
+"level": "easy",
+"hi": "किताब रख दो।",
+"en": "Put the book down."
+},
+{
+"id": 219,
+"level": "easy",
+"hi": "दूध गरम करो।",
+"en": "Heat the milk."
+},
+{
+"id": 220,
+"level": "easy",
+"hi": "सब्ज़ी काटो।",
+"en": "Chop the vegetables."
+},
+{
+"id": 221,
+"level": "easy",
+"hi": "नमक डालो।",
+"en": "Add salt."
+},
+{
+"id": 222,
+"level": "easy",
+"hi": "चीनी कम डालो।",
+"en": "Add less sugar."
+},
+{
+"id": 223,
+"level": "easy",
+"hi": "धीरे खाओ।",
+"en": "Eat slowly."
+},
+{
+"id": 224,
+"level": "easy",
+"hi": "अच्छी तरह चबाओ।",
+"en": "Chew well."
+},
+{
+"id": 225,
+"level": "easy",
+"hi": "पानी भर दो।",
+"en": "Fill it with water."
+},
+{
+"id": 226,
+"level": "easy",
+"hi": "बर्तन धोओ।",
+"en": "Wash the dishes."
+},
+{
+"id": 227,
+"level": "easy",
+"hi": "मेज़ पोंछो।",
+"en": "Wipe the table."
+},
+{
+"id": 228,
+"level": "easy",
+"hi": "कूड़ा उठाओ।",
+"en": "Pick up the rubbish."
+},
+{
+"id": 229,
+"level": "easy",
+"hi": "पौधों को पानी दो।",
+"en": "Water the plants."
+},
+{
+"id": 230,
+"level": "easy",
+"hi": "दरवाज़ा बंद कर दो।",
+"en": "Shut the door."
+},
+{
+"id": 231,
+"level": "easy",
+"hi": "तुम्हारी उम्र क्या है?",
+"en": "How old are you?"
+},
+{
+"id": 232,
+"level": "easy",
+"hi": "तुम कहाँ रहते हो?",
+"en": "Where do you live?"
+},
+{
+"id": 233,
+"level": "easy",
+"hi": "तुम कहाँ जाओगे?",
+"en": "Where will you go?"
+},
+{
+"id": 234,
+"level": "easy",
+"hi": "तुम क्या पढ़ोगे?",
+"en": "What will you read?"
+},
+{
+"id": 235,
+"level": "easy",
+"hi": "तुम क्या खाओगे?",
+"en": "What will you eat?"
+},
+{
+"id": 236,
+"level": "easy",
+"hi": "तुम किससे मिले?",
+"en": "Whom did you meet?"
+},
+{
+"id": 237,
+"level": "easy",
+"hi": "तुम कैसे आए?",
+"en": "How did you come?"
+},
+{
+"id": 238,
+"level": "easy",
+"hi": "तुम क्यों रुके?",
+"en": "Why did you stop?"
+},
+{
+"id": 239,
+"level": "easy",
+"hi": "तुम कब लौटोगे?",
+"en": "When will you return?"
+},
+{
+"id": 240,
+"level": "easy",
+"hi": "तुम क्या सोचते हो?",
+"en": "What do you think?"
+},
+{
+"id": 241,
+"level": "easy",
+"hi": "कौन बोल रहा है?",
+"en": "Who is speaking?"
+},
+{
+"id": 242,
+"level": "easy",
+"hi": "कौन गा रहा है?",
+"en": "Who is singing?"
+},
+{
+"id": 243,
+"level": "easy",
+"hi": "किसने दरवाज़ा खोला?",
+"en": "Who opened the door?"
+},
+{
+"id": 244,
+"level": "easy",
+"hi": "किसने खाना बनाया?",
+"en": "Who cooked the food?"
+},
+{
+"id": 245,
+"level": "easy",
+"hi": "किसने तुम्हें बुलाया?",
+"en": "Who called you?"
+},
+{
+"id": 246,
+"level": "easy",
+"hi": "तुम्हारा बैग कहाँ है?",
+"en": "Where is your bag?"
+},
+{
+"id": 247,
+"level": "easy",
+"hi": "मेरी चाबी कहाँ है?",
+"en": "Where is my key?"
+},
+{
+"id": 248,
+"level": "easy",
+"hi": "अगली बस कब आएगी?",
+"en": "When's the next bus?"
+},
+{
+"id": 249,
+"level": "easy",
+"hi": "रास्ता किधर है?",
+"en": "Which way is it?"
+},
+{
+"id": 250,
+"level": "easy",
+"hi": "अस्पताल कहाँ है?",
+"en": "Where is the hospital?"
+},
+{
+"id": 251,
+"level": "easy",
+"hi": "क्या तुम्हें भूख लगी?",
+"en": "Are you hungry?"
+},
+{
+"id": 252,
+"level": "easy",
+"hi": "क्या तुम्हें ठंड लगी?",
+"en": "Are you cold?"
+},
+{
+"id": 253,
+"level": "easy",
+"hi": "क्या तुम तैरोगे?",
+"en": "Will you swim?"
+},
+{
+"id": 254,
+"level": "easy",
+"hi": "क्या तुम चलोगे?",
+"en": "Will you come along?"
+},
+{
+"id": 255,
+"level": "easy",
+"hi": "क्या तुम सुनोगे?",
+"en": "Will you listen?"
+},
+{
+"id": 256,
+"level": "easy",
+"hi": "क्या तुम पढ़ोगे?",
+"en": "Will you read?"
+},
+{
+"id": 257,
+"level": "easy",
+"hi": "क्या मैं बैठूँ?",
+"en": "May I sit?"
+},
+{
+"id": 258,
+"level": "easy",
+"hi": "क्या मैं जाऊँ?",
+"en": "May I go?"
+},
+{
+"id": 259,
+"level": "easy",
+"hi": "क्या मैं देखूँ?",
+"en": "May I look?"
+},
+{
+"id": 260,
+"level": "easy",
+"hi": "क्या हम चलें?",
+"en": "Shall we go?"
+},
+{
+"id": 261,
+"level": "easy",
+"hi": "मैं कल आऊँगा।",
+"en": "I will come tomorrow."
+},
+{
+"id": 262,
+"level": "easy",
+"hi": "मैं आज जाऊँगी।",
+"en": "I will go today."
+},
+{
+"id": 263,
+"level": "easy",
+"hi": "हम फिर मिलेंगे।",
+"en": "We will meet again."
+},
+{
+"id": 264,
+"level": "easy",
+"hi": "मैं कोशिश करूँगा।",
+"en": "I will try."
+},
+{
+"id": 265,
+"level": "easy",
+"hi": "मैं इंतज़ार करूँगी।",
+"en": "I will wait."
+},
+{
+"id": 266,
+"level": "easy",
+"hi": "मैं तुम्हें बुलाऊँगा।",
+"en": "I will call you."
+},
+{
+"id": 267,
+"level": "easy",
+"hi": "हम जीत जाएँगे।",
+"en": "We will win."
+},
+{
+"id": 268,
+"level": "easy",
+"hi": "वह जल्दी आएगी।",
+"en": "She will come soon."
+},
+{
+"id": 269,
+"level": "easy",
+"hi": "बारिश रुक जाएगी।",
+"en": "The rain will stop."
+},
+{
+"id": 270,
+"level": "easy",
+"hi": "सब ठीक होगा।",
+"en": "Everything will be fine."
+},
+{
+"id": 271,
+"level": "easy",
+"hi": "मैंने खाना खाया।",
+"en": "I ate food."
+},
+{
+"id": 272,
+"level": "easy",
+"hi": "मैंने पानी पिया।",
+"en": "I drank water."
+},
+{
+"id": 273,
+"level": "easy",
+"hi": "मैंने किताब पढ़ी।",
+"en": "I read a book."
+},
+{
+"id": 274,
+"level": "easy",
+"hi": "मैंने पत्र लिखा।",
+"en": "I wrote a letter."
+},
+{
+"id": 275,
+"level": "easy",
+"hi": "मैंने चाय बनाई।",
+"en": "I made tea."
+},
+{
+"id": 276,
+"level": "easy",
+"hi": "मैंने दरवाज़ा खोला।",
+"en": "I opened the door."
+},
+{
+"id": 277,
+"level": "easy",
+"hi": "मैंने फ़िल्म देखी।",
+"en": "I watched a movie."
+},
+{
+"id": 278,
+"level": "easy",
+"hi": "मैंने कहानी सुनी।",
+"en": "I heard a story."
+},
+{
+"id": 279,
+"level": "easy",
+"hi": "मैंने काम किया।",
+"en": "I worked."
+},
+{
+"id": 280,
+"level": "easy",
+"hi": "मैंने पैसे बचाए।",
+"en": "I saved money."
+},
+{
+"id": 281,
+"level": "easy",
+"hi": "हमने क्रिकेट खेला।",
+"en": "We played cricket."
+},
+{
+"id": 282,
+"level": "easy",
+"hi": "हमने खाना बनाया।",
+"en": "We cooked food."
+},
+{
+"id": 283,
+"level": "easy",
+"hi": "उसने सच कहा।",
+"en": "He told the truth."
+},
+{
+"id": 284,
+"level": "easy",
+"hi": "उसने झूठ बोला।",
+"en": "She told a lie."
+},
+{
+"id": 285,
+"level": "easy",
+"hi": "बच्चा गिर गया।",
+"en": "The child fell down."
+},
+{
+"id": 286,
+"level": "easy",
+"hi": "गिलास टूट गया।",
+"en": "The glass broke."
+},
+{
+"id": 287,
+"level": "easy",
+"hi": "दूध उबल गया।",
+"en": "The milk boiled."
+},
+{
+"id": 288,
+"level": "easy",
+"hi": "खाना जल गया।",
+"en": "The food burned."
+},
+{
+"id": 289,
+"level": "easy",
+"hi": "मुझे रास्ता मिला।",
+"en": "I found a way."
+},
+{
+"id": 290,
+"level": "easy",
+"hi": "मेरी बस छूट गई।",
+"en": "I missed my bus."
+},
+{
+"id": 291,
+"level": "easy",
+"hi": "मैं घर पहुँचा।",
+"en": "I reached home."
+},
+{
+"id": 292,
+"level": "easy",
+"hi": "वह स्कूल गई।",
+"en": "She went to school."
+},
+{
+"id": 293,
+"level": "easy",
+"hi": "हम पैदल आए।",
+"en": "We came on foot."
+},
+{
+"id": 294,
+"level": "easy",
+"hi": "वे देरसे पहुँचे।",
+"en": "They arrived late."
+},
+{
+"id": 295,
+"level": "easy",
+"hi": "मेहमान आ गए।",
+"en": "The guests have arrived."
+},
+{
+"id": 296,
+"level": "easy",
+"hi": "छुट्टियाँ शुरू हो गईं।",
+"en": "The holidays have begun."
+},
+{
+"id": 297,
+"level": "easy",
+"hi": "परीक्षा खत्म हो गई।",
+"en": "The exam is over."
+},
+{
+"id": 298,
+"level": "easy",
+"hi": "मेरा काम पूरा हुआ।",
+"en": "My work is done."
+},
+{
+"id": 299,
+"level": "easy",
+"hi": "मुझे जवाब मिल गया।",
+"en": "I got the answer."
+},
+{
+"id": 300,
+"level": "easy",
+"hi": "हमने बहुत सीखा।",
+"en": "We learned a lot."
+},
+{
+"id": 301,
+"level": "medium",
+"hi": "मेरी चाची बहुत स्वादिष्ट खाना बनाती हैं।",
+"en": "My aunt cooks very delicious food.",
+"theme": "People, family, and health"
+},
+{
+"id": 302,
+"level": "medium",
+"hi": "मेरी मौसी कल हमारे घर आएँगी।",
+"en": "My aunt will visit our home tomorrow.",
+"theme": "People, family, and health"
+},
+{
+"id": 303,
+"level": "medium",
+"hi": "मेरा भाई रोज़ साइकिल चलाता है।",
+"en": "My brother rides a bicycle every day.",
+"theme": "People, family, and health"
+},
+{
+"id": 304,
+"level": "medium",
+"hi": "मेरी बहन अभी कॉलेज में पढ़ती है।",
+"en": "My sister is studying at college now.",
+"theme": "People, family, and health"
+},
+{
+"id": 305,
+"level": "medium",
+"hi": "हमारा परिवार हर रविवार साथ बैठता है।",
+"en": "Our family sits together every Sunday.",
+"theme": "People, family, and health"
+},
+{
+"id": 306,
+"level": "medium",
+"hi": "मेरे पिता एक मेहनती किसान हैं।",
+"en": "My father is a hardworking farmer.",
+"theme": "People, family, and health"
+},
+{
+"id": 307,
+"level": "medium",
+"hi": "मेरी माँ बच्चों को हिंदी सिखाती हैं।",
+"en": "My mother teaches Hindi to children.",
+"theme": "People, family, and health"
+},
+{
+"id": 308,
+"level": "medium",
+"hi": "दादाजी सुबह बगीचे में अख़बार पढ़ते हैं।",
+"en": "Grandfather reads the newspaper outside every morning.",
+"theme": "People, family, and health"
+},
+{
+"id": 309,
+"level": "medium",
+"hi": "दादी मुझे रात को कहानी सुनाती हैं।",
+"en": "Grandmother tells me a story at night.",
+"theme": "People, family, and health"
+},
+{
+"id": 310,
+"level": "medium",
+"hi": "नानाजी अपने गाँव में अकेले रहते हैं।",
+"en": "My grandfather lives alone in his village.",
+"theme": "People, family, and health"
+},
+{
+"id": 311,
+"level": "medium",
+"hi": "नानी ने मेरे लिए मिठाई बनाई।",
+"en": "My grandmother made some sweets for me.",
+"theme": "People, family, and health"
+},
+{
+"id": 312,
+"level": "medium",
+"hi": "चाचा अपनी नई गाड़ी चला रहे हैं।",
+"en": "My uncle is driving his new car.",
+"theme": "People, family, and health"
+},
+{
+"id": 313,
+"level": "medium",
+"hi": "मामा हमें स्टेशन तक छोड़ने आए।",
+"en": "My uncle came to see us off.",
+"theme": "People, family, and health"
+},
+{
+"id": 314,
+"level": "medium",
+"hi": "मेरी बेटी को रंगीन किताबें पसंद हैं।",
+"en": "My daughter likes books with colorful pictures.",
+"theme": "People, family, and health"
+},
+{
+"id": 315,
+"level": "medium",
+"hi": "उनका बेटा अगले साल स्कूल जाएगा।",
+"en": "Their son will start school next year.",
+"theme": "People, family, and health"
+},
+{
+"id": 316,
+"level": "medium",
+"hi": "छोटे बच्चे मैदान में खेल रहे हैं।",
+"en": "The little children are playing in the field.",
+"theme": "People, family, and health"
+},
+{
+"id": 317,
+"level": "medium",
+"hi": "वह लड़की अपनी माँ जैसी दिखती है।",
+"en": "That girl looks just like her mother.",
+"theme": "People, family, and health"
+},
+{
+"id": 318,
+"level": "medium",
+"hi": "वह लड़का बहुत विनम्र और समझदार है।",
+"en": "That boy is very polite and sensible.",
+"theme": "People, family, and health"
+},
+{
+"id": 319,
+"level": "medium",
+"hi": "मेरे पड़ोसी हमेशा मेरी मदद करते हैं।",
+"en": "My neighbors always give me a helping hand.",
+"theme": "People, family, and health"
+},
+{
+"id": 320,
+"level": "medium",
+"hi": "हमारे मेहमान शाम तक यहाँ पहुँचेंगे।",
+"en": "Our guests will arrive here by evening.",
+"theme": "People, family, and health"
+},
+{
+"id": 321,
+"level": "medium",
+"hi": "दुल्हन ने सुंदर लाल साड़ी पहनी है।",
+"en": "The bride is wearing a beautiful red sari.",
+"theme": "People, family, and health"
+},
+{
+"id": 322,
+"level": "medium",
+"hi": "दूल्हा अपने दोस्तों के साथ नाच रहा है।",
+"en": "The groom is dancing with his friends.",
+"theme": "People, family, and health"
+},
+{
+"id": 323,
+"level": "medium",
+"hi": "उसके पति एक स्थानीय अस्पताल में डॉक्टर हैं।",
+"en": "Her husband is a doctor at a local hospital.",
+"theme": "People, family, and health"
+},
+{
+"id": 324,
+"level": "medium",
+"hi": "उनकी पत्नी विश्वविद्यालय में इतिहास पढ़ाती हैं।",
+"en": "His wife teaches history at the university.",
+"theme": "People, family, and health"
+},
+{
+"id": 325,
+"level": "medium",
+"hi": "दुकान का मालिक बहुत ईमानदार आदमी है।",
+"en": "The shop owner is a very honest man.",
+"theme": "People, family, and health"
+},
+{
+"id": 326,
+"level": "medium",
+"hi": "मज़दूर धूप में नया घर बना रहे हैं।",
+"en": "The workers are building a house in the sunshine.",
+"theme": "People, family, and health"
+},
+{
+"id": 327,
+"level": "medium",
+"hi": "अध्यापक ने सभी छात्रों की तारीफ़ की।",
+"en": "The teacher praised all of the students.",
+"theme": "People, family, and health"
+},
+{
+"id": 328,
+"level": "medium",
+"hi": "राजा ने गरीब लोगों की मदद की।",
+"en": "The king helped the poor people.",
+"theme": "People, family, and health"
+},
+{
+"id": 329,
+"level": "medium",
+"hi": "रानी ने बच्चों को तोहफ़े बाँटे।",
+"en": "The queen gave gifts to the children.",
+"theme": "People, family, and health"
+},
+{
+"id": 330,
+"level": "medium",
+"hi": "मेरे दोस्त का नाम बहुत अनोखा है।",
+"en": "My friend has a very unusual name.",
+"theme": "People, family, and health"
+},
+{
+"id": 331,
+"level": "medium",
+"hi": "आज मेरे सिर में दर्द हो रहा है।",
+"en": "I have a headache at the moment.",
+"theme": "People, family, and health"
+},
+{
+"id": 332,
+"level": "medium",
+"hi": "उसके घुटने में कल चोट लगी थी।",
+"en": "He injured his knee yesterday afternoon.",
+"theme": "People, family, and health"
+},
+{
+"id": 333,
+"level": "medium",
+"hi": "मेरी आँखों में थोड़ी जलन हो रही है।",
+"en": "My eyes are feeling a little irritated.",
+"theme": "People, family, and health"
+},
+{
+"id": 334,
+"level": "medium",
+"hi": "बच्चे के हाथ बहुत गंदे हैं।",
+"en": "The child's hands are very dirty.",
+"theme": "People, family, and health"
+},
+{
+"id": 335,
+"level": "medium",
+"hi": "उसने अपना चेहरा ठंडे पानी से धोया।",
+"en": "She washed her face with cold water.",
+"theme": "People, family, and health"
+},
+{
+"id": 336,
+"level": "medium",
+"hi": "मेरे बाल बारिश में भीग गए हैं।",
+"en": "My hair has gotten wet in the rain.",
+"theme": "People, family, and health"
+},
+{
+"id": 337,
+"level": "medium",
+"hi": "उसके कंधे पर एक भारी थैला है।",
+"en": "There is a heavy bag on his shoulder.",
+"theme": "People, family, and health"
+},
+{
+"id": 338,
+"level": "medium",
+"hi": "लंबी यात्रा से मेरी पीठ दुख रही है।",
+"en": "My back hurts after the long journey.",
+"theme": "People, family, and health"
+},
+{
+"id": 339,
+"level": "medium",
+"hi": "डॉक्टर ने मेरी जीभ ध्यान से देखी।",
+"en": "The doctor examined my tongue very carefully.",
+"theme": "People, family, and health"
+},
+{
+"id": 340,
+"level": "medium",
+"hi": "उसके कान में एक छोटी बाली है।",
+"en": "She has a small earring in her ear.",
+"theme": "People, family, and health"
+},
+{
+"id": 341,
+"level": "medium",
+"hi": "मेरी उँगली पर हल्का निशान है।",
+"en": "There is a faint mark on my finger.",
+"theme": "People, family, and health"
+},
+{
+"id": 342,
+"level": "medium",
+"hi": "बच्चे के दो नए दाँत निकले हैं।",
+"en": "The baby has grown two new teeth.",
+"theme": "People, family, and health"
+},
+{
+"id": 343,
+"level": "medium",
+"hi": "उसके होंठ ठंड से सूख गए हैं।",
+"en": "His lips have dried from the cold.",
+"theme": "People, family, and health"
+},
+{
+"id": 344,
+"level": "medium",
+"hi": "उसने अपनी गर्दन धीरे से घुमाई।",
+"en": "She slowly turned her neck around.",
+"theme": "People, family, and health"
+},
+{
+"id": 345,
+"level": "medium",
+"hi": "मेरे पैर अब बहुत थक गए हैं।",
+"en": "My feet are very tired now.",
+"theme": "People, family, and health"
+},
+{
+"id": 346,
+"level": "medium",
+"hi": "उसने अपने नाखून बहुत छोटे काटे।",
+"en": "He cut his nails very short.",
+"theme": "People, family, and health"
+},
+{
+"id": 347,
+"level": "medium",
+"hi": "मेरी नाक आज सुबह से बंद है।",
+"en": "My nose has been blocked since this morning.",
+"theme": "People, family, and health"
+},
+{
+"id": 348,
+"level": "medium",
+"hi": "दौड़ने के बाद मेरा दिल तेज़ धड़कता है।",
+"en": "My heart beats fast after running.",
+"theme": "People, family, and health"
+},
+{
+"id": 349,
+"level": "medium",
+"hi": "डॉक्टर ने मेरी बाँह पर पट्टी बाँधी।",
+"en": "The doctor wrapped a bandage around my arm.",
+"theme": "People, family, and health"
+},
+{
+"id": 350,
+"level": "medium",
+"hi": "अब उसका शरीर पहले से मज़बूत है।",
+"en": "Her body is stronger than before now.",
+"theme": "People, family, and health"
+},
+{
+"id": 351,
+"level": "medium",
+"hi": "मेरा नीला थैला कुर्सी पर रखा है।",
+"en": "My blue bag is on the chair.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 352,
+"level": "medium",
+"hi": "बाथरूम का दरवाज़ा अभी अंदर से बंद है।",
+"en": "The bathroom door is locked from inside.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 353,
+"level": "medium",
+"hi": "मैंने सुबह अपना बिस्तर ठीक किया।",
+"en": "I made my bed this morning.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 354,
+"level": "medium",
+"hi": "यह कंबल सर्दियों के लिए बहुत पतला है।",
+"en": "This blanket is too thin for winter.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 355,
+"level": "medium",
+"hi": "मेरी किताब मेज़ के नीचे गिर गई।",
+"en": "My book fell underneath the table.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 356,
+"level": "medium",
+"hi": "कृपया इस बोतल में साफ़ पानी भरिए।",
+"en": "Please fill this bottle with clean water.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 357,
+"level": "medium",
+"hi": "इस छोटे डिब्बे में पुरानी चाबियाँ हैं।",
+"en": "There are old keys in this little box.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 358,
+"level": "medium",
+"hi": "वह लकड़ी की कुर्सी थोड़ी ढीली है।",
+"en": "That wooden chair is a little loose.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 359,
+"level": "medium",
+"hi": "दीवार की घड़ी पाँच मिनट पीछे है।",
+"en": "The wall clock is five minutes slow.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 360,
+"level": "medium",
+"hi": "यह कपड़ा छूने में बहुत नरम है।",
+"en": "This fabric feels very soft to touch.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 361,
+"level": "medium",
+"hi": "मेरा कंप्यूटर आज बहुत धीरे चल रहा है।",
+"en": "My computer is running very slowly today.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 362,
+"level": "medium",
+"hi": "बाहर जाते समय दरवाज़ा बंद कर देना।",
+"en": "Close the door when you go outside.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 363,
+"level": "medium",
+"hi": "कमरे का पंखा अजीब आवाज़ कर रहा है।",
+"en": "The room's fan is making a strange noise.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 364,
+"level": "medium",
+"hi": "गीले फ़र्श पर बहुत सावधानी से चलिए।",
+"en": "Walk very carefully on the wet floor.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 365,
+"level": "medium",
+"hi": "हमारे बगीचे में कई गुलाब खिले हैं।",
+"en": "Many roses have bloomed in our garden.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 366,
+"level": "medium",
+"hi": "यह गिलास आधा पानी से भरा है।",
+"en": "This glass is half full of water.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 367,
+"level": "medium",
+"hi": "दादी की अंगूठी असली सोने की है।",
+"en": "Grandmother's ring is made of real gold.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 368,
+"level": "medium",
+"hi": "हमारा नया घर स्टेशन के पास है।",
+"en": "Our new house is near the station.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 369,
+"level": "medium",
+"hi": "मैंने चाबी तकिए के नीचे छिपाई थी।",
+"en": "I hid the key under the pillow.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 370,
+"level": "medium",
+"hi": "माँ अभी रसोई में सब्ज़ी काट रही हैं।",
+"en": "Mother is chopping vegetables in the kitchen now.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 371,
+"level": "medium",
+"hi": "सोने से पहले सभी बत्तियाँ बुझा देना।",
+"en": "Turn off all the lights before sleeping.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 372,
+"level": "medium",
+"hi": "मुझे आज अपने दोस्त की चिट्ठी मिली।",
+"en": "I received a letter from my friend today.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 373,
+"level": "medium",
+"hi": "खिड़की के पास एक बड़ा शीशा है।",
+"en": "There is a large mirror near the window.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 374,
+"level": "medium",
+"hi": "कृपया यह कागज़ बीच से मोड़ दीजिए।",
+"en": "Please fold this paper down the middle.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 375,
+"level": "medium",
+"hi": "मेरी काली कलम अब ठीक नहीं चलती।",
+"en": "My black pen no longer works properly.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 376,
+"level": "medium",
+"hi": "अपना फ़ोन मेज़ पर मत छोड़ना।",
+"en": "Do not leave your phone on the table.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 377,
+"level": "medium",
+"hi": "यह तस्वीर हमारे पुराने गाँव की है।",
+"en": "This is a picture of our old village.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 378,
+"level": "medium",
+"hi": "मुझे सोने के लिए दूसरा तकिया चाहिए।",
+"en": "I need another pillow to sleep comfortably.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 379,
+"level": "medium",
+"hi": "मैंने साफ़ थाली मेज़ पर रख दी।",
+"en": "I put the clean plate on the table.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 380,
+"level": "medium",
+"hi": "उसकी चाँदी की अंगूठी कहीं खो गई।",
+"en": "Her silver ring has gone missing somewhere.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 381,
+"level": "medium",
+"hi": "बच्चे छत पर पतंग उड़ा रहे हैं।",
+"en": "The children are flying kites on the roof.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 382,
+"level": "medium",
+"hi": "यह कमरा मेहमानों के लिए तैयार है।",
+"en": "This room is ready for our guests.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 383,
+"level": "medium",
+"hi": "मेरी माँ को सूती साड़ियाँ पसंद हैं।",
+"en": "My mother likes saris made of cotton.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 384,
+"level": "medium",
+"hi": "तुम्हारी सफ़ेद कमीज़ अभी गीली है।",
+"en": "Your white shirt is still wet.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 385,
+"level": "medium",
+"hi": "दरवाज़े के बाहर अपने जूते उतारिए।",
+"en": "Please take your shoes off outside the door.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 386,
+"level": "medium",
+"hi": "यह छोटा चम्मच चाँदी का बना है।",
+"en": "This little spoon is made of silver.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 387,
+"level": "medium",
+"hi": "साबुन की नई टिकिया कहाँ रखी है?",
+"en": "Where is the new bar of soap?",
+"theme": "Home and everyday objects"
+},
+{
+"id": 388,
+"level": "medium",
+"hi": "इस मेज़ के चार पैर हैं।",
+"en": "This table has four wooden legs.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 389,
+"level": "medium",
+"hi": "हम रात को साथ टीवी देखते हैं।",
+"en": "We watch television together at night.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 390,
+"level": "medium",
+"hi": "अपना तौलिया धूप में सुखा दो।",
+"en": "Dry your towel out in the sunshine.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 391,
+"level": "medium",
+"hi": "बारिश से पहले अपना छाता ढूँढ़ लो।",
+"en": "Find your umbrella before the rain starts.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 392,
+"level": "medium",
+"hi": "दीवार पर नया रंग अच्छा लगता है।",
+"en": "The new paint looks nice on the wall.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 393,
+"level": "medium",
+"hi": "खिड़की से ठंडी हवा आ रही है।",
+"en": "Cool air is coming through the window.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 394,
+"level": "medium",
+"hi": "इस अलमारी में केवल पुराने कपड़े हैं।",
+"en": "This cupboard contains only some old clothes.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 395,
+"level": "medium",
+"hi": "हमने घर का सारा सामान बदल दिया।",
+"en": "We replaced all the furniture in the house.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 396,
+"level": "medium",
+"hi": "कृपया खाली बोतलें अलग रख दीजिए।",
+"en": "Please put the empty bottles aside.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 397,
+"level": "medium",
+"hi": "मैंने अपनी किताबें ठीक से सजा दीं।",
+"en": "I arranged all of my books neatly.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 398,
+"level": "medium",
+"hi": "यह भारी डिब्बा अकेले मत उठाना।",
+"en": "Do not lift this heavy box alone.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 399,
+"level": "medium",
+"hi": "हमारे घर की छत बहुत ऊँची है।",
+"en": "The ceiling of our house is very high.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 400,
+"level": "medium",
+"hi": "आज हमें पूरा घर साफ़ करना है।",
+"en": "We have to clean the whole house today.",
+"theme": "Home and everyday objects"
+},
+{
+"id": 401,
+"level": "medium",
+"hi": "मैं हर सुबह एक सेब खाता हूँ।",
+"en": "I eat an apple every morning.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 402,
+"level": "medium",
+"hi": "यह केला अभी पूरी तरह पका नहीं है।",
+"en": "This banana is not completely ripe yet.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 403,
+"level": "medium",
+"hi": "हमारा नाश्ता मेज़ पर तैयार रखा है।",
+"en": "Our breakfast is ready on the table.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 404,
+"level": "medium",
+"hi": "गरम रोटी पर थोड़ा मक्खन लगा दो।",
+"en": "Spread some butter on the warm flatbread.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 405,
+"level": "medium",
+"hi": "मुझे बिना चीनी वाली कॉफ़ी पसंद है।",
+"en": "I like my coffee without any sugar.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 406,
+"level": "medium",
+"hi": "आज रात का खाना कौन बनाएगा?",
+"en": "Who will cook our dinner tonight?",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 407,
+"level": "medium",
+"hi": "मैंने नाश्ते में दो उबले अंडे खाए।",
+"en": "I ate two boiled eggs for breakfast.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 408,
+"level": "medium",
+"hi": "पिता ने बाज़ार से ताज़ी मछली खरीदी।",
+"en": "Father bought fresh fish from the market.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 409,
+"level": "medium",
+"hi": "कृपया मेरे लिए एक और रोटी बनाइए।",
+"en": "Please make one more flatbread for me.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 410,
+"level": "medium",
+"hi": "इस डिब्बे में थोड़ा आटा बचा है।",
+"en": "Some flour is left in this container.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 411,
+"level": "medium",
+"hi": "आज का खाना सच में लज़ीज़ है।",
+"en": "The food today is truly delicious.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 412,
+"level": "medium",
+"hi": "बच्चों ने सारे फल मिलकर बाँट लिए।",
+"en": "The children shared all the fruit together.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 413,
+"level": "medium",
+"hi": "उसने दूध में एक चम्मच शहद मिलाया।",
+"en": "She mixed a spoonful of honey into milk.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 414,
+"level": "medium",
+"hi": "मुझे ताज़े संतरे का रस चाहिए।",
+"en": "I would like some fresh orange juice.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 415,
+"level": "medium",
+"hi": "दाल में नमक थोड़ा कम है।",
+"en": "The lentils need a little more salt.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 416,
+"level": "medium",
+"hi": "दोपहर का खाना अभी तैयार नहीं है।",
+"en": "Lunch is not ready just yet.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 417,
+"level": "medium",
+"hi": "ये आम बहुत मीठे और रसीले हैं।",
+"en": "These mangoes are very sweet and juicy.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 418,
+"level": "medium",
+"hi": "इस परिवार में कोई मांस नहीं खाता।",
+"en": "Nobody in this family eats any meat.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 419,
+"level": "medium",
+"hi": "दूध उबल रहा है, आँच कम करो।",
+"en": "The milk is boiling; lower the heat.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 420,
+"level": "medium",
+"hi": "कड़ाही में थोड़ा और तेल डालो।",
+"en": "Pour some more oil into the pan.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 421,
+"level": "medium",
+"hi": "यह संतरा बाहर से अच्छा दिखता है।",
+"en": "This orange looks good on the outside.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 422,
+"level": "medium",
+"hi": "आलू छीलकर छोटे टुकड़ों में काट लो।",
+"en": "Peel the potatoes and cut them into pieces.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 423,
+"level": "medium",
+"hi": "मुझे दाल के साथ चावल पसंद हैं।",
+"en": "I like eating rice with lentils.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 424,
+"level": "medium",
+"hi": "खाने में इतना ज़्यादा नमक मत डालो।",
+"en": "Do not add so much salt to food.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 425,
+"level": "medium",
+"hi": "इस मसाले की खुशबू बहुत अच्छी है।",
+"en": "This spice has a very pleasant aroma.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 426,
+"level": "medium",
+"hi": "मेरी चाय में चीनी मत डालना।",
+"en": "Do not put sugar in my tea.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 427,
+"level": "medium",
+"hi": "हमने त्योहार पर पड़ोसियों को मिठाई दी।",
+"en": "We gave sweets to neighbors during the festival.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 428,
+"level": "medium",
+"hi": "चाय ठंडी होने से पहले पी लो।",
+"en": "Drink the tea before it gets cold.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 429,
+"level": "medium",
+"hi": "ये टमाटर सलाद के लिए अच्छे हैं।",
+"en": "These tomatoes are good for making salad.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 430,
+"level": "medium",
+"hi": "सब्ज़ी अभी धीमी आँच पर पक रही है।",
+"en": "The vegetables are cooking over low heat.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 431,
+"level": "medium",
+"hi": "सफ़र के लिए पानी की बोतल रख लो।",
+"en": "Pack a water bottle for the journey.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 432,
+"level": "medium",
+"hi": "यह दही थोड़ा खट्टा लग रहा है।",
+"en": "This yogurt tastes a little sour.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 433,
+"level": "medium",
+"hi": "मुझे आज कुछ हल्का खाना चाहिए।",
+"en": "I want something light to eat today.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 434,
+"level": "medium",
+"hi": "बासी रोटी अलग थाली में रख दो।",
+"en": "Put the stale flatbread on a separate plate.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 435,
+"level": "medium",
+"hi": "यह सड़ा हुआ फल बाहर फेंक दो।",
+"en": "Throw this rotten piece of fruit away.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 436,
+"level": "medium",
+"hi": "यह खाना मेरे लिए बहुत तीखा है।",
+"en": "This food is too spicy for me.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 437,
+"level": "medium",
+"hi": "मुझे खट्टी और मीठी चटनी पसंद है।",
+"en": "I like chutney that is sweet and sour.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 438,
+"level": "medium",
+"hi": "उसने पहली बार कड़वी कॉफ़ी चखी।",
+"en": "She tasted bitter coffee for the first time.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 439,
+"level": "medium",
+"hi": "बिना मसाले के सब्ज़ी फीकी लगती है।",
+"en": "Vegetables taste bland without any added spices.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 440,
+"level": "medium",
+"hi": "माँ ने मेहमानों के लिए खास खाना बनाया।",
+"en": "Mother prepared a special meal for the guests.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 441,
+"level": "medium",
+"hi": "कृपया खाने को ढककर रख दीजिए।",
+"en": "Please keep the food covered properly.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 442,
+"level": "medium",
+"hi": "मैं आज खाना बनाना सीख रहा हूँ।",
+"en": "I am learning how to cook today.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 443,
+"level": "medium",
+"hi": "उसने सबको अपने हाथ से खाना परोसा।",
+"en": "She personally served food to everyone.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 444,
+"level": "medium",
+"hi": "हमने ढाबे पर गरम पराठे खाए।",
+"en": "We ate hot parathas at a roadside restaurant.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 445,
+"level": "medium",
+"hi": "खाने के बाद बर्तन मैं धोऊँगा।",
+"en": "I will wash the dishes after eating.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 446,
+"level": "medium",
+"hi": "यह सूप अब पीने लायक गुनगुना है।",
+"en": "This soup is now lukewarm enough to drink.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 447,
+"level": "medium",
+"hi": "कृपया मेरे हिस्से का खाना बचा देना।",
+"en": "Please save my portion of the food.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 448,
+"level": "medium",
+"hi": "बच्चे ने पूरा गिलास दूध पी लिया।",
+"en": "The child drank the entire glass of milk.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 449,
+"level": "medium",
+"hi": "हमने रात का खाना साथ मिलकर बनाया।",
+"en": "We cooked our dinner together this evening.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 450,
+"level": "medium",
+"hi": "इस मिठाई में बहुत कम चीनी है।",
+"en": "There is very little sugar in this sweet.",
+"theme": "Food, drinks, and cooking"
+},
+{
+"id": 451,
+"level": "medium",
+"hi": "कृपया अपना पूरा पता यहाँ लिखिए।",
+"en": "Please write your full address here.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 452,
+"level": "medium",
+"hi": "हमें हवाई अड्डे पर जल्दी पहुँचना है।",
+"en": "We need to reach the airport early.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 453,
+"level": "medium",
+"hi": "बैंक की इमारत सड़क के उस पार है।",
+"en": "The bank building is across the road.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 454,
+"level": "medium",
+"hi": "मेरी साइकिल दुकान के बाहर खड़ी है।",
+"en": "My bicycle is parked outside the shop.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 455,
+"level": "medium",
+"hi": "यह पुल नदी के ऊपर बना है।",
+"en": "This bridge was built over the river.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 456,
+"level": "medium",
+"hi": "अगली बस दस मिनट में आएगी।",
+"en": "The next bus will arrive in ten minutes.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 457,
+"level": "medium",
+"hi": "हमने गाड़ी पेड़ के नीचे खड़ी की।",
+"en": "We parked the car under the tree.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 458,
+"level": "medium",
+"hi": "पुराना गिरजाघर शहर के बीच में है।",
+"en": "The old church is in the city center.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 459,
+"level": "medium",
+"hi": "हम शाम को सिनेमा देखने जाएँगे।",
+"en": "We will go to the cinema this evening.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 460,
+"level": "medium",
+"hi": "यह शहर अपने बगीचों के लिए मशहूर है।",
+"en": "This city is famous for its gardens.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 461,
+"level": "medium",
+"hi": "मेरा कॉलेज घर से बहुत दूर है।",
+"en": "My college is very far from home.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 462,
+"level": "medium",
+"hi": "वह अगले साल दूसरे देश जाएगा।",
+"en": "He will go to another country next year.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 463,
+"level": "medium",
+"hi": "अस्पताल के सामने एक छोटी दुकान है।",
+"en": "There is a small shop opposite the hospital.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 464,
+"level": "medium",
+"hi": "हमारा होटल समुद्र के बिलकुल पास है।",
+"en": "Our hotel is right beside the sea.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 465,
+"level": "medium",
+"hi": "यह सफ़र हमारी उम्मीद से लंबा था।",
+"en": "This journey was longer than we expected.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 466,
+"level": "medium",
+"hi": "इस सँकरी गली में गाड़ी मत ले जाना।",
+"en": "Do not drive into this narrow lane.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 467,
+"level": "medium",
+"hi": "पुस्तकालय में ज़ोर से बात मत करो।",
+"en": "Do not speak loudly in the library.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 468,
+"level": "medium",
+"hi": "नक्शे में हमारा गाँव ढूँढ़कर दिखाओ।",
+"en": "Find our village on the map.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 469,
+"level": "medium",
+"hi": "बाज़ार आज लोगों से भरा हुआ है।",
+"en": "The market is full of people today.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 470,
+"level": "medium",
+"hi": "मस्जिद के पीछे एक पुराना कुआँ है।",
+"en": "There is an old well behind the mosque.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 471,
+"level": "medium",
+"hi": "मैं रोज़ बस से दफ़्तर जाता हूँ।",
+"en": "I go to the office by bus daily.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 472,
+"level": "medium",
+"hi": "बच्चे पार्क में झूला झूल रहे हैं।",
+"en": "The children are playing on the park swings.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 473,
+"level": "medium",
+"hi": "हमारा हवाई जहाज़ समय पर उड़ गया।",
+"en": "Our plane took off right on time.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 474,
+"level": "medium",
+"hi": "बारिश के कारण सड़क बहुत फिसलनभरी है।",
+"en": "The road is slippery because of the rain.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 475,
+"level": "medium",
+"hi": "यह ढाबा रात भर खुला रहता है।",
+"en": "This roadside restaurant stays open all night.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 476,
+"level": "medium",
+"hi": "स्कूल की छुट्टी दो बजे होती है।",
+"en": "School finishes at two in the afternoon.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 477,
+"level": "medium",
+"hi": "बड़ा जहाज़ धीरे से बंदरगाह पहुँचा।",
+"en": "The large ship slowly reached the harbor.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 478,
+"level": "medium",
+"hi": "मुझे पास की दुकान से साबुन चाहिए।",
+"en": "I need soap from the nearby shop.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 479,
+"level": "medium",
+"hi": "स्टेशन तक जाने का आसान रास्ता बताइए।",
+"en": "Please show me the easiest route to the station.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 480,
+"level": "medium",
+"hi": "मंदिर की सीढ़ियाँ बहुत ऊँची हैं।",
+"en": "The steps of the temple are very high.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 481,
+"level": "medium",
+"hi": "मैंने वापसी का टिकट पहले ही खरीद लिया।",
+"en": "I have already bought my return ticket.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 482,
+"level": "medium",
+"hi": "हमारी ट्रेन तीसरे प्लेटफ़ॉर्म पर खड़ी है।",
+"en": "Our train is waiting at the third platform.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 483,
+"level": "medium",
+"hi": "विश्वविद्यालय का मुख्य दरवाज़ा अभी बंद है।",
+"en": "The university's main gate is closed right now.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 484,
+"level": "medium",
+"hi": "हमारे गाँव में एक नया स्कूल खुला।",
+"en": "A new school opened in our village.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 485,
+"level": "medium",
+"hi": "मैं पूरी दुनिया घूमना चाहता हूँ।",
+"en": "I want to travel around the whole world.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 486,
+"level": "medium",
+"hi": "यहाँ से सीधे चलकर बाएँ मुड़िए।",
+"en": "Walk straight from here, then turn left.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 487,
+"level": "medium",
+"hi": "पुल पार करके दाएँ मुड़ जाना।",
+"en": "Turn right after you cross the bridge.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 488,
+"level": "medium",
+"hi": "मेरा घर उस नीली इमारत के पीछे है।",
+"en": "My house is behind that blue building.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 489,
+"level": "medium",
+"hi": "हम रास्ते में थोड़ी देर रुके।",
+"en": "We stopped for a while along the way.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 490,
+"level": "medium",
+"hi": "वह विदेश में अपने भाई के साथ रहती है।",
+"en": "She lives abroad with her brother.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 491,
+"level": "medium",
+"hi": "आसपास कहीं गाड़ी खड़ी करने की जगह है?",
+"en": "Is there anywhere nearby to park a car?",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 492,
+"level": "medium",
+"hi": "हमें रास्ते में एक पुराना दोस्त मिला।",
+"en": "We met an old friend along the way.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 493,
+"level": "medium",
+"hi": "उसने हमें पूरा शहर पैदल घुमाया।",
+"en": "He showed us the whole city on foot.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 494,
+"level": "medium",
+"hi": "मेरा सामान अभी गाड़ी के अंदर है।",
+"en": "My luggage is still inside the car.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 495,
+"level": "medium",
+"hi": "मैंने रास्ता गलती से बदल लिया।",
+"en": "I took a different route by mistake.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 496,
+"level": "medium",
+"hi": "हम किसी तरह समय पर पहुँच गए।",
+"en": "Somehow, we managed to arrive on time.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 497,
+"level": "medium",
+"hi": "यह रास्ता रात में सुरक्षित नहीं लगता।",
+"en": "This route does not seem safe at night.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 498,
+"level": "medium",
+"hi": "अगली बार हम ट्रेन से जाएँगे।",
+"en": "Next time, we will travel by train.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 499,
+"level": "medium",
+"hi": "कृपया यात्रा की तारीख पक्की कर दीजिए।",
+"en": "Please confirm the date of the journey.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 500,
+"level": "medium",
+"hi": "घर लौटते समय मेरे लिए अख़बार लाना।",
+"en": "Bring me a newspaper when you return home.",
+"theme": "Places, journeys, and directions"
+},
+{
+"id": 501,
+"level": "medium",
+"hi": "आज सुबह हवा बहुत तेज़ चल रही थी।",
+"en": "The wind was blowing strongly this morning.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 502,
+"level": "medium",
+"hi": "जंगल के जानवर नदी पर पानी पीते हैं।",
+"en": "The forest animals drink water at the river.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 503,
+"level": "medium",
+"hi": "छोटी चिड़िया खिड़की के पास बैठी है।",
+"en": "A little bird is sitting near the window.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 504,
+"level": "medium",
+"hi": "रंगीन तितली पीले फूल पर बैठी है।",
+"en": "A colorful butterfly is on the yellow flower.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 505,
+"level": "medium",
+"hi": "हमारी बिल्ली कंबल के नीचे सोती है।",
+"en": "Our cat sleeps underneath the blanket.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 506,
+"level": "medium",
+"hi": "आसमान में काले बादल छा गए हैं।",
+"en": "Dark clouds have covered the sky.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 507,
+"level": "medium",
+"hi": "गाय मैदान में हरी घास खा रही है।",
+"en": "The cow is eating grass in the field.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 508,
+"level": "medium",
+"hi": "मेरा कुत्ता हर आवाज़ पर भौंकता है।",
+"en": "My dog barks at every little sound.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 509,
+"level": "medium",
+"hi": "बारिश के बाद ज़मीन गीली हो गई।",
+"en": "The ground became wet after the rain.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 510,
+"level": "medium",
+"hi": "हाथी अपनी सूँड़ से पानी पी रहा है।",
+"en": "The elephant is drinking water with its trunk.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 511,
+"level": "medium",
+"hi": "तेज़ हवा से आग फैल रही थी।",
+"en": "The fire was spreading in the strong wind.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 512,
+"level": "medium",
+"hi": "बगीचे के फूल सुबह जल्दी खिलते हैं।",
+"en": "The garden flowers bloom early in the morning.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 513,
+"level": "medium",
+"hi": "हम जंगल में अकेले नहीं जाएँगे।",
+"en": "We will not go into the forest alone.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 514,
+"level": "medium",
+"hi": "घास पर सुबह छोटी बूँदें चमकती हैं।",
+"en": "Tiny drops sparkle on the grass each morning.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 515,
+"level": "medium",
+"hi": "सफ़ेद घोड़ा मैदान में तेज़ दौड़ रहा है।",
+"en": "The white horse is running across the field.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 516,
+"level": "medium",
+"hi": "पत्ते पर एक छोटा कीड़ा रेंग रहा है।",
+"en": "A tiny insect is crawling on the leaf.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 517,
+"level": "medium",
+"hi": "पेड़ का आख़िरी पत्ता नीचे गिर गया।",
+"en": "The tree's last leaf fell to the ground.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 518,
+"level": "medium",
+"hi": "शेर पेड़ की छाया में बैठा है।",
+"en": "The lion is sitting in the tree's shade.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 519,
+"level": "medium",
+"hi": "बंदर एक डाल से दूसरी पर कूदा।",
+"en": "The monkey jumped from one branch to another.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 520,
+"level": "medium",
+"hi": "आज चाँद बादलों के पीछे छिपा है।",
+"en": "The moon is hidden behind clouds tonight.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 521,
+"level": "medium",
+"hi": "दूर के पहाड़ बर्फ़ से ढके हैं।",
+"en": "The distant mountains are covered with snow.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 522,
+"level": "medium",
+"hi": "कल रात लगातार तीन घंटे बारिश हुई।",
+"en": "It rained continuously for three hours last night.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 523,
+"level": "medium",
+"hi": "यह नदी बरसात में बहुत गहरी होती है।",
+"en": "This river becomes very deep during the monsoon.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 524,
+"level": "medium",
+"hi": "बच्चे रेत से छोटा घर बना रहे हैं।",
+"en": "The children are building a little sand house.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 525,
+"level": "medium",
+"hi": "शाम को समुद्र बहुत शांत दिखता है।",
+"en": "The sea looks very calm in the evening.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 526,
+"level": "medium",
+"hi": "आज आसमान में एक भी बादल नहीं है।",
+"en": "There is not one cloud in the sky today.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 527,
+"level": "medium",
+"hi": "साँप धीरे से पत्थर के पीछे छिप गया।",
+"en": "The snake slowly hid behind the stone.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 528,
+"level": "medium",
+"hi": "धूप निकलते ही बर्फ़ पिघलने लगी।",
+"en": "The snow began melting when the sun appeared.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 529,
+"level": "medium",
+"hi": "रात को यहाँ बहुत तारे दिखते हैं।",
+"en": "You can see many stars here at night.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 530,
+"level": "medium",
+"hi": "रास्ते के बीच एक बड़ा पत्थर है।",
+"en": "A large stone lies in the path.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 531,
+"level": "medium",
+"hi": "सूरज अब पहाड़ों के पीछे डूब रहा है।",
+"en": "The sun is setting behind the mountains now.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 532,
+"level": "medium",
+"hi": "हमने घर के सामने दो पेड़ लगाए।",
+"en": "We planted two trees outside our house.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 533,
+"level": "medium",
+"hi": "सोमवार को हमारी हिंदी की परीक्षा है।",
+"en": "Our Hindi exam is on Monday.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 534,
+"level": "medium",
+"hi": "मंगलवार को मैं अपनी मौसी से मिलूँगी।",
+"en": "I will visit my aunt on Tuesday.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 535,
+"level": "medium",
+"hi": "बुधवार को पुस्तकालय जल्दी बंद होता है।",
+"en": "The library closes early on Wednesdays.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 536,
+"level": "medium",
+"hi": "गुरुवार की शाम हम संगीत सीखते हैं।",
+"en": "We learn music every Thursday evening.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 537,
+"level": "medium",
+"hi": "शुक्रवार को हमारे घर मेहमान आएँगे।",
+"en": "We will have guests at home on Friday.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 538,
+"level": "medium",
+"hi": "शनिवार को बच्चे देर तक सोते हैं।",
+"en": "The children sleep late on Saturdays.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 539,
+"level": "medium",
+"hi": "रविवार को हम साथ बाज़ार जाते हैं।",
+"en": "We go to the market together on Sundays.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 540,
+"level": "medium",
+"hi": "जनवरी में हमने नया घर खरीदा था।",
+"en": "We bought a new house in January.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 541,
+"level": "medium",
+"hi": "फ़रवरी में मेरी बहन का जन्मदिन है।",
+"en": "My sister's birthday falls in February.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 542,
+"level": "medium",
+"hi": "मार्च में हमारे स्कूल की छुट्टियाँ शुरू होंगी।",
+"en": "Our school holidays will begin in March.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 543,
+"level": "medium",
+"hi": "अप्रैल में हम अपना गाँव देखने जाएँगे।",
+"en": "We will visit our village in April.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 544,
+"level": "medium",
+"hi": "मई और जून में हम यहाँ रहे।",
+"en": "We stayed here during May and June.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 545,
+"level": "medium",
+"hi": "जुलाई में हमने बारिश का खूब आनंद लिया।",
+"en": "We really enjoyed the rain in July.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 546,
+"level": "medium",
+"hi": "अगस्त में मेरे भाई की शादी हुई।",
+"en": "My brother got married in August.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 547,
+"level": "medium",
+"hi": "सितंबर में हमने कॉलेज में दाखिला लिया।",
+"en": "We enrolled at the college in September.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 548,
+"level": "medium",
+"hi": "अक्टूबर में पतझड़ के रंग सुंदर लगते हैं।",
+"en": "The autumn colors look beautiful in October.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 549,
+"level": "medium",
+"hi": "नवंबर में हम दोस्तों के साथ घूमने गए।",
+"en": "We went traveling with friends in November.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 550,
+"level": "medium",
+"hi": "दिसंबर की सर्दी में गरम कंबल चाहिए।",
+"en": "We need warm blankets in December's cold weather.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 551,
+"level": "medium",
+"hi": "मैंने आज दस नए शब्द सीखे हैं।",
+"en": "I have learned ten new words today.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 552,
+"level": "medium",
+"hi": "हमारी कक्षा में कुल बीस छात्र हैं।",
+"en": "There are twenty students in our class.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 553,
+"level": "medium",
+"hi": "अध्यापक ने कठिन पाठ आसानी से समझाया।",
+"en": "The teacher explained the difficult lesson simply.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 554,
+"level": "medium",
+"hi": "कृपया इस वाक्य का अंग्रेज़ी में अनुवाद कीजिए।",
+"en": "Please translate this sentence into English.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 555,
+"level": "medium",
+"hi": "मैंने कहानी का पहला पन्ना पढ़ लिया।",
+"en": "I have read the story's first page.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 556,
+"level": "medium",
+"hi": "तुम्हारे सवाल का जवाब मुझे नहीं पता।",
+"en": "I do not know your question's answer.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 557,
+"level": "medium",
+"hi": "उसने परीक्षा की तैयारी बहुत अच्छे से की।",
+"en": "She prepared very well for the exam.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 558,
+"level": "medium",
+"hi": "मैं रोज़ थोड़ा लिखने का अभ्यास करता हूँ।",
+"en": "I practice writing a little every day.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 559,
+"level": "medium",
+"hi": "यह तरीका पिछले तरीके से आसान है।",
+"en": "This method is easier than the previous one.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 560,
+"level": "medium",
+"hi": "हमें अपनी गलतियों से सीखना चाहिए।",
+"en": "We should learn from our own mistakes.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 561,
+"level": "medium",
+"hi": "उसने अपनी गलती ईमानदारी से मान ली।",
+"en": "He honestly admitted that he was wrong.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 562,
+"level": "medium",
+"hi": "मैंने उससे अपने व्यवहार के लिए माफ़ी माँगी।",
+"en": "I apologized to her for my behavior.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 563,
+"level": "medium",
+"hi": "हमें हर व्यक्ति से विनम्रता से बोलना चाहिए।",
+"en": "We should speak politely to every person.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 564,
+"level": "medium",
+"hi": "तुम्हारी मदद के लिए मैं बहुत आभारी हूँ।",
+"en": "I am very grateful for your help.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 565,
+"level": "medium",
+"hi": "बच्चे नए खेल को लेकर उत्साहित हैं।",
+"en": "The children are excited about the new game.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 566,
+"level": "medium",
+"hi": "मैं इस खबर से बहुत हैरान हूँ।",
+"en": "I am very surprised by this news.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 567,
+"level": "medium",
+"hi": "वह परीक्षा से पहले थोड़ी घबराई हुई थी।",
+"en": "She was a little nervous before the exam.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 568,
+"level": "medium",
+"hi": "मेरा दोस्त आज किसी बात से नाराज़ है।",
+"en": "My friend is upset about something today.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 569,
+"level": "medium",
+"hi": "अपनी छोटी बहन को तंग मत करो।",
+"en": "Do not annoy your little sister.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 570,
+"level": "medium",
+"hi": "वह मज़ाकिया कहानी सुनकर ज़ोर से हँसी।",
+"en": "She laughed loudly after hearing the funny story.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 571,
+"level": "medium",
+"hi": "मुझे अपने परिवार की बहुत याद आती है।",
+"en": "I miss my family very much.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 572,
+"level": "medium",
+"hi": "हमें अच्छे भविष्य की उम्मीद रखनी चाहिए।",
+"en": "We should remain hopeful about the future.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 573,
+"level": "medium",
+"hi": "मेरे बचपन की यादें बहुत प्यारी हैं।",
+"en": "My childhood memories are very dear to me.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 574,
+"level": "medium",
+"hi": "उसका सपना एक अच्छा डॉक्टर बनना है।",
+"en": "His dream is to become a good doctor.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 575,
+"level": "medium",
+"hi": "मैंने कल रात एक अजीब सपना देखा।",
+"en": "I had a strange dream last night.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 576,
+"level": "medium",
+"hi": "वह अपनी नई नौकरी से संतुष्ट है।",
+"en": "She is satisfied with her new job.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 577,
+"level": "medium",
+"hi": "हमें यह समस्या मिलकर सुलझानी होगी।",
+"en": "We will have to solve this problem together.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 578,
+"level": "medium",
+"hi": "उसने मुझे बहुत उपयोगी सलाह दी।",
+"en": "She gave me some very useful advice.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 579,
+"level": "medium",
+"hi": "मेरा काम अभी पूरी तरह खत्म नहीं हुआ।",
+"en": "My work is not completely finished yet.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 580,
+"level": "medium",
+"hi": "उसने काम समय पर जमा कर दिया।",
+"en": "He submitted the work right on time.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 581,
+"level": "medium",
+"hi": "इस महीने मेरी तनख्वाह थोड़ी बढ़ गई।",
+"en": "My salary increased a little this month.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 582,
+"level": "medium",
+"hi": "मैं हर महीने कुछ पैसे बचाता हूँ।",
+"en": "I save some money every month.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 583,
+"level": "medium",
+"hi": "उसने अपनी सारी बचत किताबों पर खर्च की।",
+"en": "She spent all her savings on books.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 584,
+"level": "medium",
+"hi": "कृपया उधार लिए पैसे कल वापस कर देना।",
+"en": "Please return the borrowed money tomorrow.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 585,
+"level": "medium",
+"hi": "इस तोहफ़े की कीमत मेरे लिए बहुत है।",
+"en": "This gift means a lot to me.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 586,
+"level": "medium",
+"hi": "हमने जन्मदिन की दावत का आयोजन किया।",
+"en": "We organized a party for the birthday.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 587,
+"level": "medium",
+"hi": "त्योहार पर पूरा शहर रंगीन दिखता है।",
+"en": "The whole city looks colorful during the festival.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 588,
+"level": "medium",
+"hi": "उसने मंच पर एक सुंदर गाना गाया।",
+"en": "She sang a beautiful song on stage.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 589,
+"level": "medium",
+"hi": "हम खाली समय में शतरंज खेलते हैं।",
+"en": "We play chess in our free time.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 590,
+"level": "medium",
+"hi": "हमारी टीम ने आख़िरकार पहला मैच जीत लिया।",
+"en": "Our team finally won its first match.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 591,
+"level": "medium",
+"hi": "हारने के बाद भी उसने कोशिश नहीं छोड़ी।",
+"en": "Even after losing, she did not stop trying.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 592,
+"level": "medium",
+"hi": "उसने अपना फ़ोन गलती से गिरा दिया।",
+"en": "He dropped his phone by mistake.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 593,
+"level": "medium",
+"hi": "बच्चे ने दीवार पर तस्वीर चिपका दी।",
+"en": "The child stuck a picture on the wall.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 594,
+"level": "medium",
+"hi": "कृपया फूल तोड़ने के बजाय तस्वीर खींचिए।",
+"en": "Please photograph the flowers instead of picking them.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 595,
+"level": "medium",
+"hi": "मैंने सुबह उठने के लिए अलार्म लगाया।",
+"en": "I set an alarm to wake up early.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 596,
+"level": "medium",
+"hi": "वह हर सुबह बगीचे में कसरत करती है।",
+"en": "She exercises in the garden every morning.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 597,
+"level": "medium",
+"hi": "दादी रोज़ शांति के लिए प्रार्थना करती हैं।",
+"en": "Grandmother prays for peace every single day.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 598,
+"level": "medium",
+"hi": "हमें दूसरों की संस्कृति का सम्मान करना चाहिए।",
+"en": "We should respect the cultures of others.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 599,
+"level": "medium",
+"hi": "यह गीत मुझे हमेशा खुश कर देता है।",
+"en": "This song always makes me feel happy.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 600,
+"level": "medium",
+"hi": "हम कल एक नई कहानी साथ पढ़ेंगे।",
+"en": "We will read a new story together tomorrow.",
+"theme": "Learning, feelings, work, and daily activities"
+},
+{
+"id": 601,
+"level": "hard",
+"hi": "मेरी चाची हर रविवार पूरे परिवार के लिए स्वादिष्ट खाना बनाती हैं।",
+"en": "My aunt cooks delicious food for the whole family every Sunday.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 602,
+"level": "hard",
+"hi": "मेरे छोटे भाई ने आज पहली बार अकेले साइकिल चलाना सीखा।",
+"en": "My younger brother learned to ride a bicycle alone for the first time today.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 603,
+"level": "hard",
+"hi": "मेरी बड़ी बहन अपनी पढ़ाई खत्म करके अगले महीने घर लौटेगी।",
+"en": "My older sister will return home next month after finishing her studies.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 604,
+"level": "hard",
+"hi": "हमारे दादाजी शाम को बच्चों को अपने बचपन की कहानियाँ सुनाते हैं।",
+"en": "Our grandfather tells the children stories about his childhood in the evenings.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 605,
+"level": "hard",
+"hi": "मेरी नानी ने मेरे जन्मदिन पर अपने हाथों से मिठाई बनाई।",
+"en": "My grandmother made sweets herself for me on my birthday this year.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 606,
+"level": "hard",
+"hi": "मेरे माता और पिता हमेशा मुझे ईमानदारी से काम करना सिखाते हैं।",
+"en": "My mother and father always teach me to do my work honestly.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 607,
+"level": "hard",
+"hi": "हमारी बेटी को सोने से पहले रंगीन तस्वीरों वाली किताबें पढ़ना पसंद है।",
+"en": "Our daughter likes reading books with colorful pictures before going to sleep.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 608,
+"level": "hard",
+"hi": "मेरा बेटा स्कूल से लौटकर पहले अपने गंदे जूते बाहर उतारता है।",
+"en": "My son first removes his dirty shoes outside after returning from school.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 609,
+"level": "hard",
+"hi": "हमारे नए पड़ोसी कल शाम अपने बच्चों के साथ मिलने आए थे।",
+"en": "Our new neighbors came to visit with their children yesterday evening.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 610,
+"level": "hard",
+"hi": "मेरी मौसी अपनी नौकरी के कारण पिछले साल दूसरे शहर चली गईं।",
+"en": "My aunt moved to another city last year because of her job.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 611,
+"level": "hard",
+"hi": "मेरे मामा ने गाँव में बच्चों के लिए एक छोटा पुस्तकालय खोला।",
+"en": "My uncle opened a small library for the children in his village.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 612,
+"level": "hard",
+"hi": "चाचा ने मुझे बाज़ार से लौटते समय एक नई कहानी की किताब दी।",
+"en": "My uncle gave me a new storybook while returning from the market.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 613,
+"level": "hard",
+"hi": "दादी अपनी पुरानी तस्वीरें देखते हुए अक्सर अपने दोस्तों को याद करती हैं।",
+"en": "Grandmother often remembers her friends while looking at her old photographs.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 614,
+"level": "hard",
+"hi": "हमारे परिवार में सभी लोग रात का खाना साथ बैठकर खाते हैं।",
+"en": "Everyone in our family sits together to eat dinner every night.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 615,
+"level": "hard",
+"hi": "मेरे दोस्त ने मुश्किल समय में बिना कुछ पूछे मेरी मदद की।",
+"en": "My friend helped me during difficult times without asking me any questions.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 616,
+"level": "hard",
+"hi": "उसकी छोटी बहन मेहमानों के सामने बोलने में थोड़ी शर्म महसूस करती है।",
+"en": "His younger sister feels a little shy about speaking in front of guests.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 617,
+"level": "hard",
+"hi": "मेरे पति आज दफ़्तर से जल्दी लौटकर बच्चों को पार्क ले गए।",
+"en": "My husband returned early from work today and took the children to the park.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 618,
+"level": "hard",
+"hi": "मेरी पत्नी ने हमारे पुराने कमरे को बहुत सुंदर ढंग से सजाया।",
+"en": "My wife decorated our old room in a very beautiful way.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 619,
+"level": "hard",
+"hi": "शादी में दुल्हन ने अपनी माँ की सुंदर लाल साड़ी पहनी थी।",
+"en": "The bride wore her mother's beautiful red sari at the wedding ceremony.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 620,
+"level": "hard",
+"hi": "दूल्हे के दोस्तों ने शादी की रात खूब गाना गाया और नाच किया।",
+"en": "The groom's friends sang and danced enthusiastically on the wedding night.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 621,
+"level": "hard",
+"hi": "हमारे मेहमान लंबी यात्रा के बाद थोड़ी देर आराम करना चाहते थे।",
+"en": "Our guests wanted to rest for a while after their long journey.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 622,
+"level": "hard",
+"hi": "उस दयालु महिला ने रास्ता भूले बच्चे को उसके घर तक पहुँचाया।",
+"en": "That kind woman took the lost child all the way home.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 623,
+"level": "hard",
+"hi": "गाँव के किसान ने अपने पड़ोसी की गाय को नदी से बचाया।",
+"en": "The village farmer rescued his neighbor's cow from the river yesterday.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 624,
+"level": "hard",
+"hi": "मेरे पिता को सुबह चाय पीते हुए अख़बार पढ़ने की आदत है।",
+"en": "My father has a habit of reading the newspaper while drinking morning tea.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 625,
+"level": "hard",
+"hi": "माँ ने कहा कि हमें अपने छोटे भाई का ध्यान रखना चाहिए।",
+"en": "Mother said that we should take care of our younger brother.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 626,
+"level": "hard",
+"hi": "मैंने अपनी मेज़ पर बिखरी सभी किताबें ध्यान से अलमारी में रखीं।",
+"en": "I carefully put all the books scattered on my desk into the cupboard.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 627,
+"level": "hard",
+"hi": "कमरे की खिड़की खुली होने के कारण रात भर ठंडी हवा आती रही।",
+"en": "Cold air kept coming in all night because the room's window was open.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 628,
+"level": "hard",
+"hi": "बारिश शुरू होने से पहले मैंने छत पर सूखते सारे कपड़े उतार लिए।",
+"en": "I brought down all the clothes drying on the roof before the rain started.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 629,
+"level": "hard",
+"hi": "मेरी छोटी बिल्ली अक्सर बिस्तर के नीचे रखे पुराने डिब्बे में सोती है।",
+"en": "My little cat often sleeps in the old box under the bed.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 630,
+"level": "hard",
+"hi": "कृपया बाहर जाते समय रसोई की खिड़की और मुख्य दरवाज़ा बंद कर देना।",
+"en": "Please close the kitchen window and the main door when going out.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 631,
+"level": "hard",
+"hi": "हमने पुराने घर की दीवारों पर इस बार हल्का नीला रंग करवाया।",
+"en": "We had the old house's walls painted light blue this time.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 632,
+"level": "hard",
+"hi": "मेरे कमरे की घड़ी पिछले दो दिनों से ठीक नहीं चल रही है।",
+"en": "The clock in my room has not worked properly for two days.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 633,
+"level": "hard",
+"hi": "दादी की सोने की अंगूठी कल सफ़ाई करते समय बिस्तर के नीचे मिली।",
+"en": "Grandmother's gold ring was found under the bed during cleaning yesterday.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 634,
+"level": "hard",
+"hi": "मैंने मेहमानों के आने से पहले कमरे में साफ़ चादर बिछा दी।",
+"en": "I spread a clean sheet in the room before the guests arrived.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 635,
+"level": "hard",
+"hi": "यह लकड़ी की मेज़ इतनी भारी है कि अकेले उठाना मुश्किल होगा।",
+"en": "This wooden table is so heavy that lifting it alone will be difficult.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 636,
+"level": "hard",
+"hi": "माँ ने रसोई की अलमारी में मसालों के डिब्बे अलग रख दिए।",
+"en": "Mother put the spice containers separately in the cupboard in the kitchen.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 637,
+"level": "hard",
+"hi": "बाथरूम का फ़र्श गीला है, इसलिए अंदर जाते समय सावधानी से चलना।",
+"en": "The bathroom floor is wet, so walk carefully when you go inside.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 638,
+"level": "hard",
+"hi": "हमारे घर के सामने वाले बगीचे में कई रंगों के फूल खिले हैं।",
+"en": "Flowers of many colors have bloomed in the garden outside our house.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 639,
+"level": "hard",
+"hi": "मैंने अपना फ़ोन तकिए के नीचे रखा था, लेकिन अब नहीं मिल रहा।",
+"en": "I put my phone under the pillow, but cannot find it now.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 640,
+"level": "hard",
+"hi": "कृपया यह खाली बोतल साफ़ करके पीने के पानी से भर दीजिए।",
+"en": "Please clean this empty bottle and fill it with drinking water.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 641,
+"level": "hard",
+"hi": "पंखा बंद होने के बाद कमरे में अचानक बहुत गर्मी लगने लगी।",
+"en": "The room suddenly began to feel very hot after the fan stopped.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 642,
+"level": "hard",
+"hi": "हमने नया कंप्यूटर खिड़की से दूर वाली मज़बूत मेज़ पर रखा है।",
+"en": "We have placed the new computer on the sturdy table away from the window.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 643,
+"level": "hard",
+"hi": "मेरे भाई ने गलती से शीशा तोड़ दिया और तुरंत माफ़ी माँगी।",
+"en": "My brother accidentally broke the mirror and immediately apologized for his mistake.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 644,
+"level": "hard",
+"hi": "छत से पानी टपकने के कारण हमने बिस्तर दूसरे कमरे में लगाया।",
+"en": "We moved the bed to another room because water was dripping from the ceiling.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 645,
+"level": "hard",
+"hi": "सर्दी बढ़ने पर माँ ने अलमारी से सभी गरम कंबल निकाल लिए।",
+"en": "Mother took all the warm blankets from the cupboard when the cold increased.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 646,
+"level": "hard",
+"hi": "खिड़की के पास बैठकर किताब पढ़ना मुझे बचपन से पसंद रहा है।",
+"en": "I have enjoyed sitting near the window and reading books since childhood.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 647,
+"level": "hard",
+"hi": "घर की सफ़ाई के बाद हमने थोड़ा आराम किया और चाय पी।",
+"en": "After cleaning the house, we rested for a while and drank tea.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 648,
+"level": "hard",
+"hi": "दीवार पर लगी यह पुरानी तस्वीर हमारे पहले घर की याद दिलाती है।",
+"en": "This old picture on the wall reminds us of our first house.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 649,
+"level": "hard",
+"hi": "मैंने रात को सोने से पहले अगले दिन के कपड़े तैयार रखे।",
+"en": "I laid out the next day's clothes before going to sleep at night.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 650,
+"level": "hard",
+"hi": "हम सबने मिलकर मेहमानों के रहने के लिए ऊपर वाला कमरा सजाया।",
+"en": "We all decorated the upstairs room together for the guests to stay in.",
+"theme": "Family, friends, and home"
+},
+{
+"id": 651,
+"level": "hard",
+"hi": "आज सुबह मैंने नाश्ते में दो अंडे और एक पका केला खाया।",
+"en": "This morning, I ate two eggs and a ripe banana for breakfast.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 652,
+"level": "hard",
+"hi": "मेरी माँ बाज़ार से हमेशा ताज़ी सब्ज़ियाँ और मौसम के फल खरीदती हैं।",
+"en": "My mother always buys fresh vegetables and seasonal fruit from the market.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 653,
+"level": "hard",
+"hi": "कृपया मेरी चाय में चीनी कम डालना, क्योंकि मुझे ज़्यादा मिठास पसंद नहीं।",
+"en": "Please add less sugar to my tea because I dislike excessive sweetness.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 654,
+"level": "hard",
+"hi": "बच्चे स्कूल जाने से पहले गरम दूध के साथ अपना नाश्ता करते हैं।",
+"en": "The children have their breakfast with warm milk before leaving for school.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 655,
+"level": "hard",
+"hi": "मैंने आज पहली बार बिना किसी मदद के पूरे परिवार का खाना बनाया।",
+"en": "Today I cooked for the whole family without help for the first time.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 656,
+"level": "hard",
+"hi": "दाल में नमक कम था, इसलिए माँ ने थोड़ा और मिला दिया।",
+"en": "The lentils needed salt, so Mother added a little more to them.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 657,
+"level": "hard",
+"hi": "यह आम बाहर से पका दिखता है, लेकिन अंदर से थोड़ा कच्चा है।",
+"en": "This mango looks ripe outside but is still slightly unripe inside.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 658,
+"level": "hard",
+"hi": "दादी ने त्योहार के लिए कई तरह की स्वादिष्ट मिठाइयाँ तैयार की हैं।",
+"en": "Grandmother has prepared several kinds of delicious sweets for the festival.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 659,
+"level": "hard",
+"hi": "हम रास्ते के एक छोटे ढाबे पर गरम रोटी खाने रुके थे।",
+"en": "We stopped to eat warm flatbread at a small roadside restaurant.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 660,
+"level": "hard",
+"hi": "मेरे भाई को चावल के साथ दही और थोड़ा अचार खाना पसंद है।",
+"en": "My brother likes eating rice with yogurt and a little pickle.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 661,
+"level": "hard",
+"hi": "कृपया ये आलू छीलकर छोटे टुकड़ों में काट दो और अच्छी तरह धोओ।",
+"en": "Please peel these potatoes, cut them into small pieces, and wash them thoroughly.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 662,
+"level": "hard",
+"hi": "मैंने बोतल में संतरे का ताज़ा रस भरकर बच्चों के लिए रखा।",
+"en": "I filled a bottle with fresh orange juice for the children.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 663,
+"level": "hard",
+"hi": "आज की सब्ज़ी इतनी तीखी है कि मुझे बहुत पानी पीना पड़ा।",
+"en": "Today's vegetables are so spicy that I had to drink plenty of water.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 664,
+"level": "hard",
+"hi": "खाना पकाते समय माँ ने मुझे मसालों की सही मात्रा समझाई थी।",
+"en": "While cooking, Mother explained the correct quantities of spices to me.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 665,
+"level": "hard",
+"hi": "दूध उबलने लगा तो मैंने जल्दी से चूल्हे की आँच कम की।",
+"en": "When the milk started boiling, I quickly lowered the stove's heat.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 666,
+"level": "hard",
+"hi": "हमने मेहमानों के लिए रात के खाने में मछली और चावल बनाए।",
+"en": "We prepared fish and rice for our guests to eat for dinner.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 667,
+"level": "hard",
+"hi": "यह रोटी कल रात की है, इसलिए अब थोड़ी सख्त हो गई।",
+"en": "This flatbread is from last night, so it has become slightly hard.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 668,
+"level": "hard",
+"hi": "मुझे कॉफ़ी के बजाय सुबह गरम चाय पीना ज़्यादा अच्छा लगता है।",
+"en": "I prefer drinking hot tea rather than coffee in the morning.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 669,
+"level": "hard",
+"hi": "खाने की मेज़ पर बैठने से पहले सभी बच्चे अपने हाथ धोएँ।",
+"en": "All the children should wash their hands before sitting at the dining table.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 670,
+"level": "hard",
+"hi": "पिताजी ने दुकान से आटा, तेल, चीनी और नमक खरीदकर घर भेजा।",
+"en": "Father bought flour, oil, sugar, and salt and sent them home.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 671,
+"level": "hard",
+"hi": "इस छोटे होटल में खाना सस्ता होने के साथ बहुत स्वादिष्ट भी है।",
+"en": "The food at this small hotel is both inexpensive and very tasty.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 672,
+"level": "hard",
+"hi": "मैंने गलती से चाय में चीनी की जगह नमक डाल दिया था।",
+"en": "I accidentally put salt into the tea instead of adding sugar.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 673,
+"level": "hard",
+"hi": "दादी मुझे बचपन में अपने हाथ से रोटी पर मक्खन लगाकर खिलाती थीं।",
+"en": "Grandmother used to feed me buttered flatbread herself when I was little.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 674,
+"level": "hard",
+"hi": "सब्ज़ियों को बहुत देर तक पकाने से उनका रंग बदल गया है।",
+"en": "Cooking the vegetables for too long has changed their original color.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 675,
+"level": "hard",
+"hi": "बाज़ार में आज लाल टमाटर और हरी सब्ज़ियाँ बहुत सस्ती मिल रही हैं।",
+"en": "Red tomatoes and green vegetables are selling very cheaply at the market today.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 676,
+"level": "hard",
+"hi": "क्या तुम मेरे लिए बिना बर्फ़ वाला एक गिलास पानी ला सकते हो?",
+"en": "Can you bring me a glass of water without any ice?",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 677,
+"level": "hard",
+"hi": "भूख लगने पर बच्चों ने अपने थैले से फल निकालकर आपस में बाँटे।",
+"en": "When hungry, the children took fruit from their bag and shared it.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 678,
+"level": "hard",
+"hi": "मैंने बचा हुआ खाना ढककर रसोई की सबसे ऊँची अलमारी में रखा।",
+"en": "I covered the leftover food and put it in the highest kitchen cupboard.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 679,
+"level": "hard",
+"hi": "यह संतरा इतना खट्टा है कि मैं इसे अकेले नहीं खा सकता।",
+"en": "This orange is so sour that I cannot eat it by itself.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 680,
+"level": "hard",
+"hi": "माँ ने कहा कि आज दोपहर का खाना थोड़ी देर से बनेगा।",
+"en": "Mother said that lunch would be ready a little late today.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 681,
+"level": "hard",
+"hi": "हम सबने मिलकर रोटियाँ बनाईं और फिर आराम से साथ खाना खाया।",
+"en": "We all made flatbreads together and then enjoyed a relaxed meal.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 682,
+"level": "hard",
+"hi": "दुकानदार ने मुझे बताया कि ये सेब आज सुबह ही आए हैं।",
+"en": "The shopkeeper told me that these apples arrived just this morning.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 683,
+"level": "hard",
+"hi": "चूल्हे पर रखा सूप अब पीने के लिए काफ़ी गरम हो गया है।",
+"en": "The soup on the stove is now warm enough to drink.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 684,
+"level": "hard",
+"hi": "इस मिठाई का स्वाद अच्छा है, लेकिन इसमें बहुत ज़्यादा चीनी है।",
+"en": "This sweet tastes good, but it contains far too much sugar.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 685,
+"level": "hard",
+"hi": "दावत खत्म होने के बाद हमने सभी बर्तन मिलकर साफ़ कर दिए।",
+"en": "After the feast ended, we all cleaned the dishes together ourselves.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 686,
+"level": "hard",
+"hi": "पिताजी ने मुझे पचास रुपये देकर बाज़ार से ताज़ा दूध लाने भेजा।",
+"en": "Father gave me fifty rupees and sent me to buy fresh milk.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 687,
+"level": "hard",
+"hi": "मैंने सब्ज़ी खरीदने से पहले दुकानदार से उसका सही दाम पूछा था।",
+"en": "I asked the shopkeeper the correct price before buying the vegetables.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 688,
+"level": "hard",
+"hi": "हमारे घर में हर शुक्रवार रात को कोई नई सब्ज़ी बनाई जाती है।",
+"en": "A new vegetable dish is prepared at our house every Friday night.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 689,
+"level": "hard",
+"hi": "उसने खाने से पहले थाली में रखी दाल को थोड़ा चखकर देखा।",
+"en": "She tasted a little of the lentils on her plate before eating.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 690,
+"level": "hard",
+"hi": "बारिश की शाम गरम चाय के साथ पकौड़े खाना मुझे पसंद है।",
+"en": "I enjoy eating fritters with hot tea on a rainy evening.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 691,
+"level": "hard",
+"hi": "मेरी बहन ने आज अपने दोस्तों को घर पर दोपहर के खाने पर बुलाया।",
+"en": "My sister invited her friends home for lunch earlier today.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 692,
+"level": "hard",
+"hi": "मैंने रसोई में रखा सड़ा हुआ फल बाकी फलों से अलग किया।",
+"en": "I separated the rotten fruit in the kitchen from the other fruit.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 693,
+"level": "hard",
+"hi": "हमें सफ़र के लिए इतना खाना चाहिए कि सब लोग आराम से खाएँ।",
+"en": "We need enough food for everyone to eat comfortably during the journey.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 694,
+"level": "hard",
+"hi": "माँ ने छोटे बच्चे को चम्मच से धीरे दूध पिलाना शुरू किया।",
+"en": "Mother began slowly feeding milk to the little child with a spoon.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 695,
+"level": "hard",
+"hi": "इस दुकान की मिठाइयाँ पूरे शहर में अपने अच्छे स्वाद के लिए मशहूर हैं।",
+"en": "This shop's sweets are famous throughout the city for their delicious taste.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 696,
+"level": "hard",
+"hi": "मैंने अपने हिस्से की रोटी उस भूखे बच्चे को दे दी थी।",
+"en": "I gave my portion of flatbread to that hungry child earlier.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 697,
+"level": "hard",
+"hi": "क्या आप हमें बताएँगे कि यहाँ सबसे अच्छा नाश्ता कहाँ मिलता है?",
+"en": "Could you tell us where to find the best breakfast here?",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 698,
+"level": "hard",
+"hi": "खाना बन जाने के बाद कृपया चूल्हा ठीक से बंद करना मत भूलना।",
+"en": "Please do not forget to turn the stove off properly after cooking.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 699,
+"level": "hard",
+"hi": "मैंने आज खाने में मसाला कम रखा ताकि सभी आराम से खा सकें।",
+"en": "I used fewer spices today so that everyone could eat comfortably.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 700,
+"level": "hard",
+"hi": "अगले रविवार हम अपने पूरे परिवार के लिए बाहर से खाना मँगवाएँगे।",
+"en": "Next Sunday, we will order food for our entire family from outside.",
+"theme": "Food, shopping, and cooking"
+},
+{
+"id": 701,
+"level": "hard",
+"hi": "हमें ट्रेन पकड़ने के लिए कल सुबह घर से जल्दी निकलना होगा।",
+"en": "We must leave home early tomorrow morning to catch our train.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 702,
+"level": "hard",
+"hi": "मेरे दोस्त ने स्टेशन तक पहुँचने का सबसे आसान रास्ता मुझे समझाया।",
+"en": "My friend explained the easiest way to reach the station to me.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 703,
+"level": "hard",
+"hi": "हवाई अड्डे पर पहुँचकर हमने सबसे पहले अपनी उड़ान की जानकारी ली।",
+"en": "After reaching the airport, we first asked for information about our flight.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 704,
+"level": "hard",
+"hi": "हमारी बस रास्ते में खराब हो गई, इसलिए हम देर से पहुँचे।",
+"en": "Our bus broke down along the way, so we arrived late.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 705,
+"level": "hard",
+"hi": "यह पुराना पुल पार करने के बाद दाएँ मुड़कर सीधे चलते रहिए।",
+"en": "After crossing this old bridge, turn right and keep walking straight ahead.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 706,
+"level": "hard",
+"hi": "होटल की खिड़की से हमें दूर तक नीला समुद्र दिखाई देता था।",
+"en": "We could see the blue sea stretching far from our hotel window.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 707,
+"level": "hard",
+"hi": "हमने शहर घूमने के लिए पूरे दिन एक छोटी गाड़ी किराए पर ली।",
+"en": "We rented a small car for the day to explore the city.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 708,
+"level": "hard",
+"hi": "गाँव जाने वाली आख़िरी बस शाम को छह बजे स्टेशन से निकलती है।",
+"en": "The last bus to the village leaves the station at six every evening.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 709,
+"level": "hard",
+"hi": "मैंने अपना टिकट थैले की छोटी जेब में बहुत सँभालकर रखा था।",
+"en": "I had carefully kept my ticket in my bag's small pocket.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 710,
+"level": "hard",
+"hi": "रास्ता भूलने पर हमने पास की दुकान के मालिक से मदद माँगी।",
+"en": "After losing our way, we asked a nearby shop owner for help.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 711,
+"level": "hard",
+"hi": "मेरे पिता कई साल बाद अपने बचपन वाले गाँव लौटकर बहुत खुश हुए।",
+"en": "My father was delighted to revisit his childhood village after many years.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 712,
+"level": "hard",
+"hi": "इस शहर की सँकरी गलियों में पैदल घूमना मुझे बहुत अच्छा लगा।",
+"en": "I really enjoyed exploring this city's narrow lanes while walking on foot.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 713,
+"level": "hard",
+"hi": "हमने लंबी यात्रा के दौरान कई छोटे गाँव और हरे खेत देखे।",
+"en": "We saw many small villages and green fields during the long journey.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 714,
+"level": "hard",
+"hi": "मेरे मामा हवाई अड्डे के बाहर हमारी गाड़ी लेकर इंतज़ार कर रहे थे।",
+"en": "My uncle was waiting outside the airport with our car for us.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 715,
+"level": "hard",
+"hi": "कृपया हमें ऐसी जगह उतारिए जहाँ से अस्पताल तक पैदल जा सकें।",
+"en": "Please drop us somewhere within walking distance of the nearby hospital.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 716,
+"level": "hard",
+"hi": "नक्शा देखने के बाद पता चला कि हमारा होटल दूसरी तरफ़ था।",
+"en": "After checking the map, we discovered our hotel was the other way.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 717,
+"level": "hard",
+"hi": "बारिश तेज़ होने के कारण पहाड़ की सड़क कुछ समय बंद रही।",
+"en": "The mountain road remained closed for some time because of heavy rain.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 718,
+"level": "hard",
+"hi": "हमने नदी के पास रुककर थोड़ी देर आराम किया और तस्वीरें खींचीं।",
+"en": "We stopped near the river, rested briefly, and took some photographs.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 719,
+"level": "hard",
+"hi": "ट्रेन की खिड़की से बाहर देखते हुए बच्चे बहुत खुश हो रहे थे।",
+"en": "The children were delighted while looking outside through the train window.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 720,
+"level": "hard",
+"hi": "इस छोटे स्टेशन पर हमारी ट्रेन केवल दो मिनट के लिए रुकेगी।",
+"en": "Our train will stop at this small station for only two minutes.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 721,
+"level": "hard",
+"hi": "तुम्हें मुख्य सड़क छोड़कर बाईं तरफ़ वाली पतली गली में जाना होगा।",
+"en": "You must leave the main road and enter the narrow lane on the left.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 722,
+"level": "hard",
+"hi": "विदेश में रहते हुए भी वह हर साल अपने परिवार से मिलने आती है।",
+"en": "Despite living abroad, she visits her family every year without fail.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 723,
+"level": "hard",
+"hi": "मैंने होटल पहुँचते ही घर फ़ोन करके अपने पहुँचने की खबर दी।",
+"en": "Upon reaching the hotel, I called home to report my arrival.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 724,
+"level": "hard",
+"hi": "यह रास्ता थोड़ा लंबा है, लेकिन यहाँ गाड़ियों की भीड़ कम रहती है।",
+"en": "This route is slightly longer, but there is usually less traffic here.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 725,
+"level": "hard",
+"hi": "हम सुबह से चल रहे थे, इसलिए शाम तक बहुत थक गए।",
+"en": "We had been walking since morning, so we were exhausted by evening.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 726,
+"level": "hard",
+"hi": "बैंक के सामने वाली सड़क पर अपनी साइकिल खड़ी मत करना।",
+"en": "Do not park your bicycle on the road opposite the bank.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 727,
+"level": "hard",
+"hi": "पुराने मंदिर तक पहुँचने के लिए हमें सौ सीढ़ियाँ चढ़नी पड़ी थीं।",
+"en": "We had to climb one hundred steps to reach the old temple.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 728,
+"level": "hard",
+"hi": "विश्वविद्यालय की मुख्य इमारत के पीछे एक बहुत बड़ा पुस्तकालय बना है।",
+"en": "There is a very large library behind the university's main building.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 729,
+"level": "hard",
+"hi": "क्या आप मुझे बता सकते हैं कि अगली ट्रेन किस प्लेटफ़ॉर्म से जाएगी?",
+"en": "Can you tell me which platform the next train will leave from?",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 730,
+"level": "hard",
+"hi": "हमने सफ़र शुरू करने से पहले गाड़ी में पानी और खाना रख लिया।",
+"en": "We packed water and food in the car before beginning our journey.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 731,
+"level": "hard",
+"hi": "समुद्र के किनारे बना यह होटल सर्दियों में भी खुला रहता है।",
+"en": "This hotel beside the sea stays open even during the winter months.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 732,
+"level": "hard",
+"hi": "हमारी गाड़ी उस बड़े पेड़ के नीचे पिछले दो घंटे से खड़ी है।",
+"en": "Our car has been parked under that large tree for two hours.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 733,
+"level": "hard",
+"hi": "रास्ते में मिले आदमी ने हमें गाँव तक जाने का सही रास्ता बताया।",
+"en": "The man we met showed us the correct route to the village.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 734,
+"level": "hard",
+"hi": "इस जगह की शांति शहर के शोर से बिलकुल अलग महसूस होती है।",
+"en": "The peace of this place feels completely different from the city's noise.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 735,
+"level": "hard",
+"hi": "मैं अगली छुट्टियों में अपने दोस्तों के साथ पहाड़ों पर जाना चाहता हूँ।",
+"en": "I want to visit the mountains with my friends during the next holidays.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 736,
+"level": "hard",
+"hi": "हमने वापसी के टिकट खरीद लिए हैं, लेकिन होटल अभी तय नहीं किया।",
+"en": "We have bought return tickets but have not chosen a hotel yet.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 737,
+"level": "hard",
+"hi": "स्टेशन से बाहर निकलते ही हमें अपने नाम की तख्ती दिखाई दी।",
+"en": "As we left the station, we saw a sign with our names.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 738,
+"level": "hard",
+"hi": "सड़क के दोनों तरफ़ लगे पेड़ों की छाया में चलना अच्छा लगा।",
+"en": "Walking in the shade of trees on both roadsides felt very pleasant.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 739,
+"level": "hard",
+"hi": "हम बस से उतरकर अपने भारी थैले उठाए हुए होटल तक चले।",
+"en": "We got off the bus and walked to the hotel carrying heavy bags.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 740,
+"level": "hard",
+"hi": "इस शहर में पहली बार आने पर मुझे हर जगह अनजान लगी।",
+"en": "When I first visited this city, every place seemed unfamiliar to me.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 741,
+"level": "hard",
+"hi": "हमारे गाँव की सड़क अब पहले से कहीं ज़्यादा चौड़ी हो गई है।",
+"en": "The road to our village has become much wider than before.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 742,
+"level": "hard",
+"hi": "हवाई जहाज़ की खिड़की से नीचे के घर बहुत छोटे दिख रहे थे।",
+"en": "The houses below looked very small through the window of the plane.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 743,
+"level": "hard",
+"hi": "यात्रा के आख़िरी दिन हमने स्थानीय बाज़ार से परिवार के लिए तोहफ़े खरीदे।",
+"en": "On our journey's final day, we bought family gifts at the local market.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 744,
+"level": "hard",
+"hi": "मैंने गाड़ी चलाते समय अपने दोस्त से फ़ोन बंद करने को कहा।",
+"en": "While driving, I asked my friend to turn off the phone.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 745,
+"level": "hard",
+"hi": "गाँव के बाहर नदी पर एक नया मज़बूत पुल बनाया जा रहा है।",
+"en": "A new sturdy bridge is being built across the river outside the village.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 746,
+"level": "hard",
+"hi": "हमें अँधेरा होने से पहले जंगल के दूसरे किनारे तक पहुँचना था।",
+"en": "We had to reach the other side of the forest before dark.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 747,
+"level": "hard",
+"hi": "बस में बैठी महिला ने छोटे बच्चे को खिड़की वाली जगह दे दी।",
+"en": "The woman on the bus gave the little child her window seat.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 748,
+"level": "hard",
+"hi": "बारिश रुकने तक हमने स्टेशन के अंदर एक छोटी दुकान पर इंतज़ार किया।",
+"en": "We waited at a small shop inside the station until the rain stopped.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 749,
+"level": "hard",
+"hi": "घर लौटने के बाद भी उस सुंदर सफ़र की यादें हमारे साथ रहीं।",
+"en": "Even after returning home, memories of that beautiful journey stayed with us.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 750,
+"level": "hard",
+"hi": "अगली बार वहाँ जाने से पहले मैं स्थानीय भाषा के कुछ शब्द सीखूँगा।",
+"en": "Before going there again, I will learn some words in the local language.",
+"theme": "Travel, places, and directions"
+},
+{
+"id": 751,
+"level": "hard",
+"hi": "सुबह सूरज निकलने से पहले बगीचे की घास पर छोटी बूँदें चमकती थीं।",
+"en": "Tiny drops sparkled on the garden grass before the sun rose each morning.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 752,
+"level": "hard",
+"hi": "तेज़ हवा चलने पर पेड़ की सूखी पत्तियाँ पूरे आँगन में फैल गईं।",
+"en": "When strong winds blew, the tree's dry leaves scattered across the courtyard.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 753,
+"level": "hard",
+"hi": "नदी के किनारे बैठकर हमने शाम को डूबते सूरज की तस्वीरें खींचीं।",
+"en": "Sitting beside the river, we photographed the setting sun in the evening.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 754,
+"level": "hard",
+"hi": "पहाड़ की ऊँची चोटी पर अभी भी सफ़ेद बर्फ़ जमी हुई है।",
+"en": "White snow is still lying on the mountain's very highest peak.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 755,
+"level": "hard",
+"hi": "छोटी चिड़िया अपनी चोंच में घास लेकर बार बार पेड़ तक जाती थी।",
+"en": "The little bird repeatedly flew to the tree carrying grass in its beak.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 756,
+"level": "hard",
+"hi": "हमारे बगीचे में आने वाली तितलियाँ अक्सर पीले फूलों पर बैठती हैं।",
+"en": "The butterflies visiting our garden often settle on the yellow flowers.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 757,
+"level": "hard",
+"hi": "बारिश के बाद जंगल की हवा पहले से बहुत साफ़ लग रही थी।",
+"en": "The forest air felt much cleaner than before after the rain.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 758,
+"level": "hard",
+"hi": "बच्चे समुद्र के किनारे रेत में अपने छोटे घर बना रहे थे।",
+"en": "The children were building their little houses in sand beside the sea.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 759,
+"level": "hard",
+"hi": "गाय अपने छोटे बछड़े के साथ हरी घास वाले मैदान में खड़ी थी।",
+"en": "The cow stood with her little calf in a grassy green field.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 760,
+"level": "hard",
+"hi": "बंदर पेड़ की ऊँची डाल पर बैठकर हमारे थैले को देख रहा था।",
+"en": "The monkey sat on a high branch and watched our bag closely.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 761,
+"level": "hard",
+"hi": "शाम होते ही आसमान का रंग नीले से धीरे धीरे नारंगी हो गया।",
+"en": "As evening arrived, the sky's color gradually changed from blue to orange.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 762,
+"level": "hard",
+"hi": "हमने दूर से हाथियों के एक बड़े झुंड को नदी पार करते देखा।",
+"en": "From a distance, we watched a large herd of elephants cross the river.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 763,
+"level": "hard",
+"hi": "रात की शांति में हमें जंगल से कई जानवरों की आवाज़ें सुनाई दीं।",
+"en": "In the night's quiet, we heard many animal sounds from the forest.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 764,
+"level": "hard",
+"hi": "उस छोटे कुत्ते को बारिश में भीगते देखकर बच्चा उसे अंदर ले आया।",
+"en": "Seeing the little dog getting wet, the child brought it inside.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 765,
+"level": "hard",
+"hi": "हमारी बिल्ली ने खिड़की के पास बैठकर उड़ती चिड़ियों को ध्यान से देखा।",
+"en": "Our cat sat near the window and carefully watched the flying birds.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 766,
+"level": "hard",
+"hi": "बर्फ़ पिघलने के बाद पहाड़ों से आने वाली नदी में पानी बढ़ गया।",
+"en": "After the snow melted, water levels rose in the river from the mountains.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 767,
+"level": "hard",
+"hi": "रात के साफ़ आसमान में हमने पहली बार इतने चमकदार तारे देखे।",
+"en": "We saw so many bright stars for the first time that clear night.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 768,
+"level": "hard",
+"hi": "पेड़ के नीचे पड़ा छोटा पत्थर बारिश के पानी से चमक रहा था।",
+"en": "The little stone beneath the tree was shining with water from the rain.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 769,
+"level": "hard",
+"hi": "साँप को रास्ते पर देखकर हम चुपचाप पीछे हट गए और रुक गए।",
+"en": "Seeing the snake on the path, we quietly stepped back and stopped.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 770,
+"level": "hard",
+"hi": "बूढ़ा घोड़ा अब पहले की तरह तेज़ नहीं दौड़ पाता था।",
+"en": "The old horse could no longer run as fast as before.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 771,
+"level": "hard",
+"hi": "जंगल की आग बुझने के बाद आसपास की ज़मीन काली दिखाई दे रही थी।",
+"en": "After the forest fire went out, the surrounding ground appeared completely black.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 772,
+"level": "hard",
+"hi": "नदी का पानी इतना साफ़ था कि नीचे पड़े पत्थर दिखाई देते थे।",
+"en": "The river water was clear enough to reveal the stones below.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 773,
+"level": "hard",
+"hi": "बसंत आते ही हमारे बगीचे के पेड़ों पर नई पत्तियाँ निकलने लगती हैं।",
+"en": "New leaves begin appearing on our garden trees as soon as spring arrives.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 774,
+"level": "hard",
+"hi": "गर्मी की दोपहर में बच्चे पेड़ की ठंडी छाया में खेल रहे थे।",
+"en": "The children were playing in the tree's cool shade that summer afternoon.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 775,
+"level": "hard",
+"hi": "बरसात शुरू होने से पहले किसानों ने अपने खेतों की तैयारी पूरी की।",
+"en": "The farmers finished preparing their fields before the rainy season began.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 776,
+"level": "hard",
+"hi": "पतझड़ के मौसम में इस सड़क पर सुनहरी पत्तियाँ बिखरी रहती हैं।",
+"en": "Golden leaves lie scattered along this road throughout the autumn season.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 777,
+"level": "hard",
+"hi": "सर्दी की रातों में हम सब आग के पास बैठकर बातें करते थे।",
+"en": "On winter nights, we all used to sit by the fire talking.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 778,
+"level": "hard",
+"hi": "सोमवार की सुबह मुझे हमेशा दफ़्तर पहुँचने की थोड़ी जल्दी रहती है।",
+"en": "On Monday mornings, I am always slightly rushed to reach the office.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 779,
+"level": "hard",
+"hi": "मंगलवार को हमारी कक्षा के बच्चे पुस्तकालय में कहानी पढ़ने जाएँगे।",
+"en": "The children in our class will visit the library on Tuesday to read stories.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 780,
+"level": "hard",
+"hi": "बुधवार की शाम हम अपने पुराने पड़ोसियों से मिलने उनके घर गए।",
+"en": "On Wednesday evening, we visited our old neighbors at their home.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 781,
+"level": "hard",
+"hi": "गुरुवार तक यह काम पूरा करने के लिए हमें मिलकर मेहनत करनी होगी।",
+"en": "We must work hard together to finish this work by Thursday.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 782,
+"level": "hard",
+"hi": "शुक्रवार की रात परिवार के सभी लोग एक साथ फ़िल्म देखने बैठे।",
+"en": "On Friday night, everyone in the family sat down to watch a movie together.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 783,
+"level": "hard",
+"hi": "शनिवार को छुट्टी होने के कारण मैंने सुबह देर तक आराम किया।",
+"en": "Since Saturday was a day off, I rested late into the morning.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 784,
+"level": "hard",
+"hi": "रविवार को हम अक्सर पास के बगीचे में बच्चों के साथ घूमते हैं।",
+"en": "On Sundays, we often walk with the children in the nearby garden.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 785,
+"level": "hard",
+"hi": "जनवरी की ठंडी सुबह में गरम चाय पीना बहुत अच्छा लगता है।",
+"en": "Drinking hot tea feels very pleasant on a cold January morning.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 786,
+"level": "hard",
+"hi": "फ़रवरी में मेरी बहन ने पहली बार अपने दोस्तों के साथ यात्रा की।",
+"en": "In February, my sister traveled with her friends for the first time.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 787,
+"level": "hard",
+"hi": "मार्च के आख़िरी सप्ताह में हमारे स्कूल की सालाना परीक्षाएँ खत्म होंगी।",
+"en": "Our school's annual examinations will finish during the last week of March.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 788,
+"level": "hard",
+"hi": "अप्रैल में हमने अपने घर के सामने कई नए फूलों के पौधे लगाए।",
+"en": "In April, we planted several new flowering plants outside our house.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 789,
+"level": "hard",
+"hi": "मई की गर्मी में हम दोपहर को घर से बाहर कम निकलते थे।",
+"en": "In May's heat, we rarely left the house during the afternoon.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 790,
+"level": "hard",
+"hi": "जून की छुट्टियों में बच्चे अपने नाना और नानी के घर गए।",
+"en": "During the June holidays, the children visited their maternal grandparents at home.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 791,
+"level": "hard",
+"hi": "जुलाई में लगातार बारिश होने से हमारे गाँव की नदी भर गई।",
+"en": "Continuous rain in July filled the river running through our village.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 792,
+"level": "hard",
+"hi": "अगस्त में हमने स्कूल के मैदान में कई छोटे पेड़ लगाए थे।",
+"en": "In August, we planted several small trees in the school grounds.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 793,
+"level": "hard",
+"hi": "सितंबर की शुरुआत में मुझे अपने नए कॉलेज से पहली चिट्ठी मिली।",
+"en": "At the beginning of September, I received my new college's first letter.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 794,
+"level": "hard",
+"hi": "अक्टूबर की शामें यहाँ दिन के मुकाबले काफ़ी ठंडी होने लगती हैं।",
+"en": "October evenings here begin to feel considerably colder than the daytime.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 795,
+"level": "hard",
+"hi": "नवंबर में हमारे पूरे परिवार ने मिलकर दादी का जन्मदिन मनाया।",
+"en": "In November, our entire family came together to celebrate Grandmother's birthday.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 796,
+"level": "hard",
+"hi": "दिसंबर की छुट्टियों के लिए हमने अभी से यात्रा की योजना बनाई है।",
+"en": "We have already made travel plans for our holidays in December.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 797,
+"level": "hard",
+"hi": "पिछले साल इसी समय हम अपने गाँव के पुराने घर में रह रहे थे।",
+"en": "At this time last year, we were living in our old village house.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 798,
+"level": "hard",
+"hi": "अगले महीने की शुरुआत में मेरे भाई की नई नौकरी शुरू होगी।",
+"en": "My brother's new job will begin at the start of next month.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 799,
+"level": "hard",
+"hi": "समय पर पहुँचने के लिए मैंने रात को ही अपना सामान तैयार रखा।",
+"en": "To arrive on time, I prepared my belongings the night before.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 800,
+"level": "hard",
+"hi": "दिन भर काम करने के बाद शाम को थोड़ा आराम करना अच्छा लगता है।",
+"en": "After working all day, resting a little in the evening feels pleasant.",
+"theme": "Nature, animals, seasons, and time"
+},
+{
+"id": 801,
+"level": "hard",
+"hi": "हमारी अध्यापिका हर नए शब्द का मतलब आसान उदाहरण देकर समझाती हैं।",
+"en": "Our teacher explains the meaning of every new word using simple examples.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 802,
+"level": "hard",
+"hi": "मैंने आज की कक्षा में सीखे सभी शब्द अपनी किताब में लिखे।",
+"en": "I wrote all the words from today's lesson in my book.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 803,
+"level": "hard",
+"hi": "परीक्षा शुरू होने से पहले अध्यापक ने सभी छात्रों को शांत रहने को कहा।",
+"en": "Before the exam began, the teacher asked all students to remain quiet.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 804,
+"level": "hard",
+"hi": "वह कठिन सवाल समझने के लिए बार बार अपनी किताब पढ़ रहा था।",
+"en": "He was reading his book repeatedly to understand the difficult question.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 805,
+"level": "hard",
+"hi": "मेरी बहन हर सुबह आधा घंटा अंग्रेज़ी बोलने का अभ्यास करती है।",
+"en": "My sister practices speaking English for half an hour every morning.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 806,
+"level": "hard",
+"hi": "हमें यह कहानी पढ़कर अपने शब्दों में उसका छोटा जवाब लिखना है।",
+"en": "We must read this story and write a short response in our own words.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 807,
+"level": "hard",
+"hi": "मैंने अध्यापक से पूछा कि इस वाक्य का सही अनुवाद क्या होगा।",
+"en": "I asked the teacher what the correct translation of this sentence would be.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 808,
+"level": "hard",
+"hi": "उसने पूरे पाठ को समझे बिना केवल शब्द याद करने की कोशिश की।",
+"en": "He tried to memorize only the words without understanding the entire lesson.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 809,
+"level": "hard",
+"hi": "पुस्तकालय में बैठकर पढ़ने से मुझे अपने काम पर ध्यान देना आसान लगता है।",
+"en": "Studying in the library makes it easier for me to concentrate on my work.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 810,
+"level": "hard",
+"hi": "नए छात्र को हमारी भाषा समझने में शुरू में थोड़ी मुश्किल हुई।",
+"en": "The new student initially had some difficulty understanding the language we speak.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 811,
+"level": "hard",
+"hi": "मैंने अपनी गलती सुधारकर पूरा जवाब फिर से साफ़ अक्षरों में लिखा।",
+"en": "I corrected my mistake and rewrote the entire answer in clear handwriting.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 812,
+"level": "hard",
+"hi": "हमारी कक्षा के सभी बच्चों ने मिलकर एक सुंदर तस्वीर बनाई।",
+"en": "All the children in our class drew a beautiful picture together.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 813,
+"level": "hard",
+"hi": "अध्यापक ने कहा कि सवाल पूछना सीखने का एक अच्छा तरीका है।",
+"en": "The teacher said that asking questions is a good way to learn.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 814,
+"level": "hard",
+"hi": "वह हर दिन थोड़ा पढ़ता है, इसलिए परीक्षा से पहले नहीं घबराता।",
+"en": "He studies a little daily, so he does not panic before exams.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 815,
+"level": "hard",
+"hi": "मैंने अपने दोस्त को वह कठिन सवाल आसानी से हल करना सिखाया।",
+"en": "I taught my friend how to solve that difficult question easily.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 816,
+"level": "hard",
+"hi": "काम खत्म होने के बाद कृपया सभी कागज़ सही क्रम में रख दीजिए।",
+"en": "Please put all the papers in order after finishing the work.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 817,
+"level": "hard",
+"hi": "मेरे मालिक ने आज समय पर काम पूरा करने के लिए मेरी तारीफ़ की।",
+"en": "My boss praised me today for completing the work right on time.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 818,
+"level": "hard",
+"hi": "इस महीने हमें पिछले महीने से कुछ ज़्यादा काम करना पड़ रहा है।",
+"en": "This month, we are having to work slightly more than last month.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 819,
+"level": "hard",
+"hi": "मैंने दफ़्तर पहुँचते ही अपने कंप्यूटर पर ज़रूरी जानकारी देखनी शुरू की।",
+"en": "Upon reaching the office, I began checking important information on my computer.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 820,
+"level": "hard",
+"hi": "हमारा नया साथी बहुत मेहनती है और हमेशा सबकी मदद करता है।",
+"en": "Our new colleague is very hardworking and always helps everyone around him.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 821,
+"level": "hard",
+"hi": "इस काम के लिए हमें किसी अनुभवी व्यक्ति की सलाह लेनी चाहिए।",
+"en": "We should seek advice from an experienced person for this task.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 822,
+"level": "hard",
+"hi": "उसने सारी जानकारी ध्यान से पढ़ने के बाद अपना अंतिम फैसला लिया।",
+"en": "She made her final decision after carefully reading all the information.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 823,
+"level": "hard",
+"hi": "हम समस्या की वजह समझे बिना उसका सही हल नहीं ढूँढ़ सकते।",
+"en": "We cannot find the right solution without understanding the problem's cause.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 824,
+"level": "hard",
+"hi": "मैंने अपने साथी से कहा कि वह गलत खबर आगे न भेजे।",
+"en": "I told my colleague not to pass the false news along.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 825,
+"level": "hard",
+"hi": "सभी लोगों ने मिलकर काम किया, इसलिए मुश्किल काम भी आसान लगा।",
+"en": "Everyone worked together, so even the difficult task seemed easy to complete.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 826,
+"level": "hard",
+"hi": "मैं अपनी तनख्वाह का थोड़ा हिस्सा हर महीने अलग बचाकर रखता हूँ।",
+"en": "I save a small part of my salary separately every month.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 827,
+"level": "hard",
+"hi": "उसने नई साइकिल खरीदने के लिए पूरे साल पैसे बचाए थे।",
+"en": "She had saved money throughout the year to buy a new bicycle.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 828,
+"level": "hard",
+"hi": "दुकान से लौटकर मैंने खरीदी हुई सभी चीज़ों का हिसाब लिखा।",
+"en": "After returning from the shop, I recorded all the things I bought.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 829,
+"level": "hard",
+"hi": "हमें ज़रूरत से ज़्यादा सामान खरीदने के बजाय पैसे बचाने चाहिए।",
+"en": "We should save money instead of buying more things than we need.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 830,
+"level": "hard",
+"hi": "मेरे दोस्त ने वादा किया कि वह उधार लिए पैसे जल्दी लौटाएगा।",
+"en": "My friend promised that he would return the borrowed money soon.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 831,
+"level": "hard",
+"hi": "दुकानदार ने मुझे कम दाम में एक अच्छी और मज़बूत कुर्सी दी।",
+"en": "The shopkeeper sold me a good, sturdy chair at a low price.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 832,
+"level": "hard",
+"hi": "यह चीज़ महँगी ज़रूर है, लेकिन इसकी गुणवत्ता पहले वाली से अच्छी है।",
+"en": "This item is expensive, but its quality is better than the previous one's.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 833,
+"level": "hard",
+"hi": "मैंने खरीदने से पहले तीन अलग दुकानों पर उसी थैले का दाम पूछा।",
+"en": "Before buying, I asked the price of that bag at three different shops.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 834,
+"level": "hard",
+"hi": "पिता ने बच्चों को समझाया कि पैसे मेहनत से कमाए जाते हैं।",
+"en": "Father explained to the children that money is earned through hard work.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 835,
+"level": "hard",
+"hi": "हमारे पास पूरी यात्रा के लिए काफ़ी पैसे और थोड़ा अतिरिक्त खाना है।",
+"en": "We have enough money for the entire journey and some extra food.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 836,
+"level": "hard",
+"hi": "कृपया इस कागज़ को बीच से मोड़कर उस खाली डिब्बे में रखिए।",
+"en": "Please fold this paper in half and put it in that empty box.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 837,
+"level": "hard",
+"hi": "मैंने कपड़े धोने के बाद उन्हें धूप में सूखने के लिए फैला दिया।",
+"en": "After washing the clothes, I spread them out to dry in the sunshine.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 838,
+"level": "hard",
+"hi": "उसने पौधों को पानी देने से पहले मिट्टी को हाथ से छूकर देखा।",
+"en": "She touched the soil with her hand before watering the plants.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 839,
+"level": "hard",
+"hi": "हम टूटे हुए दरवाज़े को ठीक करने के लिए किसी कारीगर को बुलाएँगे।",
+"en": "We will call a craftsman to repair the broken door for us.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 840,
+"level": "hard",
+"hi": "कृपया यह भारी डिब्बा उठाने में मेरी थोड़ी मदद कर सकते हैं?",
+"en": "Could you please give me some help lifting this heavy box?",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 841,
+"level": "hard",
+"hi": "बच्चे ने गलती से मेज़ पर रखा पूरा गिलास पानी गिरा दिया।",
+"en": "The child accidentally spilled the entire glass of water on the table.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 842,
+"level": "hard",
+"hi": "मैंने पुरानी चिट्ठियाँ फेंकने के बजाय एक अलग डिब्बे में सँभालकर रखीं।",
+"en": "Instead of throwing old letters away, I carefully kept them in a separate box.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 843,
+"level": "hard",
+"hi": "सोने से पहले मैंने सुबह जल्दी उठने के लिए फ़ोन पर अलार्म लगाया।",
+"en": "Before sleeping, I set an alarm on my phone to wake up early.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 844,
+"level": "hard",
+"hi": "उसने अपनी कमीज़ की ढीली बाँह को मोड़कर फिर काम शुरू किया।",
+"en": "He rolled up his loose shirt sleeve and then began working again.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 845,
+"level": "hard",
+"hi": "दादी ने मुझे कपड़े के इस छोटे टुकड़े से थैला बनाना सिखाया।",
+"en": "Grandmother taught me to make a bag from this small piece of cloth.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 846,
+"level": "hard",
+"hi": "चित्र पूरा होने के बाद हमने उसे दीवार के बीच में चिपकाया।",
+"en": "After finishing the picture, we stuck it in the wall's center.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 847,
+"level": "hard",
+"hi": "दरवाज़ा खोलने के लिए चाबी को धीरे से दाईं तरफ़ घुमाना होगा।",
+"en": "You must gently turn the key right to open the door.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 848,
+"level": "hard",
+"hi": "मैंने नया पंखा चलाने से पहले उसके साथ मिली जानकारी ध्यान से पढ़ी।",
+"en": "Before operating the new fan, I carefully read the information provided with it.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 849,
+"level": "hard",
+"hi": "हमें कल तक पूरा सामान नए घर में पहुँचाने की तैयारी करनी है।",
+"en": "We must prepare to deliver everything to the new house by tomorrow.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 850,
+"level": "hard",
+"hi": "काम सही तरह पूरा करने के लिए जल्दी से ज़्यादा ध्यान ज़रूरी है।",
+"en": "Finishing the work properly requires more attention rather than simply working quickly.",
+"theme": "Learning, work, money, and practical tasks"
+},
+{
+"id": 851,
+"level": "hard",
+"hi": "मुझे बहुत खुशी हुई जब मेरे पुराने दोस्त ने अचानक दरवाज़ा खटखटाया।",
+"en": "I was very happy when my old friend suddenly knocked at the door.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 852,
+"level": "hard",
+"hi": "अपनी गलती मानने के बाद वह पहले से कहीं ज़्यादा शांत दिखी।",
+"en": "After admitting her mistake, she looked much calmer than she had before.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 853,
+"level": "hard",
+"hi": "छोटे बच्चे को अकेला रोता देखकर उस महिला ने प्यार से बुलाया।",
+"en": "Seeing the little child crying alone, the woman called him over lovingly.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 854,
+"level": "hard",
+"hi": "मुझे उम्मीद है कि अगली बार हम इस काम में ज़रूर सफल होंगे।",
+"en": "I hope that we will definitely succeed at this task next time.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 855,
+"level": "hard",
+"hi": "उसने कठिन समय में भी अपने दोस्तों से मदद माँगने में शर्म नहीं की।",
+"en": "Even during difficult times, she was not ashamed to ask friends for help.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 856,
+"level": "hard",
+"hi": "मुझे अपने परिवार के साथ बिताए छोटे छोटे पल सबसे अच्छे लगते हैं।",
+"en": "I love the little moments spent with my family most of all.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 857,
+"level": "hard",
+"hi": "लंबे समय बाद घर लौटकर उसने अपनी माँ को खुशी से गले लगाया।",
+"en": "Returning home after a long time, he happily hugged his mother.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 858,
+"level": "hard",
+"hi": "उस अनजान आदमी की दयालुता देखकर हमें सच में बहुत अच्छा लगा।",
+"en": "Seeing that stranger's kindness truly made all of us feel very happy.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 859,
+"level": "hard",
+"hi": "मैं तुम्हारी बात समझता हूँ, लेकिन इस फैसले से पूरी तरह सहमत नहीं हूँ।",
+"en": "I understand your point, but I do not completely agree with this decision.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 860,
+"level": "hard",
+"hi": "नाराज़ होने के बजाय हमें शांति से बैठकर पूरी बात समझनी चाहिए।",
+"en": "Instead of getting angry, we should sit calmly and understand the whole matter.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 861,
+"level": "hard",
+"hi": "उसने सबके सामने सच बोलने की हिम्मत दिखाई और अपनी गलती मानी।",
+"en": "He showed courage by speaking the truth publicly and admitting his mistake.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 862,
+"level": "hard",
+"hi": "मेरे दोस्त ने कहा कि असफल होने पर भी कोशिश जारी रखनी चाहिए।",
+"en": "My friend said that we should keep trying even after we fail.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 863,
+"level": "hard",
+"hi": "मैं अपने बचपन के घर की खुशबू और आवाज़ें कभी नहीं भूल सकता।",
+"en": "I can never forget the smells and sounds of my childhood home.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 864,
+"level": "hard",
+"hi": "उसे डर था कि कहीं देर होने से आख़िरी बस छूट न जाए।",
+"en": "She feared that being late might make her miss the last bus.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 865,
+"level": "hard",
+"hi": "तुम्हारी छोटी सी मदद ने आज मेरा बहुत मुश्किल काम आसान कर दिया।",
+"en": "Your little bit of help made my difficult task much easier today.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 866,
+"level": "hard",
+"hi": "हम दूसरों की बात ध्यान से सुनकर कई गलतफहमियों से बच सकते हैं।",
+"en": "We can avoid many misunderstandings by listening carefully to what others say.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 867,
+"level": "hard",
+"hi": "मैंने उसे समझाया कि हर गलती का मतलब हमेशा असफलता नहीं होता।",
+"en": "I explained to him that every mistake does not always mean failure.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 868,
+"level": "hard",
+"hi": "उसने अपने दोस्त की सफलता पर खुश होकर एक छोटा तोहफ़ा भेजा।",
+"en": "She happily sent a small gift to celebrate her friend's success.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 869,
+"level": "hard",
+"hi": "मुझे थोड़ा समय चाहिए ताकि मैं इस बारे में अच्छे से सोच सकूँ।",
+"en": "I need some time so that I can think about this properly.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 870,
+"level": "hard",
+"hi": "हमें अपने से अलग सोचने वाले लोगों का भी सम्मान करना चाहिए।",
+"en": "We should also respect people who think differently from how we do.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 871,
+"level": "hard",
+"hi": "क्या तुम मुझे बता सकते हो कि आज तुम्हें इतना उदास क्यों लग रहा है?",
+"en": "Can you tell me why you are feeling so sad today?",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 872,
+"level": "hard",
+"hi": "क्या आपने वह चिट्ठी पढ़ी जो मैंने पिछले हफ़्ते आपके घर भेजी थी?",
+"en": "Have you read the letter I sent to your house last week?",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 873,
+"level": "hard",
+"hi": "तुमने अपनी नई नौकरी के बारे में अभी तक हमें कुछ क्यों नहीं बताया?",
+"en": "Why have you not told us anything about your new job yet?",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 874,
+"level": "hard",
+"hi": "क्या हम बारिश रुकने तक इस दुकान के अंदर थोड़ी देर बैठ सकते हैं?",
+"en": "Can we sit inside this shop for a while until the rain stops?",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 875,
+"level": "hard",
+"hi": "क्या तुम्हें याद है कि हमने पहली बार यह सुंदर जगह कब देखी थी?",
+"en": "Do you remember when we first saw this beautiful place together?",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 876,
+"level": "hard",
+"hi": "तुम अपना खाली समय किताबें पढ़ने में बिताते हो या संगीत सुनने में?",
+"en": "Do you spend your free time reading books or listening to music?",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 877,
+"level": "hard",
+"hi": "क्या आप मुझे सिखाएँगे कि यह पुरानी सिलाई की मशीन कैसे चलाई जाती है?",
+"en": "Will you teach me how to operate this old sewing machine?",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 878,
+"level": "hard",
+"hi": "हम सबके आने से पहले तुम्हें कितनी देर और इंतज़ार करना पड़ेगा?",
+"en": "How much longer will you have to wait before everyone arrives?",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 879,
+"level": "hard",
+"hi": "क्या तुमने रास्ते में उस छोटे बच्चे की खोई हुई किताब देखी थी?",
+"en": "Did you see that little child's lost book along the way?",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 880,
+"level": "hard",
+"hi": "क्या आप कल शाम हमारे परिवार के साथ खाना खाने आना चाहेंगे?",
+"en": "Would you like to join our family for dinner tomorrow evening?",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 881,
+"level": "hard",
+"hi": "कल रात अचानक बत्ती चली गई और पूरा घर अँधेरे में डूब गया।",
+"en": "Last night, the lights suddenly went out, leaving the entire house in darkness.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 882,
+"level": "hard",
+"hi": "मैंने खिड़की खोली तो देखा कि बाहर बच्चे खुशी से बारिश में नाच रहे थे।",
+"en": "When I opened the window, I saw children dancing happily in the rain.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 883,
+"level": "hard",
+"hi": "सुबह दरवाज़े के बाहर एक छोटा डिब्बा मिला जिसमें किसी का तोहफ़ा था।",
+"en": "In the morning, I found a small box containing someone's gift outside the door.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 884,
+"level": "hard",
+"hi": "वह पूरे दिन अपनी चाबी ढूँढ़ता रहा, जो आखिर उसकी जेब में मिली।",
+"en": "He searched all day for his key, finally finding it in his pocket.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 885,
+"level": "hard",
+"hi": "स्कूल से लौटते समय हमें सड़क पर एक घायल चिड़िया दिखाई दी।",
+"en": "While returning from school, we noticed an injured bird on the road.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 886,
+"level": "hard",
+"hi": "हमने चिड़िया को सावधानी से उठाया और पास के डॉक्टर के पास ले गए।",
+"en": "We carefully picked up the bird and took it to a nearby doctor.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 887,
+"level": "hard",
+"hi": "दादी ने पुराना डिब्बा खोला तो उसमें बचपन की कई तस्वीरें रखी मिलीं।",
+"en": "When Grandmother opened the old box, she found many childhood photographs inside.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 888,
+"level": "hard",
+"hi": "तस्वीरें देखते हुए हम सब देर तक हँसते रहे और पुरानी बातें याद करते रहे।",
+"en": "Looking at the photographs, we kept laughing and remembering old times for a while.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 889,
+"level": "hard",
+"hi": "मेरे भाई ने पहली तनख्वाह से माँ के लिए एक सुंदर साड़ी खरीदी।",
+"en": "My brother bought Mother a beautiful sari with his very first salary.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 890,
+"level": "hard",
+"hi": "माँ ने साड़ी देखकर कहा कि उनके लिए हमारा प्यार ही सबसे बड़ा तोहफ़ा है।",
+"en": "Seeing the sari, Mother said our love was the greatest gift for her.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 891,
+"level": "hard",
+"hi": "उस शाम हम सब छत पर बैठे और दूर चमकते तारों को देखते रहे।",
+"en": "That evening, we all sat on the roof watching the distant shining stars.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 892,
+"level": "hard",
+"hi": "अचानक तेज़ हवा चली तो हमने जल्दी से किताबें और कपड़े अंदर रखे।",
+"en": "When strong winds suddenly blew, we quickly brought the books and clothes inside.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 893,
+"level": "hard",
+"hi": "बारिश खत्म होने के बाद पूरा बगीचा पहले से ज़्यादा सुंदर दिखाई दिया।",
+"en": "After the rain ended, the whole garden looked more beautiful than before.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 894,
+"level": "hard",
+"hi": "बच्चों ने गीली मिट्टी से छोटे घर बनाए और उन्हें फूलों से सजाया।",
+"en": "The children made little houses from wet soil and decorated them with flowers.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 895,
+"level": "hard",
+"hi": "रात के खाने पर पिताजी ने अपने पहले सफ़र की मज़ेदार कहानी सुनाई।",
+"en": "At dinner, Father told us a funny story about his first journey.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 896,
+"level": "hard",
+"hi": "कहानी इतनी दिलचस्प थी कि किसी को भी समय बीतने का पता नहीं चला।",
+"en": "The story was so interesting that nobody noticed how much time had passed.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 897,
+"level": "hard",
+"hi": "सोने से पहले मैंने अपनी किताब में आज के दिन की बातें लिखीं।",
+"en": "Before sleeping, I wrote about the day's events in my book.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 898,
+"level": "hard",
+"hi": "मैंने सोचा कि साधारण दिनों में भी याद रखने लायक बहुत कुछ होता है।",
+"en": "I thought that even ordinary days contain many things worth remembering later.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 899,
+"level": "hard",
+"hi": "अगले दिन सुबह हम सब एक नई यात्रा पर निकलने के लिए तैयार थे।",
+"en": "The next morning, we were all ready to leave on a new journey.",
+"theme": "Feelings, conversations, and everyday stories"
+},
+{
+"id": 900,
+"level": "hard",
+"hi": "घर से निकलते समय दादी ने मुस्कुराकर कहा कि जल्दी वापस आना मत भूलना।",
+"en": "As we left home, Grandmother smiled and reminded us to return soon.",
+"theme": "Feelings, conversations, and everyday stories"
+}
+]
