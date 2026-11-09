@@ -147,3 +147,6 @@
 .deck-head p{font-family:var(--deva);font-size:15px;color:var(--muted);margin:4px 0 0}
 .cards-page .deck-bar{border-top:1px solid var(--rule);margin-top:12px}
 .cards-page > .fc-grid{padding-bottom:10px}
+
+/* Verbs are already grouped into Top 10 / Top 50, so they are never highlighted */
+.panel[data-tab="verbs"] .r.top{background:none}
