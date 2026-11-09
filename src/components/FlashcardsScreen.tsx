@@ -15,9 +15,9 @@ export function DeckList({ onHome, onOpen }: { onHome: () => void; onOpen: (id: 
       <PageTitle tab="adjectives" title="Flashcards" hi="फ़्लैशकार्ड" />
       <ul className="decks">
         {DECKS.map(d => (
-          <li key={d.id}>
+          <li key={d.id} data-tab={d.tab}>
             <button className="deck-row" type="button" onClick={() => onOpen(d.id)}>
-              <Svg html={ORN.bullet.adjectives} />
+              <Svg html={ORN.bullet[d.tab]} />
               <span className="dr-text">
                 <span className="dr-t">{d.title}</span>
                 <span className="dr-d">{d.words.length} cards · <span lang="hi">{d.hi}</span></span>
@@ -46,7 +46,7 @@ export function DeckView({ deck, onBack, onPlay }: { deck: Deck; onBack: () => v
     })
   }
   return (
-    <div className="wrap cards-page" data-tab="adjectives">
+    <div className="wrap cards-page" data-tab={deck.tab}>
       <div className="topnav"><button className="homebtn" type="button" onClick={onBack}>‹ Flashcards</button></div>
       <div className="deck-head">
         <h2>{deck.title}</h2>

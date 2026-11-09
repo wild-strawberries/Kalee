@@ -1,8 +1,10 @@
 // Flashcard decks shown under Home → Flashcards. Each card points at a word in the Study bank;
 // `label` can override the English shown on the card. Cards are listed row by row (left, right).
 import { BANK, type BankWord } from '../data'
+import type { TabKey } from '../types'
 
-export interface Deck { id: string; title: string; hi: string; description: string; words: BankWord[] }
+/** `tab` sets the deck's colour and flower, matching the Study tab (verbs = pink). */
+export interface Deck { id: string; title: string; hi: string; description: string; tab: TabKey; words: BankWord[] }
 
 const card = (id: string, label?: string): BankWord => {
   const w = BANK.find(b => b.id === id)
@@ -13,7 +15,7 @@ const v = (en: string, label?: string) => card(`verbs:${en}`, label)
 
 export const DECKS: Deck[] = [
   {
-    id: 'basic-verbs', title: 'Basic verbs', hi: 'मूल क्रियाएँ', description: 'Everyday verbs in pairs',
+    id: 'basic-verbs', title: 'Basic verbs', hi: 'मूल क्रियाएँ', description: 'Everyday verbs in pairs', tab: 'verbs',
     words: [
       v('be'), v('do'),
       v('come'), v('go'),
