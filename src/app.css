@@ -122,3 +122,13 @@
   background:linear-gradient(to top,var(--paper) 65%,transparent)}
 .fc-ready .start{min-width:220px;box-shadow:0 6px 18px color-mix(in srgb,var(--rose) 25%,transparent)}
 @media (prefers-reduced-motion:reduce){.fc-in{transition:none}}
+
+/* Flashcards page */
+.cards-page .topnav{padding-top:10px}
+.fc-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.deck ul.fc-grid{border-top:0;padding:4px 0 18px}
+.deck-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 12px;padding:10px 0 12px;border-top:1px solid var(--blush2)}
+.deck-d{font-size:12.5px;color:var(--muted)}
+.deck-d span{font-family:var(--deva)}
+.deck-play{font:inherit;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:var(--rose);border:0;border-radius:999px;padding:9px 16px;cursor:pointer}
+.home .c-en{font-size:clamp(19px,6vw,24px)}

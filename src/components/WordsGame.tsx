@@ -7,7 +7,7 @@ import { English, Romanized, devanagari } from './WordRow'
 
 export type Mode = 'en-hi' | 'hi-en'
 export type Source = 'all' | 'common' | 'difficult'
-export interface GameSetup { mode: Mode; source: Source; cats: TabKey[]; count: number; cards?: boolean; key: number; replay?: { w: BankWord; dir: Direction }[] }
+export interface GameSetup { mode: Mode; source: Source; cats: TabKey[]; count: number; cards?: boolean; from?: 'play' | 'cards'; key: number; replay?: { w: BankWord; dir: Direction }[] }
 
 const shuffle = <T,>(a: T[]) => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]] } return b }
 
@@ -56,6 +56,19 @@ function Face({ w, side }: { w: BankWord; side: 'en' | 'hi' }) {
     : <><span className="fc-cat">{CATEGORY[w.cat]}{w.tag ? ` · ${w.tag}` : ''}</span><span className="fc-ro"><Romanized w={w} /></span><span className="fc-dv" lang="hi">{devanagari(w)}</span></>
 }
 
+/** One tap-to-flip card: shows `front` first and the other language on the back. */
+export function FlipCard({ w, front, flipped, onToggle }: { w: BankWord; front: 'en' | 'hi'; flipped: boolean; onToggle: () => void }) {
+  return (
+    <button type="button" className={`fc${flipped ? ' flipped' : ''}`} aria-pressed={flipped} onClick={onToggle}
+      aria-label={flipped ? 'Showing the translation. Tap to turn back.' : 'Tap to see the translation.'}>
+      <span className="fc-in">
+        <span className="fc-face fc-front"><Face w={w} side={front} /></span>
+        <span className="fc-face fc-back"><Face w={w} side={front === 'en' ? 'hi' : 'en'} /></span>
+      </span>
+    </button>
+  )
+}
+
 function Flashcards({ items, onReady, onQuit }: { items: Item[]; onReady: () => void; onQuit: () => void }) {
   const cards = useMemo(() => differentOrder(items), [items])
   const [flipped, setFlipped] = useState<Set<number>>(new Set())
@@ -73,15 +86,7 @@ function Flashcards({ items, onReady, onQuit }: { items: Item[]; onReady: () => 
         {cards.map((it, k) => {
           const f = front(it), on = flipped.has(k)
           return (
-            <li key={it.w.id}>
-              <button type="button" className={`fc${on ? ' flipped' : ''}`} aria-pressed={on} onClick={() => toggle(k)}
-                aria-label={on ? 'Showing the translation. Tap to turn back.' : 'Tap to see the translation.'}>
-                <span className="fc-in">
-                  <span className="fc-face fc-front"><Face w={it.w} side={f} /></span>
-                  <span className="fc-face fc-back"><Face w={it.w} side={f === 'en' ? 'hi' : 'en'} /></span>
-                </span>
-              </button>
-            </li>
+            <li key={it.w.id}><FlipCard w={it.w} front={f} flipped={on} onToggle={() => toggle(k)} /></li>
           )
         })}
       </ul>
