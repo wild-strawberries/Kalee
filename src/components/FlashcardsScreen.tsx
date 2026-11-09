@@ -37,11 +37,14 @@ export function DeckList({ onHome, onOpen }: { onHome: () => void; onOpen: (id: 
 export function DeckView({ deck, onBack, onPlay }: { deck: Deck; onBack: () => void; onPlay: (s: GameSetup) => void }) {
   const [flipped, setFlipped] = useState<Set<number>>(new Set())
   const toggle = (k: number) => setFlipped(p => { const n = new Set(p); if (n.has(k)) n.delete(k); else n.add(k); return n })
-  const play = () => onPlay({
-    mode: 'en-hi', source: 'all', cats: [...new Set(deck.words.map(w => w.cat))], count: deck.words.length,
+  const play = () => {
+    const unique = deck.words.filter((w, k) => deck.words.findIndex(x => x.id === w.id) === k)   // each word once
+    onPlay({
+    mode: 'en-hi', source: 'all', cats: [...new Set(unique.map(w => w.cat))], count: unique.length,
     from: 'cards', deck: deck.id, key: Date.now(),
-    replay: shuffle(deck.words).map(w => ({ w, dir: 'en-hi' as const })),
-  })
+    replay: shuffle(unique).map(w => ({ w, dir: 'en-hi' as const })),
+    })
+  }
   return (
     <div className="wrap cards-page" data-tab="adjectives">
       <div className="topnav"><button className="homebtn" type="button" onClick={onBack}>‹ Flashcards</button></div>
