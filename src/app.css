@@ -132,3 +132,18 @@
 .deck-d span{font-family:var(--deva)}
 .deck-play{font:inherit;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:var(--rose);border:0;border-radius:999px;padding:9px 16px;cursor:pointer}
 .home .c-en{font-size:clamp(19px,6vw,24px)}
+
+.decks{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-direction:column;gap:10px}
+.deck-row{font:inherit;display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:14px 16px;border-radius:16px;cursor:pointer;color:var(--ink);
+  background:color-mix(in srgb,var(--blush) 22%,var(--paper));border:1px solid color-mix(in srgb,var(--rose) 30%,var(--paper))}
+.deck-row:hover,.deck-row:focus-visible{background:color-mix(in srgb,var(--blush) 40%,var(--paper));outline:none}
+.deck-row svg.bul{width:28px;height:28px}
+.dr-text{flex:1;display:flex;flex-direction:column}
+.dr-t{font-family:var(--display);font-style:italic;font-size:25px;line-height:1.15;color:var(--rose)}
+.dr-d{font-size:12.5px;color:var(--muted)} .dr-d span{font-family:var(--deva)}
+.deck-row .chev{transform:rotate(-45deg)}
+.deck-head{text-align:center;margin:18px 0 6px}
+.deck-head h2{font-family:var(--display);font-style:italic;font-weight:400;font-size:34px;line-height:1.1;color:var(--rose);margin:0}
+.deck-head p{font-family:var(--deva);font-size:15px;color:var(--muted);margin:4px 0 0}
+.cards-page .deck-bar{border-top:1px solid var(--rule);margin-top:12px}
+.cards-page > .fc-grid{padding-bottom:10px}

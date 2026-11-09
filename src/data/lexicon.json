@@ -7687,6 +7687,13 @@
 "top": false
 },
 {
+"id": "verbs:live (reside)",
+"en": "live (reside)",
+"ro": "rehna",
+"dv": "रहना",
+"top": false
+},
+{
 "id": "verbs:look (seem)",
 "en": "look (seem)",
 "ro": "lagna",
@@ -8559,6 +8566,6 @@
 ]
 }
 ],
-"count": 299
+"count": 300
 }
 ]

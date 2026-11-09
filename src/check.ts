@@ -84,12 +84,12 @@ export interface Verdict { correct: boolean; typo: boolean }
 /** Words in the same category that share this word's Hindi (e.g. maanna = admit / agree / assume / consider). */
 function sameHindi(w: BankWord): BankWord[] {
   const key = normRoman(w.ro)
-  return BANK.filter(b => b.cat === w.cat && normRoman(b.ro) === key)
+  return [w, ...BANK.filter(b => b !== w && b.id !== w.id && b.cat === w.cat && normRoman(b.ro) === key)]
 }
 /** Words in the same category that share this word's English (any of its comma-separated meanings). */
 function sameEnglish(w: BankWord): BankWord[] {
   const mine = new Set(englishAlternatives(w.en))
-  return BANK.filter(b => b.cat === w.cat && englishAlternatives(b.en).some(e => mine.has(e)))
+  return [w, ...BANK.filter(b => b.id !== w.id && b.cat === w.cat && englishAlternatives(b.en).some(e => mine.has(e)))]
 }
 
 export function check(w: BankWord, dir: Direction, input: string): Verdict {

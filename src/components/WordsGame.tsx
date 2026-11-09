@@ -7,7 +7,7 @@ import { English, Romanized, devanagari } from './WordRow'
 
 export type Mode = 'en-hi' | 'hi-en'
 export type Source = 'all' | 'common' | 'difficult'
-export interface GameSetup { mode: Mode; source: Source; cats: TabKey[]; count: number; cards?: boolean; from?: 'play' | 'cards'; key: number; replay?: { w: BankWord; dir: Direction }[] }
+export interface GameSetup { mode: Mode; source: Source; cats: TabKey[]; count: number; cards?: boolean; from?: 'play' | 'cards'; deck?: string; key: number; replay?: { w: BankWord; dir: Direction }[] }
 
 const shuffle = <T,>(a: T[]) => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]] } return b }
 
