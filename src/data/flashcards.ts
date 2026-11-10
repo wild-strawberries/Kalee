@@ -50,3 +50,16 @@ export const DECKS: Deck[] = [
     ],
   },
 ]
+
+/** The word on the other side of a pair in a deck (cards are listed left, right, left, right…). */
+export function partnerIn(deck: Deck, id: string): BankWord | undefined {
+  const k = deck.words.findIndex(w => w.id === id)
+  return k < 0 ? undefined : deck.words[k ^ 1]
+}
+/** Deck words without repeats. */
+export const uniqueWords = (deck: Deck) => deck.words.filter((w, k) => deck.words.findIndex(x => x.id === w.id) === k)
+
+/** Basic verbs is also the "most common" verb list (Top 10 + Top 50), with the card labels. */
+export const BASIC_VERBS = DECKS.find(d => d.id === 'basic-verbs')!
+const LABELED = new Map(uniqueWords(BASIC_VERBS).map(w => [w.id, w]))
+export const withCardLabel = (w: BankWord): BankWord => LABELED.get(w.id) ?? w

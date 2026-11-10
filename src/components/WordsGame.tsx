@@ -5,6 +5,7 @@ import { difficulty, loadStats, record, type WordStat } from '../stats'
 import type { TabKey } from '../types'
 import { English, Romanized, devanagari } from './WordRow'
 import { buildChoices, type Choice } from '../options'
+import { BASIC_VERBS, DECKS, partnerIn, uniqueWords, withCardLabel } from '../data/flashcards'
 
 export type Mode = 'en-hi' | 'hi-en'
 export type Source = 'all' | 'common' | 'difficult'
@@ -18,9 +19,9 @@ export function buildQueue(s: GameSetup, stats: Record<string, WordStat>, n = s.
   if (s.source === 'common') pool = pool.filter(w => w.top)
   if (s.source === 'difficult') {
     pool = pool.filter(w => difficulty(stats[w.id]) > 0).sort((a, b) => difficulty(stats[b.id]) - difficulty(stats[a.id]))
-    return shuffle(pool.slice(0, n))
+    return shuffle(pool.slice(0, n)).map(withCardLabel)
   }
-  return shuffle(pool).slice(0, n)
+  return shuffle(pool).slice(0, n).map(withCardLabel)
 }
 
 type Item = { w: BankWord; dir: Direction }
@@ -117,7 +118,17 @@ export default function WordsGame({ setup, onClose, onRecap, onQuit }: {
   const [shown, setShown] = useState<Result | null>(null)
   const [picked, setPicked] = useState<number | null>(null)
   const match = setup.game === 'match'
-  const choices: Choice[] = useMemo(() => (match && items[i] ? buildChoices(items[i].w, items[i].dir) : []), [match, items, i])
+  const choices: Choice[] = useMemo(() => {
+    if (!match || !items[i]) return []
+    const w = items[i].w
+    const deck = setup.from === 'cards' ? DECKS.find(d => d.id === setup.deck) : undefined
+    if (deck) return buildChoices(w, items[i].dir, { pool: uniqueWords(deck), partner: partnerIn(deck, w.id) })   // flashcards: only the deck's words
+    if (setup.source === 'common') {                                                                             // most common: only top words
+      const pool = BANK.filter(b => b.top).map(withCardLabel)
+      return buildChoices(w, items[i].dir, { pool, partner: w.cat === 'verbs' ? partnerIn(BASIC_VERBS, w.id) : undefined })
+    }
+    return buildChoices(w, items[i].dir)
+  }, [match, items, i, setup])
   const inputRef = useRef<HTMLInputElement>(null)
   const nextRef = useRef<HTMLButtonElement>(null)
   const done = results.length === items.length && !shown

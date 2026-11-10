@@ -5,7 +5,7 @@ import { normRoman } from './check'
 import { TABS } from './data'
 import type { Direction } from './check'
 
-const enKeys = (en: string) => en.toLowerCase().split(/[,;/]/).map(x => x.replace(/\([^)]*\)/g, '').trim()).filter(Boolean)
+const enKeys = (en: string) => en.toLowerCase().split(/[,;/]/).map(x => x.replace(/[()]/g, '').replace(/\s+/g, ' ').trim()).filter(Boolean)
 const roKey = (w: BankWord) => normRoman(w.ro.split(';')[0])
 
 function lev(a: string, b: string): number {
@@ -60,27 +60,44 @@ const shuffle = <T,>(a: T[]) => { const b = [...a]; for (let i = b.length - 1; i
 const pickTop = (list: { w: BankWord; s: number }[], n: number, spread = 6) =>
   shuffle(list.sort((a, b) => b.s - a.s).slice(0, Math.max(n, spread))).slice(0, n).map(x => x.w)
 
-export type Choice = { w: BankWord; kind: 'correct' | 'similar' | 'form' | 'random' }
+export type Choice = { w: BankWord; kind: 'correct' | 'partner' | 'similar' | 'form' | 'random' }
 
-export function buildChoices(w: BankWord, dir: Direction, n = 6): Choice[] {
+/**
+ * `pool`: limit the wrong options to these words (e.g. a flashcard deck or the most common words).
+ * `partner`: the word paired with this one (opposite flashcard column) — it takes the "different form" spot.
+ */
+export function buildChoices(w: BankWord, dir: Direction, opts: { pool?: BankWord[]; partner?: BankWord } = {}, n = 6): Choice[] {
   const chosen: Choice[] = [{ w, kind: 'correct' }]
   const ok = (c: BankWord) => chosen.every(x => !clashes(x.w, c))
-  const sameCat = BANK.filter(c => c.cat === w.cat && ok(c))
+  const source = opts.pool ?? BANK
+  const sameCat = source.filter(c => c.cat === w.cat && ok(c))
+  const target = (c: BankWord) => (dir === 'en-hi' ? hiRoot(c) || roKey(c) : enKeys(c.en)[0] ?? '')
+  const tw = target(w), theme = THEME.get(w.id)
+  const similarTo = (list: BankWord[]) => list.filter(ok).map(c => ({ w: c, s: sim(tw, target(c)) + (w.cat !== 'verbs' && THEME.get(c.id) === theme ? 0.35 : 0) }))
+
+  if (opts.partner && ok(opts.partner)) {
+    // 1 correct · 1 partner · 2 similar · 2 random
+    chosen.push({ w: opts.partner, kind: 'partner' })
+    for (const c of pickTop(similarTo(sameCat), 2, 5)) if (ok(c)) chosen.push({ w: c, kind: 'similar' })
+    for (const c of shuffle(sameCat)) { if (chosen.length >= n) break; if (ok(c)) chosen.push({ w: c, kind: 'random' }) }
+    for (const c of shuffle(source)) { if (chosen.length >= n) break; if (ok(c)) chosen.push({ w: c, kind: 'random' }) }
+    for (const c of shuffle(BANK)) { if (chosen.length >= n) break; if (ok(c)) chosen.push({ w: c, kind: 'random' }) }
+    return shuffle(chosen)
+  }
 
   // 1 different form: a related word from another category (close → closed, truth → speak the truth)
-  const forms = BANK.filter(c => c.cat !== w.cat && ok(c)).map(c => ({ w: c, s: formScore(w, c) })).filter(x => x.s >= 0.8)
+  const forms = source.filter(c => c.cat !== w.cat && ok(c)).map(c => ({ w: c, s: formScore(w, c) })).filter(x => x.s >= 0.8)
   const form = pickTop(forms, 1, 2)[0]
   if (form) chosen.push({ w: form, kind: 'form' })
 
   // 2 similar: spelling of the answer language and/or same theme
-  const target = (c: BankWord) => (dir === 'en-hi' ? hiRoot(c) || roKey(c) : enKeys(c.en)[0] ?? '')
-  const tw = target(w), theme = THEME.get(w.id)
-  const similar = sameCat.filter(ok).map(c => ({ w: c, s: sim(tw, target(c)) + (w.cat !== 'verbs' && THEME.get(c.id) === theme ? 0.35 : 0) }))
+  const similar = similarTo(sameCat)
   // when the word has no other form in the bank, a third similar word takes its place
   for (const c of pickTop(similar, form ? 2 : 3, 6)) if (ok(c)) chosen.push({ w: c, kind: 'similar' })
 
   // the rest: random words from the same category (any category if it runs short)
   for (const c of shuffle(sameCat)) { if (chosen.length >= n) break; if (ok(c)) chosen.push({ w: c, kind: 'random' }) }
+  for (const c of shuffle(source)) { if (chosen.length >= n) break; if (ok(c)) chosen.push({ w: c, kind: 'random' }) }
   for (const c of shuffle(BANK)) { if (chosen.length >= n) break; if (ok(c)) chosen.push({ w: c, kind: 'random' }) }
   return shuffle(chosen)
 }

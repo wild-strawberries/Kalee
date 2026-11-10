@@ -6471,6 +6471,13 @@
 "top": true
 },
 {
+"id": "verbs:drink",
+"en": "drink",
+"ro": "peena",
+"dv": "पीना",
+"top": true
+},
+{
 "id": "verbs:eat",
 "en": "eat",
 "ro": "khaana",
@@ -6492,24 +6499,10 @@
 "top": true
 },
 {
-"id": "verbs:say",
-"en": "say",
-"ro": "kehna",
-"dv": "कहना",
-"top": true
-},
-{
-"id": "verbs:see",
-"en": "see",
-"ro": "dekhna",
-"dv": "देखना",
-"top": true
-},
-{
-"id": "verbs:speak",
-"en": "speak",
-"ro": "bolna",
-"dv": "बोलना",
+"id": "verbs:like",
+"en": "like",
+"ro": "pasand karna",
+"dv": "पसंद करना",
 "top": true
 },
 {
@@ -6518,12 +6511,18 @@
 "ro": "lena",
 "dv": "लेना",
 "top": true
+},
+{
+"id": "verbs:want",
+"en": "want",
+"ro": "chaahna",
+"dv": "चाहना",
+"top": true
 }
 ]
 },
 {
-"name": "Top 50",
-"sub": "(the next 40)",
+"name": "Top 50 Most Common",
 "items": [
 {
 "id": "verbs:ask",
@@ -6533,17 +6532,38 @@
 "top": true
 },
 {
-"id": "verbs:buy",
-"en": "buy",
-"ro": "khareedna",
-"dv": "ख़रीदना",
+"id": "verbs:ask for something",
+"en": "ask for something",
+"ro": "maangna",
+"dv": "माँगना",
 "top": true
 },
 {
-"id": "verbs:call",
-"en": "call",
-"ro": "bulaana",
-"dv": "बुलाना",
+"id": "verbs:break",
+"en": "break",
+"ro": "todna",
+"dv": "तोड़ना",
+"top": true
+},
+{
+"id": "verbs:build",
+"en": "build",
+"ro": "banaana",
+"dv": "बनाना",
+"top": true
+},
+{
+"id": "verbs:carry",
+"en": "carry",
+"ro": "uthaana",
+"dv": "उठाना",
+"top": true
+},
+{
+"id": "verbs:clean",
+"en": "clean",
+"ro": "saaf karna",
+"dv": "साफ़ करना",
 "top": true
 },
 {
@@ -6554,10 +6574,45 @@
 "top": true
 },
 {
-"id": "verbs:come back",
-"en": "come back",
-"ro": "vaapas aana",
-"dv": "वापस आना",
+"id": "verbs:continue",
+"en": "continue",
+"ro": "karte rehna",
+"dv": "करते रहना",
+"top": true
+},
+{
+"id": "verbs:cook",
+"en": "cook",
+"ro": "banaana",
+"dv": "बनाना",
+"top": true
+},
+{
+"id": "verbs:cry",
+"en": "cry",
+"ro": "rona",
+"dv": "रोना",
+"top": true
+},
+{
+"id": "verbs:cut",
+"en": "cut",
+"ro": "kaatna",
+"dv": "काटना",
+"top": true
+},
+{
+"id": "verbs:dance",
+"en": "dance",
+"ro": "naachna",
+"dv": "नाचना",
+"top": true
+},
+{
+"id": "verbs:decide",
+"en": "decide",
+"ro": "faisla lena",
+"dv": "फ़ैसला लेना",
 "top": true
 },
 {
@@ -6568,17 +6623,17 @@
 "top": true
 },
 {
-"id": "verbs:drink",
-"en": "drink",
-"ro": "peena",
-"dv": "पीना",
+"id": "verbs:drive",
+"en": "drive",
+"ro": "chalaana",
+"dv": "चलाना",
 "top": true
 },
 {
-"id": "verbs:feel",
-"en": "feel",
-"ro": "mehsoos karna",
-"dv": "महसूस करना",
+"id": "verbs:fall",
+"en": "fall",
+"ro": "girna",
+"dv": "गिरना",
 "top": true
 },
 {
@@ -6586,13 +6641,6 @@
 "en": "forget",
 "ro": "bhoolna",
 "dv": "भूलना",
-"top": true
-},
-{
-"id": "verbs:get",
-"en": "get",
-"ro": "milna",
-"dv": "मिलना",
 "top": true
 },
 {
@@ -6610,24 +6658,17 @@
 "top": true
 },
 {
-"id": "verbs:help",
-"en": "help",
-"ro": "madad karna",
-"dv": "मदद करना",
+"id": "verbs:jump",
+"en": "jump",
+"ro": "koodna",
+"dv": "कूदना",
 "top": true
 },
 {
-"id": "verbs:keep",
-"en": "keep",
-"ro": "rakhna",
-"dv": "रखना",
-"top": true
-},
-{
-"id": "verbs:know",
-"en": "know",
-"ro": "jaanna",
-"dv": "जानना",
+"id": "verbs:laugh",
+"en": "laugh",
+"ro": "hansna",
+"dv": "हँसना",
 "top": true
 },
 {
@@ -6638,27 +6679,6 @@
 "top": true
 },
 {
-"id": "verbs:leave (a place)",
-"en": "leave (a place)",
-"ro": "nikalna",
-"dv": "निकलना",
-"top": true
-},
-{
-"id": "verbs:like",
-"en": "like",
-"ro": "pasand karna",
-"dv": "पसंद करना",
-"top": true
-},
-{
-"id": "verbs:listen",
-"en": "listen",
-"ro": "sunna",
-"dv": "सुनना",
-"top": true
-},
-{
 "id": "verbs:live",
 "en": "live",
 "ro": "jeena",
@@ -6666,24 +6686,17 @@
 "top": true
 },
 {
-"id": "verbs:look",
-"en": "look",
-"ro": "dekhna",
-"dv": "देखना",
+"id": "verbs:live (reside)",
+"en": "live (reside)",
+"ro": "rehna",
+"dv": "रहना",
 "top": true
 },
 {
-"id": "verbs:make",
-"en": "make",
-"ro": "banaana",
-"dv": "बनाना",
-"top": true
-},
-{
-"id": "verbs:meet",
-"en": "meet",
-"ro": "milna",
-"dv": "मिलना",
+"id": "verbs:look (seem)",
+"en": "look (seem)",
+"ro": "lagna",
+"dv": "लगना",
 "top": true
 },
 {
@@ -6694,6 +6707,13 @@
 "top": true
 },
 {
+"id": "verbs:peel (off)",
+"en": "peel (off)",
+"ro": "chheelna",
+"dv": "छीलना",
+"top": true
+},
+{
 "id": "verbs:play",
 "en": "play",
 "ro": "khelna",
@@ -6701,17 +6721,38 @@
 "top": true
 },
 {
-"id": "verbs:read",
-"en": "read",
-"ro": "padhna",
-"dv": "पढ़ना",
-"top": true
-},
-{
 "id": "verbs:remember",
 "en": "remember",
 "ro": "yaad karna",
 "dv": "याद करना",
+"top": true
+},
+{
+"id": "verbs:run",
+"en": "run",
+"ro": "bhaagna; daudna",
+"dv": "भागना; दौड़ना",
+"top": true
+},
+{
+"id": "verbs:say",
+"en": "say",
+"ro": "kehna",
+"dv": "कहना",
+"top": true
+},
+{
+"id": "verbs:see",
+"en": "see",
+"ro": "dekhna",
+"dv": "देखना",
+"top": true
+},
+{
+"id": "verbs:sing",
+"en": "sing",
+"ro": "gaana",
+"dv": "गाना",
 "top": true
 },
 {
@@ -6729,6 +6770,27 @@
 "top": true
 },
 {
+"id": "verbs:smell",
+"en": "smell",
+"ro": "soonghna",
+"dv": "सूँघना",
+"top": true
+},
+{
+"id": "verbs:speak",
+"en": "speak",
+"ro": "bolna",
+"dv": "बोलना",
+"top": true
+},
+{
+"id": "verbs:stand",
+"en": "stand",
+"ro": "khade hona",
+"dv": "खड़े होना",
+"top": true
+},
+{
 "id": "verbs:stop",
 "en": "stop",
 "ro": "rukna",
@@ -6736,10 +6798,31 @@
 "top": true
 },
 {
+"id": "verbs:study",
+"en": "study",
+"ro": "padhna",
+"dv": "पढ़ना",
+"top": true
+},
+{
 "id": "verbs:talk",
 "en": "talk",
 "ro": "baat karna",
 "dv": "बात करना",
+"top": true
+},
+{
+"id": "verbs:taste",
+"en": "taste",
+"ro": "chakhna",
+"dv": "चखना",
+"top": true
+},
+{
+"id": "verbs:teach",
+"en": "teach",
+"ro": "padhaana; sikhaana",
+"dv": "पढ़ाना; सिखाना",
 "top": true
 },
 {
@@ -6757,17 +6840,17 @@
 "top": true
 },
 {
+"id": "verbs:travel",
+"en": "travel",
+"ro": "jaana",
+"dv": "जाना",
+"top": true
+},
+{
 "id": "verbs:understand",
 "en": "understand",
 "ro": "samajhna",
 "dv": "समझना",
-"top": true
-},
-{
-"id": "verbs:wait",
-"en": "wait",
-"ro": "intezaar karna",
-"dv": "इंतज़ार करना",
 "top": true
 },
 {
@@ -6782,20 +6865,6 @@
 "en": "walk",
 "ro": "chalna",
 "dv": "चलना",
-"top": true
-},
-{
-"id": "verbs:want",
-"en": "want",
-"ro": "chaahna",
-"dv": "चाहना",
-"top": true
-},
-{
-"id": "verbs:watch",
-"en": "watch",
-"ro": "dekhna",
-"dv": "देखना",
 "top": true
 },
 {
@@ -6885,13 +6954,6 @@
 "en": "arrive",
 "ro": "aana",
 "dv": "आना",
-"top": false
-},
-{
-"id": "verbs:ask for something",
-"en": "ask for something",
-"ro": "maangna",
-"dv": "माँगना",
 "top": false
 },
 {
@@ -7028,24 +7090,10 @@
 "top": false
 },
 {
-"id": "verbs:break",
-"en": "break",
-"ro": "todna",
-"dv": "तोड़ना",
-"top": false
-},
-{
 "id": "verbs:brush",
 "en": "brush",
 "ro": "brush karna",
 "dv": "ब्रश करना",
-"top": false
-},
-{
-"id": "verbs:build",
-"en": "build",
-"ro": "banaana",
-"dv": "बनाना",
 "top": false
 },
 {
@@ -7064,10 +7112,17 @@
 "note": "As in your teacher's list. Jalaana literally means to burn (cremate); to bury is dafnaana (दफ़नाना)."
 },
 {
-"id": "verbs:carry",
-"en": "carry",
-"ro": "uthaana",
-"dv": "उठाना",
+"id": "verbs:buy",
+"en": "buy",
+"ro": "khareedna",
+"dv": "ख़रीदना",
+"top": false
+},
+{
+"id": "verbs:call",
+"en": "call",
+"ro": "bulaana",
+"dv": "बुलाना",
 "top": false
 },
 {
@@ -7113,17 +7168,17 @@
 "top": false
 },
 {
-"id": "verbs:clean",
-"en": "clean",
-"ro": "saaf karna",
-"dv": "साफ़ करना",
-"top": false
-},
-{
 "id": "verbs:climb",
 "en": "climb",
 "ro": "chadhna",
 "dv": "चढ़ना",
+"top": false
+},
+{
+"id": "verbs:come back",
+"en": "come back",
+"ro": "vaapas aana",
+"dv": "वापस आना",
 "top": false
 },
 {
@@ -7148,24 +7203,10 @@
 "top": false
 },
 {
-"id": "verbs:continue",
-"en": "continue",
-"ro": "karte rehna",
-"dv": "करते रहना",
-"top": false
-},
-{
 "id": "verbs:convince",
 "en": "convince",
 "ro": "manvaana",
 "dv": "मनवाना",
-"top": false
-},
-{
-"id": "verbs:cook",
-"en": "cook",
-"ro": "banaana",
-"dv": "बनाना",
 "top": false
 },
 {
@@ -7194,34 +7235,6 @@
 "en": "create",
 "ro": "banaana",
 "dv": "बनाना",
-"top": false
-},
-{
-"id": "verbs:cry",
-"en": "cry",
-"ro": "rona",
-"dv": "रोना",
-"top": false
-},
-{
-"id": "verbs:cut",
-"en": "cut",
-"ro": "kaatna",
-"dv": "काटना",
-"top": false
-},
-{
-"id": "verbs:dance",
-"en": "dance",
-"ro": "naachna",
-"dv": "नाचना",
-"top": false
-},
-{
-"id": "verbs:decide",
-"en": "decide",
-"ro": "faisla lena",
-"dv": "फ़ैसला लेना",
 "top": false
 },
 {
@@ -7302,13 +7315,6 @@
 "top": false
 },
 {
-"id": "verbs:drive",
-"en": "drive",
-"ro": "chalaana",
-"dv": "चलाना",
-"top": false
-},
-{
 "id": "verbs:dry something",
 "en": "dry something",
 "ro": "sukhaana",
@@ -7386,13 +7392,6 @@
 "top": false
 },
 {
-"id": "verbs:fall",
-"en": "fall",
-"ro": "girna",
-"dv": "गिरना",
-"top": false
-},
-{
 "id": "verbs:fear",
 "en": "fear",
 "ro": "darna",
@@ -7404,6 +7403,13 @@
 "en": "feed",
 "ro": "khilaana",
 "dv": "खिलाना",
+"top": false
+},
+{
+"id": "verbs:feel",
+"en": "feel",
+"ro": "mehsoos karna",
+"dv": "महसूस करना",
 "top": false
 },
 {
@@ -7467,6 +7473,13 @@
 "en": "freeze something",
 "ro": "jamaana",
 "dv": "जमाना",
+"top": false
+},
+{
+"id": "verbs:get",
+"en": "get",
+"ro": "milna",
+"dv": "मिलना",
 "top": false
 },
 {
@@ -7575,6 +7588,13 @@
 "top": false
 },
 {
+"id": "verbs:help",
+"en": "help",
+"ro": "madad karna",
+"dv": "मदद करना",
+"top": false
+},
+{
 "id": "verbs:hide",
 "en": "hide",
 "ro": "chhipna",
@@ -7638,10 +7658,10 @@
 "top": false
 },
 {
-"id": "verbs:jump",
-"en": "jump",
-"ro": "koodna",
-"dv": "कूदना",
+"id": "verbs:keep",
+"en": "keep",
+"ro": "rakhna",
+"dv": "रखना",
 "top": false
 },
 {
@@ -7652,10 +7672,17 @@
 "top": false
 },
 {
-"id": "verbs:laugh",
-"en": "laugh",
-"ro": "hansna",
-"dv": "हँसना",
+"id": "verbs:know",
+"en": "know",
+"ro": "jaanna",
+"dv": "जानना",
+"top": false
+},
+{
+"id": "verbs:leave (a place)",
+"en": "leave (a place)",
+"ro": "nikalna",
+"dv": "निकलना",
 "top": false
 },
 {
@@ -7687,17 +7714,17 @@
 "top": false
 },
 {
-"id": "verbs:live (reside)",
-"en": "live (reside)",
-"ro": "rehna",
-"dv": "रहना",
+"id": "verbs:listen",
+"en": "listen",
+"ro": "sunna",
+"dv": "सुनना",
 "top": false
 },
 {
-"id": "verbs:look (seem)",
-"en": "look (seem)",
-"ro": "lagna",
-"dv": "लगना",
+"id": "verbs:look",
+"en": "look",
+"ro": "dekhna",
+"dv": "देखना",
 "top": false
 },
 {
@@ -7712,6 +7739,13 @@
 "en": "love someone",
 "ro": "pyaar karna",
 "dv": "प्यार करना",
+"top": false
+},
+{
+"id": "verbs:make",
+"en": "make",
+"ro": "banaana",
+"dv": "बनाना",
 "top": false
 },
 {
@@ -7813,6 +7847,13 @@
 "top": false
 },
 {
+"id": "verbs:meet",
+"en": "meet",
+"ro": "milna",
+"dv": "मिलना",
+"top": false
+},
+{
 "id": "verbs:melt",
 "en": "melt",
 "ro": "pighalna",
@@ -7887,13 +7928,6 @@
 "en": "paste",
 "ro": "chipkaana",
 "dv": "चिपकाना",
-"top": false
-},
-{
-"id": "verbs:peel (off)",
-"en": "peel (off)",
-"ro": "chheelna",
-"dv": "छीलना",
 "top": false
 },
 {
@@ -8038,6 +8072,13 @@
 "top": false
 },
 {
+"id": "verbs:read",
+"en": "read",
+"ro": "padhna",
+"dv": "पढ़ना",
+"top": false
+},
+{
 "id": "verbs:receive",
 "en": "receive",
 "ro": "milna",
@@ -8077,13 +8118,6 @@
 "en": "rub",
 "ro": "malna",
 "dv": "मलना",
-"top": false
-},
-{
-"id": "verbs:run",
-"en": "run",
-"ro": "bhaagna; daudna",
-"dv": "भागना; दौड़ना",
 "top": false
 },
 {
@@ -8157,20 +8191,6 @@
 "top": false
 },
 {
-"id": "verbs:sing",
-"en": "sing",
-"ro": "gaana",
-"dv": "गाना",
-"top": false
-},
-{
-"id": "verbs:smell",
-"en": "smell",
-"ro": "soonghna",
-"dv": "सूँघना",
-"top": false
-},
-{
 "id": "verbs:sneeze",
 "en": "sneeze",
 "ro": "chheenkna",
@@ -8241,13 +8261,6 @@
 "top": false
 },
 {
-"id": "verbs:stand",
-"en": "stand",
-"ro": "khade hona",
-"dv": "खड़े होना",
-"top": false
-},
-{
 "id": "verbs:steal something",
 "en": "steal something",
 "ro": "chori karna",
@@ -8266,13 +8279,6 @@
 "en": "stop doing something",
 "ro": "band karna",
 "dv": "बंद करना",
-"top": false
-},
-{
-"id": "verbs:study",
-"en": "study",
-"ro": "padhna",
-"dv": "पढ़ना",
 "top": false
 },
 {
@@ -8367,20 +8373,6 @@
 "top": false
 },
 {
-"id": "verbs:taste",
-"en": "taste",
-"ro": "chakhna",
-"dv": "चखना",
-"top": false
-},
-{
-"id": "verbs:teach",
-"en": "teach",
-"ro": "padhaana; sikhaana",
-"dv": "पढ़ाना; सिखाना",
-"top": false
-},
-{
 "id": "verbs:tear",
 "en": "tear",
 "ro": "phaadna",
@@ -8438,13 +8430,6 @@
 "top": false
 },
 {
-"id": "verbs:travel",
-"en": "travel",
-"ro": "jaana",
-"dv": "जाना",
-"top": false
-},
-{
 "id": "verbs:try",
 "en": "try",
 "ro": "koshish karna",
@@ -8494,6 +8479,13 @@
 "top": false
 },
 {
+"id": "verbs:wait",
+"en": "wait",
+"ro": "intezaar karna",
+"dv": "इंतज़ार करना",
+"top": false
+},
+{
 "id": "verbs:wake someone up",
 "en": "wake someone up",
 "ro": "uthaana",
@@ -8505,6 +8497,13 @@
 "en": "wash",
 "ro": "dhona",
 "dv": "धोना",
+"top": false
+},
+{
+"id": "verbs:watch",
+"en": "watch",
+"ro": "dekhna",
+"dv": "देखना",
 "top": false
 },
 {
