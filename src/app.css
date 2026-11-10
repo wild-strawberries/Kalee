@@ -150,3 +150,18 @@
 
 /* Verbs are already grouped into Top 10 / Top 50, so they are never highlighted */
 .panel[data-tab="verbs"] .r.top{background:none}
+
+/* Recognition (6 choices) */
+.choices6{list-style:none;margin:4px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.choice6{font:inherit;width:100%;min-height:68px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:10px 8px;text-align:center;
+  border-radius:14px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);cursor:pointer;transition:background .15s,border-color .15s,opacity .15s}
+.choice6:hover:not(:disabled),.choice6:focus-visible{border-color:var(--rose);outline:none}
+.choice6:disabled{cursor:default}
+.ch-ro{font-size:16px;font-weight:400;color:#1c1617;line-height:1.25}
+.ch-dv{font-family:var(--deva);font-size:15px;color:#8b7f81}
+.ch-en{font-family:var(--display);font-size:19px;font-weight:500;line-height:1.2}
+.ch-en i{color:var(--rose);font-weight:400}
+.ch-mean{font-size:11px;color:#9b4a5c;margin-top:2px}
+.choice6.is-right{background:#e6f3ea;border-color:#7fb393}
+.choice6.is-wrong{background:#fbe3e8;border-color:#e79aa8}
+.choice6.is-dim{opacity:.45}

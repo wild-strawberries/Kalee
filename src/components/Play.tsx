@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import { BANK, ORN, TABS } from '../data'
 import type { TabKey } from '../types'
 import { difficulty, loadStats } from '../stats'
-import type { GameSetup, Mode, Source } from './WordsGame'
+import type { Game, GameSetup, Mode, Source } from './WordsGame'
 import { buildQueue } from './WordsGame'
 import PageTitle from './PageTitle'
 import Svg from './Svg'
@@ -50,12 +50,12 @@ function SentenceSetupSheet({ onCancel, onStart }: { onCancel: () => void; onSta
   )
 }
 
-const PREFS = 'kalee-words-setup'
+const PREFS: Record<Game, string> = { words: 'kalee-words-setup', match: 'kalee-match-setup' }
 type Prefs = { mode: Mode; source: Source; cats: TabKey[]; count: number; cards: boolean }
 const DEFAULTS: Prefs = { mode: 'en-hi', source: 'all', cats: ['nouns', 'adverbs', 'adjectives', 'verbs'], count: 10, cards: false }
-const loadPrefs = (): Prefs => {
+const loadPrefs = (game: Game): Prefs => {
   try {
-    const p = { ...DEFAULTS, ...JSON.parse(localStorage.getItem(PREFS) || '{}') } as Prefs
+    const p = { ...DEFAULTS, ...JSON.parse(localStorage.getItem(PREFS[game]) || '{}') } as Prefs
     if (p.mode !== 'en-hi' && p.mode !== 'hi-en') p.mode = 'en-hi'   // "mixed" was removed
     return p
   } catch { return DEFAULTS }
@@ -78,8 +78,13 @@ export function Pills<T extends string>({ value, options, onChange, multi }: {
   )
 }
 
-function Setup({ onCancel, onStart }: { onCancel: () => void; onStart: (s: GameSetup) => void }) {
-  const [p, setP] = useState<Prefs>(loadPrefs)
+const GAME_TEXT: Record<Game, { t: string; sub: string }> = {
+  words: { t: 'Words', sub: 'Type the translation of each word.' },
+  match: { t: 'Recognition', sub: 'Pick the right translation out of six.' },
+}
+
+function Setup({ game, onCancel, onStart }: { game: Game; onCancel: () => void; onStart: (s: GameSetup) => void }) {
+  const [p, setP] = useState<Prefs>(() => loadPrefs(game))
   const stats = useMemo(loadStats, [])
   const missedCount = useMemo(() => BANK.filter(w => p.cats.includes(w.cat) && difficulty(stats[w.id]) > 0).length, [p.cats, stats])
   const source: Source = p.source === 'difficult' && missedCount === 0 ? 'all' : p.source
@@ -91,8 +96,8 @@ function Setup({ onCancel, onStart }: { onCancel: () => void; onStart: (s: GameS
     <div className="modal" role="dialog" aria-modal="true" aria-labelledby="setup-t" onClick={e => { if (e.target === e.currentTarget) onCancel() }}>
       <div className="sheet setup">
         <button className="x" type="button" onClick={onCancel}>Close</button>
-        <h2 id="setup-t">Words</h2>
-        <p className="setup-sub">Type the translation of each word.</p>
+        <h2 id="setup-t">{GAME_TEXT[game].t}</h2>
+        <p className="setup-sub">{GAME_TEXT[game].sub}</p>
 
         <h4>Direction</h4>
         <Pills value={p.mode} onChange={v => set({ mode: v })} options={[
@@ -121,8 +126,8 @@ function Setup({ onCancel, onStart }: { onCancel: () => void; onStart: (s: GameS
         <div className="range-ends"><span>1</span><span>{pool < 50 ? `${pool} available` : '50'}</span></div>
 
         <button className="start" type="button" disabled={pool === 0} onClick={() => {
-          try { localStorage.setItem(PREFS, JSON.stringify({ ...p, source })) } catch { /* */ }
-          onStart({ mode: p.mode, source, cats: p.cats, count, cards: p.cards, key: Date.now() })
+          try { localStorage.setItem(PREFS[game], JSON.stringify({ ...p, source })) } catch { /* */ }
+          onStart({ game, mode: p.mode, source, cats: p.cats, count, cards: p.cards, key: Date.now() })
         }}>Start</button>
       </div>
     </div>
@@ -130,16 +135,21 @@ function Setup({ onCancel, onStart }: { onCancel: () => void; onStart: (s: GameS
 }
 
 export default function Play({ onHome, onStart, onStartSentences }: { onHome: () => void; onStart: (s: GameSetup) => void; onStartSentences: (s: SentenceSetup) => void }) {
-  const [setup, setSetup] = useState(false)
+  const [setup, setSetup] = useState<Game | null>(null)
   const [ssetup, setSSetup] = useState(false)
   return (
     <div className="wrap play" data-tab="nouns">
       <div className="topnav"><button className="homebtn" type="button" onClick={onHome}>‹ Home</button></div>
       <PageTitle tab="nouns" title="Play" hi="खेल" />
       <div className="games">
-        <button className="game-card" type="button" onClick={() => setSetup(true)} style={{ ['--k' as string]: '#be4a64' }}>
+        <button className="game-card" type="button" onClick={() => setSetup('words')} style={{ ['--k' as string]: '#be4a64' }}>
           <Svg html={ORN.bullet.verbs} />
           <span className="gc-text"><span className="gc-t">Words</span><span className="gc-d">Translate single words, English ⇄ Hindi</span></span>
+          <span className="chev" aria-hidden="true" />
+        </button>
+        <button className="game-card" type="button" onClick={() => setSetup('match')} style={{ ['--k' as string]: '#c35f3f' }}>
+          <Svg html={ORN.bullet.adjectives} />
+          <span className="gc-text"><span className="gc-t">Recognition</span><span className="gc-d">Pick the right translation out of six</span></span>
           <span className="chev" aria-hidden="true" />
         </button>
         <button className="game-card" type="button" onClick={() => setSSetup(true)} style={{ ['--k' as string]: '#8e4585' }}>
@@ -149,7 +159,7 @@ export default function Play({ onHome, onStart, onStartSentences }: { onHome: ()
         </button>
         <p className="soon">More games coming soon.</p>
       </div>
-      {setup && <Setup onCancel={() => setSetup(false)} onStart={s => { setSetup(false); onStart(s) }} />}
+      {setup && <Setup game={setup} onCancel={() => setSetup(null)} onStart={s => { setSetup(null); onStart(s) }} />}
       {ssetup && <SentenceSetupSheet onCancel={() => setSSetup(false)} onStart={s => { setSSetup(false); onStartSentences(s) }} />}
     </div>
   )

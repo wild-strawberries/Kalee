@@ -4,10 +4,12 @@ import { check, englishAnswers, type Direction } from '../check'
 import { difficulty, loadStats, record, type WordStat } from '../stats'
 import type { TabKey } from '../types'
 import { English, Romanized, devanagari } from './WordRow'
+import { buildChoices, type Choice } from '../options'
 
 export type Mode = 'en-hi' | 'hi-en'
 export type Source = 'all' | 'common' | 'difficult'
-export interface GameSetup { mode: Mode; source: Source; cats: TabKey[]; count: number; cards?: boolean; from?: 'play' | 'cards'; deck?: string; key: number; replay?: { w: BankWord; dir: Direction }[] }
+export type Game = 'words' | 'match'
+export interface GameSetup { game?: Game; mode: Mode; source: Source; cats: TabKey[]; count: number; cards?: boolean; from?: 'play' | 'cards'; deck?: string; key: number; replay?: { w: BankWord; dir: Direction }[] }
 
 const shuffle = <T,>(a: T[]) => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]] } return b }
 
@@ -24,7 +26,7 @@ export function buildQueue(s: GameSetup, stats: Record<string, WordStat>, n = s.
 type Item = { w: BankWord; dir: Direction }
 type Result = Item & { answer: string; correct: boolean; typo: boolean }
 
-function Prompt({ it }: { it: Item }) {
+function Prompt({ it, match }: { it: Item; match?: boolean }) {
   const { w, dir } = it
   return (
     <div className="prompt">
@@ -32,7 +34,7 @@ function Prompt({ it }: { it: Item }) {
       {dir === 'en-hi'
         ? <p className="p-en">{w.cat === 'verbs' && <i>to </i>}<English text={w.en} /></p>
         : <><p className="p-ro">{w.ro}</p><p className="p-dv" lang="hi">{w.dv}</p></>}
-      <span className="p-ask">{dir === 'en-hi' ? 'Type it in Hindi (romanized or हिंदी)' : 'Type it in English'}</span>
+      <span className="p-ask">{match ? (dir === 'en-hi' ? 'Choose the Hindi' : 'Choose the English') : dir === 'en-hi' ? 'Type it in Hindi (romanized or हिंदी)' : 'Type it in English'}</span>
     </div>
   )
 }
@@ -95,6 +97,13 @@ function Flashcards({ items, onReady, onQuit }: { items: Item[]; onReady: () => 
   )
 }
 
+function ChoiceLabel({ w, dir }: { w: BankWord; dir: Direction }) {
+  return dir === 'en-hi'
+    ? <><span className="ch-ro">{w.ro}</span><span className="ch-dv" lang="hi">{w.dv}</span></>
+    : <span className="ch-en">{w.cat === 'verbs' && <i>to </i>}<English text={w.en} /></span>
+}
+const choiceText = (w: BankWord, dir: Direction) => (dir === 'en-hi' ? w.ro : `${w.cat === 'verbs' ? 'to ' : ''}${w.en}`)
+
 export default function WordsGame({ setup, onClose, onRecap, onQuit }: {
   setup: GameSetup; onClose: () => void; onRecap: (s: GameSetup) => void; onQuit: () => void
 }) {
@@ -106,11 +115,14 @@ export default function WordsGame({ setup, onClose, onRecap, onQuit }: {
   const [input, setInput] = useState('')
   const [results, setResults] = useState<Result[]>([])
   const [shown, setShown] = useState<Result | null>(null)
+  const [picked, setPicked] = useState<number | null>(null)
+  const match = setup.game === 'match'
+  const choices: Choice[] = useMemo(() => (match && items[i] ? buildChoices(items[i].w, items[i].dir) : []), [match, items, i])
   const inputRef = useRef<HTMLInputElement>(null)
   const nextRef = useRef<HTMLButtonElement>(null)
   const done = results.length === items.length && !shown
 
-  useEffect(() => { inputRef.current?.focus() }, [i, shown, studying])
+  useEffect(() => { if (!match) inputRef.current?.focus() }, [i, shown, studying, match])
 
   const right = results.filter(r => r.correct).length
   const wrong = results.length - right
@@ -125,8 +137,15 @@ export default function WordsGame({ setup, onClose, onRecap, onQuit }: {
     setResults(p => [...p, r])
     setShown(r)
   }
+  const choose = (k: number) => {
+    if (shown) return
+    const it = items[i], c = choices[k]
+    const r: Result = { ...it, answer: choiceText(c.w, it.dir), correct: c.kind === 'correct', typo: false }
+    record(it.w.id, r.correct)
+    setPicked(k); setResults(p => [...p, r]); setShown(r)
+  }
   const next = () => {
-    setShown(null); setInput('')
+    setShown(null); setInput(''); setPicked(null)
     if (i < items.length - 1) setI(i + 1)
   }
 
@@ -153,7 +172,7 @@ export default function WordsGame({ setup, onClose, onRecap, onQuit }: {
                 <li key={k}>
                   <span className="sl-q">{r.dir === 'en-hi' ? <>{r.w.cat === 'verbs' && 'to '}<English text={r.w.en} /></> : <>{r.w.ro} <span lang="hi" className="mut">{r.w.dv}</span></>}</span>
                   <Answer it={r} />
-                  {r.answer && <span className="sl-you">you wrote: {r.answer}</span>}
+                  {r.answer && <span className="sl-you">{match ? 'you chose' : 'you wrote'}: {r.answer}</span>}
                 </li>
               ))}
             </ul>
@@ -178,7 +197,33 @@ export default function WordsGame({ setup, onClose, onRecap, onQuit }: {
       <div className="g-progress"><span style={{ width: `${(results.length / items.length) * 100}%` }} /></div>
 
       <div className={`card${shown ? (shown.correct ? ' is-ok' : ' is-bad') : ''}`}>
-        <Prompt it={it} />
+        <Prompt it={it} match={match} />
+        {match ? (
+          <>
+            <ul className="choices6" role="list">
+              {choices.map((c, k) => {
+                const state = shown ? (c.kind === 'correct' ? ' is-right' : k === picked ? ' is-wrong' : ' is-dim') : ''
+                return (
+                  <li key={c.w.id}>
+                    <button type="button" className={`choice6${state}`} onClick={() => choose(k)} disabled={!!shown && c.kind !== 'correct' && k !== picked} aria-pressed={k === picked}>
+                      <ChoiceLabel w={c.w} dir={it.dir} />
+                      {shown && c.kind !== 'correct' && k === picked && <span className="ch-mean">{c.w.cat === it.w.cat ? '' : `${c.w.cat.replace(/s$/, '')} · `}{it.dir === 'en-hi' ? <English text={c.w.en} /> : c.w.ro}</span>}
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+            {shown ? (
+              <div className="fb" role="status">
+                <p className="fb-t">{shown.correct ? 'Correct!' : 'Not quite'}</p>
+                {!shown.correct && <Answer it={shown} />}
+                <button className="start" type="button" autoFocus onClick={next}>{i < items.length - 1 ? 'Next' : 'See results'}</button>
+              </div>
+            ) : (
+              <div className="g-actions"><button className="ghost" type="button" onClick={() => { const r: Result = { ...it, answer: '', correct: false, typo: false }; record(it.w.id, false); setPicked(null); setResults(p => [...p, r]); setShown(r) }}>I don’t know</button></div>
+            )}
+          </>
+        ) : (
         <form onSubmit={e => { e.preventDefault(); submit() }}>
           <input ref={inputRef} className="g-input" value={input} onChange={e => setInput(e.target.value)} readOnly={!!shown}
             placeholder={it.dir === 'en-hi' ? 'e.g. khaana / खाना' : 'e.g. to eat'} autoComplete="off" autoCapitalize="off" autoCorrect="off" spellCheck={false} enterKeyHint={shown ? 'next' : 'done'} aria-label="Your answer" />
@@ -195,6 +240,7 @@ export default function WordsGame({ setup, onClose, onRecap, onQuit }: {
             </div>
           )}
         </form>
+        )}
       </div>
     </div>
   )
