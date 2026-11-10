@@ -8,12 +8,12 @@ import { Pills } from './Play'
 
 const shuffle = <T,>(a: T[]) => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]] } return b }
 
-/** Home → Flashcards: the list of decks. */
+/** Home → Learn: the list of flashcard decks. */
 export function DeckList({ onHome, onOpen }: { onHome: () => void; onOpen: (id: string) => void }) {
   return (
     <div className="wrap cards-page" data-tab="adjectives">
       <div className="topnav"><button className="homebtn" type="button" onClick={onHome}>‹ Home</button></div>
-      <PageTitle tab="adjectives" title="Flashcards" hi="फ़्लैशकार्ड" />
+      <PageTitle tab="adjectives" title="Learn" hi="सीखें" />
       <ul className="decks">
         {DECKS.map(d => (
           <li key={d.id} data-tab={d.tab}>
@@ -50,7 +50,7 @@ export function DeckView({ deck, onBack, onPlay }: { deck: Deck; onBack: () => v
   }
   return (
     <div className="wrap cards-page" data-tab={deck.tab}>
-      <div className="topnav"><button className="homebtn" type="button" onClick={onBack}>‹ Flashcards</button></div>
+      <div className="topnav"><button className="homebtn" type="button" onClick={onBack}>‹ Learn</button></div>
       <div className="deck-head">
         <h2>{deck.title}</h2>
         <p lang="hi">{deck.hi}</p>
